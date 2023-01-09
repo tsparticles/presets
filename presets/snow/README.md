@@ -2,7 +2,7 @@
 
 # tsParticles Snow Preset
 
-[![jsDelivr](https://data.jsdelivr.com/v1/package/npm/tsparticles-preset-snow/badge)](https://www.jsdelivr.com/package/npm/tsparticles-preset-snow) [![npmjs](https://badge.fury.io/js/tsparticles-preset-snow.svg)](https://www.npmjs.com/package/tsparticles-preset-snow) [![npmjs](https://img.shields.io/npm/dt/tsparticles-preset-snow)](https://www.npmjs.com/package/tsparticles-preset-snow) [![GitHub Sponsors](https://img.shields.io/github/sponsors/matteobruni)](https://github.com/sponsors/matteobruni)
+[![jsDelivr](https://data.jsdelivr.com/v1/package/npm/@tsparticles/preset-snow/badge)](https://www.jsdelivr.com/package/npm/@tsparticles/preset-snow) [![npmjs](https://badge.fury.io/js/@tsparticles/preset-snow.svg)](https://www.npmjs.com/package/@tsparticles/preset-snow) [![npmjs](https://img.shields.io/npm/dt/@tsparticles/preset-snow)](https://www.npmjs.com/package/@tsparticles/preset-snow) [![GitHub Sponsors](https://img.shields.io/github/sponsors/matteobruni)](https://github.com/sponsors/matteobruni)
 
 [tsParticles](https://github.com/matteobruni/tsparticles) preset creating a snow effect with falling particles.
 
@@ -22,7 +22,7 @@ The first step is installing [tsParticles](https://github.com/matteobruni/tspart
 vanilla javascript in the main project [here](https://github.com/matteobruni/tsparticles)
 
 Once installed you need one more script to be included in your page (or you can download that
-from [jsDelivr](https://www.jsdelivr.com/package/npm/tsparticles-preset-snow):
+from [jsDelivr](https://www.jsdelivr.com/package/npm/@tsparticles/preset-snow):
 
 ```html
 <script src="https://cdn.jsdelivr.net/npm/tsparticles-engine@2/tsparticles.engine.min.js"></script>
@@ -33,7 +33,7 @@ from [jsDelivr](https://www.jsdelivr.com/package/npm/tsparticles-preset-snow):
 <script src="https://cdn.jsdelivr.net/npm/tsparticles-updater-out-modes@2/tsparticles.updater.out-modes.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/tsparticles-updater-size@2/tsparticles.updater.size.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/tsparticles-updater-wobble@2/tsparticles.updater.size.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/tsparticles-preset-snow@2/tsparticles.preset.snow.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@tsparticles/preset-snow@2/tsparticles.preset.snow.min.js"></script>
 ```
 
 This script **MUST** be placed after the `tsParticles` one.
@@ -43,7 +43,7 @@ This script **MUST** be placed after the `tsParticles` one.
 A bundled script can also be used, this will include every needed plugin needed by the preset.
 
 ```html
-<script src="https://cdn.jsdelivr.net/npm/tsparticles-preset-snow@2/tsparticles.preset.snow.bundle.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@tsparticles/preset-snow@2/tsparticles.preset.snow.bundle.min.js"></script>
 ```
 
 ### Usage
@@ -87,7 +87,7 @@ This sample uses the class component syntax, but you can use hooks as well (if t
 ```typescript jsx
 import Particles from "react-particles";
 import type { Engine } from "tsparticles-engine";
-import { loadSnowPreset } from "tsparticles-preset-snow";
+import { loadSnowPreset } from "@tsparticles/preset-snow";
 
 export class ParticlesContainer extends React.PureComponent<IProps> {
   // this customizes the component tsParticles installation

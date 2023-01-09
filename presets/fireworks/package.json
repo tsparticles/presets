@@ -67,7 +67,7 @@
         "confettijs",
         "fireworksjs",
         "canvas-confetti",
-        "tsparticles-preset"
+        "@tsparticles/preset"
     ],
     "publishConfig": {
         "directory": "dist",

@@ -20,6 +20,18 @@ importers:
     specifiers:
       '@fortawesome/fontawesome-free': ^6.2.1
       '@popperjs/core': ^2.11.6
+      '@tsparticles/preset-big-circles': ^2.7.1
+      '@tsparticles/preset-bubbles': ^2.7.1
+      '@tsparticles/preset-confetti': ^2.7.1
+      '@tsparticles/preset-fire': ^2.7.1
+      '@tsparticles/preset-firefly': ^2.7.1
+      '@tsparticles/preset-fireworks': ^2.7.1
+      '@tsparticles/preset-fountain': ^2.7.1
+      '@tsparticles/preset-links': ^2.7.1
+      '@tsparticles/preset-sea-anemone': ^2.7.1
+      '@tsparticles/preset-snow': ^2.7.1
+      '@tsparticles/preset-stars': ^2.7.1
+      '@tsparticles/preset-triangles': ^2.7.1
       '@typescript-eslint/eslint-plugin': ^5.47.0
       '@typescript-eslint/parser': ^5.47.0
       bootstrap: ^5.2.3
@@ -82,18 +94,6 @@ importers:
       tsparticles-plugin-motion: ^2.7.1
       tsparticles-plugin-polygon-mask: ^2.7.1
       tsparticles-plugin-sounds: ^2.7.1
-      tsparticles-preset-big-circles: ^2.7.1
-      tsparticles-preset-bubbles: ^2.7.1
-      tsparticles-preset-confetti: ^2.7.1
-      tsparticles-preset-fire: ^2.7.1
-      tsparticles-preset-firefly: ^2.7.1
-      tsparticles-preset-fireworks: ^2.7.1
-      tsparticles-preset-fountain: ^2.7.1
-      tsparticles-preset-links: ^2.7.1
-      tsparticles-preset-sea-anemone: ^2.7.1
-      tsparticles-preset-snow: ^2.7.1
-      tsparticles-preset-stars: ^2.7.1
-      tsparticles-preset-triangles: ^2.7.1
       tsparticles-shape-bubble: ^2.7.1
       tsparticles-shape-cards: ^2.7.1
       tsparticles-shape-circle: ^2.7.1
@@ -127,6 +127,18 @@ importers:
     devDependencies:
       '@fortawesome/fontawesome-free': 6.2.1
       '@popperjs/core': 2.11.6
+      '@tsparticles/preset-big-circles': link:../../presets/bigCircles/dist
+      '@tsparticles/preset-bubbles': link:../../presets/bubbles/dist
+      '@tsparticles/preset-confetti': link:../../presets/confetti/dist
+      '@tsparticles/preset-fire': link:../../presets/fire/dist
+      '@tsparticles/preset-firefly': link:../../presets/firefly/dist
+      '@tsparticles/preset-fireworks': link:../../presets/fireworks/dist
+      '@tsparticles/preset-fountain': link:../../presets/fountain/dist
+      '@tsparticles/preset-links': link:../../presets/links/dist
+      '@tsparticles/preset-sea-anemone': link:../../presets/seaAnemone/dist
+      '@tsparticles/preset-snow': link:../../presets/snow/dist
+      '@tsparticles/preset-stars': link:../../presets/stars/dist
+      '@tsparticles/preset-triangles': link:../../presets/triangles/dist
       '@typescript-eslint/eslint-plugin': 5.48.0_k73wpmdolxikpyqun3p36akaaq
       '@typescript-eslint/parser': 5.48.0_iukboom6ndih5an6iafl45j2fe
       bootstrap: 5.2.3_@popperjs+core@2.11.6
@@ -189,18 +201,6 @@ importers:
       tsparticles-plugin-motion: 2.7.1
       tsparticles-plugin-polygon-mask: 2.7.1
       tsparticles-plugin-sounds: 2.7.1
-      tsparticles-preset-big-circles: 2.7.1
-      tsparticles-preset-bubbles: 2.7.1
-      tsparticles-preset-confetti: 2.7.1
-      tsparticles-preset-fire: 2.7.1
-      tsparticles-preset-firefly: 2.7.1
-      tsparticles-preset-fireworks: 2.7.1
-      tsparticles-preset-fountain: 2.7.1
-      tsparticles-preset-links: 2.7.1
-      tsparticles-preset-sea-anemone: 2.7.1
-      tsparticles-preset-snow: 2.7.1
-      tsparticles-preset-stars: 2.7.1
-      tsparticles-preset-triangles: 2.7.1
       tsparticles-shape-bubble: 2.7.1
       tsparticles-shape-cards: 2.7.1
       tsparticles-shape-circle: 2.7.1
@@ -9037,176 +9037,6 @@ packages:
     resolution: {integrity: sha512-+o2/3hFrGCLx1wAfSGlzVzqt9dcva4FOylro3k5eyznpEscf4WKN7/V2upgmYV3ggWtqfgCCLmn/7ZErTiisNg==}
     dependencies:
       tsparticles-engine: 2.7.1
-
-  /tsparticles-preset-big-circles/2.7.1:
-    resolution: {integrity: sha512-k0HURbELVMnHnmZiO3/qcmyXDFbU3TFTQjAGKME3hFaXnMIZIyYi6ncnFD6BBBNmgUmlWzQexEnUmGAXo5oeLQ==}
-    dependencies:
-      tsparticles-engine: 2.7.1
-      tsparticles-move-base: 2.7.1
-      tsparticles-plugin-emitters: 2.7.1
-      tsparticles-shape-circle: 2.7.1
-      tsparticles-updater-color: 2.7.1
-      tsparticles-updater-opacity: 2.7.1
-      tsparticles-updater-out-modes: 2.7.1
-      tsparticles-updater-size: 2.7.1
-    dev: true
-
-  /tsparticles-preset-bubbles/2.7.1:
-    resolution: {integrity: sha512-nzMw70RtmLyl9ujiuLgFdnJmksa/lRlE5+oSKVDLW8UEYUlmVkpjl2ckomWDTRIKkeFaQ/mcvqzKDdqjPObpzQ==}
-    dependencies:
-      tsparticles-engine: 2.7.1
-      tsparticles-move-base: 2.7.1
-      tsparticles-plugin-emitters: 2.7.1
-      tsparticles-shape-circle: 2.7.1
-      tsparticles-updater-color: 2.7.1
-      tsparticles-updater-opacity: 2.7.1
-      tsparticles-updater-out-modes: 2.7.1
-      tsparticles-updater-size: 2.7.1
-    dev: true
-
-  /tsparticles-preset-confetti/2.7.1:
-    resolution: {integrity: sha512-jXILQhoI0KOyN7noV03BzwE6bGOZ3/6DxDraRKbPee0Q627iOr5Z5p5b31et0shYk75bziluPttISJclgEvydQ==}
-    dependencies:
-      tsparticles-engine: 2.7.1
-      tsparticles-move-base: 2.7.1
-      tsparticles-plugin-emitters: 2.7.1
-      tsparticles-plugin-motion: 2.7.1
-      tsparticles-shape-circle: 2.7.1
-      tsparticles-shape-square: 2.7.1
-      tsparticles-updater-angle: 2.7.1
-      tsparticles-updater-color: 2.7.1
-      tsparticles-updater-life: 2.7.1
-      tsparticles-updater-opacity: 2.7.1
-      tsparticles-updater-out-modes: 2.7.1
-      tsparticles-updater-roll: 2.7.1
-      tsparticles-updater-size: 2.7.1
-      tsparticles-updater-tilt: 2.7.1
-      tsparticles-updater-wobble: 2.7.1
-    dev: true
-
-  /tsparticles-preset-fire/2.7.1:
-    resolution: {integrity: sha512-e7iE6plTaULcwl8i5nMKWsN7pQDtiYKC8oCy6CuqHSyFYAyC6Xd1CkgjAfJb3dnq0C3FzX4P96dz/BICjQcGIw==}
-    dependencies:
-      tsparticles-engine: 2.7.1
-      tsparticles-interaction-external-push: 2.7.1
-      tsparticles-move-base: 2.7.1
-      tsparticles-shape-circle: 2.7.1
-      tsparticles-updater-color: 2.7.1
-      tsparticles-updater-opacity: 2.7.1
-      tsparticles-updater-out-modes: 2.7.1
-      tsparticles-updater-size: 2.7.1
-    dev: true
-
-  /tsparticles-preset-firefly/2.7.1:
-    resolution: {integrity: sha512-qFtY4mWV1vHDZSoT56KuUH0kdM6pPMqZ5EaXl/TQgXM7WgebnukT2uhWnNwyfeDDPUSZneRAYyQ14BtrmSRFaw==}
-    dependencies:
-      tsparticles-engine: 2.7.1
-      tsparticles-interaction-external-trail: 2.7.1
-      tsparticles-move-base: 2.7.1
-      tsparticles-shape-circle: 2.7.1
-      tsparticles-updater-color: 2.7.1
-      tsparticles-updater-life: 2.7.1
-      tsparticles-updater-opacity: 2.7.1
-      tsparticles-updater-size: 2.7.1
-    dev: true
-
-  /tsparticles-preset-fireworks/2.7.1:
-    resolution: {integrity: sha512-uMdZ4kGuUrDAPbfMGNKbLlfDcdO4+xHSq2zzrKQ72tOAX49A/ZPwHIkkcZwR/wMgF2J9Rc/w/uD+9GjQw+s89A==}
-    dependencies:
-      tsparticles-engine: 2.7.1
-      tsparticles-move-base: 2.7.1
-      tsparticles-plugin-emitters: 2.7.1
-      tsparticles-plugin-sounds: 2.7.1
-      tsparticles-shape-circle: 2.7.1
-      tsparticles-shape-line: 2.7.1
-      tsparticles-updater-angle: 2.7.1
-      tsparticles-updater-color: 2.7.1
-      tsparticles-updater-destroy: 2.7.1
-      tsparticles-updater-life: 2.7.1
-      tsparticles-updater-opacity: 2.7.1
-      tsparticles-updater-out-modes: 2.7.1
-      tsparticles-updater-size: 2.7.1
-      tsparticles-updater-stroke-color: 2.7.1
-    dev: true
-
-  /tsparticles-preset-fountain/2.7.1:
-    resolution: {integrity: sha512-YPSRtw31+59ph7q6YeulWVg1HcNcFPgjoZ5GTWR47msxmkjVIAYZZrgWzO+ej1meQfqf1u4vZxvQQJwfMHQktw==}
-    dependencies:
-      tsparticles-engine: 2.7.1
-      tsparticles-move-base: 2.7.1
-      tsparticles-plugin-emitters: 2.7.1
-      tsparticles-shape-circle: 2.7.1
-      tsparticles-updater-color: 2.7.1
-      tsparticles-updater-destroy: 2.7.1
-      tsparticles-updater-opacity: 2.7.1
-      tsparticles-updater-out-modes: 2.7.1
-      tsparticles-updater-size: 2.7.1
-    dev: true
-
-  /tsparticles-preset-links/2.7.1:
-    resolution: {integrity: sha512-iUTIDEGSiM+GO3gvlCm/RD2dnIlGjo/bBv0/xSc3idDZiWkPYNxhbVKXCibM04jwI4pthRmpYMw8x/NV8IotFA==}
-    dependencies:
-      tsparticles-engine: 2.7.1
-      tsparticles-interaction-particles-links: 2.7.1
-      tsparticles-move-base: 2.7.1
-      tsparticles-shape-circle: 2.7.1
-      tsparticles-updater-color: 2.7.1
-      tsparticles-updater-opacity: 2.7.1
-      tsparticles-updater-out-modes: 2.7.1
-      tsparticles-updater-size: 2.7.1
-    dev: true
-
-  /tsparticles-preset-sea-anemone/2.7.1:
-    resolution: {integrity: sha512-rFXKJcIROHhgh9KTSIDE4ZsFvwX/4ThOv3gq47kCFKZeiutJ/+bboaBnak6Pckw+n5BfBhcx35ifrqyOZpa9gg==}
-    dependencies:
-      tsparticles-engine: 2.7.1
-      tsparticles-move-base: 2.7.1
-      tsparticles-path-curves: 2.7.1
-      tsparticles-plugin-emitters: 2.7.1
-      tsparticles-shape-circle: 2.7.1
-      tsparticles-updater-color: 2.7.1
-      tsparticles-updater-opacity: 2.7.1
-      tsparticles-updater-out-modes: 2.7.1
-      tsparticles-updater-size: 2.7.1
-    dev: true
-
-  /tsparticles-preset-snow/2.7.1:
-    resolution: {integrity: sha512-W5i/v3ZPaOQJnxIU8dKmYwR6w0OBz6eiAsKsD2q9ymZG00wrA2KGT1hplcTWev7nUgExk+iTKIQcJ2+wjQplSA==}
-    dependencies:
-      tsparticles-engine: 2.7.1
-      tsparticles-move-base: 2.7.1
-      tsparticles-shape-circle: 2.7.1
-      tsparticles-updater-color: 2.7.1
-      tsparticles-updater-opacity: 2.7.1
-      tsparticles-updater-out-modes: 2.7.1
-      tsparticles-updater-size: 2.7.1
-      tsparticles-updater-wobble: 2.7.1
-    dev: true
-
-  /tsparticles-preset-stars/2.7.1:
-    resolution: {integrity: sha512-PRGuq10sSKg9965oUT6G2hEox9e1PAK8K34U6YQ6//o/G1ojlNgh+yXwkqP3zz/qhXa+agklKajnB9ZF4mhDZA==}
-    dependencies:
-      tsparticles-engine: 2.7.1
-      tsparticles-move-base: 2.7.1
-      tsparticles-shape-circle: 2.7.1
-      tsparticles-updater-color: 2.7.1
-      tsparticles-updater-opacity: 2.7.1
-      tsparticles-updater-out-modes: 2.7.1
-      tsparticles-updater-size: 2.7.1
-    dev: true
-
-  /tsparticles-preset-triangles/2.7.1:
-    resolution: {integrity: sha512-0dfBoAB2xpbX4decoR4OshSgN0Qu6PuTeeBg7pnH1B+SqPFRDo88YN076xvmCaBNmw+YJ7h+pykyDulUUAbaRA==}
-    dependencies:
-      tsparticles-engine: 2.7.1
-      tsparticles-interaction-particles-links: 2.7.1
-      tsparticles-move-base: 2.7.1
-      tsparticles-shape-circle: 2.7.1
-      tsparticles-updater-color: 2.7.1
-      tsparticles-updater-opacity: 2.7.1
-      tsparticles-updater-out-modes: 2.7.1
-      tsparticles-updater-size: 2.7.1
-    dev: true
 
   /tsparticles-shape-bubble/2.7.1:
     resolution: {integrity: sha512-xXn4LyGkkCLFmZLxpXFbZnLn/p9bpfrNGcYayoPpyx6plZOjuqf3Zg2MRZ44nCuhgFlw0uK/wTDTeZ3OyFd8+g==}

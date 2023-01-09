@@ -285,51 +285,51 @@ app.use(
 )
 app.use(
   '/preset-big-circles',
-  express.static('./node_modules/tsparticles-preset-big-circles'),
+  express.static('./node_modules/@tsparticles/preset-big-circles'),
 )
 app.use(
   '/preset-bubbles',
-  express.static('./node_modules/tsparticles-preset-bubbles'),
+  express.static('./node_modules/@tsparticles/preset-bubbles'),
 )
 app.use(
   '/preset-confetti',
-  express.static('./node_modules/tsparticles-preset-confetti'),
+  express.static('./node_modules/@tsparticles/preset-confetti'),
 )
 app.use(
   '/preset-fire',
-  express.static('./node_modules/tsparticles-preset-fire'),
+  express.static('./node_modules/@tsparticles/preset-fire'),
 )
 app.use(
   '/preset-firefly',
-  express.static('./node_modules/tsparticles-preset-firefly'),
+  express.static('./node_modules/@tsparticles/preset-firefly'),
 )
 app.use(
   '/preset-fireworks',
-  express.static('./node_modules/tsparticles-preset-fireworks'),
+  express.static('./node_modules/@tsparticles/preset-fireworks'),
 )
 app.use(
   '/preset-fountain',
-  express.static('./node_modules/tsparticles-preset-fountain'),
+  express.static('./node_modules/@tsparticles/preset-fountain'),
 )
 app.use(
   '/preset-links',
-  express.static('./node_modules/tsparticles-preset-links'),
+  express.static('./node_modules/@tsparticles/preset-links'),
 )
 app.use(
   '/preset-sea-anemone',
-  express.static('./node_modules/tsparticles-preset-sea-anemone'),
+  express.static('./node_modules/@tsparticles/preset-sea-anemone'),
 )
 app.use(
   '/preset-snow',
-  express.static('./node_modules/tsparticles-preset-snow'),
+  express.static('./node_modules/@tsparticles/preset-snow'),
 )
 app.use(
   '/preset-stars',
-  express.static('./node_modules/tsparticles-preset-stars'),
+  express.static('./node_modules/@tsparticles/preset-stars'),
 )
 app.use(
   '/preset-triangles',
-  express.static('./node_modules/tsparticles-preset-triangles'),
+  express.static('./node_modules/@tsparticles/preset-triangles'),
 )
 app.use(
   '/shape-bubble',
