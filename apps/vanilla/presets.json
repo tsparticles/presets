@@ -1,0 +1,98 @@
+{
+    "bigCircles": {
+        "initializer": "loadBigCirclesPreset",
+        "packageName": "big-circles",
+        "jsName": "bigCircles",
+        "image": "bigCircles.png",
+        "description": "Big Circles",
+        "text": "Big Circles preset demo"
+    }, 
+    "bubbles": {
+        "initializer": "loadBubblesPreset",
+        "packageName": "bubbles",
+        "jsName": "bubbles",
+        "image": "bubbles.png",
+        "description": "Bubbles",
+        "text": "Bubbles preset demo"
+    }, 
+    "confetti": {
+        "initializer": "loadConfettiPreset",
+        "packageName": "confetti",
+        "jsName": "confetti",
+        "image": "confetti.png",
+        "description": "Confetti",
+        "text": "Confetti preset demo"
+    }, 
+    "fire": {
+        "initializer": "loadFirePreset",
+        "packageName": "fire",
+        "jsName": "fire",
+        "image": "fire.png",
+        "description": "Fire",
+        "text": "Fire preset demo"
+    }, 
+    "firefly": {
+        "initializer": "loadFireflyPreset",
+        "packageName": "firefly",
+        "jsName": "firefly",
+        "image": "firefly.png",
+        "description": "Firefly",
+        "text": "Firefly preset demo"
+    },
+    "fireworks": {
+        "initializer": "loadFireworksPreset",
+        "packageName": "fireworks",
+        "jsName": "fireworks",
+        "image": "fireworks.png",
+        "description": "Fireworks",
+        "text": "Fireworks preset demo"
+    },
+    "fountain": {
+        "initializer": "loadFountainPreset",
+        "packageName": "fountain",
+        "jsName": "fountain",
+        "image": "fountain.png",
+        "description": "Fountain",
+        "text": "Fountain preset demo"
+    },
+    "links": {
+        "initializer": "loadLinksPreset",
+        "packageName": "links",
+        "jsName": "links",
+        "image": "links.png",
+        "description": "Links",
+        "text": "Links preset demo"
+    },
+    "seaAnemone": {
+        "initializer": "loadSeaAnemonePreset",
+        "packageName": "sea-anemone",
+        "jsName": "seaAnemone",
+        "image": "seaAnemone.png",
+        "description": "Sea Anemone",
+        "text": "Sea Anemone preset demo"
+    },
+    "snow": {
+        "initializer": "loadSnowPreset",
+        "packageName": "snow",
+        "jsName": "snow",
+        "image": "snow.png",
+        "description": "Snow",
+        "text": "Snow preset demo"
+    },
+    "stars": {
+        "initializer": "loadStarsPreset",
+        "packageName": "stars",
+        "jsName": "stars",
+        "image": "stars.png",
+        "description": "Stars",
+        "text": "Stars preset demo"
+    },
+    "triangles": {
+        "initializer": "loadTrianglesPreset",
+        "packageName": "triangles",
+        "jsName": "triangles",
+        "image": "triangles.png",
+        "description": "Triangles",
+        "text": "Triangles preset demo"
+    }
+}
