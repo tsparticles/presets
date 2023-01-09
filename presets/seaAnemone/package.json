@@ -1,5 +1,5 @@
 {
-    "name": "tsparticles-preset-sea-anemone",
+    "name": "@tsparticles/preset-sea-anemone",
     "version": "2.7.1",
     "description": "tsParticles sea anemone preset",
     "homepage": "https://particles.js.org",

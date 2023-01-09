@@ -1,5 +1,5 @@
 {
-  "name": "tsparticles-preset-big-circles",
+  "name": "@tsparticles/preset-big-circles",
   "version": "2.7.1",
   "description": "tsParticles big circles preset",
   "homepage": "https://particles.js.org",

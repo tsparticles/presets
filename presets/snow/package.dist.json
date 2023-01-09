@@ -1,5 +1,5 @@
 {
-  "name": "tsparticles-preset-snow",
+  "name": "@tsparticles/preset-snow",
   "version": "2.7.1",
   "description": "tsParticles snow preset",
   "homepage": "https://particles.js.org",

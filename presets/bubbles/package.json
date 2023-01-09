@@ -1,5 +1,5 @@
 {
-    "name": "tsparticles-preset-bubbles",
+    "name": "@tsparticles/preset-bubbles",
     "version": "2.7.1",
     "description": "tsParticles bubbles preset",
     "homepage": "https://particles.js.org",

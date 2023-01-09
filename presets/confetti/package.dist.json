@@ -1,5 +1,5 @@
 {
-  "name": "tsparticles-preset-confetti",
+  "name": "@tsparticles/preset-confetti",
   "version": "2.7.1",
   "description": "tsParticles confetti preset",
   "homepage": "https://particles.js.org",

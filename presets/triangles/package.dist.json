@@ -1,5 +1,5 @@
 {
-  "name": "tsparticles-preset-triangles",
+  "name": "@tsparticles/preset-triangles",
   "version": "2.7.1",
   "description": "tsParticles triangles preset",
   "homepage": "https://particles.js.org",

@@ -1,5 +1,5 @@
 {
-  "name": "tsparticles-preset-firefly",
+  "name": "@tsparticles/preset-firefly",
   "version": "2.7.1",
   "description": "tsParticles firefly preset",
   "homepage": "https://particles.js.org",

@@ -1,5 +1,5 @@
 {
-  "name": "tsparticles-preset-fountain",
+  "name": "@tsparticles/preset-fountain",
   "version": "2.7.1",
   "description": "tsParticles fountain preset",
   "homepage": "https://particles.js.org",
