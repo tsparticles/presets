@@ -1,6 +1,8 @@
 import { loadSeaAnemonePreset } from ".";
-import { tsParticles } from "tsparticles-engine";
+import { tsParticles } from "@tsparticles/engine";
 
-loadSeaAnemonePreset(tsParticles);
+(async (): Promise<void> => {
+    await loadSeaAnemonePreset(tsParticles);
+})();
 
 export { loadSeaAnemonePreset, tsParticles };

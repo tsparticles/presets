@@ -1,6 +1,7 @@
-import { MoveDirection } from "tsparticles-engine";
+import type { ISourceOptions } from "@tsparticles/engine";
+import { MoveDirection } from "@tsparticles/engine";
 
-export const options = {
+export const options: ISourceOptions = {
     background: {
         color: "#333",
     },

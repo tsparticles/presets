@@ -1,6 +1,8 @@
 import { loadBigCirclesPreset } from ".";
-import { tsParticles } from "tsparticles-engine";
+import { tsParticles } from "@tsparticles/engine";
 
-loadBigCirclesPreset(tsParticles);
+(async (): Promise<void> => {
+    await loadBigCirclesPreset(tsParticles);
+})();
 
 export { loadBigCirclesPreset, tsParticles };

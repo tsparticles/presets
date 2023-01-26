@@ -25,15 +25,15 @@ Once installed you need one more script to be included in your page (or you can 
 from [jsDelivr](https://www.jsdelivr.com/package/npm/@tsparticles/preset-big-circles):
 
 ```html
-<script src="https://cdn.jsdelivr.net/npm/tsparticles-engine@2/tsparticles.engine.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/tsparticles-move-base@2/tsparticles.move.base.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/tsparticles-plugin-emitters@2/tsparticles.plugin.emitters.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/tsparticles-shape-circle@2/tsparticles.shape.circle.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/tsparticles-updater-color@2/tsparticles.updater.color.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/tsparticles-updater-opacity@2/tsparticles.updater.opacity.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/tsparticles-updater-out-modes@2/tsparticles.updater.out-modes.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/tsparticles-updater-size@2/tsparticles.updater.size.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/@tsparticles/preset-big-circles@2/tsparticles.preset.bigCircles.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@tsparticles/engine@3/tsparticles.engine.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@tsparticles/move-base@3/tsparticles.move.base.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@tsparticles/plugin-emitters@3/tsparticles.plugin.emitters.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@tsparticles/shape-circle@3/tsparticles.shape.circle.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@tsparticles/updater-color@3/tsparticles.updater.color.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@tsparticles/updater-opacity@3/tsparticles.updater.opacity.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@tsparticles/updater-out-modes@3/tsparticles.updater.out-modes.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@tsparticles/updater-size@3/tsparticles.updater.size.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@tsparticles/preset-big-circles@3/tsparticles.preset.bigCircles.min.js"></script>
 ```
 
 #### Bundle
@@ -84,7 +84,7 @@ This sample uses the class component syntax, but you can use hooks as well (if t
 
 ```typescript jsx
 import Particles from "react-particles";
-import type { Engine } from "tsparticles-engine";
+import type { Engine } from "@tsparticles/engine";
 import { loadBigCirclesPreset } from "@tsparticles/preset-big-circles";
 
 export class ParticlesContainer extends React.PureComponent<IProps> {

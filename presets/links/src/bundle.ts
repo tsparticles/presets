@@ -1,6 +1,8 @@
 import { loadLinksPreset } from ".";
-import { tsParticles } from "tsparticles-engine";
+import { tsParticles } from "@tsparticles/engine";
 
-loadLinksPreset(tsParticles);
+(async (): Promise<void> => {
+    await loadLinksPreset(tsParticles);
+})();
 
 export { loadLinksPreset, tsParticles };

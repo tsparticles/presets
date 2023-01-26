@@ -1,6 +1,8 @@
 import { loadSnowPreset } from ".";
-import { tsParticles } from "tsparticles-engine";
+import { tsParticles } from "@tsparticles/engine";
 
-loadSnowPreset(tsParticles);
+(async (): Promise<void> => {
+    await loadSnowPreset(tsParticles);
+})();
 
 export { loadSnowPreset, tsParticles };

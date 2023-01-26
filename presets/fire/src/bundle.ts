@@ -1,6 +1,8 @@
 import { loadFirePreset } from ".";
-import { tsParticles } from "tsparticles-engine";
+import { tsParticles } from "@tsparticles/engine";
 
-loadFirePreset(tsParticles);
+(async (): Promise<void> => {
+    await loadFirePreset(tsParticles);
+})();
 
 export { loadFirePreset, tsParticles };

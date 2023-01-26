@@ -6,7 +6,7 @@ import type {
     Particle,
     RangeValue,
     RecursivePartial,
-} from "tsparticles-engine";
+} from "@tsparticles/engine";
 import {
     DestroyType,
     EventType,
@@ -16,7 +16,7 @@ import {
     rgbToHsl,
     setRangeValue,
     stringToRgb,
-} from "tsparticles-engine";
+} from "@tsparticles/engine";
 
 const explodeSoundCheck = (args: CustomEventArgs): boolean => {
     const data = args.data as { particle: Particle };

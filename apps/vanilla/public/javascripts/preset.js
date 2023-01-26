@@ -2,7 +2,12 @@ function loadPreset(options) {
     (async () => {
         await options.initializer(tsParticles);
 
-        await tsParticles.load("tsparticles", { preset: options.name });
+        await tsParticles.load({
+            id: "tsparticles",
+            options: {
+                preset: options.name
+            }
+        });
     })();
 
     const stats = new Stats();
