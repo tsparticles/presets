@@ -256,7 +256,7 @@ importers:
       eslint: ^8.30.0
       eslint-config-prettier: ^8.5.0
       prettier: ^2.8.1
-      rimraf: ^3.0.2
+      rimraf: ^4.0.0
       terser-webpack-plugin: ^5.3.6
       typescript: ^4.9.4
       webpack: ^5.75.0
@@ -287,7 +287,7 @@ importers:
       eslint: 8.31.0
       eslint-config-prettier: 8.6.0_eslint@8.31.0
       prettier: 2.8.2
-      rimraf: 3.0.2
+      rimraf: 4.1.2
       terser-webpack-plugin: 5.3.6_webpack@5.75.0
       typescript: 4.9.4
       webpack: 5.75.0_webpack-cli@5.0.1
