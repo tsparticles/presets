@@ -61,18 +61,18 @@ importers:
       '@tsparticles/plugin-motion': 3.0.0-alpha.0
       '@tsparticles/plugin-polygon-mask': 3.0.0-alpha.0
       '@tsparticles/plugin-sounds': 3.0.0-alpha.0
-      '@tsparticles/preset-big-circles': ^2.8.0
-      '@tsparticles/preset-bubbles': ^2.8.0
-      '@tsparticles/preset-confetti': ^2.8.0
-      '@tsparticles/preset-fire': ^2.8.0
-      '@tsparticles/preset-firefly': ^2.8.0
-      '@tsparticles/preset-fireworks': ^2.8.0
-      '@tsparticles/preset-fountain': ^2.8.0
-      '@tsparticles/preset-links': ^2.8.0
-      '@tsparticles/preset-sea-anemone': ^2.8.0
-      '@tsparticles/preset-snow': ^2.8.0
-      '@tsparticles/preset-stars': ^2.8.0
-      '@tsparticles/preset-triangles': ^2.8.0
+      '@tsparticles/preset-big-circles': ^3.0.0-alpha.0
+      '@tsparticles/preset-bubbles': ^3.0.0-alpha.0
+      '@tsparticles/preset-confetti': ^3.0.0-alpha.0
+      '@tsparticles/preset-fire': ^3.0.0-alpha.0
+      '@tsparticles/preset-firefly': ^3.0.0-alpha.0
+      '@tsparticles/preset-fireworks': ^3.0.0-alpha.0
+      '@tsparticles/preset-fountain': ^3.0.0-alpha.0
+      '@tsparticles/preset-links': ^3.0.0-alpha.0
+      '@tsparticles/preset-sea-anemone': ^3.0.0-alpha.0
+      '@tsparticles/preset-snow': ^3.0.0-alpha.0
+      '@tsparticles/preset-stars': ^3.0.0-alpha.0
+      '@tsparticles/preset-triangles': ^3.0.0-alpha.0
       '@tsparticles/shape-bubble': 3.0.0-alpha.0
       '@tsparticles/shape-cards': 3.0.0-alpha.0
       '@tsparticles/shape-circle': 3.0.0-alpha.0
