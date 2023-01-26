@@ -125,7 +125,7 @@
         "pug-cli": "1.0.0-alpha6",
         "stats.ts": "^1.1.0",
         "stylus": "^0.59.0",
-        "tsparticles": "3.0.0-alpha.1",
+        "tsparticles": "3.0.0-alpha.0",
         "typescript": "^4.9.4"
     }
 }
