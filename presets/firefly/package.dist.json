@@ -82,14 +82,17 @@
   "unpkg": "tsparticles.preset.firefly.min.js",
   "module": "esm/index.js",
   "types": "types/index.d.ts",
+  "publishConfig": {
+    "access": "public"
+  },
   "dependencies": {
-    "@tsparticles/engine": "3.0.0-alpha.0",
-    "@tsparticles/interaction-external-trail": "3.0.0-alpha.0",
-    "@tsparticles/move-base": "3.0.0-alpha.0",
-    "@tsparticles/shape-circle": "3.0.0-alpha.0",
-    "@tsparticles/updater-color": "3.0.0-alpha.0",
-    "@tsparticles/updater-life": "3.0.0-alpha.0",
-    "@tsparticles/updater-opacity": "3.0.0-alpha.0",
-    "@tsparticles/updater-size": "3.0.0-alpha.0"
+    "@tsparticles/engine": "^3.0.0-alpha.0",
+    "@tsparticles/interaction-external-trail": "^3.0.0-alpha.0",
+    "@tsparticles/move-base": "^3.0.0-alpha.0",
+    "@tsparticles/shape-circle": "^3.0.0-alpha.0",
+    "@tsparticles/updater-color": "^3.0.0-alpha.0",
+    "@tsparticles/updater-life": "^3.0.0-alpha.0",
+    "@tsparticles/updater-opacity": "^3.0.0-alpha.0",
+    "@tsparticles/updater-size": "^3.0.0-alpha.0"
   }
 }

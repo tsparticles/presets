@@ -82,15 +82,18 @@
   "unpkg": "tsparticles.preset.fountain.min.js",
   "module": "esm/index.js",
   "types": "types/index.d.ts",
+  "publishConfig": {
+    "access": "public"
+  },
   "dependencies": {
-    "@tsparticles/engine": "3.0.0-alpha.0",
-    "@tsparticles/move-base": "3.0.0-alpha.0",
-    "@tsparticles/plugin-emitters": "3.0.0-alpha.0",
-    "@tsparticles/shape-circle": "3.0.0-alpha.0",
-    "@tsparticles/updater-color": "3.0.0-alpha.0",
-    "@tsparticles/updater-destroy": "3.0.0-alpha.0",
-    "@tsparticles/updater-opacity": "3.0.0-alpha.0",
-    "@tsparticles/updater-out-modes": "3.0.0-alpha.0",
-    "@tsparticles/updater-size": "3.0.0-alpha.0"
+    "@tsparticles/engine": "^3.0.0-alpha.0",
+    "@tsparticles/move-base": "^3.0.0-alpha.0",
+    "@tsparticles/plugin-emitters": "^3.0.0-alpha.0",
+    "@tsparticles/shape-circle": "^3.0.0-alpha.0",
+    "@tsparticles/updater-color": "^3.0.0-alpha.0",
+    "@tsparticles/updater-destroy": "^3.0.0-alpha.0",
+    "@tsparticles/updater-opacity": "^3.0.0-alpha.0",
+    "@tsparticles/updater-out-modes": "^3.0.0-alpha.0",
+    "@tsparticles/updater-size": "^3.0.0-alpha.0"
   }
 }
