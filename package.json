@@ -3,15 +3,17 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "build": "lerna run build"
+    "build": "lerna run build",
+    "version:alpha": "lerna version prerelease --preid alpha --conventional-commits",
+    "publish:alpha": "lerna publish from-package --pre-dist-tag alpha --preid alpha"
   },
   "license": "MIT",
   "dependencies": {
-    "@commitlint/cli": "^17.3.0",
-    "@commitlint/config-conventional": "^17.3.0",
+    "@commitlint/cli": "^17.4.2",
+    "@commitlint/config-conventional": "^17.4.2",
     "@types/node": "^18.11.18",
-    "husky": "^8.0.2",
-    "lerna": "^6.4.0"
+    "husky": "^8.0.3",
+    "lerna": "^6.4.1"
   },
   "workspaces": [
     "apps/*",
