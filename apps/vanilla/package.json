@@ -122,7 +122,7 @@
         "popper.js": "^1.16.1",
         "prettier": "^2.8.3",
         "pug": "^3.0.2",
-        "pug-cli": "1.0.0-alpha6",
+        "pug-cli": "?^1.0.0-alpha6",
         "stats.ts": "^1.1.0",
         "stylus": "^0.59.0",
         "tsparticles": "^3.0.0-alpha.1",
