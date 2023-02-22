@@ -1,5 +1,5 @@
 {
-  "name": "@tsparticles/presets-workspace",
+  "name": "tsparticles-presets-workspace",
   "version": "0.0.0",
   "private": true,
   "scripts": {
