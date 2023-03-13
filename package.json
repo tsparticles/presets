@@ -3,7 +3,8 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "build": "lerna run build"
+    "build": "lerna run build",
+    "build:docs": "rimraf docs && typedoc --plugin typedoc-plugin-keyword --plugin typedoc-plugin-coverage"
   },
   "license": "MIT",
   "dependencies": {
@@ -11,7 +12,13 @@
     "@commitlint/config-conventional": "^17.3.0",
     "@types/node": "^18.11.18",
     "husky": "^8.0.2",
-    "lerna": "^6.3.0"
+    "lerna": "^6.3.0",
+    "rimraf": "^4.4.0",
+    "typedoc": "^0.24.0-beta.3",
+    "typedoc-plugin-coverage": "^2.0.0",
+    "typedoc-plugin-keyword": "^1.1.0",
+    "typedoc-plugin-missing-exports": "^1.0.0",
+    "typescript": "^4.9.5"
   },
   "workspaces": [
     "apps/*",
