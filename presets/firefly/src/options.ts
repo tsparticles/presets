@@ -1,5 +1,4 @@
-import { HoverMode } from "tsparticles-engine";
-import type { ISourceOptions } from "tsparticles-engine";
+import { HoverMode, type ISourceOptions } from "tsparticles-engine";
 
 export const options: ISourceOptions = {
     fullScreen: {
