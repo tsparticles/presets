@@ -264,7 +264,7 @@ importers:
       eslint: ^8.32.0
       eslint-config-prettier: ^8.6.0
       prettier: ^2.8.3
-      rimraf: 4.4.0
+      rimraf: 4.4.1
       terser-webpack-plugin: ^5.3.6
       tsparticles-engine: ^2.9.3
       tsparticles-move-base: ^2.9.3
@@ -303,7 +303,7 @@ importers:
       eslint: 8.34.0
       eslint-config-prettier: 8.6.0_eslint@8.34.0
       prettier: 2.8.4
-      rimraf: 4.4.0
+      rimraf: 4.4.1
       terser-webpack-plugin: 5.3.6_webpack@5.75.0
       typescript: 4.9.4
       webpack: 5.75.0_webpack-cli@5.0.1
@@ -328,7 +328,7 @@ importers:
       eslint: ^8.32.0
       eslint-config-prettier: ^8.6.0
       prettier: ^2.8.3
-      rimraf: 4.4.0
+      rimraf: 4.4.1
       terser-webpack-plugin: ^5.3.6
       tsparticles-engine: ^2.9.3
       tsparticles-move-base: ^2.9.3
@@ -367,7 +367,7 @@ importers:
       eslint: 8.34.0
       eslint-config-prettier: 8.6.0_eslint@8.34.0
       prettier: 2.8.4
-      rimraf: 4.4.0
+      rimraf: 4.4.1
       terser-webpack-plugin: 5.3.6_webpack@5.75.0
       typescript: 4.9.4
       webpack: 5.75.0_webpack-cli@5.0.1
@@ -392,7 +392,7 @@ importers:
       eslint: ^8.32.0
       eslint-config-prettier: ^8.6.0
       prettier: ^2.8.3
-      rimraf: 4.4.0
+      rimraf: 4.4.1
       terser-webpack-plugin: ^5.3.6
       tsparticles-engine: ^2.9.3
       tsparticles-move-base: ^2.9.3
@@ -445,7 +445,7 @@ importers:
       eslint: 8.34.0
       eslint-config-prettier: 8.6.0_eslint@8.34.0
       prettier: 2.8.4
-      rimraf: 4.4.0
+      rimraf: 4.4.1
       terser-webpack-plugin: 5.3.6_webpack@5.75.0
       typescript: 4.9.4
       webpack: 5.75.0_webpack-cli@5.0.1
@@ -470,7 +470,7 @@ importers:
       eslint: ^8.32.0
       eslint-config-prettier: ^8.6.0
       prettier: ^2.8.3
-      rimraf: 4.4.0
+      rimraf: 4.4.1
       terser-webpack-plugin: ^5.3.6
       tsparticles-engine: ^2.9.3
       tsparticles-interaction-external-push: ^2.9.3
@@ -509,7 +509,7 @@ importers:
       eslint: 8.34.0
       eslint-config-prettier: 8.6.0_eslint@8.34.0
       prettier: 2.8.4
-      rimraf: 4.4.0
+      rimraf: 4.4.1
       terser-webpack-plugin: 5.3.6_webpack@5.75.0
       typescript: 4.9.4
       webpack: 5.75.0_webpack-cli@5.0.1
@@ -534,7 +534,7 @@ importers:
       eslint: ^8.32.0
       eslint-config-prettier: ^8.6.0
       prettier: ^2.8.3
-      rimraf: 4.4.0
+      rimraf: 4.4.1
       terser-webpack-plugin: ^5.3.6
       tsparticles-engine: ^2.9.3
       tsparticles-interaction-external-trail: ^2.9.3
@@ -573,7 +573,7 @@ importers:
       eslint: 8.34.0
       eslint-config-prettier: 8.6.0_eslint@8.34.0
       prettier: 2.8.4
-      rimraf: 4.4.0
+      rimraf: 4.4.1
       terser-webpack-plugin: 5.3.6_webpack@5.75.0
       typescript: 4.9.4
       webpack: 5.75.0_webpack-cli@5.0.1
@@ -598,7 +598,7 @@ importers:
       eslint: ^8.32.0
       eslint-config-prettier: ^8.6.0
       prettier: ^2.8.3
-      rimraf: 4.4.0
+      rimraf: 4.4.1
       terser-webpack-plugin: ^5.3.6
       tsparticles-engine: ^2.9.3
       tsparticles-move-base: ^2.9.3
@@ -649,7 +649,7 @@ importers:
       eslint: 8.34.0
       eslint-config-prettier: 8.6.0_eslint@8.34.0
       prettier: 2.8.4
-      rimraf: 4.4.0
+      rimraf: 4.4.1
       terser-webpack-plugin: 5.3.6_webpack@5.75.0
       typescript: 4.9.4
       webpack: 5.75.0_webpack-cli@5.0.1
@@ -674,7 +674,7 @@ importers:
       eslint: ^8.32.0
       eslint-config-prettier: ^8.6.0
       prettier: ^2.8.3
-      rimraf: 4.4.0
+      rimraf: 4.4.1
       terser-webpack-plugin: ^5.3.6
       tsparticles-engine: ^2.9.3
       tsparticles-move-base: ^2.9.3
@@ -715,7 +715,7 @@ importers:
       eslint: 8.34.0
       eslint-config-prettier: 8.6.0_eslint@8.34.0
       prettier: 2.8.4
-      rimraf: 4.4.0
+      rimraf: 4.4.1
       terser-webpack-plugin: 5.3.6_webpack@5.75.0
       typescript: 4.9.4
       webpack: 5.75.0_webpack-cli@5.0.1
@@ -740,7 +740,7 @@ importers:
       eslint: ^8.32.0
       eslint-config-prettier: ^8.6.0
       prettier: ^2.8.3
-      rimraf: 4.4.0
+      rimraf: 4.4.1
       terser-webpack-plugin: ^5.3.6
       tsparticles-engine: ^2.9.3
       tsparticles-interaction-particles-links: ^2.9.3
@@ -779,7 +779,7 @@ importers:
       eslint: 8.34.0
       eslint-config-prettier: 8.6.0_eslint@8.34.0
       prettier: 2.8.4
-      rimraf: 4.4.0
+      rimraf: 4.4.1
       terser-webpack-plugin: 5.3.6_webpack@5.75.0
       typescript: 4.9.4
       webpack: 5.75.0_webpack-cli@5.0.1
@@ -804,7 +804,7 @@ importers:
       eslint: ^8.32.0
       eslint-config-prettier: ^8.6.0
       prettier: ^2.8.3
-      rimraf: 4.4.0
+      rimraf: 4.4.1
       terser-webpack-plugin: ^5.3.6
       tsparticles-engine: ^2.9.3
       tsparticles-move-base: ^2.9.3
@@ -845,7 +845,7 @@ importers:
       eslint: 8.34.0
       eslint-config-prettier: 8.6.0_eslint@8.34.0
       prettier: 2.8.4
-      rimraf: 4.4.0
+      rimraf: 4.4.1
       terser-webpack-plugin: 5.3.6_webpack@5.75.0
       typescript: 4.9.4
       webpack: 5.75.0_webpack-cli@5.0.1
@@ -870,7 +870,7 @@ importers:
       eslint: ^8.32.0
       eslint-config-prettier: ^8.6.0
       prettier: ^2.8.3
-      rimraf: 4.4.0
+      rimraf: 4.4.1
       terser-webpack-plugin: ^5.3.6
       tsparticles-engine: ^2.9.3
       tsparticles-move-base: ^2.9.3
@@ -909,7 +909,7 @@ importers:
       eslint: 8.34.0
       eslint-config-prettier: 8.6.0_eslint@8.34.0
       prettier: 2.8.4
-      rimraf: 4.4.0
+      rimraf: 4.4.1
       terser-webpack-plugin: 5.3.6_webpack@5.75.0
       typescript: 4.9.4
       webpack: 5.75.0_webpack-cli@5.0.1
@@ -934,7 +934,7 @@ importers:
       eslint: ^8.32.0
       eslint-config-prettier: ^8.6.0
       prettier: ^2.8.3
-      rimraf: 4.4.0
+      rimraf: 4.4.1
       terser-webpack-plugin: ^5.3.6
       tsparticles-engine: ^2.9.3
       tsparticles-move-base: ^2.9.3
@@ -971,7 +971,7 @@ importers:
       eslint: 8.34.0
       eslint-config-prettier: 8.6.0_eslint@8.34.0
       prettier: 2.8.4
-      rimraf: 4.4.0
+      rimraf: 4.4.1
       terser-webpack-plugin: 5.3.6_webpack@5.75.0
       typescript: 4.9.4
       webpack: 5.75.0_webpack-cli@5.0.1
@@ -996,7 +996,7 @@ importers:
       eslint: ^8.32.0
       eslint-config-prettier: ^8.6.0
       prettier: ^2.8.3
-      rimraf: 4.4.0
+      rimraf: 4.4.1
       terser-webpack-plugin: ^5.3.6
       tsparticles-engine: ^2.9.3
       tsparticles-interaction-particles-links: ^2.9.3
@@ -1035,7 +1035,7 @@ importers:
       eslint: 8.34.0
       eslint-config-prettier: 8.6.0_eslint@8.34.0
       prettier: 2.8.4
-      rimraf: 4.4.0
+      rimraf: 4.4.1
       terser-webpack-plugin: 5.3.6_webpack@5.75.0
       typescript: 4.9.4
       webpack: 5.75.0_webpack-cli@5.0.1
@@ -3594,7 +3594,7 @@ packages:
       fs-extra: 11.1.0
       klaw: 4.1.0
       prettier: 2.8.4
-      rimraf: 4.4.0
+      rimraf: 4.4.1
       typescript: 4.9.4
       webpack: 5.75.0_webpack-cli@5.0.1
       webpack-tsparticles-plugin: 1.8.1
@@ -8248,6 +8248,15 @@ packages:
     hasBin: true
     dependencies:
       glob: 9.2.1
+    dev: false
+
+  /rimraf/4.4.1:
+    resolution: {integrity: sha512-Gk8NlF062+T9CqNGn6h4tls3k6T1+/nXdOcSZVikNVtlRdYpA7wRJJMoXmuvOnLW844rPjdQ7JgXCYM6PPC/og==}
+    engines: {node: '>=14'}
+    hasBin: true
+    dependencies:
+      glob: 9.2.1
+    dev: true
 
   /run-async/2.4.1:
     resolution: {integrity: sha512-tvVnVv01b8c1RrA6Ep7JkStj85Guv/YrMcwqYQnwjsAS2cTmmPGBBjAjpCW7RrSodNSoE2/qg9O4bceNvUuDgQ==}
@@ -9751,7 +9760,7 @@ packages:
       eslint: 8.34.0
       eslint-config-prettier: 8.6.0_eslint@8.34.0
       prettier: 2.8.4
-      rimraf: 4.4.0
+      rimraf: 4.4.1
       terser-webpack-plugin: 5.3.6_webpack@5.75.0
       typescript: 4.9.4
       webpack: 5.75.0_webpack-cli@5.0.1
