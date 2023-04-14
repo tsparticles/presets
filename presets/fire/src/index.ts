@@ -8,6 +8,10 @@ import { loadOutModesUpdater } from "tsparticles-updater-out-modes";
 import { loadSizeUpdater } from "tsparticles-updater-size";
 import { options } from "./options";
 
+/**
+ *
+ * @param engine
+ */
 export async function loadFirePreset(engine: Engine): Promise<void> {
     await loadBaseMover(engine);
     await loadExternalPushInteraction(engine);

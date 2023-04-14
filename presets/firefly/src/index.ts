@@ -8,6 +8,10 @@ import { loadOpacityUpdater } from "tsparticles-updater-opacity";
 import { loadSizeUpdater } from "tsparticles-updater-size";
 import { options } from "./options";
 
+/**
+ *
+ * @param engine
+ */
 export async function loadFireflyPreset(engine: Engine): Promise<void> {
     await loadBaseMover(engine);
     await loadExternalTrailInteraction(engine);

@@ -14,6 +14,10 @@ import { loadSoundsPlugin } from "tsparticles-plugin-sounds";
 import { loadStrokeColorUpdater } from "tsparticles-updater-stroke-color";
 import { options } from "./options";
 
+/**
+ *
+ * @param engine
+ */
 export async function loadFireworksPreset(engine: Engine): Promise<void> {
     await loadBaseMover(engine);
     await loadEmittersPlugin(engine);

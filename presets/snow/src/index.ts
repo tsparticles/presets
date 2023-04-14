@@ -8,6 +8,10 @@ import { loadSizeUpdater } from "tsparticles-updater-size";
 import { loadWobbleUpdater } from "tsparticles-updater-wobble";
 import { options } from "./options";
 
+/**
+ *
+ * @param engine
+ */
 export async function loadSnowPreset(engine: Engine): Promise<void> {
     await loadBaseMover(engine);
     await loadCircleShape(engine);

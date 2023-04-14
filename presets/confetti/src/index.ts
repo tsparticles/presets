@@ -15,6 +15,10 @@ import { loadTiltUpdater } from "tsparticles-updater-tilt";
 import { loadWobbleUpdater } from "tsparticles-updater-wobble";
 import { options } from "./options";
 
+/**
+ *
+ * @param engine
+ */
 async function loadPreset(engine: Engine): Promise<void> {
     await loadBaseMover(engine);
     await loadCircleShape(engine);
@@ -34,6 +38,10 @@ async function loadPreset(engine: Engine): Promise<void> {
     await engine.addPreset("confetti", options);
 }
 
+/**
+ *
+ * @param main
+ */
 export async function loadConfettiPreset(main: Engine): Promise<void> {
     await loadPreset(main);
 }

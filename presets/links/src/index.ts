@@ -8,6 +8,10 @@ import { loadParticlesLinksInteraction } from "tsparticles-interaction-particles
 import { loadSizeUpdater } from "tsparticles-updater-size";
 import { options } from "./options";
 
+/**
+ *
+ * @param engine
+ */
 export async function loadLinksPreset(engine: Engine): Promise<void> {
     await loadBaseMover(engine);
     await loadCircleShape(engine);

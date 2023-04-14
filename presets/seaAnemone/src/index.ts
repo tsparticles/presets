@@ -9,6 +9,10 @@ import { loadOpacityUpdater } from "tsparticles-updater-opacity";
 import { loadOutModesUpdater } from "tsparticles-updater-out-modes";
 import { loadSizeUpdater } from "tsparticles-updater-size";
 
+/**
+ *
+ * @param engine
+ */
 export async function loadSeaAnemonePreset(engine: Engine): Promise<void> {
     await loadBaseMover(engine);
     await loadCircleShape(engine);
