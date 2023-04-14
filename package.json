@@ -16,7 +16,7 @@
     "rimraf": "^5.0.0",
     "typedoc": "^0.24.0-beta.3",
     "typedoc-plugin-coverage": "^2.0.0",
-    "typedoc-plugin-keyword": "^1.1.0",
+    "typedoc-plugin-keyword": "^1.2.0",
     "typedoc-plugin-missing-exports": "^1.0.0",
     "typescript": "^5.0.0"
   },
