@@ -1,38 +1,15 @@
 {
-    "gaID": "UA-161253125-1",
-    "includes": "./markdown",
-    "entryPoints": ["./src/"],
-    "entryPointStrategy": "expand",
-    "name": "tsParticles Links Preset",
-    "includeVersion": true,
-    "hideGenerator": true,
-    "out": "./docs",
-    "keywords": [
-        "html",
-        "css",
-        "javascript",
-        "typescript",
-        "particles",
-        "js",
-        "ts",
-        "jsx",
-        "tsx",
-        "canvas",
-        "confetti",
-        "fireworks",
-        "animations",
-        "react",
-        "vue",
-        "angular",
-        "svelte",
-        "libraries",
-        "how",
-        "to",
-        "create",
-        "add"
-    ],
-    "validation": {
-        "invalidLink": true,
-        "notDocumented": true
-    }
+  "includes": "./markdown",
+  "entryPoints": [
+    "./src/"
+  ],
+  "entryPointStrategy": "expand",
+  "name": "tsParticles Links Preset",
+  "includeVersion": true,
+  "hideGenerator": true,
+  "out": "./docs",
+  "validation": {
+    "invalidLink": true,
+    "notDocumented": true
+  }
 }
