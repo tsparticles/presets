@@ -14,7 +14,7 @@
     "husky": "^8.0.3",
     "lerna": "^6.6.2",
     "rimraf": "^5.0.1",
-    "typedoc": "^0.24.7",
+    "typedoc": "^0.24.8",
     "typedoc-plugin-coverage": "^2.1.0",
     "typedoc-plugin-keywords": "^1.4.1",
     "typedoc-plugin-missing-exports": "^2.0.0",

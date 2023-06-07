@@ -27,17 +27,17 @@ importers:
         specifier: ^5.0.1
         version: 5.0.1
       typedoc:
-        specifier: ^0.24.7
-        version: 0.24.7(typescript@5.1.3)
+        specifier: ^0.24.8
+        version: 0.24.8(typescript@5.1.3)
       typedoc-plugin-coverage:
         specifier: ^2.1.0
-        version: 2.1.0(typedoc@0.24.7)
+        version: 2.1.0(typedoc@0.24.8)
       typedoc-plugin-keywords:
         specifier: ^1.4.1
-        version: 1.4.1(typedoc@0.24.7)
+        version: 1.4.1(typedoc@0.24.8)
       typedoc-plugin-missing-exports:
         specifier: ^2.0.0
-        version: 2.0.0(typedoc@0.24.7)
+        version: 2.0.0(typedoc@0.24.8)
       typescript:
         specifier: ^5.1.3
         version: 5.1.3
@@ -5389,7 +5389,7 @@ packages:
     engines: {node: '>=10'}
     dependencies:
       globby: 11.1.0
-      graceful-fs: 4.2.10
+      graceful-fs: 4.2.11
       is-glob: 4.0.3
       is-path-cwd: 2.2.0
       is-path-inside: 3.0.3
@@ -6010,7 +6010,7 @@ packages:
     engines: {node: '>=10'}
     dependencies:
       at-least-node: 1.0.0
-      graceful-fs: 4.2.10
+      graceful-fs: 4.2.11
       jsonfile: 6.1.0
       universalify: 2.0.0
     dev: false
@@ -6197,7 +6197,7 @@ packages:
       fs.realpath: 1.0.0
       inflight: 1.0.6
       inherits: 2.0.4
-      minimatch: 3.0.5
+      minimatch: 3.1.2
       once: 1.4.0
       path-is-absolute: 1.0.1
     dev: false
@@ -6265,6 +6265,7 @@ packages:
 
   /graceful-fs@4.2.10:
     resolution: {integrity: sha512-9ByhssR2fPVsNZj478qUUbKfmL0+t5BDVyjShtyZZLiK7ZDAArFFfopyOTj0M05wE2tJPisA4iTnnXl2YoPvOA==}
+    dev: false
 
   /graceful-fs@4.2.11:
     resolution: {integrity: sha512-RbJ5/jmFcNNCcDV5o9eTnBLJ/HszWV0P73bc+Ff4nS/rJj+YaS6IGyiOL0VoBYX+l1Wrl3k63h/KrH+nhJ0XvQ==}
@@ -6894,7 +6895,7 @@ packages:
     dependencies:
       universalify: 2.0.0
     optionalDependencies:
-      graceful-fs: 4.2.10
+      graceful-fs: 4.2.11
 
   /jsonparse@1.3.1:
     resolution: {integrity: sha512-POQXvpdL69+CluYsillJ7SUhKvytYjW9vG/GKpnf+xP8UWgYEM/RaMzHHofbALDiKbbP1W8UEYmgGl39WkPZsg==}
@@ -7105,7 +7106,7 @@ packages:
     resolution: {integrity: sha512-Kx8hMakjX03tiGTLAIdJ+lL0htKnXjEZN6hk/tozf/WOuYGdZBJrZ+rCJRbVCugsjB3jMLn9746NsQIf5VjBMw==}
     engines: {node: '>=4'}
     dependencies:
-      graceful-fs: 4.2.10
+      graceful-fs: 4.2.11
       parse-json: 4.0.0
       pify: 3.0.0
       strip-bom: 3.0.0
@@ -7115,7 +7116,7 @@ packages:
     resolution: {integrity: sha512-gUD/epcRms75Cw8RT1pUdHugZYM5ce64ucs2GEISABwkRsOQr0q2wm/MV2TKThycIe5e0ytRweW2RZxclogCdQ==}
     engines: {node: '>=8'}
     dependencies:
-      graceful-fs: 4.2.10
+      graceful-fs: 4.2.11
       parse-json: 5.2.0
       strip-bom: 4.0.0
       type-fest: 0.6.0
@@ -7576,7 +7577,7 @@ packages:
       array-differ: 3.0.0
       array-union: 2.1.0
       arrify: 2.0.1
-      minimatch: 3.0.5
+      minimatch: 3.1.2
     dev: false
 
   /mute-stream@0.0.8:
@@ -7626,7 +7627,7 @@ packages:
     dependencies:
       env-paths: 2.2.1
       glob: 7.2.3
-      graceful-fs: 4.2.10
+      graceful-fs: 4.2.11
       make-fetch-happen: 10.2.1
       nopt: 6.0.0
       npmlog: 6.0.2
@@ -10186,38 +10187,38 @@ packages:
     resolution: {integrity: sha512-/aCDEGatGvZ2BIk+HmLf4ifCJFwvKFNb9/JeZPMulfgFracn9QFcAf5GO8B/mweUjSoblS5In0cWhqpfs/5PQA==}
     dev: false
 
-  /typedoc-plugin-coverage@2.1.0(typedoc@0.24.7):
+  /typedoc-plugin-coverage@2.1.0(typedoc@0.24.8):
     resolution: {integrity: sha512-d0Lc/aOPRAMnfABCW2cQqCQdzLUzadeq62r4DBrSchcfzx1X8nOvhXK/n4mVAO4wQQUchTm2ZGAzTtiAc2nl0A==}
     engines: {node: '>= 14'}
     peerDependencies:
       typedoc: ^0.22.12 || 0.23.x || 0.24.x
     dependencies:
-      typedoc: 0.24.7(typescript@5.1.3)
+      typedoc: 0.24.8(typescript@5.1.3)
     dev: false
 
-  /typedoc-plugin-keywords@1.4.1(typedoc@0.24.7):
+  /typedoc-plugin-keywords@1.4.1(typedoc@0.24.8):
     resolution: {integrity: sha512-7vN8VkJRlYFpIrcGNaF3anah7viW8iSecZWP1bJfiX6uKQXEUxaj8UJ1JpqNz1oDjIJrNjka+TkOUgH6hf+HBQ==}
     peerDependencies:
       typedoc: ^0.24.4
     dependencies:
-      typedoc: 0.24.7(typescript@5.1.3)
+      typedoc: 0.24.8(typescript@5.1.3)
       typescript: 5.1.3
     dev: false
 
-  /typedoc-plugin-missing-exports@2.0.0(typedoc@0.24.7):
+  /typedoc-plugin-missing-exports@2.0.0(typedoc@0.24.8):
     resolution: {integrity: sha512-t0QlKCm27/8DaheJkLo/gInSNjzBXgSciGhoLpL6sLyXZibm7SuwJtHvg4qXI2IjJfFBgW9mJvvszpoxMyB0TA==}
     peerDependencies:
       typedoc: 0.24.x
     dependencies:
-      typedoc: 0.24.7(typescript@5.1.3)
+      typedoc: 0.24.8(typescript@5.1.3)
     dev: false
 
-  /typedoc@0.24.7(typescript@5.1.3):
-    resolution: {integrity: sha512-zzfKDFIZADA+XRIp2rMzLe9xZ6pt12yQOhCr7cD7/PBTjhPmMyMvGrkZ2lPNJitg3Hj1SeiYFNzCsSDrlpxpKw==}
+  /typedoc@0.24.8(typescript@5.1.3):
+    resolution: {integrity: sha512-ahJ6Cpcvxwaxfu4KtjA8qZNqS43wYt6JL27wYiIgl1vd38WW/KWX11YuAeZhuz9v+ttrutSsgK+XO1CjL1kA3w==}
     engines: {node: '>= 14.14'}
     hasBin: true
     peerDependencies:
-      typescript: 4.6.x || 4.7.x || 4.8.x || 4.9.x || 5.0.x
+      typescript: 4.6.x || 4.7.x || 4.8.x || 4.9.x || 5.0.x || 5.1.x
     dependencies:
       lunr: 2.3.9
       marked: 4.3.0
@@ -10660,7 +10661,7 @@ packages:
   /write-file-atomic@2.4.3:
     resolution: {integrity: sha512-GaETH5wwsX+GcnzhPgKcKjJ6M2Cq3/iZp1WyY/X1CSqrW+jVNM9Y7D8EC2sM4ZG/V8wZlSniJnCKWPmBYAucRQ==}
     dependencies:
-      graceful-fs: 4.2.10
+      graceful-fs: 4.2.11
       imurmurhash: 0.1.4
       signal-exit: 3.0.7
     dev: false
@@ -10686,7 +10687,7 @@ packages:
     engines: {node: '>=6'}
     dependencies:
       detect-indent: 5.0.0
-      graceful-fs: 4.2.10
+      graceful-fs: 4.2.11
       make-dir: 2.1.0
       pify: 4.0.1
       sort-keys: 2.0.0
