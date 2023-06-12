@@ -10,9 +10,9 @@
   "dependencies": {
     "@commitlint/cli": "^17.6.5",
     "@commitlint/config-conventional": "^17.6.5",
-    "@types/node": "^18.16.16",
+    "@types/node": "^20.2.5",
     "husky": "^8.0.3",
-    "lerna": "^6.6.2",
+    "lerna": "^7.0.0",
     "rimraf": "^5.0.1",
     "typedoc": "^0.24.8",
     "typedoc-plugin-coverage": "^2.1.0",
