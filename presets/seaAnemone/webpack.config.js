@@ -1,4 +1,9 @@
 const { loadParticlesPreset } = require("@tsparticles/webpack-plugin");
 const version = require("./package.json").version;
 
-module.exports = loadParticlesPreset("seaAnemone", "Sea Anemone", version, __dirname);
+module.exports = loadParticlesPreset({
+    dir: __dirname,
+    moduleName: "seaAnemone",
+    presetName: "Sea Anemone",
+    version: version
+});

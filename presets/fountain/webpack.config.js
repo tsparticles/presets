@@ -1,4 +1,9 @@
 const { loadParticlesPreset } = require("@tsparticles/webpack-plugin");
 const version = require("./package.json").version;
 
-module.exports = loadParticlesPreset("fountain", "Fountain", version, __dirname);
+module.exports = loadParticlesPreset({
+    dir: __dirname,
+    moduleName: "fountain",
+    presetName: "Fountain",
+    version: version
+});
