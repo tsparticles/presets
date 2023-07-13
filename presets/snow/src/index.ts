@@ -10,16 +10,17 @@ import { options } from "./options";
 
 /**
  *
- * @param engine
+ * @param engine -
+ * @param refresh -
  */
-export async function loadSnowPreset(engine: Engine): Promise<void> {
-    await loadBaseMover(engine);
-    await loadCircleShape(engine);
-    await loadColorUpdater(engine);
-    await loadOpacityUpdater(engine);
-    await loadOutModesUpdater(engine);
-    await loadSizeUpdater(engine);
-    await loadWobbleUpdater(engine);
+export async function loadSnowPreset(engine: Engine, refresh = true): Promise<void> {
+    await loadBaseMover(engine, false);
+    await loadCircleShape(engine, false);
+    await loadColorUpdater(engine, false);
+    await loadOpacityUpdater(engine, false);
+    await loadOutModesUpdater(engine, false);
+    await loadSizeUpdater(engine, false);
+    await loadWobbleUpdater(engine, false);
 
-    await engine.addPreset("snow", options);
+    await engine.addPreset("snow", options, refresh);
 }

@@ -102,12 +102,12 @@
     "tsparticles-plugin-motion": "^2.11.0",
     "tsparticles-shape-circle": "^2.11.0",
     "tsparticles-shape-square": "^2.11.0",
-    "tsparticles-updater-angle": "^2.9.3",
     "tsparticles-updater-color": "^2.11.0",
     "tsparticles-updater-life": "^2.11.0",
     "tsparticles-updater-opacity": "^2.11.0",
     "tsparticles-updater-out-modes": "^2.11.0",
     "tsparticles-updater-roll": "^2.11.0",
+    "tsparticles-updater-rotate": "^2.11.0",
     "tsparticles-updater-size": "^2.11.0",
     "tsparticles-updater-tilt": "^2.11.0",
     "tsparticles-updater-wobble": "^2.11.0"

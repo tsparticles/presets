@@ -10,16 +10,17 @@ import { options } from "./options";
 
 /**
  *
- * @param engine
+ * @param engine -
+ * @param refresh -
  */
-export async function loadLinksPreset(engine: Engine): Promise<void> {
-    await loadBaseMover(engine);
-    await loadCircleShape(engine);
-    await loadColorUpdater(engine);
-    await loadParticlesLinksInteraction(engine);
-    await loadOutModesUpdater(engine);
-    await loadOpacityUpdater(engine);
-    await loadSizeUpdater(engine);
+export async function loadLinksPreset(engine: Engine, refresh = true): Promise<void> {
+    await loadBaseMover(engine, false);
+    await loadCircleShape(engine, false);
+    await loadColorUpdater(engine, false);
+    await loadParticlesLinksInteraction(engine, false);
+    await loadOutModesUpdater(engine, false);
+    await loadOpacityUpdater(engine, false);
+    await loadSizeUpdater(engine, false);
 
-    await engine.addPreset("links", options);
+    await engine.addPreset("links", options, refresh);
 }

@@ -11,17 +11,18 @@ import { loadSizeUpdater } from "tsparticles-updater-size";
 
 /**
  *
- * @param engine
+ * @param engine -
+ * @param refresh -
  */
-export async function loadSeaAnemonePreset(engine: Engine): Promise<void> {
-    await loadBaseMover(engine);
-    await loadCircleShape(engine);
-    await loadColorUpdater(engine);
-    await loadOpacityUpdater(engine);
-    await loadOutModesUpdater(engine);
-    await loadSizeUpdater(engine);
-    await loadEmittersPlugin(engine);
-    await loadCurvesPath(engine);
+export async function loadSeaAnemonePreset(engine: Engine, refresh = true): Promise<void> {
+    await loadBaseMover(engine, false);
+    await loadCircleShape(engine, false);
+    await loadColorUpdater(engine, false);
+    await loadOpacityUpdater(engine, false);
+    await loadOutModesUpdater(engine, false);
+    await loadSizeUpdater(engine, false);
+    await loadEmittersPlugin(engine, false);
+    await loadCurvesPath(engine, false);
 
-    await engine.addPreset(presetName, options);
+    await engine.addPreset(presetName, options, refresh);
 }

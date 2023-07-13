@@ -10,16 +10,17 @@ import { options } from "./options";
 
 /**
  *
- * @param engine
+ * @param engine -
+ * @param refresh -
  */
-export async function loadFireflyPreset(engine: Engine): Promise<void> {
-    await loadBaseMover(engine);
-    await loadExternalTrailInteraction(engine);
-    await loadCircleShape(engine);
-    await loadColorUpdater(engine);
-    await loadLifeUpdater(engine);
-    await loadOpacityUpdater(engine);
-    await loadSizeUpdater(engine);
+export async function loadFireflyPreset(engine: Engine, refresh = true): Promise<void> {
+    await loadBaseMover(engine, false);
+    await loadExternalTrailInteraction(engine, false);
+    await loadCircleShape(engine, false);
+    await loadColorUpdater(engine, false);
+    await loadLifeUpdater(engine, false);
+    await loadOpacityUpdater(engine, false);
+    await loadSizeUpdater(engine, false);
 
-    await engine.addPreset("firefly", options);
+    await engine.addPreset("firefly", options, refresh);
 }

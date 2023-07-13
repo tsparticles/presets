@@ -1,5 +1,4 @@
 import type { Engine } from "tsparticles-engine";
-import { loadAngleUpdater } from "tsparticles-updater-angle";
 import { loadBaseMover } from "tsparticles-move-base";
 import { loadCircleShape } from "tsparticles-shape-circle";
 import { loadColorUpdater } from "tsparticles-updater-color";
@@ -9,6 +8,7 @@ import { loadMotionPlugin } from "tsparticles-plugin-motion";
 import { loadOpacityUpdater } from "tsparticles-updater-opacity";
 import { loadOutModesUpdater } from "tsparticles-updater-out-modes";
 import { loadRollUpdater } from "tsparticles-updater-roll";
+import { loadRotateUpdater } from "tsparticles-updater-rotate";
 import { loadSizeUpdater } from "tsparticles-updater-size";
 import { loadSquareShape } from "tsparticles-shape-square";
 import { loadTiltUpdater } from "tsparticles-updater-tilt";
@@ -17,31 +17,32 @@ import { options } from "./options";
 
 /**
  *
- * @param engine
+ * @param engine -
+ * @param refresh -
  */
-async function loadPreset(engine: Engine): Promise<void> {
-    await loadBaseMover(engine);
-    await loadCircleShape(engine);
-    await loadSquareShape(engine);
-    await loadColorUpdater(engine);
-    await loadSizeUpdater(engine);
-    await loadOpacityUpdater(engine);
-    await loadOutModesUpdater(engine);
-    await loadEmittersPlugin(engine);
-    await loadMotionPlugin(engine);
-    await loadWobbleUpdater(engine);
-    await loadRollUpdater(engine);
-    await loadAngleUpdater(engine);
-    await loadTiltUpdater(engine);
-    await loadLifeUpdater(engine);
+async function loadPreset(engine: Engine, refresh = true): Promise<void> {
+    await loadBaseMover(engine, false);
+    await loadCircleShape(engine, false);
+    await loadSquareShape(engine, false);
+    await loadColorUpdater(engine, false);
+    await loadSizeUpdater(engine, false);
+    await loadOpacityUpdater(engine, false);
+    await loadOutModesUpdater(engine, false);
+    await loadEmittersPlugin(engine, false);
+    await loadMotionPlugin(engine, false);
+    await loadWobbleUpdater(engine, false);
+    await loadRollUpdater(engine, false);
+    await loadRotateUpdater(engine, false);
+    await loadTiltUpdater(engine, false);
+    await loadLifeUpdater(engine, false);
 
-    await engine.addPreset("confetti", options);
+    await engine.addPreset("confetti", options, refresh);
 }
 
 /**
  *
- * @param main
+ * @param engine -
  */
-export async function loadConfettiPreset(main: Engine): Promise<void> {
-    await loadPreset(main);
+export async function loadConfettiPreset(engine: Engine): Promise<void> {
+    await loadPreset(engine);
 }

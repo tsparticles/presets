@@ -30,11 +30,11 @@ from [jsDelivr](https://www.jsdelivr.com/package/npm/tsparticles-preset-firework
 <script src="https://cdn.jsdelivr.net/npm/tsparticles-plugin-emitters@2/tsparticles.plugin.emitters.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/tsparticles-shape-circle@2/tsparticles.shape.circle.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/tsparticles-shape-line@2/tsparticles.shape.line.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/tsparticles-updater-angle@2/tsparticles.updater.angle.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/tsparticles-updater-color@2/tsparticles.updater.color.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/tsparticles-updater-life@2/tsparticles.updater.life.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/tsparticles-updater-opacity@2/tsparticles.updater.opacity.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/tsparticles-updater-out-modes@2/tsparticles.updater.out-modes.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/tsparticles-updater-rotate@2/tsparticles.updater.angle.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/tsparticles-updater-size@2/tsparticles.updater.size.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/tsparticles-updater-stroke-color@2/tsparticles.updater.stroke-color.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/tsparticles-preset-fireworks@2/tsparticles.preset.fireworks.min.js"></script>
@@ -190,12 +190,12 @@ end
 e --> s
 
 subgraph u [Updaters]
-ua[Angle]
 uc[Color]
 ud[Destroy]
 ul[Life]
 uop[Opacity]
 uou[Out Modes]
+ur[Rotate]
 usi[Size]
 ust[Stroke Color]
 end

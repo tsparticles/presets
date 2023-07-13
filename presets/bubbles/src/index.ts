@@ -10,16 +10,17 @@ import { options } from "./options";
 
 /**
  *
- * @param engine
+ * @param engine -
+ * @param refresh -
  */
-export async function loadBubblesPreset(engine: Engine): Promise<void> {
-    await loadBaseMover(engine);
-    await loadCircleShape(engine);
-    await loadColorUpdater(engine);
-    await loadSizeUpdater(engine);
-    await loadOpacityUpdater(engine);
-    await loadOutModesUpdater(engine);
-    await loadEmittersPlugin(engine);
+export async function loadBubblesPreset(engine: Engine, refresh = true): Promise<void> {
+    await loadBaseMover(engine, false);
+    await loadCircleShape(engine, false);
+    await loadColorUpdater(engine, false);
+    await loadSizeUpdater(engine, false);
+    await loadOpacityUpdater(engine, false);
+    await loadOutModesUpdater(engine, false);
+    await loadEmittersPlugin(engine, false);
 
-    await engine.addPreset("bubbles", options);
+    await engine.addPreset("bubbles", options, refresh);
 }

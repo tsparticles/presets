@@ -10,16 +10,17 @@ import { options } from "./options";
 
 /**
  *
- * @param engine
+ * @param engine -
+ * @param refresh -
  */
-export async function loadFirePreset(engine: Engine): Promise<void> {
-    await loadBaseMover(engine);
-    await loadExternalPushInteraction(engine);
-    await loadCircleShape(engine);
-    await loadColorUpdater(engine);
-    await loadOpacityUpdater(engine);
-    await loadOutModesUpdater(engine);
-    await loadSizeUpdater(engine);
+export async function loadFirePreset(engine: Engine, refresh = true): Promise<void> {
+    await loadBaseMover(engine, false);
+    await loadExternalPushInteraction(engine, false);
+    await loadCircleShape(engine, false);
+    await loadColorUpdater(engine, false);
+    await loadOpacityUpdater(engine, false);
+    await loadOutModesUpdater(engine, false);
+    await loadSizeUpdater(engine, false);
 
-    await engine.addPreset("fire", options);
+    await engine.addPreset("fire", options, refresh);
 }

@@ -485,9 +485,6 @@ importers:
       tsparticles-shape-square:
         specifier: ^2.11.0
         version: 2.11.0
-      tsparticles-updater-angle:
-        specifier: ^2.9.3
-        version: 2.9.3
       tsparticles-updater-color:
         specifier: ^2.11.0
         version: 2.11.0
@@ -501,6 +498,9 @@ importers:
         specifier: ^2.11.0
         version: 2.11.0
       tsparticles-updater-roll:
+        specifier: ^2.11.0
+        version: 2.11.0
+      tsparticles-updater-rotate:
         specifier: ^2.11.0
         version: 2.11.0
       tsparticles-updater-size:
@@ -590,9 +590,6 @@ importers:
       tsparticles-shape-line:
         specifier: ^2.11.0
         version: 2.11.0
-      tsparticles-updater-angle:
-        specifier: ^2.9.3
-        version: 2.9.3
       tsparticles-updater-color:
         specifier: ^2.11.0
         version: 2.11.0
@@ -606,6 +603,9 @@ importers:
         specifier: ^2.11.0
         version: 2.11.0
       tsparticles-updater-out-modes:
+        specifier: ^2.11.0
+        version: 2.11.0
+      tsparticles-updater-rotate:
         specifier: ^2.11.0
         version: 2.11.0
       tsparticles-updater-size:
@@ -9254,12 +9254,6 @@ packages:
       tsparticles-updater-rotate: 2.11.0
       tsparticles-updater-size: 2.11.0
       tsparticles-updater-stroke-color: 2.11.0
-    dev: false
-
-  /tsparticles-updater-angle@2.9.3:
-    resolution: {integrity: sha512-Z8VLOw2UUxrvV3YH44My5kmeBUcJUHTSCMRUIqFvgvxDs0Q/g2eVWkr1L+Crpw6PE5FJMdDGWRjWwxMwNdVfuQ==}
-    dependencies:
-      tsparticles-engine: 2.11.0
     dev: false
 
   /tsparticles-updater-color@2.11.0:

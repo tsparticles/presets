@@ -10,17 +10,18 @@ import { options } from "./options";
 
 /**
  *
- * @param engine
+ * @param engine -
+ * @param refresh -
  */
-export async function loadBigCirclesPreset(engine: Engine): Promise<void> {
-    await loadBaseMover(engine);
-    await loadCircleShape(engine);
-    await loadColorUpdater(engine);
-    await loadSizeUpdater(engine);
-    await loadOpacityUpdater(engine);
-    await loadOutModesUpdater(engine);
-    await loadEmittersPlugin(engine);
+export async function loadBigCirclesPreset(engine: Engine, refresh = true): Promise<void> {
+    await loadBaseMover(engine, false);
+    await loadCircleShape(engine, false);
+    await loadColorUpdater(engine, false);
+    await loadSizeUpdater(engine, false);
+    await loadOpacityUpdater(engine, false);
+    await loadOutModesUpdater(engine, false);
+    await loadEmittersPlugin(engine, false);
 
-    await engine.addPreset("bigCircles", options);
-    await engine.addPreset("big-circles", options);
+    await engine.addPreset("bigCircles", options, false);
+    await engine.addPreset("big-circles", options, refresh);
 }

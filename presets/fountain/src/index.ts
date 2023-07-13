@@ -11,17 +11,18 @@ import { options } from "./options";
 
 /**
  *
- * @param engine
+ * @param engine -
+ * @param refresh -
  */
-export async function loadFountainPreset(engine: Engine): Promise<void> {
-    await loadBaseMover(engine);
-    await loadCircleShape(engine);
-    await loadDestroyUpdater(engine);
-    await loadEmittersPlugin(engine);
-    await loadColorUpdater(engine);
-    await loadOpacityUpdater(engine);
-    await loadOutModesUpdater(engine);
-    await loadSizeUpdater(engine);
+export async function loadFountainPreset(engine: Engine, refresh = true): Promise<void> {
+    await loadBaseMover(engine, false);
+    await loadCircleShape(engine, false);
+    await loadDestroyUpdater(engine, false);
+    await loadEmittersPlugin(engine, false);
+    await loadColorUpdater(engine, false);
+    await loadOpacityUpdater(engine, false);
+    await loadOutModesUpdater(engine, false);
+    await loadSizeUpdater(engine, false);
 
-    await engine.addPreset("fountain", options);
+    await engine.addPreset("fountain", options, refresh);
 }
