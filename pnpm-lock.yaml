@@ -254,6 +254,9 @@ importers:
       tsparticles-preset-fountain:
         specifier: workspace:^
         version: link:../../presets/fountain/dist
+      tsparticles-preset-hyperspace:
+        specifier: workspace:^
+        version: link:../../presets/hyperspace/dist
       tsparticles-preset-links:
         specifier: workspace:^
         version: link:../../presets/links/dist
@@ -634,6 +637,37 @@ importers:
         specifier: ^2.11.0
         version: 2.11.0
       tsparticles-updater-destroy:
+        specifier: ^2.11.0
+        version: 2.11.0
+      tsparticles-updater-opacity:
+        specifier: ^2.11.0
+        version: 2.11.0
+      tsparticles-updater-out-modes:
+        specifier: ^2.11.0
+        version: 2.11.0
+      tsparticles-updater-size:
+        specifier: ^2.11.0
+        version: 2.11.0
+    publishDirectory: dist
+
+  presets/hyperspace:
+    dependencies:
+      tsparticles-engine:
+        specifier: ^2.11.0
+        version: 2.11.0
+      tsparticles-move-base:
+        specifier: ^2.11.0
+        version: 2.11.0
+      tsparticles-plugin-emitters:
+        specifier: ^2.11.0
+        version: 2.11.0
+      tsparticles-shape-circle:
+        specifier: ^2.11.0
+        version: 2.11.0
+      tsparticles-updater-color:
+        specifier: ^2.11.0
+        version: 2.11.0
+      tsparticles-updater-life:
         specifier: ^2.11.0
         version: 2.11.0
       tsparticles-updater-opacity:

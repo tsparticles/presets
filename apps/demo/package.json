@@ -92,6 +92,7 @@
     "tsparticles-preset-firefly": "workspace:^",
     "tsparticles-preset-fireworks": "workspace:^",
     "tsparticles-preset-fountain": "workspace:^",
+    "tsparticles-preset-hyperspace": "workspace:^",
     "tsparticles-preset-links": "workspace:^",
     "tsparticles-preset-sea-anemone": "workspace:^",
     "tsparticles-preset-snow": "workspace:^",

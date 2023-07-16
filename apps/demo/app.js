@@ -114,6 +114,7 @@ app.use("/preset-fire", express.static("./node_modules/tsparticles-preset-fire")
 app.use("/preset-firefly", express.static("./node_modules/tsparticles-preset-firefly"));
 app.use("/preset-fireworks", express.static("./node_modules/tsparticles-preset-fireworks"));
 app.use("/preset-fountain", express.static("./node_modules/tsparticles-preset-fountain"));
+app.use("/preset-hyperspace", express.static("./node_modules/tsparticles-preset-hyperspace"));
 app.use("/preset-links", express.static("./node_modules/tsparticles-preset-links"));
 app.use("/preset-sea-anemone", express.static("./node_modules/tsparticles-preset-sea-anemone"));
 app.use("/preset-snow", express.static("./node_modules/tsparticles-preset-snow"));
@@ -158,6 +159,10 @@ app.get("/fireworks", function (req, res) {
 
 app.get("/fountain", function (req, res) {
     res.render("fountain");
+});
+
+app.get("/hyperspace", function (req, res) {
+    res.render("hyperspace");
 });
 
 app.get("/links", function (req, res) {
