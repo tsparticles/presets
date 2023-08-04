@@ -118,6 +118,7 @@ app.use("/preset-fountain", express.static("./node_modules/tsparticles-preset-fo
 app.use("/preset-hyperspace", express.static("./node_modules/tsparticles-preset-hyperspace"));
 app.use("/preset-links", express.static("./node_modules/tsparticles-preset-links"));
 app.use("/preset-sea-anemone", express.static("./node_modules/tsparticles-preset-sea-anemone"));
+app.use("/preset-squares", express.static("./node_modules/tsparticles-preset-squares"));
 app.use("/preset-snow", express.static("./node_modules/tsparticles-preset-snow"));
 app.use("/preset-stars", express.static("./node_modules/tsparticles-preset-stars"));
 app.use("/preset-triangles", express.static("./node_modules/tsparticles-preset-triangles"));
@@ -172,6 +173,10 @@ app.get("/links", function (req, res) {
 
 app.get("/seaAnemone", function (req, res) {
     res.render("seaAnemone");
+});
+
+app.get("/squares", function (req, res) {
+    res.render("squares");
 });
 
 app.get("/snow", function (req, res) {

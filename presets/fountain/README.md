@@ -167,39 +167,21 @@ let particlesInit = async (engine) => {
 ```mermaid
 flowchart TD
 
-subgraph m [Movers]
-mb[Base]
-end
-
-e[tsParticles Engine] --> m
-
 subgraph pl [Plugins]
 ple[Emitters]
 end
 
-e --> pl
-
-subgraph s [Shapes]
-sc[Circle]
-end
-
-e --> s
+bb[tsParticles Basic] --> pl
 
 subgraph u [Updaters]
-uc[Color]
 ud[Destroy]
-uop[Opacity]
-uou[Out Modes]
-usi[Size]
 end
 
-e --> u
+bb --> u
 
 subgraph pr [Presets]
 prfo[Fountain]
 end
 
-e --> pr
-
-mb & ple & sc & uc & ud & uop & uou & usi --> prfo
+bb & ple & ud --> prfo
 ```

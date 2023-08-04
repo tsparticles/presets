@@ -176,36 +176,11 @@ end
 
 end
 
-i --> ie
-
-e[tsParticles Engine] --> i
-
-subgraph m [Movers]
-mb[Base]
-end
-
-e --> m
-
-subgraph s [Shapes]
-sc[Circle]
-end
-
-e --> s
-
-subgraph u [Updaters]
-uc[Color]
-uop[Opacity]
-uou[Out Modes]
-usi[Size]
-end
-
-e --> u
+bb[tsParticles Basic] --> i
 
 subgraph pr [Presets]
 prff[Firefly]
 end
 
-e --> pr
-
-iet & mb & sc & uc & uop & uou & usi --> prff
+bb & iet --> prff
 ```

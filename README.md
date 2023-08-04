@@ -23,8 +23,10 @@ Official presets for [tsParticles library](https://github.com/tsparticles/preset
     - [Firefly](#firefly)
     - [Fireworks](#fireworks)
     - [Fountain](#fountain)
+    - [Hyperspace](#hyperspace)
     - [Links](#links)
     - [Sea Anemone](#sea-anemone)
+    - [Squares](#squares)
     - [Snow](#snow)
     - [Stars](#stars)
     - [Triangles](#triangles)
@@ -97,6 +99,14 @@ You can find the instructions [here](https://github.com/tsparticles/presets/blob
 
 You can find the instructions [here](https://github.com/tsparticles/presets/blob/main/presets/fountain/README.md)
 
+### Hyperspace
+
+[![jsDelivr](https://data.jsdelivr.com/v1/package/npm/tsparticles-preset-hyperspace/badge)](https://www.jsdelivr.com/package/npm/tsparticles-preset-hyperpsace) [![npmjs](https://badge.fury.io/js/tsparticles-preset-hyperspace.svg)](https://www.npmjs.com/package/tsparticles-preset-hyperspace) [![npmjs](https://img.shields.io/npm/dt/tsparticles-preset-hyperspace)](https://www.npmjs.com/package/tsparticles-preset-hyperspace)
+
+[![demo](https://raw.githubusercontent.com/tsparticles/presets/main/presets/hyperspace/images/sample.png)](https://particles.js.org/samples/presets/hyperspace)
+
+You can find the instructions [here](https://github.com/tsparticles/presets/blob/main/presets/hyperspace/README.md)
+
 ### Links
 
 [![jsDelivr](https://data.jsdelivr.com/v1/package/npm/tsparticles-preset-links/badge)](https://www.jsdelivr.com/package/npm/tsparticles-preset-links) [![npmjs](https://badge.fury.io/js/tsparticles-preset-links.svg)](https://www.npmjs.com/package/tsparticles-preset-links) [![npmjs](https://img.shields.io/npm/dt/tsparticles-preset-links)](https://www.npmjs.com/package/tsparticles-preset-links)
@@ -112,6 +122,14 @@ You can find the instructions [here](https://github.com/tsparticles/presets/blob
 [![demo](https://raw.githubusercontent.com/tsparticles/presets/main/presets/seaAnemone/images/sample.png)](https://particles.js.org/samples/presets/seaAnemone)
 
 You can find the instructions [here](https://github.com/tsparticles/presets/blob/main/presets/seaAnemone/README.md)
+
+### Squares
+
+[![jsDelivr](https://data.jsdelivr.com/v1/package/npm/tsparticles-preset-squares/badge)](https://www.jsdelivr.com/package/npm/tsparticles-preset-squares) [![npmjs](https://badge.fury.io/js/tsparticles-preset-squares.svg)](https://www.npmjs.com/package/tsparticles-preset-squares) [![npmjs](https://img.shields.io/npm/dt/tsparticles-preset-squares)](https://www.npmjs.com/package/tsparticles-preset-squares)
+
+[![demo](https://raw.githubusercontent.com/tsparticles/presets/main/presets/squares/images/sample.png)](https://particles.js.org/samples/presets/squares)
+
+You can find the instructions [here](https://github.com/tsparticles/presets/blob/main/presets/squares/README.md)
 
 ### Snow
 

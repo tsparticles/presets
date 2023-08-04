@@ -173,36 +173,11 @@ end
 
 end
 
-i --> ip
-
-e[tsParticles Engine] --> i
-
-subgraph m [Movers]
-mb[Base]
-end
-
-e --> m
-
-subgraph s [Shapes]
-sc[Circle]
-end
-
-e --> s
-
-subgraph u [Updaters]
-uc[Color]
-uop[Opacity]
-uou[Out Modes]
-usi[Size]
-end
-
-e --> u
+bb[tsParticles Basic] --> i
 
 subgraph pr [Presets]
 prl[Links]
 end
 
-e --> pr
-
-ipl & mb & sc & uc & uop & uou & usi --> prl
+bb & ipl --> prl
 ```
