@@ -27,6 +27,7 @@ from [jsDelivr](https://www.jsdelivr.com/package/npm/tsparticles-preset-sea-anem
 
 ```html
 <script src="https://cdn.jsdelivr.net/npm/tsparticles-engine@2/tsparticles.engine.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/tsparticles-basic@2/tsparticles.basic.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/tsparticles-move-base@2/tsparticles.move.base.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/tsparticles-path-curves@2/tsparticles.path.curves.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/tsparticles-plugin-emitters@2/tsparticles.plugin.emitters.min.js"></script>

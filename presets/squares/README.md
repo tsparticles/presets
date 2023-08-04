@@ -26,13 +26,11 @@ from [jsDelivr](https://www.jsdelivr.com/package/npm/tsparticles-preset-squares)
 
 ```html
 <script src="https://cdn.jsdelivr.net/npm/tsparticles-engine@2/tsparticles.engine.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/tsparticles-move-base@2/tsparticles.move.base.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/tsparticles-shape-circle@2/tsparticles.shape.circle.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/tsparticles-updater-color@2/tsparticles.updater.color.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/tsparticles-updater-opacity@2/tsparticles.updater.opacity.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/tsparticles-updater-out-modes@2/tsparticles.updater.out-modes.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/tsparticles-plugin-emitters@2/tsparticles.plugin.emitters.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/tsparticles-shape-square@2/tsparticles.shape.square.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/tsparticles-updater-rotate@2/tsparticles.updater.rotate.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/tsparticles-updater-size@2/tsparticles.updater.size.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/tsparticles-updater-wobble@2/tsparticles.updater.size.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/tsparticles-updater-stroke-color@2/tsparticles.updater.stroke-color.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/tsparticles-preset-squares@2/tsparticles.preset.squares.min.js"></script>
 ```
 
@@ -69,7 +67,7 @@ You can override all the options defining the properties like in any standard `t
 tsParticles.load("tsparticles", {
   particles: {
     shape: {
-      type: "square", // starting from v2, this require the square shape script
+      type: "circle", // starting from v2, this require the circle shape script
     },
   },
   preset: "squares",
