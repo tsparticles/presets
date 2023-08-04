@@ -96,14 +96,9 @@
   "types": "dist/types/index.d.ts",
   "prettier": "@tsparticles/prettier-config",
   "dependencies": {
-    "tsparticles-engine": "^2.11.0",
-    "tsparticles-move-base": "^2.11.0",
-    "tsparticles-plugin-emitters": "^2.11.0",
-    "tsparticles-shape-circle": "^2.11.0",
-    "tsparticles-updater-color": "^2.11.0",
-    "tsparticles-updater-destroy": "^2.11.0",
-    "tsparticles-updater-opacity": "^2.11.0",
-    "tsparticles-updater-out-modes": "^2.11.0",
-    "tsparticles-updater-size": "^2.11.0"
+    "tsparticles-basic": "^2.12.0",
+    "tsparticles-engine": "^2.12.0",
+    "tsparticles-plugin-emitters": "^2.12.0",
+    "tsparticles-updater-destroy": "^2.12.0"
   }
 }

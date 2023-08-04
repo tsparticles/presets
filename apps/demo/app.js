@@ -39,6 +39,7 @@ app.use("/lodash", express.static("./node_modules/lodash"));
 app.use("/popper.js", express.static("./node_modules/popper.js/dist"));
 app.use("/bootstrap", express.static("./node_modules/bootstrap/dist"));
 app.use("/tsparticles-engine", express.static("./node_modules/tsparticles-engine"));
+app.use("/tsparticles-basic", express.static("./node_modules/tsparticles-basic"));
 app.use("/tsparticles-particles.js", express.static("./node_modules/tsparticles-particles.js"));
 app.use("/tsparticles-slim", express.static("./node_modules/tsparticles-slim"));
 app.use("/tsparticles-confetti", express.static("./node_modules/tsparticles-confetti"));

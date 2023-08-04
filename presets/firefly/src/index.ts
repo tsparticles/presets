@@ -1,11 +1,6 @@
 import type { Engine } from "tsparticles-engine";
-import { loadBaseMover } from "tsparticles-move-base";
-import { loadCircleShape } from "tsparticles-shape-circle";
-import { loadColorUpdater } from "tsparticles-updater-color";
+import { loadBasic } from "tsparticles-basic";
 import { loadExternalTrailInteraction } from "tsparticles-interaction-external-trail";
-import { loadLifeUpdater } from "tsparticles-updater-life";
-import { loadOpacityUpdater } from "tsparticles-updater-opacity";
-import { loadSizeUpdater } from "tsparticles-updater-size";
 import { options } from "./options";
 
 /**
@@ -14,13 +9,8 @@ import { options } from "./options";
  * @param refresh -
  */
 export async function loadFireflyPreset(engine: Engine, refresh = true): Promise<void> {
-    await loadBaseMover(engine, false);
+    await loadBasic(engine, false);
     await loadExternalTrailInteraction(engine, false);
-    await loadCircleShape(engine, false);
-    await loadColorUpdater(engine, false);
-    await loadLifeUpdater(engine, false);
-    await loadOpacityUpdater(engine, false);
-    await loadSizeUpdater(engine, false);
 
     await engine.addPreset("firefly", options, refresh);
 }
