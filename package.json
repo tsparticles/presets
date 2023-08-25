@@ -30,7 +30,7 @@
     "prettier": "^3.0.1",
     "rimraf": "^5.0.1",
     "terser-webpack-plugin": "^5.3.9",
-    "typedoc": "^0.24.8",
+    "typedoc": "^0.25.0",
     "typedoc-plugin-coverage": "^2.1.0",
     "typedoc-plugin-keywords": "^1.4.1",
     "typedoc-plugin-missing-exports": "^2.0.1",
