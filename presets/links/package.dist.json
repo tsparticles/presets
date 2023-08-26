@@ -1,6 +1,6 @@
 {
-  "name": "tsparticles-preset-links",
-  "version": "2.12.0",
+  "name": "@tsparticles/preset-links",
+  "version": "3.0.0-beta.1",
   "description": "tsParticles links preset",
   "homepage": "https://particles.js.org",
   "repository": {
@@ -60,7 +60,7 @@
     "confettijs",
     "fireworksjs",
     "canvas-confetti",
-    "tsparticles-preset"
+    "@tsparticles/preset"
   ],
   "author": "Matteo Bruni <matteo.bruni@me.com>",
   "license": "MIT",
@@ -87,8 +87,8 @@
   "module": "esm/index.js",
   "types": "types/index.d.ts",
   "dependencies": {
-    "tsparticles-basic": "^2.12.0",
-    "tsparticles-engine": "^2.12.0",
-    "tsparticles-interaction-particles-links": "^2.12.0"
+    "@tsparticles/basic": "^3.0.0-beta.1",
+    "@tsparticles/engine": "^3.0.0-beta.1",
+    "@tsparticles/interaction-particles-links": "^3.0.0-beta.1"
   }
 }

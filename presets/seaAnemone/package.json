@@ -1,6 +1,6 @@
 {
-  "name": "tsparticles-preset-sea-anemone",
-  "version": "2.12.0",
+  "name": "@tsparticles/preset-sea-anemone",
+  "version": "3.0.0-beta.1",
   "description": "tsParticles sea anemone preset",
   "homepage": "https://particles.js.org",
   "scripts": {
@@ -66,7 +66,7 @@
     "confettijs",
     "fireworksjs",
     "canvas-confetti",
-    "tsparticles-preset"
+    "@tsparticles/preset"
   ],
   "publishConfig": {
     "directory": "dist",
@@ -96,9 +96,9 @@
   "types": "dist/types/index.d.ts",
   "prettier": "@tsparticles/prettier-config",
   "dependencies": {
-    "tsparticles-basic": "^2.12.0",
-    "tsparticles-engine": "^2.12.0",
-    "tsparticles-path-curves": "^2.12.0",
-    "tsparticles-plugin-emitters": "^2.12.0"
+    "@tsparticles/basic": "^3.0.0-beta.1",
+    "@tsparticles/engine": "^3.0.0-beta.1",
+    "@tsparticles/path-curves": "^3.0.0-beta.1",
+    "@tsparticles/plugin-emitters": "^3.0.0-beta.1"
   }
 }

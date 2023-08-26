@@ -1,6 +1,6 @@
-import type { Engine } from "tsparticles-engine";
-import { loadBasic } from "tsparticles-basic";
-import { loadExternalPushInteraction } from "tsparticles-interaction-external-push";
+import type { Engine } from "@tsparticles/engine";
+import { loadBasic } from "@tsparticles/basic";
+import { loadExternalPushInteraction } from "@tsparticles/interaction-external-push";
 import { options } from "./options";
 
 /**

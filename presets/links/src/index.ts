@@ -1,6 +1,6 @@
-import type { Engine } from "tsparticles-engine";
-import { loadBasic } from "tsparticles-basic";
-import { loadParticlesLinksInteraction } from "tsparticles-interaction-particles-links";
+import type { Engine } from "@tsparticles/engine";
+import { loadBasic } from "@tsparticles/basic";
+import { loadParticlesLinksInteraction } from "@tsparticles/interaction-particles-links";
 import { options } from "./options";
 
 /**

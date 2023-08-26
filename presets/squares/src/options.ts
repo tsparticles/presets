@@ -1,4 +1,4 @@
-import { DestroyType, type ISourceOptions, RotateDirection, StartValueType } from "tsparticles-engine";
+import { DestroyType, type ISourceOptions, RotateDirection, StartValueType } from "@tsparticles/engine";
 
 export const options: ISourceOptions = {
     particles: {

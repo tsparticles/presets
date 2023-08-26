@@ -4,7 +4,7 @@
     "apps/*",
     "presets/*"
   ],
-  "version": "2.12.0",
+  "version": "3.0.0-beta.1",
   "npmClient": "pnpm",
   "conventionalCommits": true,
   "command": {

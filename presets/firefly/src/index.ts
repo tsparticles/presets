@@ -1,6 +1,6 @@
-import type { Engine } from "tsparticles-engine";
-import { loadBasic } from "tsparticles-basic";
-import { loadExternalTrailInteraction } from "tsparticles-interaction-external-trail";
+import type { Engine } from "@tsparticles/engine";
+import { loadBasic } from "@tsparticles/basic";
+import { loadExternalTrailInteraction } from "@tsparticles/interaction-external-trail";
 import { options } from "./options";
 
 /**

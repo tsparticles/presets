@@ -2,7 +2,7 @@
 
 # tsParticles Fireworks Preset
 
-[![jsDelivr](https://data.jsdelivr.com/v1/package/npm/tsparticles-preset-fireworks/badge)](https://www.jsdelivr.com/package/npm/tsparticles-preset-fireworks) [![npmjs](https://badge.fury.io/js/tsparticles-preset-fireworks.svg)](https://www.npmjs.com/package/tsparticles-preset-fireworks) [![npmjs](https://img.shields.io/npm/dt/tsparticles-preset-fireworks)](https://www.npmjs.com/package/tsparticles-preset-fireworks) [![GitHub Sponsors](https://img.shields.io/github/sponsors/matteobruni)](https://github.com/sponsors/matteobruni)
+[![jsDelivr](https://data.jsdelivr.com/v1/package/npm/@tsparticles/preset-fireworks/badge)](https://www.jsdelivr.com/package/npm/@tsparticles/preset-fireworks) [![npmjs](https://badge.fury.io/js/@tsparticles/preset-fireworks.svg)](https://www.npmjs.com/package/@tsparticles/preset-fireworks) [![npmjs](https://img.shields.io/npm/dt/@tsparticles/preset-fireworks)](https://www.npmjs.com/package/@tsparticles/preset-fireworks) [![GitHub Sponsors](https://img.shields.io/github/sponsors/matteobruni)](https://github.com/sponsors/matteobruni)
 
 [tsParticles](https://github.com/matteobruni/tsparticles) preset for fireworks effect.
 
@@ -22,23 +22,23 @@ The first step is installing [tsParticles](https://github.com/matteobruni/tspart
 vanilla javascript in the main project [here](https://github.com/matteobruni/tsparticles)
 
 Once installed you need one more script to be included in your page (or you can download that
-from [jsDelivr](https://www.jsdelivr.com/package/npm/tsparticles-preset-fireworks):
+from [jsDelivr](https://www.jsdelivr.com/package/npm/@tsparticles/preset-fireworks):
 
 ```html
-<script src="https://cdn.jsdelivr.net/npm/tsparticles-engine@2/tsparticles.engine.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/tsparticles-basic@2/tsparticles.basic.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/tsparticles-move-base@2/tsparticles.move.base.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/tsparticles-plugin-emitters@2/tsparticles.plugin.emitters.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/tsparticles-shape-circle@2/tsparticles.shape.circle.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/tsparticles-shape-line@2/tsparticles.shape.line.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/tsparticles-updater-color@2/tsparticles.updater.color.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/tsparticles-updater-life@2/tsparticles.updater.life.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/tsparticles-updater-opacity@2/tsparticles.updater.opacity.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/tsparticles-updater-out-modes@2/tsparticles.updater.out-modes.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/tsparticles-updater-rotate@2/tsparticles.updater.angle.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/tsparticles-updater-size@2/tsparticles.updater.size.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/tsparticles-updater-stroke-color@2/tsparticles.updater.stroke-color.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/tsparticles-preset-fireworks@2/tsparticles.preset.fireworks.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@tsparticles/engine@2/tsparticles.engine.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@tsparticles/basic@2/tsparticles.basic.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@tsparticles/move-base@2/tsparticles.move.base.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@tsparticles/plugin-emitters@2/tsparticles.plugin.emitters.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@tsparticles/shape-circle@2/tsparticles.shape.circle.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@tsparticles/shape-line@2/tsparticles.shape.line.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@tsparticles/updater-color@2/tsparticles.updater.color.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@tsparticles/updater-life@2/tsparticles.updater.life.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@tsparticles/updater-opacity@2/tsparticles.updater.opacity.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@tsparticles/updater-out-modes@2/tsparticles.updater.out-modes.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@tsparticles/updater-rotate@2/tsparticles.updater.angle.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@tsparticles/updater-size@2/tsparticles.updater.size.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@tsparticles/updater-stroke-color@2/tsparticles.updater.stroke-color.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@tsparticles/preset-fireworks@2/tsparticles.preset.fireworks.min.js"></script>
 ```
 
 This script **MUST** be placed after the `tsParticles` one.
@@ -48,7 +48,7 @@ This script **MUST** be placed after the `tsParticles` one.
 A bundled script can also be used, this will include every needed plugin needed by the preset.
 
 ```html
-<script src="https://cdn.jsdelivr.net/npm/tsparticles-preset-fireworks@2/tsparticles.preset.fireworks.bundle.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@tsparticles/preset-fireworks@2/tsparticles.preset.fireworks.bundle.min.js"></script>
 ```
 
 ### Usage
@@ -91,8 +91,8 @@ This sample uses the class component syntax, but you can use hooks as well (if t
 
 ```typescript jsx
 import Particles from "react-particles";
-import type { Engine } from "tsparticles-engine";
-import { loadFireworksPreset } from "tsparticles-preset-fireworks";
+import type { Engine } from "@tsparticles/engine";
+import { loadFireworksPreset } from "@tsparticles/preset-fireworks";
 
 export class ParticlesContainer extends React.PureComponent<IProps> {
   // this customizes the component tsParticles installation

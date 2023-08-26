@@ -2,7 +2,7 @@
 
 # tsParticles Bubbles Preset
 
-[![jsDelivr](https://data.jsdelivr.com/v1/package/npm/tsparticles-preset-bubbles/badge)](https://www.jsdelivr.com/package/npm/tsparticles-preset-bubbles) [![npmjs](https://badge.fury.io/js/tsparticles-preset-bubbles.svg)](https://www.npmjs.com/package/tsparticles-preset-bubbles) [![npmjs](https://img.shields.io/npm/dt/tsparticles-preset-bubbles)](https://www.npmjs.com/package/tsparticles-preset-bubbles) [![GitHub Sponsors](https://img.shields.io/github/sponsors/matteobruni)](https://github.com/sponsors/matteobruni)
+[![jsDelivr](https://data.jsdelivr.com/v1/package/npm/@tsparticles/preset-bubbles/badge)](https://www.jsdelivr.com/package/npm/@tsparticles/preset-bubbles) [![npmjs](https://badge.fury.io/js/@tsparticles/preset-bubbles.svg)](https://www.npmjs.com/package/@tsparticles/preset-bubbles) [![npmjs](https://img.shields.io/npm/dt/@tsparticles/preset-bubbles)](https://www.npmjs.com/package/@tsparticles/preset-bubbles) [![GitHub Sponsors](https://img.shields.io/github/sponsors/matteobruni)](https://github.com/sponsors/matteobruni)
 
 [tsParticles](https://github.com/matteobruni/tsparticles) preset for colored bubbles coming from the bottom of the
 screen on a white background.
@@ -23,19 +23,19 @@ The first step is installing [tsParticles](https://github.com/matteobruni/tspart
 vanilla javascript in the main project [here](https://github.com/matteobruni/tsparticles)
 
 Once installed you need one more script to be included in your page (or you can download that
-from [jsDelivr](https://www.jsdelivr.com/package/npm/tsparticles-preset-bubbles):
+from [jsDelivr](https://www.jsdelivr.com/package/npm/@tsparticles/preset-bubbles):
 
 ```html
-<script src="https://cdn.jsdelivr.net/npm/tsparticles-engine@2/tsparticles.engine.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/tsparticles-basic@2/tsparticles.basic.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/tsparticles-move-base@2/tsparticles.move.base.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/tsparticles-plugin-emitters@2/tsparticles.plugin.emitters.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/tsparticles-shape-circle@2/tsparticles.shape.circle.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/tsparticles-updater-color@2/tsparticles.updater.color.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/tsparticles-updater-opacity@2/tsparticles.updater.opacity.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/tsparticles-updater-out-modes@2/tsparticles.updater.out-modes.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/tsparticles-updater-size@2/tsparticles.updater.size.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/tsparticles-preset-bubbles@2/tsparticles.preset.bubbles.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@tsparticles/engine@2/tsparticles.engine.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@tsparticles/basic@2/tsparticles.basic.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@tsparticles/move-base@2/tsparticles.move.base.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@tsparticles/plugin-emitters@2/tsparticles.plugin.emitters.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@tsparticles/shape-circle@2/tsparticles.shape.circle.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@tsparticles/updater-color@2/tsparticles.updater.color.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@tsparticles/updater-opacity@2/tsparticles.updater.opacity.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@tsparticles/updater-out-modes@2/tsparticles.updater.out-modes.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@tsparticles/updater-size@2/tsparticles.updater.size.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@tsparticles/preset-bubbles@2/tsparticles.preset.bubbles.min.js"></script>
 ```
 
 #### Bundle
@@ -43,7 +43,7 @@ from [jsDelivr](https://www.jsdelivr.com/package/npm/tsparticles-preset-bubbles)
 A bundled script can also be used, this will include every needed plugin needed by the preset.
 
 ```html
-<script src="https://cdn.jsdelivr.net/npm/tsparticles-preset-bubbles@2/tsparticles.preset.bubbles.bundle.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@tsparticles/preset-bubbles@2/tsparticles.preset.bubbles.bundle.min.js"></script>
 ```
 
 ### Usage
@@ -86,8 +86,8 @@ This sample uses the class component syntax, but you can use hooks as well (if t
 
 ```typescript jsx
 import Particles from "react-particles";
-import type { Engine } from "tsparticles-engine";
-import { loadBubblesPreset } from "tsparticles-preset-bubbles";
+import type { Engine } from "@tsparticles/engine";
+import { loadBubblesPreset } from "@tsparticles/preset-bubbles";
 
 export class ParticlesContainer extends React.PureComponent<IProps> {
   // this customizes the component tsParticles installation

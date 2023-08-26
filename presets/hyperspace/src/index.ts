@@ -1,7 +1,7 @@
-import type { Engine } from "tsparticles-engine";
-import { loadBasic } from "tsparticles-basic";
-import { loadEmittersPlugin } from "tsparticles-plugin-emitters";
-import { loadLifeUpdater } from "tsparticles-updater-life";
+import type { Engine } from "@tsparticles/engine";
+import { loadBasic } from "@tsparticles/basic";
+import { loadEmittersPlugin } from "@tsparticles/plugin-emitters";
+import { loadLifeUpdater } from "@tsparticles/updater-life";
 import { options } from "./options";
 
 /**
