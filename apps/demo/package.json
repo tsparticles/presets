@@ -64,7 +64,7 @@
     "@tsparticles/interaction-particles-repulse": "^3.0.0-beta.4",
     "@tsparticles/move-base": "^3.0.0-beta.4",
     "@tsparticles/move-parallax": "^3.0.0-beta.4",
-    "@tsparticles/particles.js": "^3.0.0-beta.4",
+    "@tsparticles/pjs": "^3.0.0-beta.4",
     "@tsparticles/path-curves": "^3.0.0-beta.4",
     "@tsparticles/path-perlin-noise": "^3.0.0-beta.4",
     "@tsparticles/path-polygon": "^3.0.0-beta.4",
