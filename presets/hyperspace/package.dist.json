@@ -90,6 +90,7 @@
     "@tsparticles/basic": "^3.0.0-beta.4",
     "@tsparticles/engine": "^3.0.0-beta.4",
     "@tsparticles/plugin-emitters": "^3.0.0-beta.4",
+    "@tsparticles/plugin-emitters-shape-square": "^3.0.0-beta.4",
     "@tsparticles/updater-life": "^3.0.0-beta.4"
   }
 }

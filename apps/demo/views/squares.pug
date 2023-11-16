@@ -24,18 +24,17 @@ html(lang="en")
         #tsparticles
 
         script(src="/stats.ts/dist/stats.min.js")
-        script(src="/@tsparticles/engine/tsparticles.engine.min.js")
-        script(src="/plugin-emitters/tsparticles.plugin.emitters.min.js")
-        script(src="/shape-square/tsparticles.shape.square.min.js")
-        script(src="/updater-rotate/tsparticles.updater.rotate.min.js")
-        script(src="/updater-size/tsparticles.updater.size.min.js")
-        script(src="/updater-stroke-color/tsparticles.updater.stroke-color.min.js")
-        script(src="/preset-squares/tsparticles.preset.squares.min.js")
+        script(src="/preset-squares/tsparticles.preset.squares.bundle.min.js")
         script.
             (async () => {
                 await loadSquaresPreset(tsParticles);
 
-                await tsParticles.load("tsparticles", { preset: "squares" });
+                await tsParticles.load({
+                    id: "tsparticles",
+                    options: {
+                        preset: "squares"
+                    }
+                });
             })();
 
             const stats = new Stats();
