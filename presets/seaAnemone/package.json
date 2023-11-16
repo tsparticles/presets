@@ -96,9 +96,9 @@
   "types": "dist/types/index.d.ts",
   "prettier": "@tsparticles/prettier-config",
   "dependencies": {
-    "@tsparticles/basic": "^3.0.0-beta.1",
-    "@tsparticles/engine": "^3.0.0-beta.1",
-    "@tsparticles/path-curves": "^3.0.0-beta.1",
-    "@tsparticles/plugin-emitters": "^3.0.0-beta.1"
+    "@tsparticles/basic": "^3.0.0-beta.4",
+    "@tsparticles/engine": "^3.0.0-beta.4",
+    "@tsparticles/path-curves": "^3.0.0-beta.4",
+    "@tsparticles/plugin-emitters": "^3.0.0-beta.4"
   }
 }

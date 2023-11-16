@@ -102,136 +102,136 @@ importers:
   apps/demo:
     dependencies:
       '@tsparticles/basic':
-        specifier: ^3.0.0-beta.1
+        specifier: ^3.0.0-beta.4
         version: 3.0.0-beta.1
       '@tsparticles/confetti':
-        specifier: ^3.0.0-beta.1
+        specifier: ^3.0.0-beta.4
         version: 3.0.0-beta.1
       '@tsparticles/configs':
-        specifier: ^3.0.0-beta.1
+        specifier: ^3.0.0-beta.4
         version: 3.0.0-beta.1
       '@tsparticles/engine':
-        specifier: ^3.0.0-beta.1
+        specifier: ^3.0.0-beta.4
         version: 3.0.0-beta.1
       '@tsparticles/fireworks':
-        specifier: ^3.0.0-beta.1
+        specifier: ^3.0.0-beta.4
         version: 3.0.0-beta.1
       '@tsparticles/interaction-external-attract':
-        specifier: ^3.0.0-beta.1
+        specifier: ^3.0.0-beta.4
         version: 3.0.0-beta.1
       '@tsparticles/interaction-external-bounce':
-        specifier: ^3.0.0-beta.1
+        specifier: ^3.0.0-beta.4
         version: 3.0.0-beta.1
       '@tsparticles/interaction-external-bubble':
-        specifier: ^3.0.0-beta.1
+        specifier: ^3.0.0-beta.4
         version: 3.0.0-beta.1
       '@tsparticles/interaction-external-connect':
-        specifier: ^3.0.0-beta.1
+        specifier: ^3.0.0-beta.4
         version: 3.0.0-beta.1
       '@tsparticles/interaction-external-grab':
-        specifier: ^3.0.0-beta.1
+        specifier: ^3.0.0-beta.4
         version: 3.0.0-beta.1
       '@tsparticles/interaction-external-pause':
-        specifier: ^3.0.0-beta.1
+        specifier: ^3.0.0-beta.4
         version: 3.0.0-beta.1
       '@tsparticles/interaction-external-push':
-        specifier: ^3.0.0-beta.1
+        specifier: ^3.0.0-beta.4
         version: 3.0.0-beta.1
       '@tsparticles/interaction-external-remove':
-        specifier: ^3.0.0-beta.1
+        specifier: ^3.0.0-beta.4
         version: 3.0.0-beta.1
       '@tsparticles/interaction-external-repulse':
-        specifier: ^3.0.0-beta.1
+        specifier: ^3.0.0-beta.4
         version: 3.0.0-beta.1
       '@tsparticles/interaction-external-slow':
-        specifier: ^3.0.0-beta.1
+        specifier: ^3.0.0-beta.4
         version: 3.0.0-beta.1
       '@tsparticles/interaction-external-trail':
-        specifier: ^3.0.0-beta.1
+        specifier: ^3.0.0-beta.4
         version: 3.0.0-beta.1
       '@tsparticles/interaction-light':
-        specifier: ^3.0.0-beta.1
+        specifier: ^3.0.0-beta.4
         version: 3.0.0-beta.1
       '@tsparticles/interaction-particles-attract':
-        specifier: ^3.0.0-beta.1
+        specifier: ^3.0.0-beta.4
         version: 3.0.0-beta.1
       '@tsparticles/interaction-particles-collisions':
-        specifier: ^3.0.0-beta.1
+        specifier: ^3.0.0-beta.4
         version: 3.0.0-beta.1
       '@tsparticles/interaction-particles-links':
-        specifier: ^3.0.0-beta.1
+        specifier: ^3.0.0-beta.4
         version: 3.0.0-beta.1
       '@tsparticles/interaction-particles-repulse':
-        specifier: ^3.0.0-beta.1
+        specifier: ^3.0.0-beta.4
         version: 3.0.0-beta.1
       '@tsparticles/move-base':
-        specifier: ^3.0.0-beta.1
+        specifier: ^3.0.0-beta.4
         version: 3.0.0-beta.1
       '@tsparticles/move-parallax':
-        specifier: ^3.0.0-beta.1
+        specifier: ^3.0.0-beta.4
         version: 3.0.0-beta.1
       '@tsparticles/particles.js':
-        specifier: ^3.0.0-beta.1
+        specifier: ^3.0.0-beta.4
         version: 3.0.0-beta.1
       '@tsparticles/path-curves':
-        specifier: ^3.0.0-beta.1
+        specifier: ^3.0.0-beta.4
         version: 3.0.0-beta.1
       '@tsparticles/path-perlin-noise':
-        specifier: ^3.0.0-beta.1
+        specifier: ^3.0.0-beta.4
         version: 3.0.0-beta.1
       '@tsparticles/path-polygon':
-        specifier: ^3.0.0-beta.1
+        specifier: ^3.0.0-beta.4
         version: 3.0.0-beta.1
       '@tsparticles/path-simplex-noise':
-        specifier: ^3.0.0-beta.1
+        specifier: ^3.0.0-beta.4
         version: 3.0.0-beta.1
       '@tsparticles/plugin-absorbers':
-        specifier: ^3.0.0-beta.1
+        specifier: ^3.0.0-beta.4
         version: 3.0.0-beta.1
       '@tsparticles/plugin-canvas-mask':
-        specifier: ^3.0.0-beta.1
+        specifier: ^3.0.0-beta.4
         version: 3.0.0-beta.1
       '@tsparticles/plugin-easing-back':
-        specifier: ^3.0.0-beta.1
+        specifier: ^3.0.0-beta.4
         version: 3.0.0-beta.1
       '@tsparticles/plugin-easing-circ':
-        specifier: ^3.0.0-beta.1
+        specifier: ^3.0.0-beta.4
         version: 3.0.0-beta.1
       '@tsparticles/plugin-easing-cubic':
-        specifier: ^3.0.0-beta.1
+        specifier: ^3.0.0-beta.4
         version: 3.0.0-beta.1
       '@tsparticles/plugin-easing-expo':
-        specifier: ^3.0.0-beta.1
+        specifier: ^3.0.0-beta.4
         version: 3.0.0-beta.1
       '@tsparticles/plugin-easing-quad':
-        specifier: ^3.0.0-beta.1
+        specifier: ^3.0.0-beta.4
         version: 3.0.0-beta.1
       '@tsparticles/plugin-easing-quart':
-        specifier: ^3.0.0-beta.1
+        specifier: ^3.0.0-beta.4
         version: 3.0.0-beta.1
       '@tsparticles/plugin-easing-quint':
-        specifier: ^3.0.0-beta.1
+        specifier: ^3.0.0-beta.4
         version: 3.0.0-beta.1
       '@tsparticles/plugin-easing-sine':
-        specifier: ^3.0.0-beta.1
+        specifier: ^3.0.0-beta.4
         version: 3.0.0-beta.1
       '@tsparticles/plugin-emitters':
-        specifier: ^3.0.0-beta.1
+        specifier: ^3.0.0-beta.4
         version: 3.0.0-beta.1
       '@tsparticles/plugin-hsv-color':
-        specifier: ^3.0.0-beta.1
+        specifier: ^3.0.0-beta.4
         version: 3.0.0-beta.1
       '@tsparticles/plugin-infection':
-        specifier: ^3.0.0-beta.1
+        specifier: ^3.0.0-beta.4
         version: 3.0.0-beta.1
       '@tsparticles/plugin-motion':
-        specifier: ^3.0.0-beta.1
+        specifier: ^3.0.0-beta.4
         version: 3.0.0-beta.1
       '@tsparticles/plugin-polygon-mask':
-        specifier: ^3.0.0-beta.1
+        specifier: ^3.0.0-beta.4
         version: 3.0.0-beta.1
       '@tsparticles/plugin-sounds':
-        specifier: ^3.0.0-beta.1
+        specifier: ^3.0.0-beta.4
         version: 3.0.0-beta.1
       '@tsparticles/preset-big-circles':
         specifier: workspace:^
@@ -276,94 +276,94 @@ importers:
         specifier: workspace:^
         version: link:../../presets/triangles/dist
       '@tsparticles/shape-bubble':
-        specifier: ^3.0.0-beta.1
+        specifier: ^3.0.0-beta.4
         version: 3.0.0-beta.1
       '@tsparticles/shape-cards':
-        specifier: ^3.0.0-beta.1
+        specifier: ^3.0.0-beta.4
         version: 3.0.0-beta.1
       '@tsparticles/shape-circle':
-        specifier: ^3.0.0-beta.1
+        specifier: ^3.0.0-beta.4
         version: 3.0.0-beta.1
       '@tsparticles/shape-heart':
-        specifier: ^3.0.0-beta.1
+        specifier: ^3.0.0-beta.4
         version: 3.0.0-beta.1
       '@tsparticles/shape-image':
-        specifier: ^3.0.0-beta.1
+        specifier: ^3.0.0-beta.4
         version: 3.0.0-beta.1
       '@tsparticles/shape-line':
-        specifier: ^3.0.0-beta.1
+        specifier: ^3.0.0-beta.4
         version: 3.0.0-beta.1
       '@tsparticles/shape-multiline-text':
-        specifier: ^3.0.0-beta.1
+        specifier: ^3.0.0-beta.4
         version: 3.0.0-beta.1
       '@tsparticles/shape-path':
-        specifier: ^3.0.0-beta.1
+        specifier: ^3.0.0-beta.4
         version: 3.0.0-beta.1
       '@tsparticles/shape-polygon':
-        specifier: ^3.0.0-beta.1
+        specifier: ^3.0.0-beta.4
         version: 3.0.0-beta.1
       '@tsparticles/shape-rounded-rect':
-        specifier: ^3.0.0-beta.1
+        specifier: ^3.0.0-beta.4
         version: 3.0.0-beta.1
       '@tsparticles/shape-spiral':
-        specifier: ^3.0.0-beta.1
+        specifier: ^3.0.0-beta.4
         version: 3.0.0-beta.1
       '@tsparticles/shape-square':
-        specifier: ^3.0.0-beta.1
+        specifier: ^3.0.0-beta.4
         version: 3.0.0-beta.1
       '@tsparticles/shape-star':
-        specifier: ^3.0.0-beta.1
+        specifier: ^3.0.0-beta.4
         version: 3.0.0-beta.1
       '@tsparticles/shape-text':
-        specifier: ^3.0.0-beta.1
+        specifier: ^3.0.0-beta.4
         version: 3.0.0-beta.1
       '@tsparticles/slim':
-        specifier: ^3.0.0-beta.1
+        specifier: ^3.0.0-beta.4
         version: 3.0.0-beta.1
       '@tsparticles/updater-color':
-        specifier: ^3.0.0-beta.1
+        specifier: ^3.0.0-beta.4
         version: 3.0.0-beta.1
       '@tsparticles/updater-destroy':
-        specifier: ^3.0.0-beta.1
+        specifier: ^3.0.0-beta.4
         version: 3.0.0-beta.1
       '@tsparticles/updater-gradient':
-        specifier: ^3.0.0-beta.1
+        specifier: ^3.0.0-beta.4
         version: 3.0.0-beta.1
       '@tsparticles/updater-life':
-        specifier: ^3.0.0-beta.1
+        specifier: ^3.0.0-beta.4
         version: 3.0.0-beta.1
       '@tsparticles/updater-opacity':
-        specifier: ^3.0.0-beta.1
+        specifier: ^3.0.0-beta.4
         version: 3.0.0-beta.1
       '@tsparticles/updater-orbit':
-        specifier: ^3.0.0-beta.1
+        specifier: ^3.0.0-beta.4
         version: 3.0.0-beta.1
       '@tsparticles/updater-out-modes':
-        specifier: ^3.0.0-beta.1
+        specifier: ^3.0.0-beta.4
         version: 3.0.0-beta.1
       '@tsparticles/updater-roll':
-        specifier: ^3.0.0-beta.1
+        specifier: ^3.0.0-beta.4
         version: 3.0.0-beta.1
       '@tsparticles/updater-rotate':
-        specifier: ^3.0.0-beta.1
+        specifier: ^3.0.0-beta.4
         version: 3.0.0-beta.1
       '@tsparticles/updater-size':
-        specifier: ^3.0.0-beta.1
+        specifier: ^3.0.0-beta.4
         version: 3.0.0-beta.1
       '@tsparticles/updater-stroke-color':
-        specifier: ^3.0.0-beta.1
+        specifier: ^3.0.0-beta.4
         version: 3.0.0-beta.1
       '@tsparticles/updater-tilt':
-        specifier: ^3.0.0-beta.1
+        specifier: ^3.0.0-beta.4
         version: 3.0.0-beta.1
       '@tsparticles/updater-twinkle':
-        specifier: ^3.0.0-beta.1
+        specifier: ^3.0.0-beta.4
         version: 3.0.0-beta.1
       '@tsparticles/updater-wobble':
-        specifier: ^3.0.0-beta.1
+        specifier: ^3.0.0-beta.4
         version: 3.0.0-beta.1
       tsparticles:
-        specifier: ^3.0.0-beta.1
+        specifier: ^3.0.0-beta.4
         version: 3.0.0-beta.1
     devDependencies:
       '@fortawesome/fontawesome-free':
@@ -418,236 +418,236 @@ importers:
   presets/bigCircles:
     dependencies:
       '@tsparticles/basic':
-        specifier: ^3.0.0-beta.1
+        specifier: ^3.0.0-beta.4
         version: 3.0.0-beta.1
       '@tsparticles/engine':
-        specifier: ^3.0.0-beta.1
+        specifier: ^3.0.0-beta.4
         version: 3.0.0-beta.1
       '@tsparticles/plugin-emitters':
-        specifier: ^3.0.0-beta.1
+        specifier: ^3.0.0-beta.4
         version: 3.0.0-beta.1
     publishDirectory: dist
 
   presets/bubbles:
     dependencies:
       '@tsparticles/basic':
-        specifier: ^3.0.0-beta.1
+        specifier: ^3.0.0-beta.4
         version: 3.0.0-beta.1
       '@tsparticles/engine':
-        specifier: ^3.0.0-beta.1
+        specifier: ^3.0.0-beta.4
         version: 3.0.0-beta.1
       '@tsparticles/plugin-emitters':
-        specifier: ^3.0.0-beta.1
+        specifier: ^3.0.0-beta.4
         version: 3.0.0-beta.1
     publishDirectory: dist
 
   presets/confetti:
     dependencies:
       '@tsparticles/basic':
-        specifier: ^3.0.0-beta.1
+        specifier: ^3.0.0-beta.4
         version: 3.0.0-beta.1
       '@tsparticles/engine':
-        specifier: ^3.0.0-beta.1
+        specifier: ^3.0.0-beta.4
         version: 3.0.0-beta.1
       '@tsparticles/plugin-emitters':
-        specifier: ^3.0.0-beta.1
+        specifier: ^3.0.0-beta.4
         version: 3.0.0-beta.1
       '@tsparticles/plugin-motion':
-        specifier: ^3.0.0-beta.1
+        specifier: ^3.0.0-beta.4
         version: 3.0.0-beta.1
       '@tsparticles/shape-square':
-        specifier: ^3.0.0-beta.1
+        specifier: ^3.0.0-beta.4
         version: 3.0.0-beta.1
       '@tsparticles/updater-life':
-        specifier: ^3.0.0-beta.1
+        specifier: ^3.0.0-beta.4
         version: 3.0.0-beta.1
       '@tsparticles/updater-roll':
-        specifier: ^3.0.0-beta.1
+        specifier: ^3.0.0-beta.4
         version: 3.0.0-beta.1
       '@tsparticles/updater-rotate':
-        specifier: ^3.0.0-beta.1
+        specifier: ^3.0.0-beta.4
         version: 3.0.0-beta.1
       '@tsparticles/updater-tilt':
-        specifier: ^3.0.0-beta.1
+        specifier: ^3.0.0-beta.4
         version: 3.0.0-beta.1
       '@tsparticles/updater-wobble':
-        specifier: ^3.0.0-beta.1
+        specifier: ^3.0.0-beta.4
         version: 3.0.0-beta.1
     publishDirectory: dist
 
   presets/fire:
     dependencies:
       '@tsparticles/basic':
-        specifier: ^3.0.0-beta.1
+        specifier: ^3.0.0-beta.4
         version: 3.0.0-beta.1
       '@tsparticles/engine':
-        specifier: ^3.0.0-beta.1
+        specifier: ^3.0.0-beta.4
         version: 3.0.0-beta.1
       '@tsparticles/interaction-external-push':
-        specifier: ^3.0.0-beta.1
+        specifier: ^3.0.0-beta.4
         version: 3.0.0-beta.1
     publishDirectory: dist
 
   presets/firefly:
     dependencies:
       '@tsparticles/basic':
-        specifier: ^3.0.0-beta.1
+        specifier: ^3.0.0-beta.4
         version: 3.0.0-beta.1
       '@tsparticles/engine':
-        specifier: ^3.0.0-beta.1
+        specifier: ^3.0.0-beta.4
         version: 3.0.0-beta.1
       '@tsparticles/interaction-external-trail':
-        specifier: ^3.0.0-beta.1
+        specifier: ^3.0.0-beta.4
         version: 3.0.0-beta.1
     publishDirectory: dist
 
   presets/fireworks:
     dependencies:
       '@tsparticles/basic':
-        specifier: ^3.0.0-beta.1
+        specifier: ^3.0.0-beta.4
         version: 3.0.0-beta.1
       '@tsparticles/engine':
-        specifier: ^3.0.0-beta.1
+        specifier: ^3.0.0-beta.4
         version: 3.0.0-beta.1
       '@tsparticles/plugin-emitters':
-        specifier: ^3.0.0-beta.1
+        specifier: ^3.0.0-beta.4
         version: 3.0.0-beta.1
       '@tsparticles/plugin-sounds':
-        specifier: ^3.0.0-beta.1
+        specifier: ^3.0.0-beta.4
         version: 3.0.0-beta.1
       '@tsparticles/shape-line':
-        specifier: ^3.0.0-beta.1
+        specifier: ^3.0.0-beta.4
         version: 3.0.0-beta.1
       '@tsparticles/updater-destroy':
-        specifier: ^3.0.0-beta.1
+        specifier: ^3.0.0-beta.4
         version: 3.0.0-beta.1
       '@tsparticles/updater-life':
-        specifier: ^3.0.0-beta.1
+        specifier: ^3.0.0-beta.4
         version: 3.0.0-beta.1
       '@tsparticles/updater-rotate':
-        specifier: ^3.0.0-beta.1
+        specifier: ^3.0.0-beta.4
         version: 3.0.0-beta.1
       '@tsparticles/updater-stroke-color':
-        specifier: ^3.0.0-beta.1
+        specifier: ^3.0.0-beta.4
         version: 3.0.0-beta.1
     publishDirectory: dist
 
   presets/fountain:
     dependencies:
       '@tsparticles/basic':
-        specifier: ^3.0.0-beta.1
+        specifier: ^3.0.0-beta.4
         version: 3.0.0-beta.1
       '@tsparticles/engine':
-        specifier: ^3.0.0-beta.1
+        specifier: ^3.0.0-beta.4
         version: 3.0.0-beta.1
       '@tsparticles/plugin-emitters':
-        specifier: ^3.0.0-beta.1
+        specifier: ^3.0.0-beta.4
         version: 3.0.0-beta.1
       '@tsparticles/updater-destroy':
-        specifier: ^3.0.0-beta.1
+        specifier: ^3.0.0-beta.4
         version: 3.0.0-beta.1
     publishDirectory: dist
 
   presets/hyperspace:
     dependencies:
       '@tsparticles/basic':
-        specifier: ^3.0.0-beta.1
+        specifier: ^3.0.0-beta.4
         version: 3.0.0-beta.1
       '@tsparticles/engine':
-        specifier: ^3.0.0-beta.1
+        specifier: ^3.0.0-beta.4
         version: 3.0.0-beta.1
       '@tsparticles/plugin-emitters':
-        specifier: ^3.0.0-beta.1
+        specifier: ^3.0.0-beta.4
         version: 3.0.0-beta.1
       '@tsparticles/updater-life':
-        specifier: ^3.0.0-beta.1
+        specifier: ^3.0.0-beta.4
         version: 3.0.0-beta.1
     publishDirectory: dist
 
   presets/links:
     dependencies:
       '@tsparticles/basic':
-        specifier: ^3.0.0-beta.1
+        specifier: ^3.0.0-beta.4
         version: 3.0.0-beta.1
       '@tsparticles/engine':
-        specifier: ^3.0.0-beta.1
+        specifier: ^3.0.0-beta.4
         version: 3.0.0-beta.1
       '@tsparticles/interaction-particles-links':
-        specifier: ^3.0.0-beta.1
+        specifier: ^3.0.0-beta.4
         version: 3.0.0-beta.1
     publishDirectory: dist
 
   presets/seaAnemone:
     dependencies:
       '@tsparticles/basic':
-        specifier: ^3.0.0-beta.1
+        specifier: ^3.0.0-beta.4
         version: 3.0.0-beta.1
       '@tsparticles/engine':
-        specifier: ^3.0.0-beta.1
+        specifier: ^3.0.0-beta.4
         version: 3.0.0-beta.1
       '@tsparticles/path-curves':
-        specifier: ^3.0.0-beta.1
+        specifier: ^3.0.0-beta.4
         version: 3.0.0-beta.1
       '@tsparticles/plugin-emitters':
-        specifier: ^3.0.0-beta.1
+        specifier: ^3.0.0-beta.4
         version: 3.0.0-beta.1
     publishDirectory: dist
 
   presets/snow:
     dependencies:
       '@tsparticles/basic':
-        specifier: ^3.0.0-beta.1
+        specifier: ^3.0.0-beta.4
         version: 3.0.0-beta.1
       '@tsparticles/engine':
-        specifier: ^3.0.0-beta.1
+        specifier: ^3.0.0-beta.4
         version: 3.0.0-beta.1
       '@tsparticles/updater-wobble':
-        specifier: ^3.0.0-beta.1
+        specifier: ^3.0.0-beta.4
         version: 3.0.0-beta.1
     publishDirectory: dist
 
   presets/squares:
     dependencies:
       '@tsparticles/engine':
-        specifier: ^3.0.0-beta.1
+        specifier: ^3.0.0-beta.4
         version: 3.0.0-beta.1
       '@tsparticles/plugin-emitters':
-        specifier: ^3.0.0-beta.1
+        specifier: ^3.0.0-beta.4
         version: 3.0.0-beta.1
       '@tsparticles/shape-square':
-        specifier: ^3.0.0-beta.1
+        specifier: ^3.0.0-beta.4
         version: 3.0.0-beta.1
       '@tsparticles/updater-rotate':
-        specifier: ^3.0.0-beta.1
+        specifier: ^3.0.0-beta.4
         version: 3.0.0-beta.1
       '@tsparticles/updater-size':
-        specifier: ^3.0.0-beta.1
+        specifier: ^3.0.0-beta.4
         version: 3.0.0-beta.1
       '@tsparticles/updater-stroke-color':
-        specifier: ^3.0.0-beta.1
+        specifier: ^3.0.0-beta.4
         version: 3.0.0-beta.1
     publishDirectory: dist
 
   presets/stars:
     dependencies:
       '@tsparticles/basic':
-        specifier: ^3.0.0-beta.1
+        specifier: ^3.0.0-beta.4
         version: 3.0.0-beta.1
       '@tsparticles/engine':
-        specifier: ^3.0.0-beta.1
+        specifier: ^3.0.0-beta.4
         version: 3.0.0-beta.1
     publishDirectory: dist
 
   presets/triangles:
     dependencies:
       '@tsparticles/basic':
-        specifier: ^3.0.0-beta.1
+        specifier: ^3.0.0-beta.4
         version: 3.0.0-beta.1
       '@tsparticles/engine':
-        specifier: ^3.0.0-beta.1
+        specifier: ^3.0.0-beta.4
         version: 3.0.0-beta.1
       '@tsparticles/interaction-particles-links':
-        specifier: ^3.0.0-beta.1
+        specifier: ^3.0.0-beta.4
         version: 3.0.0-beta.1
     publishDirectory: dist
 

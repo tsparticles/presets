@@ -96,11 +96,11 @@
   "types": "dist/types/index.d.ts",
   "prettier": "@tsparticles/prettier-config",
   "dependencies": {
-    "@tsparticles/engine": "^3.0.0-beta.1",
-    "@tsparticles/plugin-emitters": "^3.0.0-beta.1",
-    "@tsparticles/shape-square": "^3.0.0-beta.1",
-    "@tsparticles/updater-rotate": "^3.0.0-beta.1",
-    "@tsparticles/updater-size": "^3.0.0-beta.1",
-    "@tsparticles/updater-stroke-color": "^3.0.0-beta.1"
+    "@tsparticles/engine": "^3.0.0-beta.4",
+    "@tsparticles/plugin-emitters": "^3.0.0-beta.4",
+    "@tsparticles/shape-square": "^3.0.0-beta.4",
+    "@tsparticles/updater-rotate": "^3.0.0-beta.4",
+    "@tsparticles/updater-size": "^3.0.0-beta.4",
+    "@tsparticles/updater-stroke-color": "^3.0.0-beta.4"
   }
 }
