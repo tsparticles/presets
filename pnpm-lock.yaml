@@ -27,8 +27,8 @@ importers:
         specifier: ^1.12.0
         version: 1.12.0
       '@tsparticles/tsconfig':
-        specifier: ^1.14.0
-        version: 1.14.0
+        specifier: ^2.0.0
+        version: 2.0.0
       '@tsparticles/webpack-plugin':
         specifier: ^1.23.0
         version: 1.23.0
@@ -2679,6 +2679,12 @@ packages:
     resolution: {integrity: sha512-/4Lyy0v55QtWmgzt/oi/wRFXyJGdCY1DLGmqbUNpdWm+URFnADENd1y4kEvuyPEvUKgoU6BxztdYmHZ05EOYjg==}
     dependencies:
       typescript: 5.1.6
+    dev: false
+
+  /@tsparticles/tsconfig@2.0.0:
+    resolution: {integrity: sha512-yWeTlTj13+kpHfeFgqn4XjuzDhvxtSQpBiNRsxPPPpRj3chNRNmzd1Qkq0tn3v1G6LL/Cc6eH+jopsDiCM75nQ==}
+    dependencies:
+      typescript: 5.3.2
     dev: false
 
   /@tsparticles/webpack-plugin@1.23.0:
@@ -9138,6 +9144,12 @@ packages:
 
   /typescript@5.1.6:
     resolution: {integrity: sha512-zaWCozRZ6DLEWAWFrVDz1H6FVXzUSfTy5FUMWsQlU8Ym5JP9eO4xkTIROFCQvhQf61z6O/G6ugw3SgAnvvm+HA==}
+    engines: {node: '>=14.17'}
+    hasBin: true
+    dev: false
+
+  /typescript@5.3.2:
+    resolution: {integrity: sha512-6l+RyNy7oAHDfxC4FzSJcz9vnjTKxrLpDG5M2Vu4SHRVNg6xzqZp6LYSR9zjqQTu8DU/f5xwxUdADOkbrIX2gQ==}
     engines: {node: '>=14.17'}
     hasBin: true
     dev: false
