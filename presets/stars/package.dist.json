@@ -1,6 +1,6 @@
 {
   "name": "@tsparticles/preset-stars",
-  "version": "3.0.0-beta.4",
+  "version": "3.0.0",
   "description": "tsParticles stars preset",
   "homepage": "https://particles.js.org",
   "repository": {
