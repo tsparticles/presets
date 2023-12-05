@@ -90,6 +90,7 @@
     "@tsparticles/basic": "^3.0.0",
     "@tsparticles/engine": "^3.0.0",
     "@tsparticles/plugin-emitters": "^3.0.0",
+    "@tsparticles/plugin-emitters-shape-square": "^3.0.0",
     "@tsparticles/plugin-sounds": "^3.0.0",
     "@tsparticles/shape-line": "^3.0.0",
     "@tsparticles/updater-destroy": "^3.0.0",

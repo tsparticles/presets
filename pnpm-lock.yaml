@@ -293,6 +293,9 @@ importers:
       '@tsparticles/plugin-emitters':
         specifier: ^3.0.0
         version: 3.0.0
+      '@tsparticles/plugin-emitters-shape-square':
+        specifier: ^3.0.0
+        version: 3.0.0
       '@tsparticles/plugin-sounds':
         specifier: ^3.0.0
         version: 3.0.0
