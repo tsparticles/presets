@@ -87,9 +87,9 @@
   "module": "esm/index.js",
   "types": "types/index.d.ts",
   "dependencies": {
-    "@tsparticles/basic": "^3.0.0-beta.4",
-    "@tsparticles/engine": "^3.0.0-beta.4",
-    "@tsparticles/interaction-external-trail": "^3.0.0-beta.4"
+    "@tsparticles/basic": "^3.0.0",
+    "@tsparticles/engine": "^3.0.0",
+    "@tsparticles/interaction-external-trail": "^3.0.0"
   },
   "publishConfig": {
     "access": "public"

@@ -31,7 +31,6 @@ export const options: ISourceOptions = {
                 enable: true,
                 mode: "push",
             },
-            resize: true,
         },
     },
     background: {

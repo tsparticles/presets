@@ -46,7 +46,6 @@ export const options: ISourceOptions = {
                 enable: true,
                 mode: "trail",
             },
-            resize: true,
         },
         modes: {
             trail: {
