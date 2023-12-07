@@ -1,4 +1,4 @@
-import { ClickMode, type ISourceOptions } from "tsparticles-engine";
+import { type ISourceOptions } from "@tsparticles/engine";
 
 export const options: ISourceOptions = {
     fpsLimit: 40,
@@ -29,9 +29,8 @@ export const options: ISourceOptions = {
         events: {
             onClick: {
                 enable: true,
-                mode: ClickMode.push,
+                mode: "push",
             },
-            resize: true,
         },
     },
     background: {

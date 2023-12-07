@@ -14,7 +14,7 @@ import {
     rgbToHsl,
     setRangeValue,
     stringToRgb,
-} from "tsparticles-engine";
+} from "@tsparticles/engine";
 
 const explodeSoundCheck = (args: CustomEventArgs): boolean => {
     const data = args.data as { particle: Particle };
@@ -209,7 +209,9 @@ export const options: ISourceOptions = {
                 top: OutMode.none,
             },
             trail: {
-                fillColor: "#000",
+                fill: {
+                    color: "#000",
+                },
                 enable: true,
                 length: 10,
             },

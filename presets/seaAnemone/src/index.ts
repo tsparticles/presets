@@ -1,8 +1,8 @@
 import { options, presetName } from "./options";
-import type { Engine } from "tsparticles-engine";
-import { loadBasic } from "tsparticles-basic";
-import { loadCurvesPath } from "tsparticles-path-curves";
-import { loadEmittersPlugin } from "tsparticles-plugin-emitters";
+import type { Engine } from "@tsparticles/engine";
+import { loadBasic } from "@tsparticles/basic";
+import { loadCurvesPath } from "@tsparticles/path-curves";
+import { loadEmittersPlugin } from "@tsparticles/plugin-emitters";
 
 /**
  *

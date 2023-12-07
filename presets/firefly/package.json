@@ -1,6 +1,6 @@
 {
-  "name": "tsparticles-preset-firefly",
-  "version": "2.12.0",
+  "name": "@tsparticles/preset-firefly",
+  "version": "3.0.0",
   "description": "tsParticles firefly preset",
   "homepage": "https://particles.js.org",
   "scripts": {
@@ -70,7 +70,8 @@
   ],
   "publishConfig": {
     "directory": "dist",
-    "linkDirectory": true
+    "linkDirectory": true,
+    "access": "public"
   },
   "author": "Matteo Bruni <matteo.bruni@me.com>",
   "license": "MIT",
@@ -96,8 +97,8 @@
   "types": "dist/types/index.d.ts",
   "prettier": "@tsparticles/prettier-config",
   "dependencies": {
-    "tsparticles-basic": "^2.12.0",
-    "tsparticles-engine": "^2.12.0",
-    "tsparticles-interaction-external-trail": "^2.12.0"
+    "@tsparticles/basic": "^3.0.0",
+    "@tsparticles/engine": "^3.0.0",
+    "@tsparticles/interaction-external-trail": "^3.0.0"
   }
 }

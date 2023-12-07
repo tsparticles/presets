@@ -24,22 +24,17 @@ html(lang="en")
         #tsparticles
 
         script(src="/stats.ts/dist/stats.min.js")
-        script(src="/tsparticles-engine/tsparticles.engine.min.js")
-        script(src="/tsparticles-basic/tsparticles.basic.min.js")
-        script(src="/move-base/tsparticles.move.base.min.js")
-        script(src="/plugin-emitters/tsparticles.plugin.emitters.min.js")
-        script(src="/shape-circle/tsparticles.shape.circle.min.js")
-        script(src="/updater-color/tsparticles.updater.color.min.js")
-        script(src="/updater-opacity/tsparticles.updater.opacity.min.js")
-        script(src="/updater-out-modes/tsparticles.updater.out-modes.min.js")
-        script(src="/updater-size/tsparticles.updater.size.min.js")
-        script(src="/path-curves/tsparticles.path.curves.min.js")
-        script(src="/preset-sea-anemone/tsparticles.preset.seaAnemone.min.js")
+        script(src="/preset-sea-anemone/tsparticles.preset.seaAnemone.bundle.min.js")
         script.
             (async () => {
                 await loadSeaAnemonePreset(tsParticles);
 
-                await tsParticles.load("tsparticles", { preset: "seaAnemone" });
+                await tsParticles.load({
+                    id: "tsparticles",
+                    options: {
+                        preset: "seaAnemone"
+                    }
+                });
             })();
 
             const stats = new Stats();

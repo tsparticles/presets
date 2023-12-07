@@ -1,9 +1,9 @@
-import type { Engine } from "tsparticles-engine";
-import { loadEmittersPlugin } from "tsparticles-plugin-emitters";
-import { loadRotateUpdater } from "tsparticles-updater-rotate";
-import { loadSizeUpdater } from "tsparticles-updater-size";
-import { loadSquareShape } from "tsparticles-shape-square";
-import { loadStrokeColorUpdater } from "tsparticles-updater-stroke-color";
+import type { Engine } from "@tsparticles/engine";
+import { loadEmittersPlugin } from "@tsparticles/plugin-emitters";
+import { loadRotateUpdater } from "@tsparticles/updater-rotate";
+import { loadSizeUpdater } from "@tsparticles/updater-size";
+import { loadSquareShape } from "@tsparticles/shape-square";
+import { loadStrokeColorUpdater } from "@tsparticles/updater-stroke-color";
 import { options } from "./options";
 
 /**

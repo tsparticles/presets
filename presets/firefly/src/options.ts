@@ -1,4 +1,4 @@
-import { HoverMode, type ISourceOptions } from "tsparticles-engine";
+import { type ISourceOptions } from "@tsparticles/engine";
 
 export const options: ISourceOptions = {
     fullScreen: {
@@ -44,9 +44,8 @@ export const options: ISourceOptions = {
         events: {
             onHover: {
                 enable: true,
-                mode: HoverMode.trail,
+                mode: "trail",
             },
-            resize: true,
         },
         modes: {
             trail: {

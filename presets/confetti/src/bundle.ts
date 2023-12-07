@@ -1,5 +1,5 @@
 import { loadConfettiPreset } from "./index";
-import { tsParticles } from "tsparticles-engine";
+import { tsParticles } from "@tsparticles/engine";
 
 (async (): Promise<void> => {
     await loadConfettiPreset(tsParticles);

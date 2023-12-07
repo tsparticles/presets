@@ -1,4 +1,4 @@
-import { type ISourceOptions, MoveDirection, OutMode } from "tsparticles-engine";
+import { type ISourceOptions, MoveDirection, OutMode } from "@tsparticles/engine";
 
 export const options: ISourceOptions = {
     fpsLimit: 120,
@@ -16,7 +16,7 @@ export const options: ISourceOptions = {
             type: "circle",
         },
         opacity: {
-            value: 0.5,
+            value: { min: 0.4, max: 0.8 },
         },
         size: {
             value: { min: 200, max: 400 },

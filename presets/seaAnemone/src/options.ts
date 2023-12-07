@@ -1,5 +1,5 @@
-import type { ISourceOptions } from "tsparticles-engine";
-import { curvesPathName } from "tsparticles-path-curves";
+import type { ISourceOptions } from "@tsparticles/engine";
+import { curvesPathName } from "@tsparticles/path-curves";
 
 export const presetName = "seaAnemone";
 
@@ -27,14 +27,16 @@ export const options: ISourceOptions = {
             speed: 2,
             straight: false,
             trail: {
-                fillColor: "#000",
+                fill: {
+                    color: "#000",
+                },
                 length: 30,
                 enable: true,
             },
         },
         number: {
             value: 0,
-            limit: 300,
+            limit: { value: 300 },
         },
         opacity: {
             value: 1,

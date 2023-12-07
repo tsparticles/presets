@@ -1,6 +1,6 @@
 {
-  "name": "tsparticles-preset-fireworks",
-  "version": "2.12.0",
+  "name": "@tsparticles/preset-fireworks",
+  "version": "3.0.0",
   "description": "tsParticles fireworks preset",
   "homepage": "https://particles.js.org",
   "repository": {
@@ -87,14 +87,18 @@
   "module": "esm/index.js",
   "types": "types/index.d.ts",
   "dependencies": {
-    "tsparticles-basic": "^2.12.0",
-    "tsparticles-engine": "^2.12.0",
-    "tsparticles-plugin-emitters": "^2.12.0",
-    "tsparticles-plugin-sounds": "^2.12.0",
-    "tsparticles-shape-line": "^2.12.0",
-    "tsparticles-updater-destroy": "^2.12.0",
-    "tsparticles-updater-life": "^2.12.0",
-    "tsparticles-updater-rotate": "^2.12.0",
-    "tsparticles-updater-stroke-color": "^2.12.0"
+    "@tsparticles/basic": "^3.0.0",
+    "@tsparticles/engine": "^3.0.0",
+    "@tsparticles/plugin-emitters": "^3.0.0",
+    "@tsparticles/plugin-emitters-shape-square": "^3.0.0",
+    "@tsparticles/plugin-sounds": "^3.0.0",
+    "@tsparticles/shape-line": "^3.0.0",
+    "@tsparticles/updater-destroy": "^3.0.0",
+    "@tsparticles/updater-life": "^3.0.0",
+    "@tsparticles/updater-rotate": "^3.0.0",
+    "@tsparticles/updater-stroke-color": "^3.0.0"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }
