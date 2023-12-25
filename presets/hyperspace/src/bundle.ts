@@ -1,6 +1,6 @@
-import { loadHyperspacePreset } from ".";
+import { loadHyperspacePreset } from "./index.js";
 import { tsParticles } from "@tsparticles/engine";
 
-loadHyperspacePreset(tsParticles);
+void loadHyperspacePreset(tsParticles);
 
 export { loadHyperspacePreset, tsParticles };

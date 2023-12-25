@@ -1,6 +1,6 @@
-import { loadSquaresPreset } from ".";
+import { loadSquaresPreset } from "./index.js";
 import { tsParticles } from "@tsparticles/engine";
 
-loadSquaresPreset(tsParticles);
+void loadSquaresPreset(tsParticles);
 
 export { loadSquaresPreset, tsParticles };

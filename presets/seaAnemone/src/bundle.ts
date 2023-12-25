@@ -1,6 +1,6 @@
-import { loadSeaAnemonePreset } from ".";
+import { loadSeaAnemonePreset } from "./index.js";
 import { tsParticles } from "@tsparticles/engine";
 
-loadSeaAnemonePreset(tsParticles);
+void loadSeaAnemonePreset(tsParticles);
 
 export { loadSeaAnemonePreset, tsParticles };

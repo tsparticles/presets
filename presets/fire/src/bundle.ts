@@ -1,6 +1,6 @@
-import { loadFirePreset } from ".";
+import { loadFirePreset } from "./index.js";
 import { tsParticles } from "@tsparticles/engine";
 
-loadFirePreset(tsParticles);
+void loadFirePreset(tsParticles);
 
 export { loadFirePreset, tsParticles };
