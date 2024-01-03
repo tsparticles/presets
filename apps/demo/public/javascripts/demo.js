@@ -344,5 +344,5 @@ function pixelTextFilter(pixel) {
 }
 
 function explodeSoundCheck(args) {
-    return args.data.particle.shape === "line";
+    return args.data.particle.options.move.gravity.inverse;
 }

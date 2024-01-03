@@ -87,9 +87,9 @@
   "module": "esm/index.js",
   "types": "types/index.d.ts",
   "dependencies": {
-    "@tsparticles/basic": "^3.0.0",
-    "@tsparticles/engine": "^3.0.0",
-    "@tsparticles/plugin-emitters": "^3.0.0"
+    "@tsparticles/basic": "^3.0.3",
+    "@tsparticles/engine": "^3.0.3",
+    "@tsparticles/plugin-emitters": "^3.0.3"
   },
   "publishConfig": {
     "access": "public"
