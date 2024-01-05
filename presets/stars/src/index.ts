@@ -1,6 +1,6 @@
 import type { Engine } from "@tsparticles/engine";
 import { loadBasic } from "@tsparticles/basic";
-import { options } from "./options";
+import { options } from "./options.js";
 
 /**
  *

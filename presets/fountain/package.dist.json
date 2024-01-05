@@ -1,6 +1,6 @@
 {
   "name": "@tsparticles/preset-fountain",
-  "version": "3.0.0",
+  "version": "3.0.2",
   "description": "tsParticles fountain preset",
   "homepage": "https://particles.js.org",
   "repository": {
@@ -87,10 +87,10 @@
   "module": "esm/index.js",
   "types": "types/index.d.ts",
   "dependencies": {
-    "@tsparticles/basic": "^3.0.0",
-    "@tsparticles/engine": "^3.0.0",
-    "@tsparticles/plugin-emitters": "^3.0.0",
-    "@tsparticles/updater-destroy": "^3.0.0"
+    "@tsparticles/basic": "^3.0.3",
+    "@tsparticles/engine": "^3.0.3",
+    "@tsparticles/plugin-emitters": "^3.0.3",
+    "@tsparticles/updater-destroy": "^3.0.3"
   },
   "publishConfig": {
     "access": "public"

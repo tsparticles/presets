@@ -4,7 +4,7 @@
 
 [![jsDelivr](https://data.jsdelivr.com/v1/package/npm/@tsparticles/preset-confetti/badge)](https://www.jsdelivr.com/package/npm/@tsparticles/preset-confetti) [![npmjs](https://badge.fury.io/js/@tsparticles/preset-confetti.svg)](https://www.npmjs.com/package/@tsparticles/preset-confetti) [![npmjs](https://img.shields.io/npm/dt/@tsparticles/preset-confetti)](https://www.npmjs.com/package/@tsparticles/preset-confetti) [![GitHub Sponsors](https://img.shields.io/github/sponsors/matteobruni)](https://github.com/sponsors/matteobruni)
 
-[tsParticles](https://github.com/matteobruni/tsparticles) preset for white and red confetti launched from the screen
+[tsParticles](https://github.com/tsparticles/tsparticles) preset for white and red confetti launched from the screen
 center on a transparent background.
 
 [![Slack](https://particles.js.org/images/slack.png)](https://join.slack.com/t/tsparticles/shared_invite/enQtOTcxNTQxNjQ4NzkxLWE2MTZhZWExMWRmOWI5MTMxNjczOGE1Yjk0MjViYjdkYTUzODM3OTc5MGQ5MjFlODc4MzE0N2Q1OWQxZDc1YzI) [![Discord](https://particles.js.org/images/discord.png)](https://discord.gg/hACwv45Hme) [![Telegram](https://particles.js.org/images/telegram.png)](https://t.me/tsparticles)
@@ -13,43 +13,14 @@ center on a transparent background.
 
 ## Sample
 
-[![demo](https://raw.githubusercontent.com/matteobruni/tsparticles/main/presets/confetti/images/sample.png)](https://particles.js.org/samples/presets/confetti)
+[![demo](https://raw.githubusercontent.com/tsparticles/tsparticles/main/presets/confetti/images/sample.png)](https://particles.js.org/samples/presets/confetti)
 
 ## How to use it
 
 ### CDN / Vanilla JS / jQuery
 
-The first step is installing [tsParticles](https://github.com/matteobruni/tsparticles) following the instructions for
-vanilla javascript in the main project [here](https://github.com/matteobruni/tsparticles)
-
-Once added the script you need one more script to be included in your page (or you can download that
-from [jsDelivr](https://www.jsdelivr.com/package/npm/@tsparticles/preset-confetti):
-
 ```html
-<script src="https://cdn.jsdelivr.net/npm/@tsparticles/engine@2/tsparticles.engine.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/@tsparticles/basic@2/tsparticles.basic.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/@tsparticles/move-base@2/tsparticles.move.base.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/@tsparticles/plugin-emitters@2/tsparticles.plugin.emitters.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/@tsparticles/shape-circle@2/tsparticles.shape.circle.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/@tsparticles/shape-square@2/tsparticles.shape.square.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/@tsparticles/updater-color@2/tsparticles.updater.color.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/@tsparticles/updater-life@2/tsparticles.updater.life.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/@tsparticles/updater-opacity@2/tsparticles.updater.opacity.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/@tsparticles/updater-out-modes@2/tsparticles.updater.out-modes.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/@tsparticles/updater-roll@2/tsparticles.updater.roll.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/@tsparticles/updater-rotate@2/tsparticles.updater.angle.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/@tsparticles/updater-size@2/tsparticles.updater.size.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/@tsparticles/updater-tilt@2/tsparticles.updater.tilt.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/@tsparticles/updater-wobble@2/tsparticles.updater.wobble.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/@tsparticles/preset-confetti@2/tsparticles.preset.confetti.min.js"></script>
-```
-
-#### Bundle
-
-A bundled script can also be used, this will include every needed plugin needed by the preset.
-
-```html
-<script src="https://cdn.jsdelivr.net/npm/@tsparticles/preset-confetti@2/tsparticles.preset.confetti.bundle.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@tsparticles/preset-confetti@3/tsparticles.preset.confetti.bundle.min.js"></script>
 ```
 
 ### Usage
@@ -57,25 +28,27 @@ A bundled script can also be used, this will include every needed plugin needed 
 Once the scripts are loaded you can set up `tsParticles` like this:
 
 ```javascript
-(async () => {
-  await loadConfettiPreset(tsParticles); // this is required only if you are not using the bundle script
-
-  await tsParticles.load("tsparticles", {
+tsParticles.load({
+  id: "tsparticles",
+  options: {
     preset: "confetti",
-  });
-})();
+  },
+});
 ```
 
 ### Customization
 
 ```javascript
-tsParticles.load("tsparticles", {
-  particles: {
-    color: {
-      value: ["#0000ff", "#00ff00"],
+tsParticles.load({
+  id: "tsparticles",
+  options: {
+    particles: {
+      color: {
+        value: ["#0000ff", "#00ff00"],
+      },
     },
+    preset: "confetti",
   },
-  preset: "confetti",
 });
 ```
 
@@ -132,13 +105,16 @@ will last forever.
 ###### Sample
 
 ```javascript
-tsParticles.load("tsparticles", {
-  emitters: {
-    life: {
-      duration: 0,
+tsParticles.load({
+  id: "tsparticles",
+  options: {
+    emitters: {
+      life: {
+        duration: 0,
+      },
     },
+    preset: "confetti",
   },
-  preset: "confetti",
 });
 ```
 
@@ -159,22 +135,25 @@ have a random position every "explosion". If a coordinate is set, that will be u
 canvas size.
 
 ```javascript
-tsParticles.load("tsparticles", {
-  emitters: {
-    life: {
-      count: 0,
+tsParticles.load({
+  id: "tsparticles",
+  options: {
+    emitters: {
+      life: {
+        count: 0,
+      },
+      position: {
+        // uncomment only one of these lines,
+        // to have explosions on the x or y axis
+        // centered on the other one
+        // if everything is kept commented,
+        // random positions will be used everytime the cannon fires
+        // x: 50,
+        // y: 50
+      },
     },
-    position: {
-      // uncomment only one of these lines,
-      // to have explosions on the x or y axis
-      // centered on the other one
-      // if everything is kept commented,
-      // random positions will be used everytime the cannon fires
-      // x: 50,
-      // y: 50
-    },
+    preset: "confetti",
   },
-  preset: "confetti",
 });
 ```
 
@@ -189,9 +168,12 @@ First let's start overriding the emitters (cannons) options placing an array ins
 Like this:
 
 ```javascript
-tsParticles.load("tsparticles", {
-  emitters: [],
-  preset: "confetti",
+tsParticles.load({
+  id: "tsparticles",
+  options: {
+    emitters: [],
+    preset: "confetti",
+  },
 });
 ```
 
@@ -202,128 +184,54 @@ Now you can add emitters to the array, using the standard tsParticles emitters o
 ###### Sample
 
 ```javascript
-tsParticles.load("tsparticles", {
-  emitters: [
-    {
-      life: {
-        duration: 5,
-        count: 1,
-      },
-      position: {
-        x: 0,
-        y: 30,
-      },
-      particles: {
-        move: {
-          direction: "top-right",
+tsParticles.load({
+  id: "tsparticles",
+  options: {
+    emitters: [
+      {
+        life: {
+          duration: 5,
+          count: 1,
+        },
+        position: {
+          x: 0,
+          y: 30,
+        },
+        particles: {
+          move: {
+            direction: "top-right",
+          },
         },
       },
-    },
-    {
-      life: {
-        duration: 5,
-        count: 1,
-      },
-      position: {
-        x: 100,
-        y: 30,
-      },
-      particles: {
-        move: {
-          direction: "top-left",
+      {
+        life: {
+          duration: 5,
+          count: 1,
+        },
+        position: {
+          x: 100,
+          y: 30,
+        },
+        particles: {
+          move: {
+            direction: "top-left",
+          },
         },
       },
-    },
-  ],
-  preset: "confetti",
+    ],
+    preset: "confetti",
+  },
 });
 ```
 
 This samples creates two cannons, one on the left and one on the right of the canvas, at 30% of canvas height, shooting
 in opposite directions.
 
-### React.js / Preact / Inferno
+### Frameworks with a tsParticles component library
 
-_The syntax for `React.js`, `Preact` and `Inferno` is the same_.
+Checkout the documentation in the component library repository and call the `loadConfettiPreset` function instead of `loadFull`, `loadSlim` or similar functions.
 
-This sample uses the class component syntax, but you can use hooks as well (if the library supports it).
-
-```typescript jsx
-import Particles from "react-particles";
-import type { Engine } from "@tsparticles/engine";
-import { loadConfettiPreset } from "@tsparticles/preset-confetti";
-
-export class ParticlesContainer extends React.PureComponent<IProps> {
-  // this customizes the component tsParticles installation
-  async customInit(engine: Engine): Promise<void> {
-    // this adds the preset to tsParticles, you can safely use the
-    await loadConfettiPreset(engine);
-  }
-
-  render() {
-    const options = {
-      preset: "confetti",
-    };
-
-    return <Particles options={options} init={this.customInit} />;
-  }
-}
-```
-
-### Vue (2.x and 3.x)
-
-_The syntax for `Vue.js 2.x` and `3.x` is the same_
-
-```vue
-<Particles id="tsparticles" :particlesInit="particlesInit" :options="particlesOptions" />
-```
-
-```ts
-const particlesOptions = {
-  preset: "confetti",
-};
-
-async function particlesInit(engine: Engine): Promise<void> {
-  await loadConfettiPreset(engine);
-}
-```
-
-### Angular
-
-```html
-<ng-particles [id]="id" [options]="particlesOptions" [particlesInit]="particlesInit"></ng-particles>
-```
-
-```ts
-const particlesOptions = {
-  preset: "confetti",
-};
-
-async function particlesInit(engine: Engine): Promise<void> {
-  await loadConfettiPreset(engine);
-}
-```
-
-### Svelte
-
-```sveltehtml
-
-<Particles
-        id="tsparticles"
-        options={options}
-        particlesInit={particlesInit}
-/>
-```
-
-```js
-let particlesOptions = {
-  preset: "confetti",
-};
-
-let particlesInit = async (engine) => {
-  await loadConfettiPreset(engine);
-};
-```
+The options shown above are valid for all the component libraries.
 
 ---
 

@@ -1,6 +1,6 @@
 {
   "name": "@tsparticles/preset-squares",
-  "version": "3.0.0",
+  "version": "3.0.2",
   "description": "tsParticles squares preset",
   "homepage": "https://particles.js.org",
   "repository": {
@@ -87,12 +87,12 @@
   "module": "esm/index.js",
   "types": "types/index.d.ts",
   "dependencies": {
-    "@tsparticles/engine": "^3.0.0",
-    "@tsparticles/plugin-emitters": "^3.0.0",
-    "@tsparticles/shape-square": "^3.0.0",
-    "@tsparticles/updater-rotate": "^3.0.0",
-    "@tsparticles/updater-size": "^3.0.0",
-    "@tsparticles/updater-stroke-color": "^3.0.0"
+    "@tsparticles/engine": "^3.0.3",
+    "@tsparticles/plugin-emitters": "^3.0.3",
+    "@tsparticles/shape-square": "^3.0.3",
+    "@tsparticles/updater-rotate": "^3.0.3",
+    "@tsparticles/updater-size": "^3.0.3",
+    "@tsparticles/updater-stroke-color": "^3.0.3"
   },
   "publishConfig": {
     "access": "public"

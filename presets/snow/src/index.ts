@@ -1,7 +1,7 @@
 import type { Engine } from "@tsparticles/engine";
 import { loadBasic } from "@tsparticles/basic";
 import { loadWobbleUpdater } from "@tsparticles/updater-wobble";
-import { options } from "./options";
+import { options } from "./options.js";
 
 /**
  *

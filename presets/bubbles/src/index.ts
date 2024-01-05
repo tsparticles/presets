@@ -1,7 +1,7 @@
 import type { Engine } from "@tsparticles/engine";
 import { loadBasic } from "@tsparticles/basic";
 import { loadEmittersPlugin } from "@tsparticles/plugin-emitters";
-import { options } from "./options";
+import { options } from "./options.js";
 
 /**
  *

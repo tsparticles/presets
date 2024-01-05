@@ -1,4 +1,4 @@
-import { options, presetName } from "./options";
+import { options, presetName } from "./options.js";
 import type { Engine } from "@tsparticles/engine";
 import { loadBasic } from "@tsparticles/basic";
 import { loadCurvesPath } from "@tsparticles/path-curves";

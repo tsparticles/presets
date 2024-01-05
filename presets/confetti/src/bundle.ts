@@ -1,8 +1,6 @@
-import { loadConfettiPreset } from "./index";
+import { loadConfettiPreset } from "./index.js";
 import { tsParticles } from "@tsparticles/engine";
 
-(async (): Promise<void> => {
-    await loadConfettiPreset(tsParticles);
-})();
+void loadConfettiPreset(tsParticles);
 
 export { loadConfettiPreset, tsParticles };

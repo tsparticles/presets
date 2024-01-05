@@ -4,7 +4,7 @@
 
 [![jsDelivr](https://data.jsdelivr.com/v1/package/npm/@tsparticles/preset-fireworks/badge)](https://www.jsdelivr.com/package/npm/@tsparticles/preset-fireworks) [![npmjs](https://badge.fury.io/js/@tsparticles/preset-fireworks.svg)](https://www.npmjs.com/package/@tsparticles/preset-fireworks) [![npmjs](https://img.shields.io/npm/dt/@tsparticles/preset-fireworks)](https://www.npmjs.com/package/@tsparticles/preset-fireworks) [![GitHub Sponsors](https://img.shields.io/github/sponsors/matteobruni)](https://github.com/sponsors/matteobruni)
 
-[tsParticles](https://github.com/matteobruni/tsparticles) preset for fireworks effect.
+[tsParticles](https://github.com/tsparticles/tsparticles) preset for fireworks effect.
 
 [![Slack](https://particles.js.org/images/slack.png)](https://join.slack.com/t/tsparticles/shared_invite/enQtOTcxNTQxNjQ4NzkxLWE2MTZhZWExMWRmOWI5MTMxNjczOGE1Yjk0MjViYjdkYTUzODM3OTc5MGQ5MjFlODc4MzE0N2Q1OWQxZDc1YzI) [![Discord](https://particles.js.org/images/discord.png)](https://discord.gg/hACwv45Hme) [![Telegram](https://particles.js.org/images/telegram.png)](https://t.me/tsparticles)
 
@@ -12,43 +12,14 @@
 
 ## Sample
 
-[![demo](https://raw.githubusercontent.com/matteobruni/tsparticles/main/presets/fireworks/images/sample.png)](https://particles.js.org/samples/presets/fireworks)
+[![demo](https://raw.githubusercontent.com/tsparticles/tsparticles/main/presets/fireworks/images/sample.png)](https://particles.js.org/samples/presets/fireworks)
 
 ## How to use it
 
 ### CDN / Vanilla JS / jQuery
 
-The first step is installing [tsParticles](https://github.com/matteobruni/tsparticles) following the instructions for
-vanilla javascript in the main project [here](https://github.com/matteobruni/tsparticles)
-
-Once installed you need one more script to be included in your page (or you can download that
-from [jsDelivr](https://www.jsdelivr.com/package/npm/@tsparticles/preset-fireworks):
-
 ```html
-<script src="https://cdn.jsdelivr.net/npm/@tsparticles/engine@2/tsparticles.engine.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/@tsparticles/basic@2/tsparticles.basic.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/@tsparticles/move-base@2/tsparticles.move.base.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/@tsparticles/plugin-emitters@2/tsparticles.plugin.emitters.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/@tsparticles/shape-circle@2/tsparticles.shape.circle.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/@tsparticles/shape-line@2/tsparticles.shape.line.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/@tsparticles/updater-color@2/tsparticles.updater.color.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/@tsparticles/updater-life@2/tsparticles.updater.life.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/@tsparticles/updater-opacity@2/tsparticles.updater.opacity.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/@tsparticles/updater-out-modes@2/tsparticles.updater.out-modes.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/@tsparticles/updater-rotate@2/tsparticles.updater.angle.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/@tsparticles/updater-size@2/tsparticles.updater.size.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/@tsparticles/updater-stroke-color@2/tsparticles.updater.stroke-color.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/@tsparticles/preset-fireworks@2/tsparticles.preset.fireworks.min.js"></script>
-```
-
-This script **MUST** be placed after the `tsParticles` one.
-
-#### Bundle
-
-A bundled script can also be used, this will include every needed plugin needed by the preset.
-
-```html
-<script src="https://cdn.jsdelivr.net/npm/@tsparticles/preset-fireworks@2/tsparticles.preset.fireworks.bundle.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@tsparticles/preset-fireworks@3/tsparticles.preset.fireworks.bundle.min.js"></script>
 ```
 
 ### Usage
@@ -56,13 +27,12 @@ A bundled script can also be used, this will include every needed plugin needed 
 Once the scripts are loaded you can set up `tsParticles` like this:
 
 ```javascript
-(async () => {
-  await loadFireworksPreset(tsParticles); // this is required only if you are not using the bundle script
-
-  await tsParticles.load("tsparticles", {
+tsParticles.load({
+  id: "tsparticles",
+  options: {
     preset: "fireworks",
-  });
-})();
+  },
+});
 ```
 
 #### Customization
@@ -71,100 +41,26 @@ Once the scripts are loaded you can set up `tsParticles` like this:
 You can override all the options defining the properties like in any standard `tsParticles` installation.
 
 ```javascript
-tsParticles.load("tsparticles", {
-  particles: {
-    shape: {
-      type: "square", // starting from v2, this require the square shape script
+tsParticles.load({
+  id: "tsparticles",
+  options: {
+    particles: {
+      shape: {
+        type: "square", // starting from v2, this require the square shape script
+      },
     },
+    preset: "fireworks",
   },
-  preset: "fireworks",
 });
 ```
 
 Like in the sample above, the circles will be replaced by squares.
 
-### React.js / Preact / Inferno
+### Frameworks with a tsParticles component library
 
-_The syntax for `React.js`, `Preact` and `Inferno` is the same_.
+Checkout the documentation in the component library repository and call the `loadFireworksPreset` function instead of `loadFull`, `loadSlim` or similar functions.
 
-This sample uses the class component syntax, but you can use hooks as well (if the library supports it).
-
-```typescript jsx
-import Particles from "react-particles";
-import type { Engine } from "@tsparticles/engine";
-import { loadFireworksPreset } from "@tsparticles/preset-fireworks";
-
-export class ParticlesContainer extends React.PureComponent<IProps> {
-  // this customizes the component tsParticles installation
-  async customInit(engine: Engine): Promise<void> {
-    // this adds the preset to tsParticles, you can safely use the
-    await loadFireworksPreset(engine);
-  }
-
-  render() {
-    const options = {
-      preset: "fireworks",
-    };
-
-    return <Particles options={options} init={this.customInit} />;
-  }
-}
-```
-
-### Vue (2.x and 3.x)
-
-_The syntax for `Vue.js 2.x` and `3.x` is the same_
-
-```vue
-<Particles id="tsparticles" :particlesInit="particlesInit" :options="particlesOptions" />
-```
-
-```ts
-const particlesOptions = {
-  preset: "fireworks",
-};
-
-async function particlesInit(engine: Engine): Promise<void> {
-  await loadFireworksPreset(engine);
-}
-```
-
-### Angular
-
-```html
-<ng-particles [id]="id" [options]="particlesOptions" [particlesInit]="particlesInit"></ng-particles>
-```
-
-```ts
-const particlesOptions = {
-  preset: "fireworks",
-};
-
-async function particlesInit(engine: Engine): Promise<void> {
-  await loadFireworksPreset(engine);
-}
-```
-
-### Svelte
-
-```sveltehtml
-
-<Particles
-        id="tsparticles"
-        options={particlesOptions}
-        particlesInit={particlesInit}
-/>
-```
-
-```js
-let particlesOptions = {
-  preset: "fireworks",
-};
-
-let particlesInit = async (engine) => {
-  await loadFireworksPreset(engine);
-};
-```
+The options shown above are valid for all the component libraries.
 
 ---
 

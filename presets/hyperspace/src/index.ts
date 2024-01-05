@@ -3,7 +3,7 @@ import { loadBasic } from "@tsparticles/basic";
 import { loadEmittersPlugin } from "@tsparticles/plugin-emitters";
 import { loadEmittersShapeSquare } from "@tsparticles/plugin-emitters-shape-square";
 import { loadLifeUpdater } from "@tsparticles/updater-life";
-import { options } from "./options";
+import { options } from "./options.js";
 
 /**
  *

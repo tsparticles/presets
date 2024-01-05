@@ -8,7 +8,7 @@ import { loadRotateUpdater } from "@tsparticles/updater-rotate";
 import { loadSquareShape } from "@tsparticles/shape-square";
 import { loadTiltUpdater } from "@tsparticles/updater-tilt";
 import { loadWobbleUpdater } from "@tsparticles/updater-wobble";
-import { options } from "./options";
+import { options } from "./options.js";
 
 /**
  *

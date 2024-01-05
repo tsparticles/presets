@@ -3,6 +3,16 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [3.0.2](https://github.com/tsparticles/presets/compare/v3.0.1...v3.0.2) (2024-01-05)
+
+**Note:** Version bump only for package @tsparticles/presets-workspace
+
+## [3.0.1](https://github.com/tsparticles/presets/compare/v3.0.0...v3.0.1) (2023-12-25)
+
+### Bug Fixes
+
+- **deps:** update dependency typedoc to ^0.25.0 ([70b9671](https://github.com/tsparticles/presets/commit/70b9671a08deec7be5b8d098de8fb2ad4bb728e4))
+
 # [3.0.0](https://github.com/tsparticles/presets/compare/v3.0.0-beta.4...v3.0.0) (2023-12-05)
 
 **Note:** Version bump only for package @tsparticles/presets-workspace

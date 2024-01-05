@@ -1,6 +1,6 @@
-import { loadFountainPreset } from ".";
+import { loadFountainPreset } from "./index.js";
 import { tsParticles } from "@tsparticles/engine";
 
-loadFountainPreset(tsParticles);
+void loadFountainPreset(tsParticles);
 
 export { loadFountainPreset, tsParticles };

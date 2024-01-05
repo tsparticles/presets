@@ -1,6 +1,6 @@
-import { loadTrianglesPreset } from ".";
+import { loadTrianglesPreset } from "./index.js";
 import { tsParticles } from "@tsparticles/engine";
 
-loadTrianglesPreset(tsParticles);
+void loadTrianglesPreset(tsParticles);
 
 export { loadTrianglesPreset, tsParticles };

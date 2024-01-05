@@ -1,6 +1,6 @@
-import { loadSnowPreset } from ".";
+import { loadSnowPreset } from "./index.js";
 import { tsParticles } from "@tsparticles/engine";
 
-loadSnowPreset(tsParticles);
+void loadSnowPreset(tsParticles);
 
 export { loadSnowPreset, tsParticles };

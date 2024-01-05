@@ -23,17 +23,19 @@ const explodeSoundCheck = (args: CustomEventArgs): boolean => {
 };
 
 const fixRange = (value: IRangeValue, min: number, max: number): RangeValue => {
-    const diffSMax = value.max > max ? value.max - max : 0;
+    const minValue = 0,
+        diffSMax = value.max > max ? value.max - max : minValue;
+
     let res = setRangeValue(value);
 
     if (diffSMax) {
         res = setRangeValue(value.min - diffSMax, max);
     }
 
-    const diffSMin = value.min < min ? value.min : 0;
+    const diffSMin = value.min < min ? value.min : minValue;
 
     if (diffSMin) {
-        res = setRangeValue(0, value.max + diffSMin);
+        res = setRangeValue(minValue, value.max + diffSMin);
     }
 
     return res;
@@ -48,8 +50,18 @@ const fireworksOptions: RecursivePartial<IParticlesOptions>[] = ["#ff595e", "#ff
         }
 
         const hsl = rgbToHsl(rgb),
-            sRange = fixRange({ min: hsl.s - 30, max: hsl.s + 30 }, 0, 100),
-            lRange = fixRange({ min: hsl.l - 30, max: hsl.l + 30 }, 0, 100);
+            sOffset = 30,
+            lOffset = 30,
+            sBounds: IRangeValue = {
+                min: 0,
+                max: 100,
+            },
+            lBounds: IRangeValue = {
+                min: 0,
+                max: 100,
+            },
+            sRange = fixRange({ min: hsl.s - sOffset, max: hsl.s + sOffset }, sBounds.min, sBounds.max),
+            lRange = fixRange({ min: hsl.l - lOffset, max: hsl.l + lOffset }, lBounds.min, lBounds.max);
 
         return {
             color: {

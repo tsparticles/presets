@@ -4,7 +4,7 @@ import { loadRotateUpdater } from "@tsparticles/updater-rotate";
 import { loadSizeUpdater } from "@tsparticles/updater-size";
 import { loadSquareShape } from "@tsparticles/shape-square";
 import { loadStrokeColorUpdater } from "@tsparticles/updater-stroke-color";
-import { options } from "./options";
+import { options } from "./options.js";
 
 /**
  *

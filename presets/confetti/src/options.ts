@@ -1,5 +1,9 @@
 import type { ISourceOptions } from "@tsparticles/engine";
 
+const lifeDurationNum = 20,
+    lifeDurationFactor = 6,
+    lifeDuration = lifeDurationNum / lifeDurationFactor;
+
 export const options: ISourceOptions = {
     fullScreen: {
         enable: true,
@@ -34,7 +38,7 @@ export const options: ISourceOptions = {
         life: {
             duration: {
                 sync: true,
-                value: 20 / 6,
+                value: lifeDuration,
             },
             count: 1,
         },
