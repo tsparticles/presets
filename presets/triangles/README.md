@@ -4,7 +4,7 @@
 
 [![jsDelivr](https://data.jsdelivr.com/v1/package/npm/@tsparticles/preset-triangles/badge)](https://www.jsdelivr.com/package/npm/@tsparticles/preset-triangles) [![npmjs](https://badge.fury.io/js/@tsparticles/preset-links.svg)](https://www.npmjs.com/package/@tsparticles/preset-links) [![npmjs](https://img.shields.io/npm/dt/@tsparticles/preset-triangles)](https://www.npmjs.com/package/@tsparticles/preset-triangles) [![GitHub Sponsors](https://img.shields.io/github/sponsors/matteobruni)](https://github.com/sponsors/matteobruni)
 
-[tsParticles](https://github.com/matteobruni/tsparticles) preset for creating a particles web created by link lines
+[tsParticles](https://github.com/tsparticles/tsparticles) preset for creating a particles web created by link lines
 between them.
 
 [![Slack](https://particles.js.org/images/slack.png)](https://join.slack.com/t/tsparticles/shared_invite/enQtOTcxNTQxNjQ4NzkxLWE2MTZhZWExMWRmOWI5MTMxNjczOGE1Yjk0MjViYjdkYTUzODM3OTc5MGQ5MjFlODc4MzE0N2Q1OWQxZDc1YzI) [![Discord](https://particles.js.org/images/discord.png)](https://discord.gg/hACwv45Hme) [![Telegram](https://particles.js.org/images/telegram.png)](https://t.me/tsparticles)
@@ -13,39 +13,14 @@ between them.
 
 ## Sample
 
-[![demo](https://raw.githubusercontent.com/matteobruni/tsparticles/main/presets/triangles/images/sample.png)](https://particles.js.org/samples/presets/triangles)
+[![demo](https://raw.githubusercontent.com/tsparticles/tsparticles/main/presets/triangles/images/sample.png)](https://particles.js.org/samples/presets/triangles)
 
 ## How to use it
 
 ### CDN / Vanilla JS / jQuery
 
-The first step is installing [tsParticles](https://github.com/matteobruni/tsparticles) following the instructions for
-vanilla javascript in the main project [here](https://github.com/matteobruni/tsparticles)
-
-Once installed you need one more script to be included in your page (or you can download that
-from [jsDelivr](https://www.jsdelivr.com/package/npm/@tsparticles/preset-triangles):
-
 ```html
-<script src="https://cdn.jsdelivr.net/npm/@tsparticles/engine@2/tsparticles.engine.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/@tsparticles/basic@2/tsparticles.basic.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/@tsparticles/interaction-particles-links@2/tsparticles.interaction.particles.links.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/@tsparticles/move-base@2/tsparticles.move.base.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/@tsparticles/shape-circle@2/tsparticles.shape.circle.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/@tsparticles/updater-color@2/tsparticles.updater.color.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/@tsparticles/updater-opacity@2/tsparticles.updater.opacity.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/@tsparticles/updater-out-modes@2/tsparticles.updater.out-modes.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/@tsparticles/updater-size@2/tsparticles.updater.size.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/@tsparticles/preset-triangles@2/tsparticles.preset.triangles.min.js"></script>
-```
-
-This script **MUST** be placed after the `tsParticles` one.
-
-#### Bundle
-
-A bundled script can also be used, this will include every needed plugin needed by the preset.
-
-```html
-<script src="https://cdn.jsdelivr.net/npm/@tsparticles/preset-triangles@2/tsparticles.preset.triangles.bundle.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@tsparticles/preset-triangles@3/tsparticles.preset.triangles.bundle.min.js"></script>
 ```
 
 ### Usage
@@ -53,13 +28,12 @@ A bundled script can also be used, this will include every needed plugin needed 
 Once the scripts are loaded you can set up `tsParticles` like this:
 
 ```javascript
-(async () => {
-  await loadTrianglesPreset(tsParticles); // this is required only if you are not using the bundle script
-
-  await tsParticles.load("tsparticles", {
+tsParticles.load({
+  id: "tsparticles",
+  options: {
     preset: "triangles",
-  });
-})();
+  },
+});
 ```
 
 #### Customization
@@ -68,100 +42,27 @@ Once the scripts are loaded you can set up `tsParticles` like this:
 You can override all the options defining the properties like in any standard `tsParticles` installation.
 
 ```javascript
-tsParticles.load("tsparticles", {
-  particles: {
-    shape: {
-      type: "square", // starting from v2, this require the square shape script
+tsParticles.load({
+  id: "tsparticles",
+  options: {
+    particles: {
+      shape: {
+        type: "square", // starting from v2, this require the square shape script
+      },
     },
+    preset: "triangles",
   },
-  preset: "triangles",
 });
 ```
 
 Like in the sample above, the circles will be replaced by squares.
 
-### React.js / Preact / Inferno
+### Frameworks with a tsParticles component library
 
-_The syntax for `React.js`, `Preact` and `Inferno` is the same_.
+Checkout the documentation in the component library repository and call the `loadTrianglesPreset` function instead
+of `loadFull`, `loadSlim` or similar functions.
 
-This sample uses the class component syntax, but you can use hooks as well (if the library supports it).
-
-```typescript jsx
-import Particles from "react-particles";
-import type { Engine } from "@tsparticles/engine";
-import { loadTrianglesPreset } from "@tsparticles/preset-triangles";
-
-export class ParticlesContainer extends React.PureComponent<IProps> {
-  // this customizes the component tsParticles installation
-  async customInit(engine: Engine): Promise<void> {
-    // this adds the preset to tsParticles, you can safely use the
-    await loadTrianglesPreset(engine);
-  }
-
-  render() {
-    const options = {
-      preset: "triangles",
-    };
-
-    return <Particles options={options} init={this.customInit} />;
-  }
-}
-```
-
-### Vue (2.x and 3.x)
-
-_The syntax for `Vue.js 2.x` and `3.x` is the same_
-
-```vue
-<Particles id="tsparticles" :particlesInit="particlesInit" :options="particlesOptions" />
-```
-
-```ts
-const particlesOptions = {
-  preset: "triangles",
-};
-
-async function particlesInit(engine: Engine): Promise<void> {
-  await loadTrianglesPreset(engine);
-}
-```
-
-### Angular
-
-```html
-<ng-particles [id]="id" [options]="particlesOptions" [particlesInit]="particlesInit"></ng-particles>
-```
-
-```ts
-const particlesOptions = {
-  preset: "triangles",
-};
-
-async function particlesInit(engine: Engine): Promise<void> {
-  await loadTrianglesPreset(engine);
-}
-```
-
-### Svelte
-
-```sveltehtml
-
-<Particles
-        id="tsparticles"
-        options={particlesOptions}
-        particlesInit={particlesInit}
-/>
-```
-
-```js
-let particlesOptions = {
-  preset: "triangles",
-};
-
-let particlesInit = async (engine) => {
-  await loadTrianglesPreset(engine);
-};
-```
+The options shown above are valid for all the component libraries.
 
 ---
 
