@@ -26,16 +26,14 @@ html(lang="en")
         script(src="/stats.ts/dist/stats.min.js")
         script(src="/preset-snow/tsparticles.preset.snow.bundle.min.js")
         script.
-            (async () => {
-                await loadSnowPreset(tsParticles);
-
+            setTimeout(async () => {
                 await tsParticles.load({
                     id: "tsparticles",
                     options: {
                         preset: "snow"
                     }
                 });
-            })();
+            });
 
             const stats = new Stats();
 

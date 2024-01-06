@@ -12,8 +12,8 @@ import { options } from "./options.js";
  */
 export async function loadHyperspacePreset(engine: Engine, refresh = true): Promise<void> {
     await loadBasic(engine, false);
-    await loadEmittersShapeSquare(engine, false);
     await loadEmittersPlugin(engine, false);
+    await loadEmittersShapeSquare(engine, false);
     await loadLifeUpdater(engine, false);
 
     await engine.addPreset("hyperspace", options, refresh);

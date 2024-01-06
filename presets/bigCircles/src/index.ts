@@ -11,8 +11,8 @@ import { options } from "./options.js";
  */
 export async function loadBigCirclesPreset(engine: Engine, refresh = true): Promise<void> {
     await loadBasic(engine, false);
-    await loadEmittersShapeSquare(engine, false);
     await loadEmittersPlugin(engine, false);
+    await loadEmittersShapeSquare(engine, false);
 
     await engine.addPreset("bigCircles", options, false);
     await engine.addPreset("big-circles", options, refresh);

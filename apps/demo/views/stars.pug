@@ -26,16 +26,14 @@ html(lang="en")
         script(src="/stats.ts/dist/stats.min.js")
         script(src="/preset-stars/tsparticles.preset.stars.bundle.min.js")
         script.
-            (async () => {
-                await loadStarsPreset(tsParticles);
-
+            setTimeout(async () => {
                 await tsParticles.load({
                     id: "tsparticles",
                     options: {
                         preset: "stars"
                     }
                 });
-            })();
+            });
 
             const stats = new Stats();
 
