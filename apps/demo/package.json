@@ -33,7 +33,7 @@
     "jsoneditor": "^10.0.0",
     "livereload": "^0.9.3",
     "lodash": "^4.17.21",
-    "nodemon": "^3.0.2",
+    "nodemon": "^3.0.3",
     "popper.js": "^1.16.1",
     "pug": "^3.0.2",
     "stats.ts": "^1.1.0",

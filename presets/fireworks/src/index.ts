@@ -1,14 +1,4 @@
 import type { Engine } from "@tsparticles/engine";
-import { loadBasic } from "@tsparticles/basic";
-import { loadDestroyUpdater } from "@tsparticles/updater-destroy";
-import { loadEmittersPlugin } from "@tsparticles/plugin-emitters";
-import { loadEmittersShapeSquare } from "@tsparticles/plugin-emitters-shape-square";
-import { loadLifeUpdater } from "@tsparticles/updater-life";
-import { loadLineShape } from "@tsparticles/shape-line";
-import { loadRotateUpdater } from "@tsparticles/updater-rotate";
-import { loadSoundsPlugin } from "@tsparticles/plugin-sounds";
-import { loadStrokeColorUpdater } from "@tsparticles/updater-stroke-color";
-import { options } from "./options.js";
 
 /**
  *
@@ -16,6 +6,17 @@ import { options } from "./options.js";
  * @param refresh -
  */
 export async function loadFireworksPreset(engine: Engine, refresh = true): Promise<void> {
+    const { loadBasic } = await import("@tsparticles/basic"),
+        { loadEmittersPlugin } = await import("@tsparticles/plugin-emitters"),
+        { loadEmittersShapeSquare } = await import("@tsparticles/plugin-emitters-shape-square"),
+        { loadSoundsPlugin } = await import("@tsparticles/plugin-sounds"),
+        { loadLineShape } = await import("@tsparticles/shape-line"),
+        { loadRotateUpdater } = await import("@tsparticles/updater-rotate"),
+        { loadDestroyUpdater } = await import("@tsparticles/updater-destroy"),
+        { loadLifeUpdater } = await import("@tsparticles/updater-life"),
+        { loadStrokeColorUpdater } = await import("@tsparticles/updater-stroke-color"),
+        { options } = await import("./options.js");
+
     await loadBasic(engine, false);
     await loadEmittersPlugin(engine, false);
     await loadEmittersShapeSquare(engine, false);
@@ -26,5 +27,7 @@ export async function loadFireworksPreset(engine: Engine, refresh = true): Promi
     await loadLifeUpdater(engine, false);
     await loadStrokeColorUpdater(engine, false);
 
-    await engine.addPreset("fireworks", options, refresh);
+    await engine.addPreset("fireworks", options, false);
+
+    await engine.refresh(refresh);
 }

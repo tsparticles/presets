@@ -87,9 +87,9 @@
   "module": "esm/index.js",
   "types": "types/index.d.ts",
   "dependencies": {
-    "@tsparticles/basic": "^3.0.3",
-    "@tsparticles/engine": "^3.0.3",
-    "@tsparticles/updater-wobble": "^3.0.3"
+    "@tsparticles/basic": "^3.2.1",
+    "@tsparticles/engine": "^3.2.1",
+    "@tsparticles/updater-wobble": "^3.2.1"
   },
   "publishConfig": {
     "access": "public"

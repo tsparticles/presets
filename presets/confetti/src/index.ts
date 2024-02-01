@@ -1,14 +1,4 @@
 import type { Engine } from "@tsparticles/engine";
-import { loadBasic } from "@tsparticles/basic";
-import { loadEmittersPlugin } from "@tsparticles/plugin-emitters";
-import { loadLifeUpdater } from "@tsparticles/updater-life";
-import { loadMotionPlugin } from "@tsparticles/plugin-motion";
-import { loadRollUpdater } from "@tsparticles/updater-roll";
-import { loadRotateUpdater } from "@tsparticles/updater-rotate";
-import { loadSquareShape } from "@tsparticles/shape-square";
-import { loadTiltUpdater } from "@tsparticles/updater-tilt";
-import { loadWobbleUpdater } from "@tsparticles/updater-wobble";
-import { options } from "./options.js";
 
 /**
  *
@@ -16,6 +6,17 @@ import { options } from "./options.js";
  * @param refresh -
  */
 async function loadPreset(engine: Engine, refresh = true): Promise<void> {
+    const { loadBasic } = await import("@tsparticles/basic"),
+        { loadSquareShape } = await import("@tsparticles/shape-square"),
+        { loadEmittersPlugin } = await import("@tsparticles/plugin-emitters"),
+        { loadMotionPlugin } = await import("@tsparticles/plugin-motion"),
+        { loadWobbleUpdater } = await import("@tsparticles/updater-wobble"),
+        { loadRollUpdater } = await import("@tsparticles/updater-roll"),
+        { loadRotateUpdater } = await import("@tsparticles/updater-rotate"),
+        { loadTiltUpdater } = await import("@tsparticles/updater-tilt"),
+        { loadLifeUpdater } = await import("@tsparticles/updater-life"),
+        { options } = await import("./options.js");
+
     await loadBasic(engine, false);
     await loadSquareShape(engine, false);
     await loadEmittersPlugin(engine, false);
@@ -26,7 +27,9 @@ async function loadPreset(engine: Engine, refresh = true): Promise<void> {
     await loadTiltUpdater(engine, false);
     await loadLifeUpdater(engine, false);
 
-    await engine.addPreset("confetti", options, refresh);
+    await engine.addPreset("confetti", options, false);
+
+    await engine.refresh(refresh);
 }
 
 /**
