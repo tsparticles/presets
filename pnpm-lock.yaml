@@ -200,7 +200,7 @@ importers:
         version: 3.2.1
       '@tsparticles/engine':
         specifier: ^3.2.1
-        version: 3.2.1
+        version: 3.2.2
       '@tsparticles/plugin-emitters':
         specifier: ^3.2.1
         version: 3.2.1
@@ -216,7 +216,7 @@ importers:
         version: 3.2.1
       '@tsparticles/engine':
         specifier: ^3.2.1
-        version: 3.2.1
+        version: 3.2.2
       '@tsparticles/plugin-emitters':
         specifier: ^3.2.1
         version: 3.2.1
@@ -229,7 +229,7 @@ importers:
         version: 3.2.1
       '@tsparticles/engine':
         specifier: ^3.2.1
-        version: 3.2.1
+        version: 3.2.2
       '@tsparticles/plugin-emitters':
         specifier: ^3.2.1
         version: 3.2.1
@@ -263,7 +263,7 @@ importers:
         version: 3.2.1
       '@tsparticles/engine':
         specifier: ^3.2.1
-        version: 3.2.1
+        version: 3.2.2
       '@tsparticles/interaction-external-push':
         specifier: ^3.2.1
         version: 3.2.1
@@ -276,7 +276,7 @@ importers:
         version: 3.2.1
       '@tsparticles/engine':
         specifier: ^3.2.1
-        version: 3.2.1
+        version: 3.2.2
       '@tsparticles/interaction-external-trail':
         specifier: ^3.2.1
         version: 3.2.1
@@ -289,7 +289,7 @@ importers:
         version: 3.2.1
       '@tsparticles/engine':
         specifier: ^3.2.1
-        version: 3.2.1
+        version: 3.2.2
       '@tsparticles/plugin-emitters':
         specifier: ^3.2.1
         version: 3.2.1
@@ -323,7 +323,7 @@ importers:
         version: 3.2.1
       '@tsparticles/engine':
         specifier: ^3.2.1
-        version: 3.2.1
+        version: 3.2.2
       '@tsparticles/plugin-emitters':
         specifier: ^3.2.1
         version: 3.2.1
@@ -339,7 +339,7 @@ importers:
         version: 3.2.1
       '@tsparticles/engine':
         specifier: ^3.2.1
-        version: 3.2.1
+        version: 3.2.2
       '@tsparticles/plugin-emitters':
         specifier: ^3.2.1
         version: 3.2.1
@@ -358,7 +358,7 @@ importers:
         version: 3.2.1
       '@tsparticles/engine':
         specifier: ^3.2.1
-        version: 3.2.1
+        version: 3.2.2
       '@tsparticles/interaction-particles-links':
         specifier: ^3.2.1
         version: 3.2.1
@@ -371,7 +371,7 @@ importers:
         version: 3.2.1
       '@tsparticles/engine':
         specifier: ^3.2.1
-        version: 3.2.1
+        version: 3.2.2
       '@tsparticles/path-curves':
         specifier: ^3.2.1
         version: 3.2.1
@@ -387,7 +387,7 @@ importers:
         version: 3.2.1
       '@tsparticles/engine':
         specifier: ^3.2.1
-        version: 3.2.1
+        version: 3.2.2
       '@tsparticles/updater-wobble':
         specifier: ^3.2.1
         version: 3.2.1
@@ -397,7 +397,7 @@ importers:
     dependencies:
       '@tsparticles/engine':
         specifier: ^3.2.1
-        version: 3.2.1
+        version: 3.2.2
       '@tsparticles/plugin-emitters':
         specifier: ^3.2.1
         version: 3.2.1
@@ -422,7 +422,7 @@ importers:
         version: 3.2.1
       '@tsparticles/engine':
         specifier: ^3.2.1
-        version: 3.2.1
+        version: 3.2.2
     publishDirectory: dist
 
   presets/triangles:
@@ -432,7 +432,7 @@ importers:
         version: 3.2.1
       '@tsparticles/engine':
         specifier: ^3.2.1
-        version: 3.2.1
+        version: 3.2.2
       '@tsparticles/interaction-particles-links':
         specifier: ^3.2.1
         version: 3.2.1
@@ -2471,7 +2471,7 @@ packages:
   /@tsparticles/basic@3.2.1:
     resolution: {integrity: sha512-Hg7qg8bnIjgA+M5+eW49hmm6J2njXW0PfiefO91quujzbY6gKgysuO44j+VKs5lZubUS4m3WybyXuG2qvc0blg==}
     dependencies:
-      '@tsparticles/engine': 3.2.1
+      '@tsparticles/engine': 3.2.2
       '@tsparticles/move-base': 3.2.1
       '@tsparticles/shape-circle': 3.2.1
       '@tsparticles/updater-color': 3.2.1
@@ -2519,8 +2519,8 @@ packages:
       - webpack-dev-server
     dev: false
 
-  /@tsparticles/engine@3.2.1:
-    resolution: {integrity: sha512-mVzdwkOtRdT6/UOS0+GPGcKJsdvYCkqTTwg7df43TfXixsdZedpUkuVg30rwtNhTgPMH2nimOXqx2wmgL7bAZw==}
+  /@tsparticles/engine@3.2.2:
+    resolution: {integrity: sha512-iNLrt104r9CHuZORv+XgEYnfjv/1J6/OgoSCsGUJe2zUxT4ldltlSc+L+MAC68GFo+GVZfSmnPhMFeqtgZKpBw==}
     requiresBuild: true
     dev: false
 
@@ -2546,56 +2546,56 @@ packages:
   /@tsparticles/interaction-external-push@3.2.1:
     resolution: {integrity: sha512-BchfXv/ltD2oec9xz8mg3H8k7N/oYxNb2gTy8zqkdcnXLZzBlST8ApUx+PMvBh2pZ8LaqcGqVw1GK6/2PjL3zA==}
     dependencies:
-      '@tsparticles/engine': 3.2.1
+      '@tsparticles/engine': 3.2.2
     dev: false
 
   /@tsparticles/interaction-external-trail@3.2.1:
     resolution: {integrity: sha512-3VyY+bA2z2QIdskTkUjUBGpcFPTpjWpbsGIzt6rV0VyPdIHI85KPeJaO0dmrNCU4z8qWU2jJDIC3Vzd9OgaAJw==}
     dependencies:
-      '@tsparticles/engine': 3.2.1
+      '@tsparticles/engine': 3.2.2
     dev: false
 
   /@tsparticles/interaction-particles-links@3.2.1:
     resolution: {integrity: sha512-Py4BLQZbcipVyJ1PrIEPbYzzLDBy/jKIdnaGYRBCgZyf4zuTK5UvACPLS5zeiXXzCh4kx3LBM1z96zMOmJdNsw==}
     dependencies:
-      '@tsparticles/engine': 3.2.1
+      '@tsparticles/engine': 3.2.2
     dev: false
 
   /@tsparticles/move-base@3.2.1:
     resolution: {integrity: sha512-R+ALCs7eJTehoNDNJ6kcGESaLY3kNYmj1OkYwe7XIHSYCpRAq93jRj5NEVqrVTxk1ZIPt8pYdkerDlBuSphDEg==}
     dependencies:
-      '@tsparticles/engine': 3.2.1
+      '@tsparticles/engine': 3.2.2
     dev: false
 
   /@tsparticles/path-curves@3.2.1:
     resolution: {integrity: sha512-TjSHNgyrsES3YIgP08VI/dh8doS4WWowBeZ73aH+NY5KrNSvWpa8QdBkQrl569s7BGz+oJa0qm5vH+Vp9v+PZg==}
     dependencies:
-      '@tsparticles/engine': 3.2.1
+      '@tsparticles/engine': 3.2.2
     dev: false
 
   /@tsparticles/plugin-emitters-shape-square@3.2.1:
     resolution: {integrity: sha512-G5/3cuF+AH3JXt+iI4MakQ1SnCFXgSEymp66V+VMzy56SZf7UFYb1p6pZ8pKxVPUJX51xURcOUaT8eXm5Jv2cg==}
     dependencies:
-      '@tsparticles/engine': 3.2.1
+      '@tsparticles/engine': 3.2.2
       '@tsparticles/plugin-emitters': 3.2.1
     dev: false
 
   /@tsparticles/plugin-emitters@3.2.1:
     resolution: {integrity: sha512-b5gBhmSR1eownCEOJj6p4QwFQ9/7Qzk2eboJK23dj3I2ievdPD2Q0l2WL4b6q49SOfmmLcv6wnzWUNN+DKUQdw==}
     dependencies:
-      '@tsparticles/engine': 3.2.1
+      '@tsparticles/engine': 3.2.2
     dev: false
 
   /@tsparticles/plugin-motion@3.2.1:
     resolution: {integrity: sha512-7cqKpbXs6+KueJ1o4J3AOPXAnm9pv2pLoiy9HJsxtBDaJzZXo71qXc4ycLvMPGgYPLoRYjGZPy5jQ0XG70bjrA==}
     dependencies:
-      '@tsparticles/engine': 3.2.1
+      '@tsparticles/engine': 3.2.2
     dev: false
 
   /@tsparticles/plugin-sounds@3.2.1:
     resolution: {integrity: sha512-QrtdhouodiSediebPsttju79AtcnKw27bMk1weSUWrY22+ob0dkEpcjBDumaQ90lKN/xhYZLSoCNfTzYpeyIKw==}
     dependencies:
-      '@tsparticles/engine': 3.2.1
+      '@tsparticles/engine': 3.2.2
     dev: false
 
   /@tsparticles/prettier-config@2.1.0:
@@ -2608,19 +2608,19 @@ packages:
   /@tsparticles/shape-circle@3.2.1:
     resolution: {integrity: sha512-DgO21XrwZ5nX/BfO9ItXV3AEhZmTXX0yHf+ogvKiwkkhd9qqCL9yDSAwwUqOPlU5St6AoAWKp8QCByFE7icl6g==}
     dependencies:
-      '@tsparticles/engine': 3.2.1
+      '@tsparticles/engine': 3.2.2
     dev: false
 
   /@tsparticles/shape-line@3.2.1:
     resolution: {integrity: sha512-q1UWB3OT/MDi7vklEiYFWFyjHAQpkLx/lPCU2yzAxU8ikv6XhrbFMNL1/41ozrKoBIAEA50ADn9s7D8W4ZGq/Q==}
     dependencies:
-      '@tsparticles/engine': 3.2.1
+      '@tsparticles/engine': 3.2.2
     dev: false
 
   /@tsparticles/shape-square@3.2.1:
     resolution: {integrity: sha512-b6QDajcALbOAUsiKipZLrp6rzl5dbDmwWRjkU7dzrnxfWtkQQShxEGVtn0jOGJQnTQOwB/voce1UgAVjvyNDkQ==}
     dependencies:
-      '@tsparticles/engine': 3.2.1
+      '@tsparticles/engine': 3.2.2
     dev: false
 
   /@tsparticles/tsconfig@2.0.1:
@@ -2632,67 +2632,67 @@ packages:
   /@tsparticles/updater-color@3.2.1:
     resolution: {integrity: sha512-IVUMmCR4amASTkZ/Fhs2Zu6VywRjkC54lJNpZ86jNONhzdHC4bGAmporMfEsNoa2stsPRZpMHvQCSD5dYoSbZg==}
     dependencies:
-      '@tsparticles/engine': 3.2.1
+      '@tsparticles/engine': 3.2.2
     dev: false
 
   /@tsparticles/updater-destroy@3.2.1:
     resolution: {integrity: sha512-NlcFMFinyOrhl8ARcW2UvQg3TiPgxp27zrI9hJR1B6pRb42glsqXDMxnCNHQWddLj2xBoCviPJz2mqLMLAzOpw==}
     dependencies:
-      '@tsparticles/engine': 3.2.1
+      '@tsparticles/engine': 3.2.2
     dev: false
 
   /@tsparticles/updater-life@3.2.1:
     resolution: {integrity: sha512-FvdFDvt8zFpel7LgtiVbZil7kkPtom9BVtnIw5r1lGwluSLTkzamwhtvp7KCudSBRZ6PziX4QUWaVk/NI4njxQ==}
     dependencies:
-      '@tsparticles/engine': 3.2.1
+      '@tsparticles/engine': 3.2.2
     dev: false
 
   /@tsparticles/updater-opacity@3.2.1:
     resolution: {integrity: sha512-cvwx21T4bn8s5TArQq3Gq0Zy/WDjqT/S/9jsZcLKC5xgYcpTKptTtWeNaOxSbLR7WRrmIKSx9gUhz6SwHvTePw==}
     dependencies:
-      '@tsparticles/engine': 3.2.1
+      '@tsparticles/engine': 3.2.2
     dev: false
 
   /@tsparticles/updater-out-modes@3.2.1:
     resolution: {integrity: sha512-y1+K05ao6z/oRvl6dBVrXLVQ33Rt9dpPDVJfMeGI9EyafZAzbX28ohBPm+K7pXbXDeoUnSPrKC160KOPPRsGgA==}
     dependencies:
-      '@tsparticles/engine': 3.2.1
+      '@tsparticles/engine': 3.2.2
     dev: false
 
   /@tsparticles/updater-roll@3.2.1:
     resolution: {integrity: sha512-YnxejZHotTDVjKPjaonfWeD93wLV6MUTzF27ei4m8NZzb1oVOvxYPUnOKjzDqBsoD4XOefRRcqoBspYrlDbYTA==}
     dependencies:
-      '@tsparticles/engine': 3.2.1
+      '@tsparticles/engine': 3.2.2
     dev: false
 
   /@tsparticles/updater-rotate@3.2.1:
     resolution: {integrity: sha512-oVHe6kLFTJz6mfuVBImYVxhqFYeres5d3KyptLIzVguSPG5NNN5ZSBULD/CjjSlFeRCaZNdhLGLCvquxaD1/7A==}
     dependencies:
-      '@tsparticles/engine': 3.2.1
+      '@tsparticles/engine': 3.2.2
     dev: false
 
   /@tsparticles/updater-size@3.2.1:
     resolution: {integrity: sha512-GqkNEjGttjQBdFSteZ6WdhciJqKDTniha2B1vHZrEd+XDoSFwb8JwVw+kdMwHshNfsL4cuM3zQypGMVoQOcldg==}
     dependencies:
-      '@tsparticles/engine': 3.2.1
+      '@tsparticles/engine': 3.2.2
     dev: false
 
   /@tsparticles/updater-stroke-color@3.2.1:
     resolution: {integrity: sha512-niG2IVlh8O0xCHnTDtfOXxbMWKESCiXTjRouuJfTch1qDEuIMVOwDpynHAemQcVKLiHLAzfJf2b8A6K74+3N+A==}
     dependencies:
-      '@tsparticles/engine': 3.2.1
+      '@tsparticles/engine': 3.2.2
     dev: false
 
   /@tsparticles/updater-tilt@3.2.1:
     resolution: {integrity: sha512-b5+ni7ZDIdje0MLvP3IWk1sGb25TOssT97e94WPD+0nrie3UYyHSjDMxjydCEux3hB86hibs45p/3zo8jUKjxQ==}
     dependencies:
-      '@tsparticles/engine': 3.2.1
+      '@tsparticles/engine': 3.2.2
     dev: false
 
   /@tsparticles/updater-wobble@3.2.1:
     resolution: {integrity: sha512-GPHrjAy70JQLnvVsle6thH66suEFHzBVT8cFa8QJc0a6hd5reipSls2yo8HLhfsJqjK0h1JgDlb1MGQjlibNgw==}
     dependencies:
-      '@tsparticles/engine': 3.2.1
+      '@tsparticles/engine': 3.2.2
     dev: false
 
   /@tsparticles/webpack-plugin@2.1.5:
