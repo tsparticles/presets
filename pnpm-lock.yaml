@@ -197,7 +197,7 @@ importers:
     dependencies:
       '@tsparticles/basic':
         specifier: ^3.2.1
-        version: 3.2.1
+        version: 3.2.2
       '@tsparticles/engine':
         specifier: ^3.2.1
         version: 3.2.1
@@ -213,7 +213,7 @@ importers:
     dependencies:
       '@tsparticles/basic':
         specifier: ^3.2.1
-        version: 3.2.1
+        version: 3.2.2
       '@tsparticles/engine':
         specifier: ^3.2.1
         version: 3.2.1
@@ -226,7 +226,7 @@ importers:
     dependencies:
       '@tsparticles/basic':
         specifier: ^3.2.1
-        version: 3.2.1
+        version: 3.2.2
       '@tsparticles/engine':
         specifier: ^3.2.1
         version: 3.2.1
@@ -260,7 +260,7 @@ importers:
     dependencies:
       '@tsparticles/basic':
         specifier: ^3.2.1
-        version: 3.2.1
+        version: 3.2.2
       '@tsparticles/engine':
         specifier: ^3.2.1
         version: 3.2.1
@@ -273,7 +273,7 @@ importers:
     dependencies:
       '@tsparticles/basic':
         specifier: ^3.2.1
-        version: 3.2.1
+        version: 3.2.2
       '@tsparticles/engine':
         specifier: ^3.2.1
         version: 3.2.1
@@ -286,7 +286,7 @@ importers:
     dependencies:
       '@tsparticles/basic':
         specifier: ^3.2.1
-        version: 3.2.1
+        version: 3.2.2
       '@tsparticles/engine':
         specifier: ^3.2.1
         version: 3.2.1
@@ -320,7 +320,7 @@ importers:
     dependencies:
       '@tsparticles/basic':
         specifier: ^3.2.1
-        version: 3.2.1
+        version: 3.2.2
       '@tsparticles/engine':
         specifier: ^3.2.1
         version: 3.2.1
@@ -336,7 +336,7 @@ importers:
     dependencies:
       '@tsparticles/basic':
         specifier: ^3.2.1
-        version: 3.2.1
+        version: 3.2.2
       '@tsparticles/engine':
         specifier: ^3.2.1
         version: 3.2.1
@@ -355,7 +355,7 @@ importers:
     dependencies:
       '@tsparticles/basic':
         specifier: ^3.2.1
-        version: 3.2.1
+        version: 3.2.2
       '@tsparticles/engine':
         specifier: ^3.2.1
         version: 3.2.1
@@ -368,7 +368,7 @@ importers:
     dependencies:
       '@tsparticles/basic':
         specifier: ^3.2.1
-        version: 3.2.1
+        version: 3.2.2
       '@tsparticles/engine':
         specifier: ^3.2.1
         version: 3.2.1
@@ -384,7 +384,7 @@ importers:
     dependencies:
       '@tsparticles/basic':
         specifier: ^3.2.1
-        version: 3.2.1
+        version: 3.2.2
       '@tsparticles/engine':
         specifier: ^3.2.1
         version: 3.2.1
@@ -419,7 +419,7 @@ importers:
     dependencies:
       '@tsparticles/basic':
         specifier: ^3.2.1
-        version: 3.2.1
+        version: 3.2.2
       '@tsparticles/engine':
         specifier: ^3.2.1
         version: 3.2.1
@@ -429,7 +429,7 @@ importers:
     dependencies:
       '@tsparticles/basic':
         specifier: ^3.2.1
-        version: 3.2.1
+        version: 3.2.2
       '@tsparticles/engine':
         specifier: ^3.2.1
         version: 3.2.1
@@ -2468,16 +2468,16 @@ packages:
     engines: {node: '>= 10'}
     dev: false
 
-  /@tsparticles/basic@3.2.1:
-    resolution: {integrity: sha512-Hg7qg8bnIjgA+M5+eW49hmm6J2njXW0PfiefO91quujzbY6gKgysuO44j+VKs5lZubUS4m3WybyXuG2qvc0blg==}
+  /@tsparticles/basic@3.2.2:
+    resolution: {integrity: sha512-KhvW6JGpFlrjJeGPShutmUxXqHBZ/rAsxGchtt/DyDEcALt+5xom6WjGvPf3HTnOU8c9+z3HKGe23MtAgDgevg==}
     dependencies:
-      '@tsparticles/engine': 3.2.1
-      '@tsparticles/move-base': 3.2.1
-      '@tsparticles/shape-circle': 3.2.1
-      '@tsparticles/updater-color': 3.2.1
-      '@tsparticles/updater-opacity': 3.2.1
-      '@tsparticles/updater-out-modes': 3.2.1
-      '@tsparticles/updater-size': 3.2.1
+      '@tsparticles/engine': 3.2.2
+      '@tsparticles/move-base': 3.2.2
+      '@tsparticles/shape-circle': 3.2.2
+      '@tsparticles/updater-color': 3.2.2
+      '@tsparticles/updater-opacity': 3.2.2
+      '@tsparticles/updater-out-modes': 3.2.2
+      '@tsparticles/updater-size': 3.2.2
     dev: false
 
   /@tsparticles/cli@2.1.0(webpack-cli@5.1.4):
@@ -2524,6 +2524,11 @@ packages:
     requiresBuild: true
     dev: false
 
+  /@tsparticles/engine@3.2.2:
+    resolution: {integrity: sha512-iNLrt104r9CHuZORv+XgEYnfjv/1J6/OgoSCsGUJe2zUxT4ldltlSc+L+MAC68GFo+GVZfSmnPhMFeqtgZKpBw==}
+    requiresBuild: true
+    dev: false
+
   /@tsparticles/eslint-config@2.1.4:
     resolution: {integrity: sha512-LkI2xd3DHzpCSgA9XfWrhpMp0wDiyZoBNB0ehRm9CqKKEx631GWDkz3QtRc9dlc2rc3e8J1iNUrYIMo28f35iQ==}
     dependencies:
@@ -2561,10 +2566,10 @@ packages:
       '@tsparticles/engine': 3.2.1
     dev: false
 
-  /@tsparticles/move-base@3.2.1:
-    resolution: {integrity: sha512-R+ALCs7eJTehoNDNJ6kcGESaLY3kNYmj1OkYwe7XIHSYCpRAq93jRj5NEVqrVTxk1ZIPt8pYdkerDlBuSphDEg==}
+  /@tsparticles/move-base@3.2.2:
+    resolution: {integrity: sha512-ApyjsCyM9gU+EXXmSCaQXosec20HdiBC2WmQaSwO9EK8ZowUH23NZyQZ4m2hMTwCjMCXzdaIw6JCibedxwlv3A==}
     dependencies:
-      '@tsparticles/engine': 3.2.1
+      '@tsparticles/engine': 3.2.2
     dev: false
 
   /@tsparticles/path-curves@3.2.1:
@@ -2605,10 +2610,10 @@ packages:
       prettier-plugin-multiline-arrays: 3.0.1(prettier@3.2.4)
     dev: false
 
-  /@tsparticles/shape-circle@3.2.1:
-    resolution: {integrity: sha512-DgO21XrwZ5nX/BfO9ItXV3AEhZmTXX0yHf+ogvKiwkkhd9qqCL9yDSAwwUqOPlU5St6AoAWKp8QCByFE7icl6g==}
+  /@tsparticles/shape-circle@3.2.2:
+    resolution: {integrity: sha512-mWSQpb6cYM/Db+xBSaJP8khkQ3Ctxx3cKhiqI6WBlLKwIL5liGwUT6RWypcfoFqRacNpX8OTZo65Tet0J5uAUw==}
     dependencies:
-      '@tsparticles/engine': 3.2.1
+      '@tsparticles/engine': 3.2.2
     dev: false
 
   /@tsparticles/shape-line@3.2.1:
@@ -2629,10 +2634,10 @@ packages:
       typescript: 5.3.3
     dev: false
 
-  /@tsparticles/updater-color@3.2.1:
-    resolution: {integrity: sha512-IVUMmCR4amASTkZ/Fhs2Zu6VywRjkC54lJNpZ86jNONhzdHC4bGAmporMfEsNoa2stsPRZpMHvQCSD5dYoSbZg==}
+  /@tsparticles/updater-color@3.2.2:
+    resolution: {integrity: sha512-hwzuDcyVm2bkUaTBEye5H/+I9RYCSqDwa74ilmHrM0f0hKNiuvg5bGYIDRt0ZDUzWCro7jncvMGmbv8/JjHYsA==}
     dependencies:
-      '@tsparticles/engine': 3.2.1
+      '@tsparticles/engine': 3.2.2
     dev: false
 
   /@tsparticles/updater-destroy@3.2.1:
@@ -2647,16 +2652,16 @@ packages:
       '@tsparticles/engine': 3.2.1
     dev: false
 
-  /@tsparticles/updater-opacity@3.2.1:
-    resolution: {integrity: sha512-cvwx21T4bn8s5TArQq3Gq0Zy/WDjqT/S/9jsZcLKC5xgYcpTKptTtWeNaOxSbLR7WRrmIKSx9gUhz6SwHvTePw==}
+  /@tsparticles/updater-opacity@3.2.2:
+    resolution: {integrity: sha512-x8j4V/o7abMqd7GxMr2PlYWAnK7SX1XzA7CdIU1Vx7rAZ8XlzRQymYuCQ2QXuDmTtXorESm/E/CrRsJ4cxmhPw==}
     dependencies:
-      '@tsparticles/engine': 3.2.1
+      '@tsparticles/engine': 3.2.2
     dev: false
 
-  /@tsparticles/updater-out-modes@3.2.1:
-    resolution: {integrity: sha512-y1+K05ao6z/oRvl6dBVrXLVQ33Rt9dpPDVJfMeGI9EyafZAzbX28ohBPm+K7pXbXDeoUnSPrKC160KOPPRsGgA==}
+  /@tsparticles/updater-out-modes@3.2.2:
+    resolution: {integrity: sha512-0IYu3Y0Ywp90Uh59vFxGOLUmhTIVDKmjEV/WrGAncODWdGIQNSuxmqlCv9Ys2oQ1wvt1AWnwI5LYZA8CoEKWlA==}
     dependencies:
-      '@tsparticles/engine': 3.2.1
+      '@tsparticles/engine': 3.2.2
     dev: false
 
   /@tsparticles/updater-roll@3.2.1:
@@ -2675,6 +2680,12 @@ packages:
     resolution: {integrity: sha512-GqkNEjGttjQBdFSteZ6WdhciJqKDTniha2B1vHZrEd+XDoSFwb8JwVw+kdMwHshNfsL4cuM3zQypGMVoQOcldg==}
     dependencies:
       '@tsparticles/engine': 3.2.1
+    dev: false
+
+  /@tsparticles/updater-size@3.2.2:
+    resolution: {integrity: sha512-FfQSF8uolH8+wtEx5oAltmVUP6eSg7eUH7XyU/yXj++45Lh5+gosdCdbQMT6j3VacG6zYMYlznZkKp1NsBfhAQ==}
+    dependencies:
+      '@tsparticles/engine': 3.2.2
     dev: false
 
   /@tsparticles/updater-stroke-color@3.2.1:
