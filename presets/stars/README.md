@@ -27,12 +27,16 @@
 Once the scripts are loaded you can set up `tsParticles` like this:
 
 ```javascript
-tsParticles.load({
-  id: "tsparticles",
-  options: {
-    preset: "stars",
-  },
-});
+(async () => {
+  await loadStarsPreset(tsParticles);
+
+  await tsParticles.load({
+    id: "tsparticles",
+    options: {
+      preset: "stars",
+    },
+  });
+})();
 ```
 
 #### Customization

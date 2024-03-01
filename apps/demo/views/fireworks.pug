@@ -26,14 +26,18 @@ html(lang="en")
         script(src="/stats.ts/dist/stats.min.js")
         script(src="/preset-fireworks/tsparticles.preset.fireworks.bundle.min.js")
         script.
-            (async () => {
-                await tsParticles.load({
+            (async (engine) => {
+                await loadFireworksPreset(engine);
+
+                await engine.load({
                     id: "tsparticles",
                     options: {
                         preset: "fireworks"
                     }
+                }).then(container => {
+                    console.log(container);
                 });
-            })();
+            })(tsParticles);
 
             const stats = new Stats();
 

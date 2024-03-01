@@ -87,10 +87,10 @@
   "module": "esm/index.js",
   "types": "types/index.d.ts",
   "dependencies": {
-    "@tsparticles/basic": "^3.2.1",
-    "@tsparticles/engine": "^3.2.1",
-    "@tsparticles/plugin-emitters": "^3.2.1",
-    "@tsparticles/plugin-emitters-shape-square": "^3.2.1"
+    "@tsparticles/basic": "^3.3.0",
+    "@tsparticles/engine": "^3.3.0",
+    "@tsparticles/plugin-emitters": "^3.3.0",
+    "@tsparticles/plugin-emitters-shape-square": "^3.3.0"
   },
   "publishConfig": {
     "access": "public"

@@ -8,7 +8,7 @@ import type { Engine } from "@tsparticles/engine";
 export async function loadTrianglesPreset(engine: Engine, refresh = true): Promise<void> {
     const { loadBasic } = await import("@tsparticles/basic"),
         { loadParticlesLinksInteraction } = await import("@tsparticles/interaction-particles-links"),
-        { options } = await import("./options");
+        { options } = await import("./options.js");
 
     await loadBasic(engine, false);
     await loadParticlesLinksInteraction(engine, false);

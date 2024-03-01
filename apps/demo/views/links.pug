@@ -26,14 +26,18 @@ html(lang="en")
         script(src="/stats.ts/dist/stats.min.js")
         script(src="/preset-links/tsparticles.preset.links.bundle.min.js")
         script.
-            setTimeout(async () => {
-                await tsParticles.load({
-                    id: "tsparticles", 
+            (async (engine) => {
+                await loadLinksPreset(engine);
+
+                await engine.load({
+                    id: "tsparticles",
                     options: {
                         preset: "links"
                     }
+                }).then(container => {
+                    console.log(container);
                 });
-            });
+            })(tsParticles);
 
             const stats = new Stats();
 

@@ -11,12 +11,12 @@ export async function loadBigCirclesPreset(engine: Engine, refresh = true): Prom
         { loadEmittersShapeSquare } = await import("@tsparticles/plugin-emitters-shape-square"),
         { options } = await import("./options.js");
 
+    await engine.addPreset("bigCircles", options, false);
+    await engine.addPreset("big-circles", options, false);
+
     await loadBasic(engine, false);
     await loadEmittersPlugin(engine, false);
     await loadEmittersShapeSquare(engine, false);
-
-    await engine.addPreset("bigCircles", options, false);
-    await engine.addPreset("big-circles", options, false);
 
     await engine.refresh(refresh);
 }

@@ -28,12 +28,16 @@ colored like fire and ash sparks.
 Once the scripts are loaded you can set up `tsParticles` like this:
 
 ```javascript
-tsParticles.load({
-  id: "tsparticles",
-  options: {
-    preset: "fire",
-  },
-});
+(async () => {
+  await loadFirePreset(tsParticles);
+
+  await tsParticles.load({
+    id: "tsparticles",
+    options: {
+      preset: "fire",
+    },
+  });
+})();
 ```
 
 #### Customization

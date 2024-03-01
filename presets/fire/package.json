@@ -97,8 +97,8 @@
   "types": "dist/types/index.d.ts",
   "prettier": "@tsparticles/prettier-config",
   "dependencies": {
-    "@tsparticles/basic": "^3.2.1",
-    "@tsparticles/engine": "^3.2.1",
-    "@tsparticles/interaction-external-push": "^3.2.1"
+    "@tsparticles/basic": "^3.3.0",
+    "@tsparticles/engine": "^3.3.0",
+    "@tsparticles/interaction-external-push": "^3.3.0"
   }
 }

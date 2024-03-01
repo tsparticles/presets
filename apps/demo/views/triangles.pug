@@ -26,14 +26,18 @@ html(lang="en")
         script(src="/stats.ts/dist/stats.min.js")
         script(src="/preset-triangles/tsparticles.preset.triangles.bundle.min.js")
         script.
-            setTimeout(async () => {
-                tsParticles.load({
+            (async (engine) => {
+                await loadTrianglesPreset(engine);
+
+                await engine.load({
                     id: "tsparticles",
                     options: {
                         preset: "triangles"
                     }
+                }).then(container => {
+                    console.log(container);
                 });
-            });
+            })(tsParticles);
 
             const stats = new Stats();
 

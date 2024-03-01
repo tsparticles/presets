@@ -28,12 +28,16 @@ that break when hitting the ground.
 Once the scripts are loaded you can set up `tsParticles` like this:
 
 ```javascript
-tsParticles.load({
-  id: "tsparticles",
-  options: {
-    preset: "fountain",
-  },
-});
+(async () => {
+  await loadFountainPreset(tsParticles);
+
+  await tsParticles.load({
+    id: "tsparticles",
+    options: {
+      preset: "fountain",
+    },
+  });
+})();
 ```
 
 #### Customization

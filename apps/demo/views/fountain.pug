@@ -26,14 +26,18 @@ html(lang="en")
         script(src="/stats.ts/dist/stats.min.js")
         script(src="/preset-fountain/tsparticles.preset.fountain.bundle.min.js")
         script.
-            setTimeout(async () => {
-                await tsParticles.load({
+            (async (engine) => {
+                await loadFountainPreset(engine);
+
+                await engine.load({
                     id: "tsparticles",
                     options: {
                         preset: "fountain"
                     }
+                }).then(container => {
+                    console.log(container);
                 });
-            });
+            })(tsParticles);
 
             const stats = new Stats();
 

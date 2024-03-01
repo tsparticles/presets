@@ -1,4 +1,6 @@
 import type { Engine } from "@tsparticles/engine";
+import { loadBasic } from "@tsparticles/basic";
+import { loadExternalPushInteraction } from "@tsparticles/interaction-external-push";
 
 /**
  *
@@ -6,9 +8,7 @@ import type { Engine } from "@tsparticles/engine";
  * @param refresh -
  */
 export async function loadFirePreset(engine: Engine, refresh = true): Promise<void> {
-    const { loadBasic } = await import("@tsparticles/basic"),
-        { loadExternalPushInteraction } = await import("@tsparticles/interaction-external-push"),
-        { options } = await import("./options");
+    const { options } = await import("./options.js");
 
     await loadBasic(engine, false);
     await loadExternalPushInteraction(engine, false);
