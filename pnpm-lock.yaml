@@ -170,7 +170,7 @@ importers:
         version: 3.7.1
       jsoneditor:
         specifier: ^10.0.0
-        version: 10.0.0
+        version: 10.0.1
       livereload:
         specifier: ^0.9.3
         version: 0.9.3
@@ -3596,8 +3596,8 @@ packages:
       negotiator: 0.6.3
     dev: true
 
-  /ace-builds@1.32.5:
-    resolution: {integrity: sha512-Mrh+qTitOomv1kANaRHO6jpxq6j8BzN9Duwb6pmpuB2sAsfv7MHH9j3LpRHS388uid2GisauC682bemmkdNXKg==}
+  /ace-builds@1.32.7:
+    resolution: {integrity: sha512-ziv35kaYELFw4suWlotz/Xsl1/1LhWAbwFoD3zIgCgP9gXGECEsAM4GhiB0T0xZdmQjyv6hmAzO280g0+n4vGw==}
     dev: true
 
   /acorn-import-assertions@1.9.0(acorn@8.11.3):
@@ -6844,15 +6844,15 @@ packages:
     resolution: {integrity: sha512-AilxAyFOAcK5wA1+LeaySVBrHsGQvUFCDWXKpZjzaL0PqW+xfBOttn8GNtWKFWqneyMZj41MWF9Kl6iPWLwgOA==}
     dev: false
 
-  /jsoneditor@10.0.0:
-    resolution: {integrity: sha512-yh/kj/Ecxacj7ZG2ynmJvHcESgdHiAe1N7iKUVIYFpeP4/rwp87yua2y0BDayyY6uJz01KgRvdl4W1Wt94EkOQ==}
+  /jsoneditor@10.0.1:
+    resolution: {integrity: sha512-a9eNs1XegXBrZSMakpDQTCx6z2GyjnbfxDJ9vd2Vn+lD2zORbQ7vyTqSZLI7Ihz8qel1C8KHFy7EFxtp3d++RA==}
     dependencies:
-      ace-builds: 1.32.5
+      ace-builds: 1.32.7
       ajv: 6.12.6
       javascript-natural-sort: 0.7.1
       jmespath: 0.16.0
       json-source-map: 0.6.1
-      jsonrepair: 3.5.0
+      jsonrepair: 3.6.0
       mobius1-selectr: 2.4.13
       picomodal: 3.0.0
       vanilla-picker: 2.12.2
@@ -6871,8 +6871,8 @@ packages:
     engines: {'0': node >= 0.2.0}
     dev: false
 
-  /jsonrepair@3.5.0:
-    resolution: {integrity: sha512-SavvDsUP9Xnqo2MoC6Wl6zNyX3f+I5199hRbXBtAITyP2NTPyAgyx5xM0bgcIljRjzsIvOBANbgfWe8XXlyeLA==}
+  /jsonrepair@3.6.0:
+    resolution: {integrity: sha512-ZvOmoq35LhlDaf1W3uT7e17Bh2dYbln1+pdJ1KUIMkRAoUC4mvXX+dbr9Ih6dDmYvB0mdijAucyPk4xX1cEjww==}
     hasBin: true
     dev: true
 
