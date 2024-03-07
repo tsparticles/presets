@@ -22,7 +22,7 @@ importers:
         version: 2.3.3(webpack-cli@5.1.4)
       '@tsparticles/eslint-config':
         specifier: ^2.1.6
-        version: 2.1.6
+        version: 2.3.0
       '@tsparticles/prettier-config':
         specifier: ^2.1.6
         version: 2.1.6
@@ -3096,25 +3096,6 @@ packages:
     resolution: {integrity: sha512-Sr24epYquTelGrUbMaknXTscib8IMQJrbmShJnEemU+wpZNIPtAh09sQgGtq1pUxrGQRUSQIgaybYuXcNgk8rg==}
     requiresBuild: true
 
-  /@tsparticles/eslint-config@2.1.6:
-    resolution: {integrity: sha512-4EPVoNJFrIBwwsgQ74Xfsk6NGCh6D8C1CbcWJiBeAbsC0mh4SqA0kOHLag4ixs9FJjZmST3xeQcohDcPtuislg==}
-    dependencies:
-      '@tsparticles/prettier-config': 2.1.6
-      '@typescript-eslint/eslint-plugin': 7.1.1(@typescript-eslint/parser@7.1.1)(eslint@8.57.0)(typescript@5.4.2)
-      '@typescript-eslint/parser': 7.1.1(eslint@8.57.0)(typescript@5.4.2)
-      eslint: 8.57.0
-      eslint-config-prettier: 9.1.0(eslint@8.57.0)
-      eslint-plugin-import: 2.29.1(@typescript-eslint/parser@7.1.1)(eslint@8.57.0)
-      eslint-plugin-jsdoc: 48.2.0(eslint@8.57.0)
-      eslint-plugin-tsdoc: 0.2.17
-      prettier: 3.2.5
-      typescript: 5.4.2
-    transitivePeerDependencies:
-      - eslint-import-resolver-typescript
-      - eslint-import-resolver-webpack
-      - supports-color
-    dev: false
-
   /@tsparticles/eslint-config@2.3.0:
     resolution: {integrity: sha512-pIvds4gm+wG7MT/U5u/q/rvzqpy50YymohL6qPTPkVLrP98RIMMrMxtfLLz9jXTJa3m1/DOZsv5m4ZlmYTcNTw==}
     dependencies:
@@ -3294,7 +3275,7 @@ packages:
     dependencies:
       '@babel/core': 7.24.0
       '@babel/preset-env': 7.23.9(@babel/core@7.24.0)
-      '@tsparticles/eslint-config': 2.1.6
+      '@tsparticles/eslint-config': 2.3.0
       '@tsparticles/prettier-config': 2.1.6
       '@types/node': 20.11.25
       '@types/webpack-bundle-analyzer': 4.7.0(webpack-cli@5.1.4)
@@ -3319,6 +3300,7 @@ packages:
       webpack-cli: 5.1.4(webpack-bundle-analyzer@4.10.1)(webpack@5.90.3)
     transitivePeerDependencies:
       - '@swc/core'
+      - '@types/eslint'
       - '@webpack-cli/generators'
       - bufferutil
       - esbuild
