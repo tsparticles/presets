@@ -28,7 +28,7 @@ importers:
         version: 2.1.6
       '@tsparticles/tsconfig':
         specifier: ^2.1.7
-        version: 2.1.7
+        version: 2.3.0
       '@tsparticles/webpack-plugin':
         specifier: ^2.1.6
         version: 2.1.6
@@ -2869,7 +2869,7 @@ packages:
     dependencies:
       '@tsparticles/eslint-config': 2.1.6
       '@tsparticles/prettier-config': 2.1.6
-      '@tsparticles/tsconfig': 2.1.7
+      '@tsparticles/tsconfig': 2.3.0
       '@tsparticles/webpack-plugin': 2.1.6
       '@typescript-eslint/eslint-plugin': 7.1.0(@typescript-eslint/parser@7.1.0)(eslint@8.57.0)(typescript@5.4.2)
       '@typescript-eslint/parser': 7.1.0(eslint@8.57.0)(typescript@5.4.2)
@@ -3006,8 +3006,8 @@ packages:
       '@tsparticles/engine': 3.3.0
     dev: false
 
-  /@tsparticles/tsconfig@2.1.7:
-    resolution: {integrity: sha512-8Iju0CIXcRqrmlPqQsuzNDzhQBNUiAeV39k1Q3tCMQ+acl/Qw9wcUYZvPbtSCUn7oh6ttWYeaQLM28CMHJ2oSw==}
+  /@tsparticles/tsconfig@2.3.0:
+    resolution: {integrity: sha512-XBtRoIQcBzC+R7/tcoYu4+JB9DbVrSbn09IJ+QMyATLZK0P4Expj3Z/hPpJzejWOvepMSYBZlCodnjFQyk17YA==}
     dependencies:
       typescript: 5.4.2
     dev: false
