@@ -161,7 +161,7 @@ importers:
         version: 4.18.3
       express-rate-limit:
         specifier: ^7.1.5
-        version: 7.1.5(express@4.18.3)
+        version: 7.2.0(express@4.18.3)
       helmet:
         specifier: ^7.1.0
         version: 7.1.0
@@ -5526,8 +5526,8 @@ packages:
     resolution: {integrity: sha512-dX7e/LHVJ6W3DE1MHWi9S1EYzDESENfLrYohG2G++ovZrYOkm4Knwa0mc1cn84xJOR4KEU0WSchhLbd0UklbHw==}
     dev: false
 
-  /express-rate-limit@7.1.5(express@4.18.3):
-    resolution: {integrity: sha512-/iVogxu7ueadrepw1bS0X0kaRC/U0afwiYRSLg68Ts+p4Dc85Q5QKsOnPS/QUjPMHvOJQtBDrZgvkOzf8ejUYw==}
+  /express-rate-limit@7.2.0(express@4.18.3):
+    resolution: {integrity: sha512-T7nul1t4TNyfZMJ7pKRKkdeVJWa2CqB8NA1P8BwYaoDI5QSBZARv5oMS43J7b7I5P+4asjVXjb7ONuwDKucahg==}
     engines: {node: '>= 16'}
     peerDependencies:
       express: 4 || 5 || ^5.0.0-beta.1
