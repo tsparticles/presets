@@ -190,8 +190,8 @@ importers:
         specifier: ^1.1.0
         version: 1.1.0
       stylus:
-        specifier: ^0.62.0
-        version: 0.62.0
+        specifier: ^0.63.0
+        version: 0.63.0
 
   apps/vite:
     devDependencies:
@@ -7882,7 +7882,7 @@ packages:
       array-differ: 3.0.0
       array-union: 2.1.0
       arrify: 2.0.1
-      minimatch: 3.0.5
+      minimatch: 3.1.2
     dev: false
 
   /mute-stream@0.0.8:
@@ -9902,8 +9902,8 @@ packages:
       - supports-color
     dev: false
 
-  /stylus@0.62.0:
-    resolution: {integrity: sha512-v3YCf31atbwJQIMtPNX8hcQ+okD4NQaTuKGUWfII8eaqn+3otrbttGL1zSMZAAtiPsBztQnujVBugg/cXFUpyg==}
+  /stylus@0.63.0:
+    resolution: {integrity: sha512-OMlgrTCPzE/ibtRMoeLVhOY0RcNuNWh0rhAVqeKnk/QwcuUKQbnqhZ1kg2vzD8VU/6h3FoPTq4RJPHgLBvX6Bw==}
     hasBin: true
     dependencies:
       '@adobe/css-tools': 4.3.3
