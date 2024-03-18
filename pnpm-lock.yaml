@@ -170,7 +170,7 @@ importers:
         version: 3.7.1
       jsoneditor:
         specifier: ^10.0.0
-        version: 10.0.1
+        version: 10.0.2
       livereload:
         specifier: ^0.9.3
         version: 0.9.3
@@ -7152,8 +7152,8 @@ packages:
     resolution: {integrity: sha512-AilxAyFOAcK5wA1+LeaySVBrHsGQvUFCDWXKpZjzaL0PqW+xfBOttn8GNtWKFWqneyMZj41MWF9Kl6iPWLwgOA==}
     dev: false
 
-  /jsoneditor@10.0.1:
-    resolution: {integrity: sha512-a9eNs1XegXBrZSMakpDQTCx6z2GyjnbfxDJ9vd2Vn+lD2zORbQ7vyTqSZLI7Ihz8qel1C8KHFy7EFxtp3d++RA==}
+  /jsoneditor@10.0.2:
+    resolution: {integrity: sha512-tElB3FDSdHui7EgsXmQPpMrxdyRfNRge0BtbkwlTmr4968Yr4buvtpaTZqc0NOdG1lJgb9Bl7RuvP+5Sj8IN4A==}
     dependencies:
       ace-builds: 1.32.7
       ajv: 6.12.6
