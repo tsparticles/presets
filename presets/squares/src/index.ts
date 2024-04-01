@@ -1,4 +1,10 @@
 import type { Engine } from "@tsparticles/engine";
+import { loadEmittersPlugin } from "@tsparticles/plugin-emitters";
+import { loadRotateUpdater } from "@tsparticles/updater-rotate";
+import { loadSizeUpdater } from "@tsparticles/updater-size";
+import { loadSquareShape } from "@tsparticles/shape-square";
+import { loadStrokeColorUpdater } from "@tsparticles/updater-stroke-color";
+import { options } from "./options.js";
 
 /**
  *
@@ -6,13 +12,6 @@ import type { Engine } from "@tsparticles/engine";
  * @param refresh - should refresh the engine
  */
 export async function loadSquaresPreset(engine: Engine, refresh = true): Promise<void> {
-    const { loadEmittersPlugin } = await import("@tsparticles/plugin-emitters"),
-        { loadSquareShape } = await import("@tsparticles/shape-square"),
-        { loadRotateUpdater } = await import("@tsparticles/updater-rotate"),
-        { loadSizeUpdater } = await import("@tsparticles/updater-size"),
-        { loadStrokeColorUpdater } = await import("@tsparticles/updater-stroke-color"),
-        { options } = await import("./options.js");
-
     await loadEmittersPlugin(engine, false);
     await loadSquareShape(engine, false);
     await loadRotateUpdater(engine, false);

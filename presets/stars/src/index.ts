@@ -1,4 +1,6 @@
 import type { Engine } from "@tsparticles/engine";
+import { loadBasic } from "@tsparticles/basic";
+import { options } from "./options.js";
 
 /**
  *
@@ -6,9 +8,6 @@ import type { Engine } from "@tsparticles/engine";
  * @param refresh -
  */
 export async function loadStarsPreset(engine: Engine, refresh = true): Promise<void> {
-    const { loadBasic } = await import("@tsparticles/basic"),
-        { options } = await import("./options.js");
-
     await loadBasic(engine, false);
 
     await engine.addPreset("stars", options, false);
