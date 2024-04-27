@@ -79,7 +79,7 @@ importers:
         version: 0.25.12(typescript@5.4.5)
       typedoc-plugin-coverage:
         specifier: ^3.1.0
-        version: 3.1.0(typedoc@0.25.12)
+        version: 3.1.1(typedoc@0.25.12)
       typedoc-plugin-keywords:
         specifier: ^1.6.0
         version: 1.6.0(typedoc@0.25.12)
@@ -10287,8 +10287,8 @@ packages:
     resolution: {integrity: sha512-/aCDEGatGvZ2BIk+HmLf4ifCJFwvKFNb9/JeZPMulfgFracn9QFcAf5GO8B/mweUjSoblS5In0cWhqpfs/5PQA==}
     dev: false
 
-  /typedoc-plugin-coverage@3.1.0(typedoc@0.25.12):
-    resolution: {integrity: sha512-fxeJRrxQR3yM/aFZU7mOuatgRCztiMCbeNiCRVZKY6VNgOcVMC1HS+ZfZnlbLLteUOdeWleSQ6yntuipz5zi6A==}
+  /typedoc-plugin-coverage@3.1.1(typedoc@0.25.12):
+    resolution: {integrity: sha512-PAMYQ4fX7wJo6Y8mMzrISDNRurl5+xSNWEojrt6Yxofb/m7vWrgiP3bid2KXloMlPcSfCoBiJA6F2g3rmu8XTQ==}
     engines: {node: '>= 18'}
     peerDependencies:
       typedoc: 0.25.x
