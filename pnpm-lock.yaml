@@ -76,16 +76,16 @@ importers:
         version: 5.3.10(webpack@5.91.0)
       typedoc:
         specifier: ^0.25.9
-        version: 0.25.12(typescript@5.4.5)
+        version: 0.25.13(typescript@5.4.5)
       typedoc-plugin-coverage:
         specifier: ^3.1.0
-        version: 3.1.1(typedoc@0.25.12)
+        version: 3.1.1(typedoc@0.25.13)
       typedoc-plugin-keywords:
         specifier: ^1.6.0
-        version: 1.6.0(typedoc@0.25.12)
+        version: 1.6.0(typedoc@0.25.13)
       typedoc-plugin-missing-exports:
         specifier: ^2.2.0
-        version: 2.2.0(typedoc@0.25.12)
+        version: 2.2.0(typedoc@0.25.13)
       typescript:
         specifier: ^5.3.3
         version: 5.4.5
@@ -6264,7 +6264,7 @@ packages:
     dependencies:
       foreground-child: 3.1.1
       jackspeak: 2.3.6
-      minimatch: 9.0.3
+      minimatch: 9.0.4
       minipass: 7.0.4
       path-scurry: 1.10.1
     dev: false
@@ -10287,34 +10287,34 @@ packages:
     resolution: {integrity: sha512-/aCDEGatGvZ2BIk+HmLf4ifCJFwvKFNb9/JeZPMulfgFracn9QFcAf5GO8B/mweUjSoblS5In0cWhqpfs/5PQA==}
     dev: false
 
-  /typedoc-plugin-coverage@3.1.1(typedoc@0.25.12):
+  /typedoc-plugin-coverage@3.1.1(typedoc@0.25.13):
     resolution: {integrity: sha512-PAMYQ4fX7wJo6Y8mMzrISDNRurl5+xSNWEojrt6Yxofb/m7vWrgiP3bid2KXloMlPcSfCoBiJA6F2g3rmu8XTQ==}
     engines: {node: '>= 18'}
     peerDependencies:
       typedoc: 0.25.x
     dependencies:
-      typedoc: 0.25.12(typescript@5.4.5)
+      typedoc: 0.25.13(typescript@5.4.5)
     dev: false
 
-  /typedoc-plugin-keywords@1.6.0(typedoc@0.25.12):
+  /typedoc-plugin-keywords@1.6.0(typedoc@0.25.13):
     resolution: {integrity: sha512-URyCIHw6+Lwil0ywy6lVb2TckfDVGjAWnRnTAiiSZaRaglI6vaaP1EhhwEipOIlHaJSnHZfdwpWe1t4mffTIpA==}
     peerDependencies:
       typedoc: ^0.25.4
     dependencies:
-      typedoc: 0.25.12(typescript@5.4.5)
+      typedoc: 0.25.13(typescript@5.4.5)
       typescript: 5.4.5
     dev: false
 
-  /typedoc-plugin-missing-exports@2.2.0(typedoc@0.25.12):
+  /typedoc-plugin-missing-exports@2.2.0(typedoc@0.25.13):
     resolution: {integrity: sha512-2+XR1IcyQ5UwXZVJe9NE6HrLmNufT9i5OwoIuuj79VxuA3eYq+Y6itS9rnNV1D7UeQnUSH8kISYD73gHE5zw+w==}
     peerDependencies:
       typedoc: 0.24.x || 0.25.x
     dependencies:
-      typedoc: 0.25.12(typescript@5.4.5)
+      typedoc: 0.25.13(typescript@5.4.5)
     dev: false
 
-  /typedoc@0.25.12(typescript@5.4.5):
-    resolution: {integrity: sha512-F+qhkK2VoTweDXd1c42GS/By2DvI2uDF4/EpG424dTexSHdtCH52C6IcAvMA6jR3DzAWZjHpUOW+E02kyPNUNw==}
+  /typedoc@0.25.13(typescript@5.4.5):
+    resolution: {integrity: sha512-pQqiwiJ+Z4pigfOnnysObszLiU3mVLWAExSPf+Mu06G/qsc3wzbuM56SZQvONhHLncLUhYzOVkjFFpFfL5AzhQ==}
     engines: {node: '>= 16'}
     hasBin: true
     peerDependencies:
@@ -10322,7 +10322,7 @@ packages:
     dependencies:
       lunr: 2.3.9
       marked: 4.3.0
-      minimatch: 9.0.3
+      minimatch: 9.0.4
       shiki: 0.14.7
       typescript: 5.4.5
     dev: false
