@@ -42,7 +42,7 @@ const fixRange = (value: IRangeValue, min: number, max: number): RangeValue => {
 };
 
 const fireworksOptions: RecursivePartial<IParticlesOptions>[] = ["#ff595e", "#ffca3a", "#8ac926", "#1982c4", "#6a4c93"]
-    .map((color) => {
+    .map(color => {
         const rgb = stringToRgb(color);
 
         if (!rgb) {
@@ -127,7 +127,7 @@ const fireworksOptions: RecursivePartial<IParticlesOptions>[] = ["#ff595e", "#ff
             },
         } as RecursivePartial<IParticlesOptions>;
     })
-    .filter((t) => t !== undefined) as RecursivePartial<IParticlesOptions>[];
+    .filter(t => t !== undefined) as RecursivePartial<IParticlesOptions>[];
 
 export const options: ISourceOptions = {
     detectRetina: true,

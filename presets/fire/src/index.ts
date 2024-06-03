@@ -12,5 +12,7 @@ export async function loadFirePreset(engine: Engine, refresh = true): Promise<vo
     await loadBasic(engine, false);
     await loadExternalPushInteraction(engine, false);
 
-    await engine.addPreset("fire", options, refresh);
+    await engine.addPreset("fire", options, false);
+
+    await engine.refresh(refresh);
 }

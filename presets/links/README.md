@@ -28,12 +28,16 @@ between them.
 Once the scripts are loaded you can set up `tsParticles` like this:
 
 ```javascript
-tsParticles.load({
-  id: "tsparticles",
-  options: {
-    preset: "links",
-  },
-});
+(async () => {
+  await loadLinksPreset(tsParticles);
+
+  await tsParticles.load({
+    id: "tsparticles",
+    options: {
+      preset: "links",
+    },
+  });
+})();
 ```
 
 #### Customization

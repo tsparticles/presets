@@ -1,6 +1,6 @@
 {
     "name": "@tsparticles/preset-hyperspace",
-    "version": "3.0.2",
+    "version": "3.1.0",
     "description": "tsParticles hyperspace preset",
     "homepage": "https://particles.js.org",
     "scripts": {
@@ -97,10 +97,10 @@
     "types": "dist/types/index.d.ts",
     "prettier": "@tsparticles/prettier-config",
     "dependencies": {
-        "@tsparticles/basic": "^3.0.3",
-        "@tsparticles/engine": "^3.0.3",
-        "@tsparticles/plugin-emitters": "^3.0.3",
-        "@tsparticles/plugin-emitters-shape-square": "^3.0.3",
-        "@tsparticles/updater-life": "^3.0.3"
+        "@tsparticles/basic": "^3.4.0",
+        "@tsparticles/engine": "^3.4.0",
+        "@tsparticles/plugin-emitters": "^3.4.0",
+        "@tsparticles/plugin-emitters-shape-square": "^3.4.0",
+        "@tsparticles/updater-life": "^3.4.0"
     }
 }

@@ -26,16 +26,18 @@ html(lang="en")
         script(src="/stats.ts/dist/stats.min.js")
         script(src="/preset-hyperspace/tsparticles.preset.hyperspace.bundle.min.js")
         script.
-            (async () => {
-                await loadHyperspacePreset(tsParticles);
+            (async (engine) => {
+                await loadHyperspacePreset(engine);
 
-                await tsParticles.load({
+                await engine.load({
                     id: "tsparticles",
                     options: {
                         preset: "hyperspace"
                     }
+                }).then(container => {
+                    console.log(container);
                 });
-            })();
+            })(tsParticles);
 
             const stats = new Stats();
 

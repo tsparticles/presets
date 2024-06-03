@@ -26,16 +26,18 @@ html(lang="en")
         script(src="/stats.ts/dist/stats.min.js")
         script(src="/preset-confetti/tsparticles.preset.confetti.bundle.min.js")
         script.
-            (async () => {
-                await loadConfettiPreset(tsParticles);
+            (async (engine) => {
+                await loadConfettiPreset(engine);
 
-                await tsParticles.load({
-                    id:"tsparticles",
+                await engine.load({
+                    id: "tsparticles",
                     options: {
                         preset: "confetti"
                     }
+                }).then(container => {
+                    console.log(container);
                 });
-            })();
+            })(tsParticles);
 
             const stats = new Stats();
 

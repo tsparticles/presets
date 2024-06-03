@@ -28,12 +28,16 @@ screen on a white background.
 Once the scripts are loaded you can set up `tsParticles` like this:
 
 ```javascript
-tsParticles.load({
-  id: "tsparticles",
-  options: {
-    preset: "bubbles",
-  },
-});
+(async () => {
+  await loadBubblesPreset(tsParticles);
+
+  await tsParticles.load({
+    id: "tsparticles",
+    options: {
+      preset: "bubbles",
+    },
+  });
+})();
 ```
 
 #### Customization

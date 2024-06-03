@@ -12,5 +12,7 @@ export async function loadLinksPreset(engine: Engine, refresh = true): Promise<v
     await loadBasic(engine, false);
     await loadParticlesLinksInteraction(engine, false);
 
-    await engine.addPreset("links", options, refresh);
+    await engine.addPreset("links", options, false);
+
+    await engine.refresh(refresh);
 }

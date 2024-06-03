@@ -27,12 +27,16 @@
 Once the scripts are loaded you can set up `tsParticles` like this:
 
 ```javascript
-tsParticles.load({
-  id: "tsparticles",
-  options: {
-    preset: "bigCircles", // also "big-circles" is accepted
-  },
-});
+(async () => {
+  await loadBigCirclesPreset(tsParticles);
+
+  await tsParticles.load({
+    id: "tsparticles",
+    options: {
+      preset: "bigCircles", // also "big-circles" is accepted
+    },
+  });
+})();
 ```
 
 #### Customization

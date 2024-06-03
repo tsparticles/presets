@@ -26,16 +26,18 @@ html(lang="en")
         script(src="/stats.ts/dist/stats.min.js")
         script(src="/preset-squares/tsparticles.preset.squares.bundle.min.js")
         script.
-            (async () => {
-                await loadSquaresPreset(tsParticles);
+            (async (engine) => {
+                await loadSquaresPreset(engine);
 
-                await tsParticles.load({
+                await engine.load({
                     id: "tsparticles",
                     options: {
                         preset: "squares"
                     }
+                }).then(container => {
+                    console.log(container);
                 });
-            })();
+            })(tsParticles);
 
             const stats = new Stats();
 

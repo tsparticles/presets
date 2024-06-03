@@ -3,6 +3,44 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [3.1.0](https://github.com/tsparticles/presets/compare/v3.0.2...v3.1.0) (2024-06-03)
+
+### Bug Fixes
+
+- **deps:** update commitlint monorepo to v19.0.3 ([816520c](https://github.com/tsparticles/presets/commit/816520ceabf6de23d042c275b0810bdb4af4214c))
+- **deps:** update commitlint monorepo to v19.1.0 ([e351457](https://github.com/tsparticles/presets/commit/e351457871da82f657cf5a59886433fd4d7257ef))
+- **deps:** update dependency @babel/core to v7.24.0 ([1cc4c6b](https://github.com/tsparticles/presets/commit/1cc4c6b2880c15660226c436a11df286a9d104be))
+- **deps:** update dependency @babel/core to v7.24.3 ([fbf85b1](https://github.com/tsparticles/presets/commit/fbf85b10628d252df59c5b8d384feb74a9cb3c65))
+- **deps:** update dependency @commitlint/cli to v19.2.0 ([fa3e0d6](https://github.com/tsparticles/presets/commit/fa3e0d6cddca6afaa6b2b3552875aa7ada0db95d))
+- **deps:** update dependency @commitlint/cli to v19.2.1 ([7c4a79c](https://github.com/tsparticles/presets/commit/7c4a79c10097f839280964ea835ae63564a97716))
+- **deps:** update dependency @tsparticles/cli to v2.3.3 ([7891b84](https://github.com/tsparticles/presets/commit/7891b842c1962bffbb47791e23f4b68aaa45f551))
+- **deps:** update dependency @tsparticles/eslint-config to v2.3.0 ([9c76872](https://github.com/tsparticles/presets/commit/9c76872e235129b36b9c6bd58c68c1703850a553))
+- **deps:** update dependency @tsparticles/tsconfig to v2.3.0 ([2aa6ae8](https://github.com/tsparticles/presets/commit/2aa6ae8b62e5bf0d5612cbc04521ede35d015a83))
+- **deps:** update dependency @tsparticles/webpack-plugin to v2.3.0 ([c2f47dd](https://github.com/tsparticles/presets/commit/c2f47dd7c4fe9bebeee19d6a74441d048e5d70e3))
+- **deps:** update dependency @types/node to v20.11.24 ([c9ad2b0](https://github.com/tsparticles/presets/commit/c9ad2b0ad6c8d465e74c97c6efef88456db9b74f))
+- **deps:** update dependency @types/node to v20.11.25 ([168d6b7](https://github.com/tsparticles/presets/commit/168d6b79cc334e2d3f6b57be4b5f44d46e67ab5c))
+- **deps:** update dependency @types/node to v20.11.26 ([578a100](https://github.com/tsparticles/presets/commit/578a100ac6a288678ce1b0f1e5e3c69414bffbb6))
+- **deps:** update dependency @types/node to v20.12.2 ([32b30ef](https://github.com/tsparticles/presets/commit/32b30ef2efdef8754ce5212588e737998775b770))
+- **deps:** update dependency @types/node to v20.12.3 ([c497227](https://github.com/tsparticles/presets/commit/c4972272c6b7c3bcb48c3c16291b520c67fef8e2))
+- **deps:** update dependency typedoc to v0.25.11 ([9701402](https://github.com/tsparticles/presets/commit/97014027eceab5403dfffa0629c4650e9690f893))
+- **deps:** update dependency typedoc to v0.25.12 ([f39d717](https://github.com/tsparticles/presets/commit/f39d71735d8f324f3fcec415250f63b4b3be5795))
+- **deps:** update dependency typedoc-plugin-coverage to v3.1.1 ([c7dfc07](https://github.com/tsparticles/presets/commit/c7dfc07b66c233e2c981e57c787a4b4282f67061))
+- **deps:** update dependency typescript to v5.4.2 ([e97831a](https://github.com/tsparticles/presets/commit/e97831afcc4f8cae81e5b905e66cda12e2936636))
+- **deps:** update dependency typescript to v5.4.3 ([2fb2b2e](https://github.com/tsparticles/presets/commit/2fb2b2e0012ca496bd04536594cf5cab0ccf41f0))
+- **deps:** update dependency typescript to v5.4.4 ([ca07bb6](https://github.com/tsparticles/presets/commit/ca07bb68af7bb5b704f5f01c60d6699373dbf355))
+- **deps:** update dependency typescript to v5.4.5 ([3db39b7](https://github.com/tsparticles/presets/commit/3db39b7f58829122a17aafd0d9508a85906191ad))
+- **deps:** update dependency webpack to v5.91.0 ([1975113](https://github.com/tsparticles/presets/commit/1975113d88195047e8e5f476b9577883330ed708))
+- **deps:** update typescript-eslint monorepo to v7.1.1 ([0817507](https://github.com/tsparticles/presets/commit/08175078348c2bc94fc066ee54c1a36812b22288))
+- **deps:** update typescript-eslint monorepo to v7.2.0 ([1052876](https://github.com/tsparticles/presets/commit/1052876309c18c3aac56cc2e890d12524afca1a8))
+- **deps:** update typescript-eslint monorepo to v7.4.0 ([378c9d4](https://github.com/tsparticles/presets/commit/378c9d4f5558b0b9e0ba1a1b40eeea402a0372a1))
+- **deps:** update typescript-eslint monorepo to v7.5.0 ([f649391](https://github.com/tsparticles/presets/commit/f6493917b03e7fb2951e37d8eaae1f52c075af66))
+- **deps:** update typescript-eslint monorepo to v7.6.0 ([5ac13c5](https://github.com/tsparticles/presets/commit/5ac13c54e70a0337a3039831996877002263ed78))
+- fixed some load functions, the order wasn't right ([03842e7](https://github.com/tsparticles/presets/commit/03842e769222020110a8a62336ef16992f20d088))
+
+### Features
+
+- changed bundles loading method, no more preloading plugins ([e59a41a](https://github.com/tsparticles/presets/commit/e59a41a9dd59ad666f156fb114c06ddb44b46f07))
+
 ## [3.0.2](https://github.com/tsparticles/presets/compare/v3.0.1...v3.0.2) (2024-01-05)
 
 **Note:** Version bump only for package @tsparticles/presets-workspace

@@ -28,12 +28,16 @@ particles spawned in the canvas center.
 Once the scripts are loaded you can set up `tsParticles` like this:
 
 ```javascript
-tsParticles.load({
-  id: "tsparticles",
-  options: {
-    preset: "seaAnemone",
-  },
-});
+(async () => {
+  await loadSeaAnemonePreset(tsParticles);
+
+  await tsParticles.load({
+    id: "tsparticles",
+    options: {
+      preset: "seaAnemone",
+    },
+  });
+})();
 ```
 
 #### Customization

@@ -12,5 +12,7 @@ export async function loadBubblesPreset(engine: Engine, refresh = true): Promise
     await loadBasic(engine, false);
     await loadEmittersPlugin(engine, false);
 
-    await engine.addPreset("bubbles", options, refresh);
+    await engine.addPreset("bubbles", options, false);
+
+    await engine.refresh(refresh);
 }

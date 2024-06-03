@@ -12,5 +12,7 @@ export async function loadFireflyPreset(engine: Engine, refresh = true): Promise
     await loadBasic(engine, false);
     await loadExternalTrailInteraction(engine, false);
 
-    await engine.addPreset("firefly", options, refresh);
+    await engine.addPreset("firefly", options, false);
+
+    await engine.refresh(refresh);
 }

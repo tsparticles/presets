@@ -1,6 +1,6 @@
 {
   "name": "@tsparticles/preset-firefly",
-  "version": "3.0.2",
+  "version": "3.1.0",
   "description": "tsParticles firefly preset",
   "homepage": "https://particles.js.org",
   "repository": {
@@ -87,9 +87,9 @@
   "module": "esm/index.js",
   "types": "types/index.d.ts",
   "dependencies": {
-    "@tsparticles/basic": "^3.0.3",
-    "@tsparticles/engine": "^3.0.3",
-    "@tsparticles/interaction-external-trail": "^3.0.3"
+    "@tsparticles/basic": "^3.4.0",
+    "@tsparticles/engine": "^3.4.0",
+    "@tsparticles/interaction-external-trail": "^3.4.0"
   },
   "publishConfig": {
     "access": "public"

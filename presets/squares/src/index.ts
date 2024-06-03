@@ -18,5 +18,7 @@ export async function loadSquaresPreset(engine: Engine, refresh = true): Promise
     await loadSizeUpdater(engine, false);
     await loadStrokeColorUpdater(engine, false);
 
-    await engine.addPreset("squares", options, refresh);
+    await engine.addPreset("squares", options, false);
+
+    await engine.refresh(refresh);
 }

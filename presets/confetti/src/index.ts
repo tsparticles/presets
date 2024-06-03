@@ -26,7 +26,9 @@ async function loadPreset(engine: Engine, refresh = true): Promise<void> {
     await loadTiltUpdater(engine, false);
     await loadLifeUpdater(engine, false);
 
-    await engine.addPreset("confetti", options, refresh);
+    await engine.addPreset("confetti", options, false);
+
+    await engine.refresh(refresh);
 }
 
 /**

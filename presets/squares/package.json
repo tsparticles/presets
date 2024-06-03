@@ -1,6 +1,6 @@
 {
     "name": "@tsparticles/preset-squares",
-    "version": "3.0.2",
+    "version": "3.1.0",
     "description": "tsParticles squares preset",
     "homepage": "https://particles.js.org",
     "scripts": {
@@ -97,11 +97,11 @@
     "types": "dist/types/index.d.ts",
     "prettier": "@tsparticles/prettier-config",
     "dependencies": {
-        "@tsparticles/engine": "^3.0.3",
-        "@tsparticles/plugin-emitters": "^3.0.3",
-        "@tsparticles/shape-square": "^3.0.3",
-        "@tsparticles/updater-rotate": "^3.0.3",
-        "@tsparticles/updater-size": "^3.0.3",
-        "@tsparticles/updater-stroke-color": "^3.0.3"
+        "@tsparticles/engine": "^3.4.0",
+        "@tsparticles/plugin-emitters": "^3.4.0",
+        "@tsparticles/shape-square": "^3.4.0",
+        "@tsparticles/updater-rotate": "^3.4.0",
+        "@tsparticles/updater-size": "^3.4.0",
+        "@tsparticles/updater-stroke-color": "^3.4.0"
     }
 }

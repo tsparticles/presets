@@ -14,5 +14,7 @@ export async function loadSeaAnemonePreset(engine: Engine, refresh = true): Prom
     await loadEmittersPlugin(engine, false);
     await loadCurvesPath(engine, false);
 
-    await engine.addPreset(presetName, options, refresh);
+    await engine.addPreset(presetName, options, false);
+
+    await engine.refresh(refresh);
 }

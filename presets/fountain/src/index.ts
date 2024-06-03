@@ -14,5 +14,7 @@ export async function loadFountainPreset(engine: Engine, refresh = true): Promis
     await loadDestroyUpdater(engine, false);
     await loadEmittersPlugin(engine, false);
 
-    await engine.addPreset("fountain", options, refresh);
+    await engine.addPreset("fountain", options, false);
+
+    await engine.refresh(refresh);
 }

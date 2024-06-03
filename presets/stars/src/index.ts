@@ -10,5 +10,7 @@ import { options } from "./options.js";
 export async function loadStarsPreset(engine: Engine, refresh = true): Promise<void> {
     await loadBasic(engine, false);
 
-    await engine.addPreset("stars", options, refresh);
+    await engine.addPreset("stars", options, false);
+
+    await engine.refresh(refresh);
 }

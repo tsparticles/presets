@@ -12,5 +12,7 @@ export async function loadTrianglesPreset(engine: Engine, refresh = true): Promi
     await loadBasic(engine, false);
     await loadParticlesLinksInteraction(engine, false);
 
-    await engine.addPreset("triangles", options, refresh);
+    await engine.addPreset("triangles", options, false);
+
+    await engine.refresh(refresh);
 }

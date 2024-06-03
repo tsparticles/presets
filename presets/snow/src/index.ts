@@ -12,5 +12,7 @@ export async function loadSnowPreset(engine: Engine, refresh = true): Promise<vo
     await loadBasic(engine, false);
     await loadWobbleUpdater(engine, false);
 
-    await engine.addPreset("snow", options, refresh);
+    await engine.addPreset("snow", options, false);
+
+    await engine.refresh(refresh);
 }

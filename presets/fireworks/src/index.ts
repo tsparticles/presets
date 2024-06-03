@@ -26,5 +26,7 @@ export async function loadFireworksPreset(engine: Engine, refresh = true): Promi
     await loadLifeUpdater(engine, false);
     await loadStrokeColorUpdater(engine, false);
 
-    await engine.addPreset("fireworks", options, refresh);
+    await engine.addPreset("fireworks", options, false);
+
+    await engine.refresh(refresh);
 }

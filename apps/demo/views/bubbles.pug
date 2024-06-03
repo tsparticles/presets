@@ -26,16 +26,18 @@ html(lang="en")
         script(src="/stats.ts/dist/stats.min.js")
         script(src="/preset-bubbles/tsparticles.preset.bubbles.bundle.min.js")
         script.
-            (async () => {
-                await loadBubblesPreset(tsParticles);
+            (async (engine) => {
+                await loadBubblesPreset(engine);
 
-                await tsParticles.load({
-                    id:"tsparticles",
+                await engine.load({
+                    id: "tsparticles",
                     options: {
                         preset: "bubbles"
                     }
+                }).then(container => {
+                    console.log(container);
                 });
-            })();
+            })(tsParticles);
 
             const stats = new Stats();
 

@@ -1,7 +1,7 @@
 {
   "name": "@tsparticles/presets-demo",
   "private": true,
-  "version": "3.0.2",
+  "version": "3.1.0",
   "description": "> TODO: description",
   "author": "Matteo Bruni <matteo.bruni@me.com>",
   "homepage": "https://particles.js.org",
@@ -22,22 +22,21 @@
     "watch": "nodemon app.js"
   },
   "devDependencies": {
-    "@fortawesome/fontawesome-free": "^6.5.1",
+    "@fortawesome/fontawesome-free": "^6.5.2",
     "@popperjs/core": "^2.11.8",
-    "bootstrap": "^5.3.2",
+    "bootstrap": "^5.3.3",
     "connect-livereload": "^0.6.1",
-    "express": "^4.18.2",
-    "express-rate-limit": "^7.1.5",
+    "express": "^4.19.2",
+    "express-rate-limit": "^7.3.0",
     "helmet": "^7.1.0",
     "jquery": "^3.7.1",
-    "jsoneditor": "^10.0.0",
+    "jsoneditor": "^10.0.3",
     "livereload": "^0.9.3",
     "lodash": "^4.17.21",
-    "nodemon": "^3.0.2",
-    "popper.js": "^1.16.1",
-    "pug": "^3.0.2",
+    "nodemon": "^3.1.2",
+    "pug": "^3.0.3",
     "stats.ts": "^1.1.0",
-    "stylus": "^0.62.0"
+    "stylus": "^0.63.0"
   },
   "dependencies": {
     "@tsparticles/preset-big-circles": "workspace:^",
