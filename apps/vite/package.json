@@ -9,7 +9,7 @@
     "preview": "vite preview"
   },
   "devDependencies": {
-    "@tsparticles/engine": "^3.3.0",
+    "@tsparticles/engine": "^3.4.0",
     "@tsparticles/preset-big-circles": "workspace:^",
     "@tsparticles/preset-bubbles": "workspace:^",
     "@tsparticles/preset-confetti": "workspace:^",
@@ -24,7 +24,7 @@
     "@tsparticles/preset-squares": "workspace:^",
     "@tsparticles/preset-stars": "workspace:^",
     "@tsparticles/preset-triangles": "workspace:^",
-    "typescript": "^5.3.3",
-    "vite": "^5.1.4"
+    "typescript": "^5.4.5",
+    "vite": "^5.2.12"
   }
 }

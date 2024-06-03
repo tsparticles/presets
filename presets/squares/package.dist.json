@@ -87,12 +87,12 @@
   "module": "esm/index.js",
   "types": "types/index.d.ts",
   "dependencies": {
-    "@tsparticles/engine": "^3.3.0",
-    "@tsparticles/plugin-emitters": "^3.3.0",
-    "@tsparticles/shape-square": "^3.3.0",
-    "@tsparticles/updater-rotate": "^3.3.0",
-    "@tsparticles/updater-size": "^3.3.0",
-    "@tsparticles/updater-stroke-color": "^3.3.0"
+    "@tsparticles/engine": "^3.4.0",
+    "@tsparticles/plugin-emitters": "^3.4.0",
+    "@tsparticles/shape-square": "^3.4.0",
+    "@tsparticles/updater-rotate": "^3.4.0",
+    "@tsparticles/updater-size": "^3.4.0",
+    "@tsparticles/updater-stroke-color": "^3.4.0"
   },
   "publishConfig": {
     "access": "public"
