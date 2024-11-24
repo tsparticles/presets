@@ -97,8 +97,8 @@
   "types": "dist/types/index.d.ts",
   "prettier": "@tsparticles/prettier-config",
   "dependencies": {
-    "@tsparticles/basic": "^3.7.0",
-    "@tsparticles/engine": "^3.7.0",
-    "@tsparticles/plugin-emitters": "^3.7.0"
+    "@tsparticles/basic": "^3.7.1",
+    "@tsparticles/engine": "^3.7.1",
+    "@tsparticles/plugin-emitters": "^3.7.1"
   }
 }
