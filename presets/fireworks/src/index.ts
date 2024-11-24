@@ -1,4 +1,5 @@
 import type { Engine } from "@tsparticles/engine";
+import { initOptions } from "./options.js";
 import { loadBasic } from "@tsparticles/basic";
 import { loadDestroyUpdater } from "@tsparticles/updater-destroy";
 import { loadEmittersPlugin } from "@tsparticles/plugin-emitters";
@@ -8,7 +9,6 @@ import { loadLineShape } from "@tsparticles/shape-line";
 import { loadRotateUpdater } from "@tsparticles/updater-rotate";
 import { loadSoundsPlugin } from "@tsparticles/plugin-sounds";
 import { loadStrokeColorUpdater } from "@tsparticles/updater-stroke-color";
-import { options } from "./options.js";
 
 /**
  *
@@ -26,7 +26,7 @@ export async function loadFireworksPreset(engine: Engine, refresh = true): Promi
     await loadLifeUpdater(engine, false);
     await loadStrokeColorUpdater(engine, false);
 
-    await engine.addPreset("fireworks", options, false);
+    await engine.addPreset("fireworks", initOptions(engine), false);
 
     await engine.refresh(refresh);
 }
