@@ -18,7 +18,7 @@ importers:
         version: 19.2.2
       "@tsparticles/cli":
         specifier: ^2.3.3
-        version: 2.3.3(@types/eslint@8.56.7)(webpack-cli@5.1.4(webpack-bundle-analyzer@4.10.2)(webpack@5.91.0))
+        version: 2.3.3(@types/eslint@8.56.7)(webpack-cli@5.1.4)
       "@tsparticles/eslint-config":
         specifier: ^2.3.0
         version: 2.3.0(@types/eslint@8.56.7)
@@ -45,7 +45,7 @@ importers:
         version: 7.11.0(eslint@8.57.0)(typescript@5.4.5)
       babel-loader:
         specifier: ^9.1.3
-        version: 9.1.3(@babel/core@7.24.6)(webpack@5.91.0(webpack-cli@5.1.4))
+        version: 9.1.3(@babel/core@7.24.6)(webpack@5.91.0)
       browserslist:
         specifier: ^4.23.0
         version: 4.23.0
@@ -72,7 +72,7 @@ importers:
         version: 5.0.7
       terser-webpack-plugin:
         specifier: ^5.3.10
-        version: 5.3.10(webpack@5.91.0(webpack-cli@5.1.4))
+        version: 5.3.10(webpack@5.91.0)
       typedoc:
         specifier: ^0.25.13
         version: 0.25.13(typescript@5.4.5)
@@ -192,8 +192,8 @@ importers:
   apps/vite:
     devDependencies:
       "@tsparticles/engine":
-        specifier: ^3.4.0
-        version: 3.4.0
+        specifier: ^3.7.1
+        version: 3.7.1
       "@tsparticles/preset-big-circles":
         specifier: workspace:^
         version: link:../../presets/bigCircles/dist
@@ -246,246 +246,249 @@ importers:
   presets/bigCircles:
     dependencies:
       "@tsparticles/basic":
-        specifier: ^3.4.0
-        version: 3.4.0
+        specifier: ^3.7.1
+        version: 3.7.1
       "@tsparticles/engine":
-        specifier: ^3.4.0
-        version: 3.4.0
+        specifier: ^3.7.1
+        version: 3.7.1
       "@tsparticles/plugin-emitters":
-        specifier: ^3.4.0
-        version: 3.4.0
+        specifier: ^3.7.1
+        version: 3.7.1
       "@tsparticles/plugin-emitters-shape-square":
-        specifier: ^3.4.0
-        version: 3.4.0
+        specifier: ^3.7.1
+        version: 3.7.1
     publishDirectory: dist
 
   presets/bubbles:
     dependencies:
       "@tsparticles/basic":
-        specifier: ^3.4.0
-        version: 3.4.0
+        specifier: ^3.7.1
+        version: 3.7.1
       "@tsparticles/engine":
-        specifier: ^3.4.0
-        version: 3.4.0
+        specifier: ^3.7.1
+        version: 3.7.1
       "@tsparticles/plugin-emitters":
-        specifier: ^3.4.0
-        version: 3.4.0
+        specifier: ^3.7.1
+        version: 3.7.1
     publishDirectory: dist
 
   presets/confetti:
     dependencies:
       "@tsparticles/basic":
-        specifier: ^3.4.0
-        version: 3.4.0
+        specifier: ^3.7.1
+        version: 3.7.1
       "@tsparticles/engine":
-        specifier: ^3.4.0
-        version: 3.4.0
+        specifier: ^3.7.1
+        version: 3.7.1
       "@tsparticles/plugin-emitters":
-        specifier: ^3.4.0
-        version: 3.4.0
+        specifier: ^3.7.1
+        version: 3.7.1
       "@tsparticles/plugin-motion":
-        specifier: ^3.4.0
-        version: 3.4.0
+        specifier: ^3.7.1
+        version: 3.7.1
       "@tsparticles/shape-square":
-        specifier: ^3.4.0
-        version: 3.4.0
+        specifier: ^3.7.1
+        version: 3.7.1
       "@tsparticles/updater-life":
-        specifier: ^3.4.0
-        version: 3.4.0
+        specifier: ^3.7.1
+        version: 3.7.1
       "@tsparticles/updater-roll":
-        specifier: ^3.4.0
-        version: 3.4.0
+        specifier: ^3.7.1
+        version: 3.7.1
       "@tsparticles/updater-rotate":
-        specifier: ^3.4.0
-        version: 3.4.0
+        specifier: ^3.7.1
+        version: 3.7.1
       "@tsparticles/updater-tilt":
-        specifier: ^3.4.0
-        version: 3.4.0
+        specifier: ^3.7.1
+        version: 3.7.1
       "@tsparticles/updater-wobble":
-        specifier: ^3.4.0
-        version: 3.4.0
+        specifier: ^3.7.1
+        version: 3.7.1
     publishDirectory: dist
 
   presets/fire:
     dependencies:
       "@tsparticles/basic":
-        specifier: ^3.4.0
-        version: 3.4.0
+        specifier: ^3.7.1
+        version: 3.7.1
       "@tsparticles/engine":
-        specifier: ^3.4.0
-        version: 3.4.0
+        specifier: ^3.7.1
+        version: 3.7.1
       "@tsparticles/interaction-external-push":
-        specifier: ^3.4.0
-        version: 3.4.0
+        specifier: ^3.7.1
+        version: 3.7.1
     publishDirectory: dist
 
   presets/firefly:
     dependencies:
       "@tsparticles/basic":
-        specifier: ^3.4.0
-        version: 3.4.0
+        specifier: ^3.7.1
+        version: 3.7.1
       "@tsparticles/engine":
-        specifier: ^3.4.0
-        version: 3.4.0
+        specifier: ^3.7.1
+        version: 3.7.1
       "@tsparticles/interaction-external-trail":
-        specifier: ^3.4.0
-        version: 3.4.0
+        specifier: ^3.7.1
+        version: 3.7.1
     publishDirectory: dist
 
   presets/fireworks:
     dependencies:
       "@tsparticles/basic":
-        specifier: ^3.4.0
-        version: 3.4.0
+        specifier: ^3.7.1
+        version: 3.7.1
       "@tsparticles/engine":
-        specifier: ^3.4.0
-        version: 3.4.0
+        specifier: ^3.7.1
+        version: 3.7.1
       "@tsparticles/plugin-emitters":
-        specifier: ^3.4.0
-        version: 3.4.0
+        specifier: ^3.7.1
+        version: 3.7.1
       "@tsparticles/plugin-emitters-shape-square":
-        specifier: ^3.4.0
-        version: 3.4.0
+        specifier: ^3.7.1
+        version: 3.7.1
       "@tsparticles/plugin-sounds":
-        specifier: ^3.4.0
-        version: 3.4.0
+        specifier: ^3.7.1
+        version: 3.7.1
       "@tsparticles/shape-line":
-        specifier: ^3.4.0
-        version: 3.4.0
+        specifier: ^3.7.1
+        version: 3.7.1
       "@tsparticles/updater-destroy":
-        specifier: ^3.4.0
-        version: 3.4.0
+        specifier: ^3.7.1
+        version: 3.7.1
       "@tsparticles/updater-life":
-        specifier: ^3.4.0
-        version: 3.4.0
+        specifier: ^3.7.1
+        version: 3.7.1
       "@tsparticles/updater-rotate":
-        specifier: ^3.4.0
-        version: 3.4.0
+        specifier: ^3.7.1
+        version: 3.7.1
       "@tsparticles/updater-stroke-color":
-        specifier: ^3.4.0
-        version: 3.4.0
+        specifier: ^3.7.1
+        version: 3.7.1
     publishDirectory: dist
 
   presets/fountain:
     dependencies:
       "@tsparticles/basic":
-        specifier: ^3.4.0
-        version: 3.4.0
+        specifier: ^3.7.1
+        version: 3.7.1
       "@tsparticles/engine":
-        specifier: ^3.4.0
-        version: 3.4.0
+        specifier: ^3.7.1
+        version: 3.7.1
       "@tsparticles/plugin-emitters":
-        specifier: ^3.4.0
-        version: 3.4.0
+        specifier: ^3.7.1
+        version: 3.7.1
       "@tsparticles/updater-destroy":
-        specifier: ^3.4.0
-        version: 3.4.0
+        specifier: ^3.7.1
+        version: 3.7.1
     publishDirectory: dist
 
   presets/hyperspace:
     dependencies:
       "@tsparticles/basic":
-        specifier: ^3.4.0
-        version: 3.4.0
+        specifier: ^3.7.1
+        version: 3.7.1
       "@tsparticles/engine":
-        specifier: ^3.4.0
-        version: 3.4.0
+        specifier: ^3.7.1
+        version: 3.7.1
       "@tsparticles/plugin-emitters":
-        specifier: ^3.4.0
-        version: 3.4.0
+        specifier: ^3.7.1
+        version: 3.7.1
       "@tsparticles/plugin-emitters-shape-square":
-        specifier: ^3.4.0
-        version: 3.4.0
+        specifier: ^3.7.1
+        version: 3.7.1
       "@tsparticles/updater-life":
-        specifier: ^3.4.0
-        version: 3.4.0
+        specifier: ^3.7.1
+        version: 3.7.1
     publishDirectory: dist
 
   presets/links:
     dependencies:
       "@tsparticles/basic":
-        specifier: ^3.4.0
-        version: 3.4.0
+        specifier: ^3.7.1
+        version: 3.7.1
       "@tsparticles/engine":
-        specifier: ^3.4.0
-        version: 3.4.0
+        specifier: ^3.7.1
+        version: 3.7.1
       "@tsparticles/interaction-particles-links":
-        specifier: ^3.4.0
-        version: 3.4.0
+        specifier: ^3.7.1
+        version: 3.7.1
     publishDirectory: dist
 
   presets/seaAnemone:
     dependencies:
       "@tsparticles/basic":
-        specifier: ^3.4.0
-        version: 3.4.0
+        specifier: ^3.7.1
+        version: 3.7.1
       "@tsparticles/engine":
-        specifier: ^3.4.0
-        version: 3.4.0
+        specifier: ^3.7.1
+        version: 3.7.1
       "@tsparticles/path-curves":
-        specifier: ^3.4.0
-        version: 3.4.0
+        specifier: ^3.7.1
+        version: 3.7.1
       "@tsparticles/plugin-emitters":
-        specifier: ^3.4.0
-        version: 3.4.0
+        specifier: ^3.7.1
+        version: 3.7.1
     publishDirectory: dist
 
   presets/snow:
     dependencies:
       "@tsparticles/basic":
-        specifier: ^3.4.0
-        version: 3.4.0
+        specifier: ^3.7.1
+        version: 3.7.1
       "@tsparticles/engine":
-        specifier: ^3.4.0
-        version: 3.4.0
+        specifier: ^3.7.1
+        version: 3.7.1
       "@tsparticles/updater-wobble":
-        specifier: ^3.4.0
-        version: 3.4.0
+        specifier: ^3.7.1
+        version: 3.7.1
     publishDirectory: dist
 
   presets/squares:
     dependencies:
       "@tsparticles/engine":
-        specifier: ^3.4.0
-        version: 3.4.0
+        specifier: ^3.7.1
+        version: 3.7.1
       "@tsparticles/plugin-emitters":
-        specifier: ^3.4.0
-        version: 3.4.0
+        specifier: ^3.7.1
+        version: 3.7.1
+      "@tsparticles/plugin-hex-color":
+        specifier: ^3.7.1
+        version: 3.7.1
       "@tsparticles/shape-square":
-        specifier: ^3.4.0
-        version: 3.4.0
+        specifier: ^3.7.1
+        version: 3.7.1
       "@tsparticles/updater-rotate":
-        specifier: ^3.4.0
-        version: 3.4.0
+        specifier: ^3.7.1
+        version: 3.7.1
       "@tsparticles/updater-size":
-        specifier: ^3.4.0
-        version: 3.4.0
+        specifier: ^3.7.1
+        version: 3.7.1
       "@tsparticles/updater-stroke-color":
-        specifier: ^3.4.0
-        version: 3.4.0
+        specifier: ^3.7.1
+        version: 3.7.1
     publishDirectory: dist
 
   presets/stars:
     dependencies:
       "@tsparticles/basic":
-        specifier: ^3.4.0
-        version: 3.4.0
+        specifier: ^3.7.1
+        version: 3.7.1
       "@tsparticles/engine":
-        specifier: ^3.4.0
-        version: 3.4.0
+        specifier: ^3.7.1
+        version: 3.7.1
     publishDirectory: dist
 
   presets/triangles:
     dependencies:
       "@tsparticles/basic":
-        specifier: ^3.4.0
-        version: 3.4.0
+        specifier: ^3.7.1
+        version: 3.7.1
       "@tsparticles/engine":
-        specifier: ^3.4.0
-        version: 3.4.0
+        specifier: ^3.7.1
+        version: 3.7.1
       "@tsparticles/interaction-particles-links":
-        specifier: ^3.4.0
-        version: 3.4.0
+        specifier: ^3.7.1
+        version: 3.7.1
     publishDirectory: dist
 
 packages:
@@ -2592,10 +2595,10 @@ packages:
       }
     engines: { node: ">= 10" }
 
-  "@tsparticles/basic@3.4.0":
+  "@tsparticles/basic@3.7.1":
     resolution:
       {
-        integrity: sha512-a0HxG0GOhXof7NDqcqdyu9XpmCAQ0M402YECz/jsH4CkBpz3ut0BrgnyjT6Xcqna3pR1Kv1m516/sV2fwNnnQw==,
+        integrity: sha512-oJMJ3qzYUROYaOEsaFXkVynxT2OTWBXbQ9MNc1bJi/bVc1VOU44VN7X/KmiZjD+w1U+Qalk6BeVvDRwpFshblw==,
       }
 
   "@tsparticles/cli@2.3.3":
@@ -2605,10 +2608,10 @@ packages:
       }
     hasBin: true
 
-  "@tsparticles/engine@3.4.0":
+  "@tsparticles/engine@3.7.1":
     resolution:
       {
-        integrity: sha512-OqoMZYJCoiihNnexnnSmInEMNXr0Z8CmE1HSiFVeifgK1qUlonTFe2G09KdvNT8ZdvmIC513yTpFJNDbnMZYRQ==,
+        integrity: sha512-GYzBgq/oOE9YJdOL1++MoawWmYg4AvVct6CIrJGx84ZRb3U2owYmLsRGabYl0qX1CWWOvUG569043RJmyp/vQA==,
       }
 
   "@tsparticles/eslint-config@2.3.0":
@@ -2617,58 +2620,76 @@ packages:
         integrity: sha512-pIvds4gm+wG7MT/U5u/q/rvzqpy50YymohL6qPTPkVLrP98RIMMrMxtfLLz9jXTJa3m1/DOZsv5m4ZlmYTcNTw==,
       }
 
-  "@tsparticles/interaction-external-push@3.4.0":
+  "@tsparticles/interaction-external-push@3.7.1":
     resolution:
       {
-        integrity: sha512-SriLK1X45CaLwzxjtDo5nCGtF8lwPwK5zYO6+UU+9djUzbh/dBlXQr63ovm/jYPE+yGPRxAhJLdiHpss6aaavQ==,
+        integrity: sha512-4VoaR5jvXgQdB7irtq4uSZYr5c+D6TBTVEnLVpBfJhUs6jhw6mgN5g7yp5izIYkK0AlcO431MHn8dvJacvRLDw==,
       }
 
-  "@tsparticles/interaction-external-trail@3.4.0":
+  "@tsparticles/interaction-external-trail@3.7.1":
     resolution:
       {
-        integrity: sha512-hpcfv04zto67kjG7X1nx+Bv9eolkUBNLHcy9gSgco83/ARNKLgcOA+xYz5OFzZ5ImKyGZQggzYOPSwBZx+9MQg==,
+        integrity: sha512-M7lNQUWP15m8YIDP/JZcZAXaVJLqdwpBs0Uv9F6dU6jsnNXwwHFVFZ+1icrnlbgl9k/Ehhodbdo5weE7GHhQhQ==,
       }
 
-  "@tsparticles/interaction-particles-links@3.4.0":
+  "@tsparticles/interaction-particles-links@3.7.1":
     resolution:
       {
-        integrity: sha512-2UhzNsZCSF69L0PGwlJARNx3qrMdSrl5p/TgO5Q5w7iwBU1x/W27O+TDQvNdMHsOLPPUomUI+jJfRXY2snqp3Q==,
+        integrity: sha512-BxCXAAOBNmEvlyOQzwprryW8YdtMIop2v4kgSCff5MCtDwYWoQIfzaQlWbBAkD9ey6BoF8iMjhBUaY1MnDecTA==,
       }
 
-  "@tsparticles/move-base@3.4.0":
+  "@tsparticles/move-base@3.7.1":
     resolution:
       {
-        integrity: sha512-4P9CzgVN7INogAvqkg/cEA+6WKeGUAtsgljJ2rUADgNBiScW1oJZAw/004AZiOlonLRiUZujUCNS4zlAg62ZvQ==,
+        integrity: sha512-LPtMHwJHhzwfRIcSAk814fY9NcRiICwaEbapaJSYyP1DwscSXqOWoyAEWwzV9hMgAcPdsED6nGeg8RCXGm58lw==,
       }
 
-  "@tsparticles/path-curves@3.4.0":
+  "@tsparticles/path-curves@3.7.1":
     resolution:
       {
-        integrity: sha512-pv70ZU/gT0LiSQPCgjcKOlPBvPTBhn3acbDwjZtgOqjN1XU7tPoaYv499rwy7Ersw6qILe7pyM2+p8NVIK4/Lw==,
+        integrity: sha512-AyL16bbFPeBWo7oTwDGQXRUwjl5/eBn4S6ToR8vOBonIky9E0Wuv2M+cJOoeahMoJWPbwnTwOXyJLyOEO9mm0A==,
       }
 
-  "@tsparticles/plugin-emitters-shape-square@3.4.0":
+  "@tsparticles/plugin-emitters-shape-square@3.7.1":
     resolution:
       {
-        integrity: sha512-ne4qKSNbc3fqLFClCUNd7g5qhuChxLVwj+MAe/+4ECYjDQBIrGcJrH2mgmdi5KpOPqKtnIQpC4etwJ084w1UMA==,
+        integrity: sha512-nvGBsRLrkiz6Q38TJRl8Y/eu9i1ChQ9oorQydLBok+iZ6MefuOj39iYsAOkD1w9yRVrFWKHG6CR1mmJUniz/HA==,
       }
 
-  "@tsparticles/plugin-emitters@3.4.0":
+  "@tsparticles/plugin-emitters@3.7.1":
     resolution:
       {
-        integrity: sha512-B3I12hcELE+MDi2jmSFHiC5x8/c4n412VZFOAJcimMfb919gaF1mC/Ac9yR8OCmIdEXYDjf/dyg8xUtSUVlV2g==,
+        integrity: sha512-WV5Uwxp/Ckqv5kZynTj6mj13jYbQCArNLFv8ks+zjdlteoyT5EhQl4rg+TalaySCb1zCd6Fu2Scp35l3JJgbnw==,
       }
 
-  "@tsparticles/plugin-motion@3.4.0":
+  "@tsparticles/plugin-hex-color@3.7.1":
     resolution:
       {
-        integrity: sha512-EJd3ceR3HKQzp1zFZI1w1EFizrcJ07p5jQvoV7wg6aIYcQWtHqNSSuQBAFgjvAaRk8Y6mtflP1Jybs3R3F0u6g==,
+        integrity: sha512-7xu3MV8EdNNejjYyEmrq5fCDdYAcqz/9VatLpnwtwR5Q5t2qI0tD4CrcGaFfC/rTAVJacfiJe02UV/hlj03KKA==,
       }
 
-  "@tsparticles/plugin-sounds@3.4.0":
+  "@tsparticles/plugin-hsl-color@3.7.1":
     resolution:
       {
-        integrity: sha512-IMc/0w4AjBRZprhD9wv89j7WE3gjVXqzu99QZV14VpgXLbgGjyskSn7cWw/PZVhsmWMBjXS3x6koknxtbn+ZFA==,
+        integrity: sha512-zzAI1CuoCMBJhgeYZ5Rq42nGbPg35ZzIs11eQegjsWG5Msm5QKSj60qPzERnoUcCc4HCKtIWP7rYMz6h3xpoEg==,
+      }
+
+  "@tsparticles/plugin-motion@3.7.1":
+    resolution:
+      {
+        integrity: sha512-CJVXQVcwURpcEin1xC5abPgaBQCJQ/SfP7zGBQJrfsaGz8t6YTbZdfuK6Yc0M8j8gTldlgl4dXjQCejFmSCNmQ==,
+      }
+
+  "@tsparticles/plugin-rgb-color@3.7.1":
+    resolution:
+      {
+        integrity: sha512-taEraTpCYR6jpjflqBL95tN0zFU8JrAChXTt8mxVn7gddxoNMHI/LGymEPRCweLukwV6GQyAGOkeGEdWDPtYTA==,
+      }
+
+  "@tsparticles/plugin-sounds@3.7.1":
+    resolution:
+      {
+        integrity: sha512-fHuGSghr8n9umHsLcQhmWf1swMqx6Mqz5TgtIcDd+JRoTbBSdZamk7sh0eK6awT7jTJrwE+/vli3oDwxX/KxAg==,
       }
 
   "@tsparticles/prettier-config@2.1.6":
@@ -2677,22 +2698,22 @@ packages:
         integrity: sha512-KaiIN2QB9KVpsI+irHGpOdVEoAhlrTRGdjF+MhCawdMINlChgZfxXvvREzt1gSYxusqmEv/mF1u/fp0tBhGPqg==,
       }
 
-  "@tsparticles/shape-circle@3.4.0":
+  "@tsparticles/shape-circle@3.7.1":
     resolution:
       {
-        integrity: sha512-X1ynt8h7bO+xep12Vkxeo2fImbKzLMEZr0qY3vKZzhHcy0/lxoo505pwyVL2+V98eZNOu9fmQM7vlIt/0FGTcg==,
+        integrity: sha512-kmOWaUuFwuTtcCFYjuyJbdA5qDqWdGsharLalYnIczkLu2c1I8jJo/OmGePKhWn62ocu7mqKMomfElkIcw2AsA==,
       }
 
-  "@tsparticles/shape-line@3.4.0":
+  "@tsparticles/shape-line@3.7.1":
     resolution:
       {
-        integrity: sha512-pXItuUBtIatcQQLp+CS1HZjHtpGVqswFxDaFZv0b9Ulx+7I48i4T5r6LCF2ngo+3xcT+rDdAF/Ca/oCunztBBA==,
+        integrity: sha512-lMPYApUpg7avxmYPfHHr4dQepZSNn/g0Q1/g2+lnTi8ZtUBiCZ2WMVy9R3GOzyozbnzigLQ6AJRnOpsUZV7H4g==,
       }
 
-  "@tsparticles/shape-square@3.4.0":
+  "@tsparticles/shape-square@3.7.1":
     resolution:
       {
-        integrity: sha512-pUXAbSnW5aTMFFjAP3GHMxqbah3ADibuQcEmIgts5tNUKY8Bl0Syx5pllpe81z2AMJCsQncC15/M19DU/H+YXw==,
+        integrity: sha512-7VCqbRwinjBZ+Ryme27rOtl+jKrET8qDthqZLrAoj3WONBqyt+R9q6SXAJ9WodqEX68IBvcluqbFY5qDZm8iAQ==,
       }
 
   "@tsparticles/tsconfig@2.3.0":
@@ -2701,70 +2722,70 @@ packages:
         integrity: sha512-XBtRoIQcBzC+R7/tcoYu4+JB9DbVrSbn09IJ+QMyATLZK0P4Expj3Z/hPpJzejWOvepMSYBZlCodnjFQyk17YA==,
       }
 
-  "@tsparticles/updater-color@3.4.0":
+  "@tsparticles/updater-color@3.7.1":
     resolution:
       {
-        integrity: sha512-joT5O/78p7n3jBq1aiFEp4wMevv8WtfjBJnODwEUO7aiHRozs9tA05djVLYZ7kjH0bLymJoPwxM46SEGSTsh+g==,
+        integrity: sha512-QimV3yn17dcdJx7PpTwLtw9BhkQ0q8qFF035OdcZpnynBPAO/hg0zvSMpMGoeuDVFH02wWBy4h2/BYCv6wh6Sw==,
       }
 
-  "@tsparticles/updater-destroy@3.4.0":
+  "@tsparticles/updater-destroy@3.7.1":
     resolution:
       {
-        integrity: sha512-XFyA2PpDAEuct2uACdMO/GE8LmQ54hJenF+tr9/FJKK18vcVJDkn0a36ShIG4zw36ds36mLqkNLcAAjnZ3pigw==,
+        integrity: sha512-krXNoMDKyeyE/ZjQh3LVjrLYivFefQOQ9i+B7RpMe7x4h+iRgpB6npTCqidGQ82+hZ8G6xfQ9ToduebWwK4JGg==,
       }
 
-  "@tsparticles/updater-life@3.4.0":
+  "@tsparticles/updater-life@3.7.1":
     resolution:
       {
-        integrity: sha512-bFx/3TTNNnWVmHkrfwXVlLc7R8QfbeX+KQ6dy09n+i2Vs3HnQUF7/VITjt0erNzyHfnqh+q+80gCn6X4brvwEQ==,
+        integrity: sha512-NY5gUrgO5AsARNC0usP9PKahXf7JCxbP/H1vzTfA0SJw4veANfWTldOvhIlcm2CHVP5P1b827p0hWsBHECwz7A==,
       }
 
-  "@tsparticles/updater-opacity@3.4.0":
+  "@tsparticles/updater-opacity@3.7.1":
     resolution:
       {
-        integrity: sha512-OCWbebZykDh8ZbTiTQX+pBRXHfTMMJpNXbFps4lTSHXHMDsbEMl5a3/TEFeUk3rd0wkiRSCjPUSGKupoU5B14w==,
+        integrity: sha512-YcyviCooTv7SAKw7sxd84CfJqZ7dYPSdYZzCpedV6TKIObRiwLqXlyLXQGJ3YltghKQSCSolmVy8woWBCDm1qA==,
       }
 
-  "@tsparticles/updater-out-modes@3.4.0":
+  "@tsparticles/updater-out-modes@3.7.1":
     resolution:
       {
-        integrity: sha512-i80MSXpnfivKlfA0FbAxk2CfZGNG3rPNtx5Pz/ZCDQ71j1YFjztdwfugp9oueu/sLfOSw4hIKfyR062zpgZp6Q==,
+        integrity: sha512-Cb5sWquRtUYLSiFpmBjjYKRdpNV52diCo9+qMtK1oVlldDBhUwqO+1TQjdlaA2yl5DURlY9ZfOHXvY+IT7CHCw==,
       }
 
-  "@tsparticles/updater-roll@3.4.0":
+  "@tsparticles/updater-roll@3.7.1":
     resolution:
       {
-        integrity: sha512-PhkZ7gJZTrAE3S2nYPmxXDCCxXcy7vfqosp4LnKyOLbZH1YwMy+2oltN6Ni22lMz794C2q+zURyZBu2oeH+rgA==,
+        integrity: sha512-gHLRqpTGVGPJBEAIPUiYVembIn5bcaTXXxsUJEM/IN+GIOvj2uZZGZ4r2aFTA6WugqEbJsJdblDSvMfouyz7Ug==,
       }
 
-  "@tsparticles/updater-rotate@3.4.0":
+  "@tsparticles/updater-rotate@3.7.1":
     resolution:
       {
-        integrity: sha512-BKmzN8YLSUPe6OngmhmjPCBJ2RpBi88nfoNJekZnVJpbRses1pV632EaOIAEVT1xsUrwVhvsXYa9Sv5iZxfIRg==,
+        integrity: sha512-toVHwl+h6SvtA8dyxSA2kMH2QdDA71vehuAa+HoRqf1y06h5kxyYiMKZFHCqDJ6lFfRPs47MjrC9dD2bDz14MQ==,
       }
 
-  "@tsparticles/updater-size@3.4.0":
+  "@tsparticles/updater-size@3.7.1":
     resolution:
       {
-        integrity: sha512-3z7INo2E7HR+ps8V490mOiLcCaFmUJFgObXBO3lF6uZ1xe6SfvVsX2r1HpQLwIpq7Ph2ZqQ4tj8tBPyKtada7g==,
+        integrity: sha512-+Y0H0PnDJVIsJ+zHTyubYu1jtRFmVnY1dAv3VCjScIDw6bcpL/ol+HrtHTGIX0WbMyUfjCyALfAoaXi/Wm8VcQ==,
       }
 
-  "@tsparticles/updater-stroke-color@3.4.0":
+  "@tsparticles/updater-stroke-color@3.7.1":
     resolution:
       {
-        integrity: sha512-5pe/777vPZgzlNBkh8GQ3fjT6273wcwlBeq4UkDA/q6bI867d8W+Fi8yUsqfdiS6B5tKSvVsI8rFrfwjEvW0pg==,
+        integrity: sha512-VHhQkCNuxjx/Hy7A+g0Yijb24T0+wQ3jNsF/yfrR9dEdZWSBiimZLvV1bilPdAeEtieAJTAZo2VNhcD1snF0iQ==,
       }
 
-  "@tsparticles/updater-tilt@3.4.0":
+  "@tsparticles/updater-tilt@3.7.1":
     resolution:
       {
-        integrity: sha512-thrQC37W2Psdr7arqxMeJ0iRM39y4JTRd9cQQVYCIhYkkQeSC6obujNZb+1BDjNM93HduSHKSK1aSXS0TCEWmg==,
+        integrity: sha512-pSOXoXPre1VPKC5nC5GW0L9jw63w1dVdsDdggEau7MP9xO7trko9L/KyayBX12Y4Ief1ca12Incxxr67hw7GGA==,
       }
 
-  "@tsparticles/updater-wobble@3.4.0":
+  "@tsparticles/updater-wobble@3.7.1":
     resolution:
       {
-        integrity: sha512-/+u3ZuyFQW8yH3uY6qEa5zsQi41JSbgqltcrjAPCgcOEtfwXaTUI/XqjMlppkoyA58lfA8nJhWZWVNTjFY3x7g==,
+        integrity: sha512-YIlNg4L0w4egQJhPLpgcvcfv9+X621+cQsrdN9sSmajxhhwtEQvQUvFUzGTcvpjVi+GcBNp0t4sCKEzoP8iaYw==,
       }
 
   "@tsparticles/webpack-plugin@2.3.0":
@@ -11419,17 +11440,20 @@ snapshots:
 
   "@tootallnate/once@2.0.0": {}
 
-  "@tsparticles/basic@3.4.0":
+  "@tsparticles/basic@3.7.1":
     dependencies:
-      "@tsparticles/engine": 3.4.0
-      "@tsparticles/move-base": 3.4.0
-      "@tsparticles/shape-circle": 3.4.0
-      "@tsparticles/updater-color": 3.4.0
-      "@tsparticles/updater-opacity": 3.4.0
-      "@tsparticles/updater-out-modes": 3.4.0
-      "@tsparticles/updater-size": 3.4.0
+      "@tsparticles/engine": 3.7.1
+      "@tsparticles/move-base": 3.7.1
+      "@tsparticles/plugin-hex-color": 3.7.1
+      "@tsparticles/plugin-hsl-color": 3.7.1
+      "@tsparticles/plugin-rgb-color": 3.7.1
+      "@tsparticles/shape-circle": 3.7.1
+      "@tsparticles/updater-color": 3.7.1
+      "@tsparticles/updater-opacity": 3.7.1
+      "@tsparticles/updater-out-modes": 3.7.1
+      "@tsparticles/updater-size": 3.7.1
 
-  "@tsparticles/cli@2.3.3(@types/eslint@8.56.7)(webpack-cli@5.1.4(webpack-bundle-analyzer@4.10.2)(webpack@5.91.0))":
+  "@tsparticles/cli@2.3.3(@types/eslint@8.56.7)(webpack-cli@5.1.4)":
     dependencies:
       "@tsparticles/eslint-config": 2.3.0(@types/eslint@8.56.7)
       "@tsparticles/prettier-config": 2.1.6
@@ -11468,7 +11492,7 @@ snapshots:
       - webpack-cli
       - webpack-dev-server
 
-  "@tsparticles/engine@3.4.0": {}
+  "@tsparticles/engine@3.7.1": {}
 
   "@tsparticles/eslint-config@2.3.0(@types/eslint@8.56.7)":
     dependencies:
@@ -11490,107 +11514,119 @@ snapshots:
       - eslint-import-resolver-webpack
       - supports-color
 
-  "@tsparticles/interaction-external-push@3.4.0":
+  "@tsparticles/interaction-external-push@3.7.1":
     dependencies:
-      "@tsparticles/engine": 3.4.0
+      "@tsparticles/engine": 3.7.1
 
-  "@tsparticles/interaction-external-trail@3.4.0":
+  "@tsparticles/interaction-external-trail@3.7.1":
     dependencies:
-      "@tsparticles/engine": 3.4.0
+      "@tsparticles/engine": 3.7.1
 
-  "@tsparticles/interaction-particles-links@3.4.0":
+  "@tsparticles/interaction-particles-links@3.7.1":
     dependencies:
-      "@tsparticles/engine": 3.4.0
+      "@tsparticles/engine": 3.7.1
 
-  "@tsparticles/move-base@3.4.0":
+  "@tsparticles/move-base@3.7.1":
     dependencies:
-      "@tsparticles/engine": 3.4.0
+      "@tsparticles/engine": 3.7.1
 
-  "@tsparticles/path-curves@3.4.0":
+  "@tsparticles/path-curves@3.7.1":
     dependencies:
-      "@tsparticles/engine": 3.4.0
+      "@tsparticles/engine": 3.7.1
 
-  "@tsparticles/plugin-emitters-shape-square@3.4.0":
+  "@tsparticles/plugin-emitters-shape-square@3.7.1":
     dependencies:
-      "@tsparticles/engine": 3.4.0
-      "@tsparticles/plugin-emitters": 3.4.0
+      "@tsparticles/engine": 3.7.1
+      "@tsparticles/plugin-emitters": 3.7.1
 
-  "@tsparticles/plugin-emitters@3.4.0":
+  "@tsparticles/plugin-emitters@3.7.1":
     dependencies:
-      "@tsparticles/engine": 3.4.0
+      "@tsparticles/engine": 3.7.1
 
-  "@tsparticles/plugin-motion@3.4.0":
+  "@tsparticles/plugin-hex-color@3.7.1":
     dependencies:
-      "@tsparticles/engine": 3.4.0
+      "@tsparticles/engine": 3.7.1
 
-  "@tsparticles/plugin-sounds@3.4.0":
+  "@tsparticles/plugin-hsl-color@3.7.1":
     dependencies:
-      "@tsparticles/engine": 3.4.0
+      "@tsparticles/engine": 3.7.1
+
+  "@tsparticles/plugin-motion@3.7.1":
+    dependencies:
+      "@tsparticles/engine": 3.7.1
+
+  "@tsparticles/plugin-rgb-color@3.7.1":
+    dependencies:
+      "@tsparticles/engine": 3.7.1
+
+  "@tsparticles/plugin-sounds@3.7.1":
+    dependencies:
+      "@tsparticles/engine": 3.7.1
 
   "@tsparticles/prettier-config@2.1.6":
     dependencies:
       prettier: 3.3.0
       prettier-plugin-multiline-arrays: 3.0.4(prettier@3.3.0)
 
-  "@tsparticles/shape-circle@3.4.0":
+  "@tsparticles/shape-circle@3.7.1":
     dependencies:
-      "@tsparticles/engine": 3.4.0
+      "@tsparticles/engine": 3.7.1
 
-  "@tsparticles/shape-line@3.4.0":
+  "@tsparticles/shape-line@3.7.1":
     dependencies:
-      "@tsparticles/engine": 3.4.0
+      "@tsparticles/engine": 3.7.1
 
-  "@tsparticles/shape-square@3.4.0":
+  "@tsparticles/shape-square@3.7.1":
     dependencies:
-      "@tsparticles/engine": 3.4.0
+      "@tsparticles/engine": 3.7.1
 
   "@tsparticles/tsconfig@2.3.0":
     dependencies:
       typescript: 5.4.5
 
-  "@tsparticles/updater-color@3.4.0":
+  "@tsparticles/updater-color@3.7.1":
     dependencies:
-      "@tsparticles/engine": 3.4.0
+      "@tsparticles/engine": 3.7.1
 
-  "@tsparticles/updater-destroy@3.4.0":
+  "@tsparticles/updater-destroy@3.7.1":
     dependencies:
-      "@tsparticles/engine": 3.4.0
+      "@tsparticles/engine": 3.7.1
 
-  "@tsparticles/updater-life@3.4.0":
+  "@tsparticles/updater-life@3.7.1":
     dependencies:
-      "@tsparticles/engine": 3.4.0
+      "@tsparticles/engine": 3.7.1
 
-  "@tsparticles/updater-opacity@3.4.0":
+  "@tsparticles/updater-opacity@3.7.1":
     dependencies:
-      "@tsparticles/engine": 3.4.0
+      "@tsparticles/engine": 3.7.1
 
-  "@tsparticles/updater-out-modes@3.4.0":
+  "@tsparticles/updater-out-modes@3.7.1":
     dependencies:
-      "@tsparticles/engine": 3.4.0
+      "@tsparticles/engine": 3.7.1
 
-  "@tsparticles/updater-roll@3.4.0":
+  "@tsparticles/updater-roll@3.7.1":
     dependencies:
-      "@tsparticles/engine": 3.4.0
+      "@tsparticles/engine": 3.7.1
 
-  "@tsparticles/updater-rotate@3.4.0":
+  "@tsparticles/updater-rotate@3.7.1":
     dependencies:
-      "@tsparticles/engine": 3.4.0
+      "@tsparticles/engine": 3.7.1
 
-  "@tsparticles/updater-size@3.4.0":
+  "@tsparticles/updater-size@3.7.1":
     dependencies:
-      "@tsparticles/engine": 3.4.0
+      "@tsparticles/engine": 3.7.1
 
-  "@tsparticles/updater-stroke-color@3.4.0":
+  "@tsparticles/updater-stroke-color@3.7.1":
     dependencies:
-      "@tsparticles/engine": 3.4.0
+      "@tsparticles/engine": 3.7.1
 
-  "@tsparticles/updater-tilt@3.4.0":
+  "@tsparticles/updater-tilt@3.7.1":
     dependencies:
-      "@tsparticles/engine": 3.4.0
+      "@tsparticles/engine": 3.7.1
 
-  "@tsparticles/updater-wobble@3.4.0":
+  "@tsparticles/updater-wobble@3.7.1":
     dependencies:
-      "@tsparticles/engine": 3.4.0
+      "@tsparticles/engine": 3.7.1
 
   "@tsparticles/webpack-plugin@2.3.0(@types/eslint@8.56.7)":
     dependencies:
@@ -11600,11 +11636,11 @@ snapshots:
       "@tsparticles/eslint-config": 2.3.0(@types/eslint@8.56.7)
       "@tsparticles/prettier-config": 2.1.6
       "@types/node": 20.14.0
-      "@types/webpack-bundle-analyzer": 4.7.0(webpack-cli@5.1.4(webpack-bundle-analyzer@4.10.2)(webpack@5.91.0))
+      "@types/webpack-bundle-analyzer": 4.7.0(webpack-cli@5.1.4)
       "@types/webpack-env": 1.18.5
       "@typescript-eslint/eslint-plugin": 7.11.0(@typescript-eslint/parser@7.11.0(eslint@8.57.0)(typescript@5.4.5))(eslint@8.57.0)(typescript@5.4.5)
       "@typescript-eslint/parser": 7.11.0(eslint@8.57.0)(typescript@5.4.5)
-      babel-loader: 9.1.3(@babel/core@7.24.6)(webpack@5.91.0(webpack-cli@5.1.4))
+      babel-loader: 9.1.3(@babel/core@7.24.6)(webpack@5.91.0)
       browserslist: 4.23.0
       copyfiles: 2.4.1
       eslint: 8.57.0
@@ -11615,7 +11651,7 @@ snapshots:
       prettier: 3.3.0
       prettier-plugin-multiline-arrays: 3.0.4(prettier@3.3.0)
       rimraf: 5.0.7
-      terser-webpack-plugin: 5.3.10(webpack@5.91.0(webpack-cli@5.1.4))
+      terser-webpack-plugin: 5.3.10(webpack@5.91.0)
       typescript: 5.4.5
       webpack: 5.91.0(webpack-cli@5.1.4)
       webpack-bundle-analyzer: 4.10.2
@@ -11679,7 +11715,7 @@ snapshots:
 
   "@types/semver@7.5.8": {}
 
-  "@types/webpack-bundle-analyzer@4.7.0(webpack-cli@5.1.4(webpack-bundle-analyzer@4.10.2)(webpack@5.91.0))":
+  "@types/webpack-bundle-analyzer@4.7.0(webpack-cli@5.1.4)":
     dependencies:
       "@types/node": 20.14.0
       tapable: 2.2.1
@@ -11934,17 +11970,17 @@ snapshots:
       "@webassemblyjs/ast": 1.12.1
       "@xtuc/long": 4.2.2
 
-  "@webpack-cli/configtest@2.1.1(webpack-cli@5.1.4(webpack-bundle-analyzer@4.10.2)(webpack@5.91.0))(webpack@5.91.0(webpack-cli@5.1.4))":
+  "@webpack-cli/configtest@2.1.1(webpack-cli@5.1.4)(webpack@5.91.0)":
     dependencies:
       webpack: 5.91.0(webpack-cli@5.1.4)
       webpack-cli: 5.1.4(webpack-bundle-analyzer@4.10.2)(webpack@5.91.0)
 
-  "@webpack-cli/info@2.0.2(webpack-cli@5.1.4(webpack-bundle-analyzer@4.10.2)(webpack@5.91.0))(webpack@5.91.0(webpack-cli@5.1.4))":
+  "@webpack-cli/info@2.0.2(webpack-cli@5.1.4)(webpack@5.91.0)":
     dependencies:
       webpack: 5.91.0(webpack-cli@5.1.4)
       webpack-cli: 5.1.4(webpack-bundle-analyzer@4.10.2)(webpack@5.91.0)
 
-  "@webpack-cli/serve@2.0.5(webpack-cli@5.1.4(webpack-bundle-analyzer@4.10.2)(webpack@5.91.0))(webpack@5.91.0(webpack-cli@5.1.4))":
+  "@webpack-cli/serve@2.0.5(webpack-cli@5.1.4)(webpack@5.91.0)":
     dependencies:
       webpack: 5.91.0(webpack-cli@5.1.4)
       webpack-cli: 5.1.4(webpack-bundle-analyzer@4.10.2)(webpack@5.91.0)
@@ -12173,7 +12209,7 @@ snapshots:
     transitivePeerDependencies:
       - debug
 
-  babel-loader@9.1.3(@babel/core@7.24.6)(webpack@5.91.0(webpack-cli@5.1.4)):
+  babel-loader@9.1.3(@babel/core@7.24.6)(webpack@5.91.0):
     dependencies:
       "@babel/core": 7.24.6
       find-cache-dir: 4.0.0
@@ -15764,7 +15800,7 @@ snapshots:
 
   temp-dir@1.0.0: {}
 
-  terser-webpack-plugin@5.3.10(webpack@5.91.0(webpack-cli@5.1.4)):
+  terser-webpack-plugin@5.3.10(webpack@5.91.0):
     dependencies:
       "@jridgewell/trace-mapping": 0.3.22
       jest-worker: 27.5.1
@@ -16082,9 +16118,9 @@ snapshots:
   webpack-cli@5.1.4(webpack-bundle-analyzer@4.10.2)(webpack@5.91.0):
     dependencies:
       "@discoveryjs/json-ext": 0.5.7
-      "@webpack-cli/configtest": 2.1.1(webpack-cli@5.1.4(webpack-bundle-analyzer@4.10.2)(webpack@5.91.0))(webpack@5.91.0(webpack-cli@5.1.4))
-      "@webpack-cli/info": 2.0.2(webpack-cli@5.1.4(webpack-bundle-analyzer@4.10.2)(webpack@5.91.0))(webpack@5.91.0(webpack-cli@5.1.4))
-      "@webpack-cli/serve": 2.0.5(webpack-cli@5.1.4(webpack-bundle-analyzer@4.10.2)(webpack@5.91.0))(webpack@5.91.0(webpack-cli@5.1.4))
+      "@webpack-cli/configtest": 2.1.1(webpack-cli@5.1.4)(webpack@5.91.0)
+      "@webpack-cli/info": 2.0.2(webpack-cli@5.1.4)(webpack@5.91.0)
+      "@webpack-cli/serve": 2.0.5(webpack-cli@5.1.4)(webpack@5.91.0)
       colorette: 2.0.20
       commander: 10.0.1
       cross-spawn: 7.0.3
@@ -16129,7 +16165,7 @@ snapshots:
       neo-async: 2.6.2
       schema-utils: 3.3.0
       tapable: 2.2.1
-      terser-webpack-plugin: 5.3.10(webpack@5.91.0(webpack-cli@5.1.4))
+      terser-webpack-plugin: 5.3.10(webpack@5.91.0)
       watchpack: 2.4.1
       webpack-sources: 3.2.3
     optionalDependencies:

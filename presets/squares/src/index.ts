@@ -1,5 +1,6 @@
 import type { Engine } from "@tsparticles/engine";
 import { loadEmittersPlugin } from "@tsparticles/plugin-emitters";
+import { loadHexColorPlugin } from "@tsparticles/plugin-hex-color";
 import { loadRotateUpdater } from "@tsparticles/updater-rotate";
 import { loadSizeUpdater } from "@tsparticles/updater-size";
 import { loadSquareShape } from "@tsparticles/shape-square";
@@ -12,6 +13,7 @@ import { options } from "./options.js";
  * @param refresh - should refresh the engine
  */
 export async function loadSquaresPreset(engine: Engine, refresh = true): Promise<void> {
+    await loadHexColorPlugin(engine, false);
     await loadEmittersPlugin(engine, false);
     await loadSquareShape(engine, false);
     await loadRotateUpdater(engine, false);
