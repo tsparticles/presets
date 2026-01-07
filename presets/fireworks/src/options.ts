@@ -138,7 +138,7 @@ export function initOptions(engine: Engine): ISourceOptions {
                     },
                 } as RecursivePartial<IParticlesOptions>;
             })
-            .filter(t => t !== undefined) as RecursivePartial<IParticlesOptions>[];
+            .filter(t => t !== undefined);
 
     return {
         detectRetina: true,

@@ -22,21 +22,21 @@
     "watch": "nodemon app.js"
   },
   "devDependencies": {
-    "@fortawesome/fontawesome-free": "^6.5.2",
+    "@fortawesome/fontawesome-free": "^7.1.0",
     "@popperjs/core": "^2.11.8",
-    "bootstrap": "^5.3.3",
+    "bootstrap": "^5.3.8",
     "connect-livereload": "^0.6.1",
-    "express": "^4.19.2",
-    "express-rate-limit": "^7.3.0",
-    "helmet": "^7.1.0",
+    "express": "^5.2.1",
+    "express-rate-limit": "^8.2.1",
+    "helmet": "^8.1.0",
     "jquery": "^3.7.1",
-    "jsoneditor": "^10.0.3",
-    "livereload": "^0.9.3",
+    "jsoneditor": "^10.4.2",
+    "livereload": "^0.10.3",
     "lodash": "^4.17.21",
-    "nodemon": "^3.1.2",
+    "nodemon": "^3.1.11",
     "pug": "^3.0.3",
     "stats.ts": "^1.1.0",
-    "stylus": "^0.63.0"
+    "stylus": "^0.64.0"
   },
   "dependencies": {
     "@tsparticles/preset-big-circles": "workspace:^",
@@ -53,5 +53,6 @@
     "@tsparticles/preset-squares": "workspace:^",
     "@tsparticles/preset-stars": "workspace:^",
     "@tsparticles/preset-triangles": "workspace:^"
-  }
+  },
+  "type": "module"
 }
