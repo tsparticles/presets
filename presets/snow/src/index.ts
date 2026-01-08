@@ -1,18 +1,17 @@
 import type { Engine } from "@tsparticles/engine";
-import { loadBasic } from "@tsparticles/basic";
-import { loadWobbleUpdater } from "@tsparticles/updater-wobble";
-import { options } from "./options.js";
 
 /**
- *
  * @param engine -
- * @param refresh -
  */
-export async function loadSnowPreset(engine: Engine, refresh = true): Promise<void> {
-    await loadBasic(engine, false);
-    await loadWobbleUpdater(engine, false);
+export function loadSnowPreset(engine: Engine): void {
+    engine.register(async e => {
+        const { loadBasic } = await import("@tsparticles/basic"),
+            { loadWobbleUpdater } = await import("@tsparticles/updater-wobble"),
+            { options, presetName } = await import("./options.js");
 
-    await engine.addPreset("snow", options, false);
+        loadBasic(e);
+        loadWobbleUpdater(e);
 
-    await engine.refresh(refresh);
+        e.addPreset(presetName, options);
+    });
 }

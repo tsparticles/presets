@@ -1,32 +1,39 @@
 import type { Engine } from "@tsparticles/engine";
-import { initOptions } from "./options.js";
-import { loadBasic } from "@tsparticles/basic";
-import { loadDestroyUpdater } from "@tsparticles/updater-destroy";
-import { loadEmittersPlugin } from "@tsparticles/plugin-emitters";
-import { loadEmittersShapeSquare } from "@tsparticles/plugin-emitters-shape-square";
-import { loadLifeUpdater } from "@tsparticles/updater-life";
-import { loadLineShape } from "@tsparticles/shape-line";
-import { loadRotateUpdater } from "@tsparticles/updater-rotate";
-import { loadSoundsPlugin } from "@tsparticles/plugin-sounds";
-import { loadStrokeColorUpdater } from "@tsparticles/updater-stroke-color";
 
 /**
- *
  * @param engine -
- * @param refresh -
  */
-export async function loadFireworksPreset(engine: Engine, refresh = true): Promise<void> {
-    await loadBasic(engine, false);
-    await loadEmittersPlugin(engine, false);
-    await loadEmittersShapeSquare(engine, false);
-    await loadSoundsPlugin(engine, false);
-    await loadLineShape(engine, false);
-    await loadRotateUpdater(engine, false);
-    await loadDestroyUpdater(engine, false);
-    await loadLifeUpdater(engine, false);
-    await loadStrokeColorUpdater(engine, false);
+export function loadFireworksPreset(engine: Engine): void {
+    engine.register(async e => {
+        const { loadBasic } = await import("@tsparticles/basic"),
+            { loadEmittersPlugin } = await import("@tsparticles/plugin-emitters"),
+            { loadTrailEffect } = await import("@tsparticles/effect-trail"),
+            { loadEmittersShapeSquare } = await import("@tsparticles/plugin-emitters-shape-square"),
+            { loadHexColorPlugin } = await import("@tsparticles/plugin-hex-color"),
+            { loadHslColorPlugin } = await import("@tsparticles/plugin-hsl-color"),
+            { loadRgbColorPlugin } = await import("@tsparticles/plugin-rgb-color"),
+            { loadSoundsPlugin } = await import("@tsparticles/plugin-sounds"),
+            { loadLineShape } = await import("@tsparticles/shape-line"),
+            { loadRotateUpdater } = await import("@tsparticles/updater-rotate"),
+            { loadDestroyUpdater } = await import("@tsparticles/updater-destroy"),
+            { loadLifeUpdater } = await import("@tsparticles/updater-life"),
+            { loadStrokeColorUpdater } = await import("@tsparticles/updater-stroke-color"),
+            { initOptions, presetName } = await import("./options.js");
 
-    await engine.addPreset("fireworks", initOptions(engine), false);
+        loadBasic(e);
+        loadHexColorPlugin(e);
+        loadHslColorPlugin(e);
+        loadRgbColorPlugin(e);
+        loadEmittersPlugin(e);
+        loadTrailEffect(e);
+        loadEmittersShapeSquare(e);
+        loadSoundsPlugin(e);
+        loadLineShape(e);
+        loadRotateUpdater(e);
+        loadDestroyUpdater(e);
+        loadLifeUpdater(e);
+        loadStrokeColorUpdater(e);
 
-    await engine.refresh(refresh);
+        e.addPreset(presetName, initOptions(), false);
+    });
 }

@@ -1,18 +1,17 @@
 import type { Engine } from "@tsparticles/engine";
-import { loadBasic } from "@tsparticles/basic";
-import { loadParticlesLinksInteraction } from "@tsparticles/interaction-particles-links";
-import { options } from "./options.js";
 
 /**
- *
  * @param engine -
- * @param refresh -
  */
-export async function loadLinksPreset(engine: Engine, refresh = true): Promise<void> {
-    await loadBasic(engine, false);
-    await loadParticlesLinksInteraction(engine, false);
+export function loadLinksPreset(engine: Engine): void {
+    engine.register(async e => {
+        const { loadBasic } = await import("@tsparticles/basic"),
+            { loadParticlesLinksInteraction } = await import("@tsparticles/interaction-particles-links"),
+            { options, presetName } = await import("./options.js");
 
-    await engine.addPreset("links", options, false);
+        loadBasic(e);
+        loadParticlesLinksInteraction(e);
 
-    await engine.refresh(refresh);
+        e.addPreset(presetName, options);
+    });
 }

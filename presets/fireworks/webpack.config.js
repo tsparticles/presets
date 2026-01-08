@@ -1,9 +1,17 @@
-const { loadParticlesPreset } = require("@tsparticles/webpack-plugin");
-const version = require("./package.json").version;
+import { loadParticlesPreset } from "@tsparticles/webpack-plugin";
+import { fileURLToPath } from "url";
+import fs from "fs-extra";
+import path from "path";
 
-module.exports = loadParticlesPreset({
+const __filename = fileURLToPath(import.meta.url),
+    __dirname = path.dirname(__filename),
+    rootPkgPath = path.join(__dirname, "package.json"),
+    pkg = await fs.readJson(rootPkgPath),
+    version = pkg.version;
+
+export default loadParticlesPreset({
     dir: __dirname,
     moduleName: "fireworks",
     presetName: "Fireworks",
-    version: version
+    version,
 });

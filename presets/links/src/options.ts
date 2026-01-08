@@ -1,3 +1,5 @@
+export const presetName = "links";
+
 export const options = {
     background: {
         color: "#000000",

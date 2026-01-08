@@ -26,13 +26,6 @@ export const options: ISourceOptions = {
             random: false,
             speed: 2,
             straight: false,
-            trail: {
-                fill: {
-                    color: "#000",
-                },
-                length: 30,
-                enable: true,
-            },
         },
         number: {
             value: 0,
@@ -97,5 +90,12 @@ export const options: ISourceOptions = {
             x: 50,
             y: 50,
         },
+    },
+    trail: {
+        fill: {
+            color: "#000",
+        },
+        length: 30,
+        enable: true,
     },
 };

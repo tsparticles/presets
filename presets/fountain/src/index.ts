@@ -1,20 +1,21 @@
 import type { Engine } from "@tsparticles/engine";
-import { loadBasic } from "@tsparticles/basic";
-import { loadDestroyUpdater } from "@tsparticles/updater-destroy";
-import { loadEmittersPlugin } from "@tsparticles/plugin-emitters";
-import { options } from "./options.js";
 
 /**
- *
  * @param engine -
- * @param refresh -
  */
-export async function loadFountainPreset(engine: Engine, refresh = true): Promise<void> {
-    await loadBasic(engine, false);
-    await loadDestroyUpdater(engine, false);
-    await loadEmittersPlugin(engine, false);
+export function loadFountainPreset(engine: Engine): void {
+    engine.register(async e => {
+        const { loadBasic } = await import("@tsparticles/basic"),
+            { loadDestroyUpdater } = await import("@tsparticles/updater-destroy"),
+            { loadEmittersPlugin } = await import("@tsparticles/plugin-emitters"),
+            { loadTrailPlugin } = await import("@tsparticles/plugin-trail"),
+            { options, presetName } = await import("./options.js");
 
-    await engine.addPreset("fountain", options, false);
+        loadBasic(e);
+        loadDestroyUpdater(e);
+        loadEmittersPlugin(e);
+        loadTrailPlugin(e);
 
-    await engine.refresh(refresh);
+        e.addPreset(presetName, options);
+    });
 }

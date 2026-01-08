@@ -1,4 +1,2 @@
-import { loadSnowPreset } from "./index.js";
-import { tsParticles } from "@tsparticles/engine";
-
-export { loadSnowPreset, tsParticles };
+export { loadSnowPreset } from "./index.js";
+export { tsParticles } from "@tsparticles/engine";

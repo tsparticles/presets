@@ -1,4 +1,2 @@
-import { loadFireworksPreset } from "./index.js";
-import { tsParticles } from "@tsparticles/engine";
-
-export { loadFireworksPreset, tsParticles };
+export { loadFireworksPreset } from "./index.js";
+export { tsParticles } from "@tsparticles/engine";

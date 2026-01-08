@@ -1,6 +1,6 @@
 {
   "name": "@tsparticles/preset-bubbles",
-  "version": "3.2.0",
+  "version": "4.0.0-alpha.1",
   "description": "tsParticles bubbles preset",
   "homepage": "https://particles.js.org",
   "repository": {
@@ -81,17 +81,30 @@
       "url": "https://www.buymeacoffee.com/matteobruni"
     }
   ],
-  "main": "cjs/index.js",
   "jsdelivr": "tsparticles.preset.bubbles.min.js",
   "unpkg": "tsparticles.preset.bubbles.min.js",
+  "browser": "browser/index.js",
+  "main": "cjs/index.js",
   "module": "esm/index.js",
   "types": "types/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./types/index.d.ts",
+      "browser": "./browser/index.js",
+      "import": "./esm/index.js",
+      "require": "./cjs/index.js",
+      "umd": "./umd/index.js",
+      "default": "./cjs/index.js"
+    },
+    "./package.json": "./package.json"
+  },
   "dependencies": {
-    "@tsparticles/basic": "^3.7.1",
-    "@tsparticles/engine": "^3.7.1",
-    "@tsparticles/plugin-emitters": "^3.7.1"
+    "@tsparticles/basic": "^4.0.0-alpha.2",
+    "@tsparticles/engine": "^4.0.0-alpha.2",
+    "@tsparticles/plugin-emitters": "^4.0.0-alpha.2"
   },
   "publishConfig": {
     "access": "public"
-  }
+  },
+  "type": "module"
 }

@@ -1,8 +1,10 @@
 import type { ISourceOptions } from "@tsparticles/engine";
 
-const lifeDurationNum = 20,
-    lifeDurationFactor = 6,
+const lifeDurationNum = 10,
+    lifeDurationFactor = 3,
     lifeDuration = lifeDurationNum / lifeDurationFactor;
+
+export const presetName = "confetti";
 
 export const options: ISourceOptions = {
     fullScreen: {

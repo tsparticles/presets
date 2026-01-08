@@ -1,6 +1,6 @@
 {
   "name": "@tsparticles/preset-fireworks",
-  "version": "3.2.0",
+  "version": "4.0.0-alpha.1",
   "description": "tsParticles fireworks preset",
   "homepage": "https://particles.js.org",
   "repository": {
@@ -81,24 +81,41 @@
       "url": "https://www.buymeacoffee.com/matteobruni"
     }
   ],
-  "main": "cjs/index.js",
   "jsdelivr": "tsparticles.preset.fireworks.min.js",
   "unpkg": "tsparticles.preset.fireworks.min.js",
+  "browser": "browser/index.js",
+  "main": "cjs/index.js",
   "module": "esm/index.js",
   "types": "types/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./types/index.d.ts",
+      "browser": "./browser/index.js",
+      "import": "./esm/index.js",
+      "require": "./cjs/index.js",
+      "umd": "./umd/index.js",
+      "default": "./cjs/index.js"
+    },
+    "./package.json": "./package.json"
+  },
   "dependencies": {
-    "@tsparticles/basic": "^3.7.1",
-    "@tsparticles/engine": "^3.7.1",
-    "@tsparticles/plugin-emitters": "^3.7.1",
-    "@tsparticles/plugin-emitters-shape-square": "^3.7.1",
-    "@tsparticles/plugin-sounds": "^3.7.1",
-    "@tsparticles/shape-line": "^3.7.1",
-    "@tsparticles/updater-destroy": "^3.7.1",
-    "@tsparticles/updater-life": "^3.7.1",
-    "@tsparticles/updater-rotate": "^3.7.1",
-    "@tsparticles/updater-stroke-color": "^3.7.1"
+    "@tsparticles/basic": "^4.0.0-alpha.2",
+    "@tsparticles/effect-trail": "^4.0.0-alpha.2",
+    "@tsparticles/engine": "^4.0.0-alpha.2",
+    "@tsparticles/plugin-emitters": "^4.0.0-alpha.2",
+    "@tsparticles/plugin-emitters-shape-square": "^4.0.0-alpha.2",
+    "@tsparticles/plugin-hex-color": "^4.0.0-alpha.2",
+    "@tsparticles/plugin-hsl-color": "^4.0.0-alpha.2",
+    "@tsparticles/plugin-rgb-color": "^4.0.0-alpha.2",
+    "@tsparticles/plugin-sounds": "^4.0.0-alpha.2",
+    "@tsparticles/shape-line": "^4.0.0-alpha.2",
+    "@tsparticles/updater-destroy": "^4.0.0-alpha.2",
+    "@tsparticles/updater-life": "^4.0.0-alpha.2",
+    "@tsparticles/updater-rotate": "^4.0.0-alpha.2",
+    "@tsparticles/updater-stroke-color": "^4.0.0-alpha.2"
   },
   "publishConfig": {
     "access": "public"
-  }
+  },
+  "type": "module"
 }

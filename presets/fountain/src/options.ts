@@ -1,5 +1,7 @@
 import { type ISourceOptions, MoveDirection, OutMode } from "@tsparticles/engine";
 
+export const presetName = "fountain";
+
 export const options: ISourceOptions = {
     fpsLimit: 120,
     particles: {
@@ -62,13 +64,6 @@ export const options: ISourceOptions = {
                 default: OutMode.bounce,
                 top: OutMode.none,
             },
-            trail: {
-                enable: true,
-                fill: {
-                    color: "#fff",
-                },
-                length: 3,
-            },
         },
     },
     detectRetina: true,
@@ -90,5 +85,12 @@ export const options: ISourceOptions = {
             width: 0,
             height: 0,
         },
+    },
+    trail: {
+        enable: true,
+        fill: {
+            color: "#fff",
+        },
+        length: 3,
     },
 };

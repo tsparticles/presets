@@ -1,5 +1,7 @@
 import type { ISourceOptions } from "@tsparticles/engine";
 
+export const presetName = "fire";
+
 export const options: ISourceOptions = {
     fpsLimit: 40,
     particles: {

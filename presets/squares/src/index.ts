@@ -1,26 +1,25 @@
 import type { Engine } from "@tsparticles/engine";
-import { loadEmittersPlugin } from "@tsparticles/plugin-emitters";
-import { loadHexColorPlugin } from "@tsparticles/plugin-hex-color";
-import { loadRotateUpdater } from "@tsparticles/updater-rotate";
-import { loadSizeUpdater } from "@tsparticles/updater-size";
-import { loadSquareShape } from "@tsparticles/shape-square";
-import { loadStrokeColorUpdater } from "@tsparticles/updater-stroke-color";
-import { options } from "./options.js";
 
 /**
- *
  * @param engine - the engine instance to load the preset into
- * @param refresh - should refresh the engine
  */
-export async function loadSquaresPreset(engine: Engine, refresh = true): Promise<void> {
-    await loadHexColorPlugin(engine, false);
-    await loadEmittersPlugin(engine, false);
-    await loadSquareShape(engine, false);
-    await loadRotateUpdater(engine, false);
-    await loadSizeUpdater(engine, false);
-    await loadStrokeColorUpdater(engine, false);
+export function loadSquaresPreset(engine: Engine): void {
+    engine.register(async e => {
+        const { loadHexColorPlugin } = await import("@tsparticles/plugin-hex-color"),
+            { loadEmittersPlugin } = await import("@tsparticles/plugin-emitters"),
+            { loadSquareShape } = await import("@tsparticles/shape-square"),
+            { loadRotateUpdater } = await import("@tsparticles/updater-rotate"),
+            { loadSizeUpdater } = await import("@tsparticles/updater-size"),
+            { loadStrokeColorUpdater } = await import("@tsparticles/updater-stroke-color"),
+            { options, presetName } = await import("./options.js");
 
-    await engine.addPreset("squares", options, false);
+        loadHexColorPlugin(e);
+        loadEmittersPlugin(e);
+        loadSquareShape(e);
+        loadRotateUpdater(e);
+        loadSizeUpdater(e);
+        loadStrokeColorUpdater(e);
 
-    await engine.refresh(refresh);
+        e.addPreset(presetName, options);
+    });
 }

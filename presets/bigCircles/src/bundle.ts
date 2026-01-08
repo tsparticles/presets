@@ -1,4 +1,2 @@
-import { loadBigCirclesPreset } from "./index.js";
-import { tsParticles } from "@tsparticles/engine";
-
-export { loadBigCirclesPreset, tsParticles };
+export { loadBigCirclesPreset } from "./index.js";
+export { tsParticles } from "@tsparticles/engine";

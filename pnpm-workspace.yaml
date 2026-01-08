@@ -1,3 +1,8 @@
 packages:
-  - 'apps/*'
-  - 'presets/*'
+  - apps/*
+  - presets/*
+
+onlyBuiltDependencies:
+  - '@tsparticles/engine'
+  - esbuild
+  - nx

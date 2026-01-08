@@ -1,4 +1,2 @@
-import { loadFountainPreset } from "./index.js";
-import { tsParticles } from "@tsparticles/engine";
-
-export { loadFountainPreset, tsParticles };
+export { loadFountainPreset } from "./index.js";
+export { tsParticles } from "@tsparticles/engine";

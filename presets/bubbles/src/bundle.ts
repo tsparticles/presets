@@ -1,4 +1,2 @@
-import { loadBubblesPreset } from "./index.js";
-import { tsParticles } from "@tsparticles/engine";
-
-export { loadBubblesPreset, tsParticles };
+export { loadBubblesPreset } from "./index.js";
+export { tsParticles } from "@tsparticles/engine";

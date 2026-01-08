@@ -1,5 +1,7 @@
 import { MoveDirection, OutMode } from "@tsparticles/engine";
 
+export const presetName = "hyperspace";
+
 export const options = {
     background: {
         color: "#000000",
@@ -33,13 +35,6 @@ export const options = {
             direction: MoveDirection.outside,
             straight: true,
             outModes: OutMode.destroy,
-            trail: {
-                enable: true,
-                length: 15,
-                fill: {
-                    color: "#000000",
-                },
-            },
         },
     },
     emitters: {
@@ -54,6 +49,13 @@ export const options = {
         rate: {
             quantity: 10,
             delay: 0.1,
+        },
+    },
+    trail: {
+        enable: true,
+        length: 15,
+        fill: {
+            color: "#000000",
         },
     },
 };

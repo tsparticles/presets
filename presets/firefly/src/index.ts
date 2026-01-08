@@ -1,18 +1,17 @@
 import type { Engine } from "@tsparticles/engine";
-import { loadBasic } from "@tsparticles/basic";
-import { loadExternalTrailInteraction } from "@tsparticles/interaction-external-trail";
-import { options } from "./options.js";
 
 /**
- *
  * @param engine -
- * @param refresh -
  */
-export async function loadFireflyPreset(engine: Engine, refresh = true): Promise<void> {
-    await loadBasic(engine, false);
-    await loadExternalTrailInteraction(engine, false);
+export function loadFireflyPreset(engine: Engine): void {
+    engine.register(async e => {
+        const { loadBasic } = await import("@tsparticles/basic"),
+            { loadExternalTrailInteraction } = await import("@tsparticles/interaction-external-trail"),
+            { options, presetName } = await import("./options.js");
 
-    await engine.addPreset("firefly", options, false);
+        loadBasic(e);
+        loadExternalTrailInteraction(e);
 
-    await engine.refresh(refresh);
+        e.addPreset(presetName, options);
+    });
 }
