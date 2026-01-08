@@ -3,6 +3,10 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [4.0.0-alpha.0](https://github.com/tsparticles/presets/compare/v3.2.0...v4.0.0-alpha.0) (2026-01-08)
+
+**Note:** Version bump only for package @tsparticles/vite-demo
+
 # [3.2.0](https://github.com/tsparticles/presets/compare/v3.1.0...v3.2.0) (2024-11-24)
 
 **Note:** Version bump only for package @tsparticles/vite-demo
