@@ -13,7 +13,6 @@ import {
     type RecursivePartial,
     StartValueType,
     defaultAlpha,
-    getLogger,
     none,
     rgbToHsl,
     setRangeValue,
@@ -132,8 +131,6 @@ export function initOptions(): ISourceOptions {
                 const rgb = hexToRgba(color);
 
                 if (!rgb) {
-                    getLogger().log("color not found", color);
-
                     return undefined;
                 }
 
@@ -150,8 +147,6 @@ export function initOptions(): ISourceOptions {
                     },
                     sRange = fixRange({ min: hsl.s - sOffset, max: hsl.s + sOffset }, sBounds.min, sBounds.max),
                     lRange = fixRange({ min: hsl.l - lOffset, max: hsl.l + lOffset }, lBounds.min, lBounds.max);
-
-                getLogger().log(hsl.h, sRange, lRange);
 
                 return {
                     color: {
