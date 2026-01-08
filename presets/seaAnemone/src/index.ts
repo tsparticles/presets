@@ -1,20 +1,21 @@
-import { options, presetName } from "./options.js";
 import type { Engine } from "@tsparticles/engine";
-import { loadBasic } from "@tsparticles/basic";
-import { loadCurvesPath } from "@tsparticles/path-curves";
-import { loadEmittersPlugin } from "@tsparticles/plugin-emitters";
 
 /**
- *
  * @param engine -
- * @param refresh -
  */
-export async function loadSeaAnemonePreset(engine: Engine, refresh = true): Promise<void> {
-    await loadBasic(engine, false);
-    await loadEmittersPlugin(engine, false);
-    await loadCurvesPath(engine, false);
+export function loadSeaAnemonePreset(engine: Engine): void {
+    engine.register(async e => {
+        const { loadBasic } = await import("@tsparticles/basic"),
+            { loadEmittersPlugin } = await import("@tsparticles/plugin-emitters"),
+            { loadTrailPlugin } = await import("@tsparticles/plugin-trail"),
+            { loadCurvesPath } = await import("@tsparticles/path-curves"),
+            { options, presetName } = await import("./options.js");
 
-    await engine.addPreset(presetName, options, false);
+        loadBasic(e);
+        loadEmittersPlugin(e);
+        loadTrailPlugin(e);
+        loadCurvesPath(e);
 
-    await engine.refresh(refresh);
+        e.addPreset(presetName, options);
+    });
 }

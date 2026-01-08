@@ -99,10 +99,11 @@
     "./package.json": "./package.json"
   },
   "dependencies": {
-    "@tsparticles/basic": "^3.9.1",
-    "@tsparticles/engine": "^3.9.1",
-    "@tsparticles/path-curves": "^3.9.1",
-    "@tsparticles/plugin-emitters": "^3.9.1"
+    "@tsparticles/basic": "^4.0.0-alpha.2",
+    "@tsparticles/engine": "^4.0.0-alpha.2",
+    "@tsparticles/path-curves": "^4.0.0-alpha.2",
+    "@tsparticles/plugin-emitters": "^4.0.0-alpha.2",
+    "@tsparticles/plugin-trail": "^4.0.0-alpha.2"
   },
   "publishConfig": {
     "access": "public"

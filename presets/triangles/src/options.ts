@@ -1,5 +1,7 @@
 import type { ISourceOptions } from "@tsparticles/engine";
 
+export const presetName = "triangles";
+
 export const options: ISourceOptions = {
     background: {
         color: "#000000",

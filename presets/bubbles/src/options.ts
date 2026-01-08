@@ -1,5 +1,7 @@
 import { type ISourceOptions, MoveDirection, OutMode } from "@tsparticles/engine";
 
+export const presetName = "bubbles";
+
 export const options: ISourceOptions = {
     fpsLimit: 120,
     particles: {

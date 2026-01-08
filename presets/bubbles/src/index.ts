@@ -1,18 +1,17 @@
 import type { Engine } from "@tsparticles/engine";
-import { loadBasic } from "@tsparticles/basic";
-import { loadEmittersPlugin } from "@tsparticles/plugin-emitters";
-import { options } from "./options.js";
 
 /**
- *
  * @param engine -
- * @param refresh -
  */
-export async function loadBubblesPreset(engine: Engine, refresh = true): Promise<void> {
-    await loadBasic(engine, false);
-    await loadEmittersPlugin(engine, false);
+export function loadBubblesPreset(engine: Engine): void {
+    engine.register(async e => {
+        const { loadBasic } = await import("@tsparticles/basic"),
+            { loadEmittersPlugin } = await import("@tsparticles/plugin-emitters"),
+            { options, presetName } = await import("./options.js");
 
-    await engine.addPreset("bubbles", options, false);
+        loadBasic(e);
+        loadEmittersPlugin(e);
 
-    await engine.refresh(refresh);
+        e.addPreset(presetName, options);
+    });
 }

@@ -1,5 +1,7 @@
 import { type ISourceOptions } from "@tsparticles/engine";
 
+export const presetName = "firefly";
+
 export const options: ISourceOptions = {
     fullScreen: {
         enable: true,

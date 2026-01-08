@@ -1,4 +1,2 @@
-import { loadConfettiPreset } from "./index.js";
-import { tsParticles } from "@tsparticles/engine";
-
-export { loadConfettiPreset, tsParticles };
+export { loadConfettiPreset } from "./index.js";
+export { tsParticles } from "@tsparticles/engine";

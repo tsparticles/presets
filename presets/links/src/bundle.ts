@@ -1,4 +1,2 @@
-import { loadLinksPreset } from "./index.js";
-import { tsParticles } from "@tsparticles/engine";
-
-export { loadLinksPreset, tsParticles };
+export { loadLinksPreset } from "./index.js";
+export { tsParticles } from "@tsparticles/engine";
