@@ -110,9 +110,9 @@
   },
   "prettier": "@tsparticles/prettier-config",
   "dependencies": {
-    "@tsparticles/basic": "^4.0.0-alpha.2",
-    "@tsparticles/engine": "^4.0.0-alpha.2",
-    "@tsparticles/interaction-external-trail": "^4.0.0-alpha.2"
+    "@tsparticles/basic": "^4.0.0-alpha.3",
+    "@tsparticles/engine": "^4.0.0-alpha.3",
+    "@tsparticles/interaction-external-trail": "^4.0.0-alpha.3"
   },
   "type": "module"
 }

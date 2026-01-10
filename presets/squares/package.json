@@ -110,13 +110,13 @@
   },
   "prettier": "@tsparticles/prettier-config",
   "dependencies": {
-    "@tsparticles/engine": "^4.0.0-alpha.2",
-    "@tsparticles/plugin-emitters": "^4.0.0-alpha.2",
-    "@tsparticles/plugin-hex-color": "^4.0.0-alpha.2",
-    "@tsparticles/shape-square": "^4.0.0-alpha.2",
-    "@tsparticles/updater-rotate": "^4.0.0-alpha.2",
-    "@tsparticles/updater-size": "^4.0.0-alpha.2",
-    "@tsparticles/updater-stroke-color": "^4.0.0-alpha.2"
+    "@tsparticles/engine": "^4.0.0-alpha.3",
+    "@tsparticles/plugin-emitters": "^4.0.0-alpha.3",
+    "@tsparticles/plugin-hex-color": "^4.0.0-alpha.3",
+    "@tsparticles/shape-square": "^4.0.0-alpha.3",
+    "@tsparticles/updater-rotate": "^4.0.0-alpha.3",
+    "@tsparticles/updater-size": "^4.0.0-alpha.3",
+    "@tsparticles/updater-stroke-color": "^4.0.0-alpha.3"
   },
   "type": "module"
 }

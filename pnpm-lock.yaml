@@ -196,8 +196,8 @@ importers:
   apps/vite:
     devDependencies:
       '@tsparticles/engine':
-        specifier: ^4.0.0-alpha.2
-        version: 4.0.0-alpha.2
+        specifier: ^4.0.0-alpha.3
+        version: 4.0.0-alpha.3
       '@tsparticles/preset-big-circles':
         specifier: workspace:^
         version: link:../../presets/bigCircles/dist
@@ -250,270 +250,270 @@ importers:
   presets/bigCircles:
     dependencies:
       '@tsparticles/basic':
-        specifier: ^4.0.0-alpha.2
-        version: 4.0.0-alpha.2
+        specifier: ^4.0.0-alpha.3
+        version: 4.0.0-alpha.3
       '@tsparticles/engine':
-        specifier: ^4.0.0-alpha.2
-        version: 4.0.0-alpha.2
+        specifier: ^4.0.0-alpha.3
+        version: 4.0.0-alpha.3
       '@tsparticles/plugin-emitters':
-        specifier: ^4.0.0-alpha.2
-        version: 4.0.0-alpha.2
+        specifier: ^4.0.0-alpha.3
+        version: 4.0.0-alpha.3
       '@tsparticles/plugin-emitters-shape-square':
-        specifier: ^4.0.0-alpha.2
-        version: 4.0.0-alpha.2
+        specifier: ^4.0.0-alpha.3
+        version: 4.0.0-alpha.3
     publishDirectory: dist
 
   presets/bubbles:
     dependencies:
       '@tsparticles/basic':
-        specifier: ^4.0.0-alpha.2
-        version: 4.0.0-alpha.2
+        specifier: ^4.0.0-alpha.3
+        version: 4.0.0-alpha.3
       '@tsparticles/engine':
-        specifier: ^4.0.0-alpha.2
-        version: 4.0.0-alpha.2
+        specifier: ^4.0.0-alpha.3
+        version: 4.0.0-alpha.3
       '@tsparticles/plugin-emitters':
-        specifier: ^4.0.0-alpha.2
-        version: 4.0.0-alpha.2
+        specifier: ^4.0.0-alpha.3
+        version: 4.0.0-alpha.3
     publishDirectory: dist
 
   presets/confetti:
     dependencies:
       '@tsparticles/basic':
-        specifier: ^4.0.0-alpha.2
-        version: 4.0.0-alpha.2
+        specifier: ^4.0.0-alpha.3
+        version: 4.0.0-alpha.3
       '@tsparticles/engine':
-        specifier: ^4.0.0-alpha.2
-        version: 4.0.0-alpha.2
+        specifier: ^4.0.0-alpha.3
+        version: 4.0.0-alpha.3
       '@tsparticles/plugin-emitters':
-        specifier: ^4.0.0-alpha.2
-        version: 4.0.0-alpha.2
+        specifier: ^4.0.0-alpha.3
+        version: 4.0.0-alpha.3
       '@tsparticles/plugin-motion':
-        specifier: ^4.0.0-alpha.2
-        version: 4.0.0-alpha.2
+        specifier: ^4.0.0-alpha.3
+        version: 4.0.0-alpha.3
       '@tsparticles/shape-square':
-        specifier: ^4.0.0-alpha.2
-        version: 4.0.0-alpha.2
+        specifier: ^4.0.0-alpha.3
+        version: 4.0.0-alpha.3
       '@tsparticles/updater-life':
-        specifier: ^4.0.0-alpha.2
-        version: 4.0.0-alpha.2
+        specifier: ^4.0.0-alpha.3
+        version: 4.0.0-alpha.3
       '@tsparticles/updater-roll':
-        specifier: ^4.0.0-alpha.2
-        version: 4.0.0-alpha.2
+        specifier: ^4.0.0-alpha.3
+        version: 4.0.0-alpha.3
       '@tsparticles/updater-rotate':
-        specifier: ^4.0.0-alpha.2
-        version: 4.0.0-alpha.2
+        specifier: ^4.0.0-alpha.3
+        version: 4.0.0-alpha.3
       '@tsparticles/updater-tilt':
-        specifier: ^4.0.0-alpha.2
-        version: 4.0.0-alpha.2
+        specifier: ^4.0.0-alpha.3
+        version: 4.0.0-alpha.3
       '@tsparticles/updater-wobble':
-        specifier: ^4.0.0-alpha.2
-        version: 4.0.0-alpha.2
+        specifier: ^4.0.0-alpha.3
+        version: 4.0.0-alpha.3
     publishDirectory: dist
 
   presets/fire:
     dependencies:
       '@tsparticles/basic':
-        specifier: ^4.0.0-alpha.2
-        version: 4.0.0-alpha.2
+        specifier: ^4.0.0-alpha.3
+        version: 4.0.0-alpha.3
       '@tsparticles/engine':
-        specifier: ^4.0.0-alpha.2
-        version: 4.0.0-alpha.2
+        specifier: ^4.0.0-alpha.3
+        version: 4.0.0-alpha.3
       '@tsparticles/interaction-external-push':
-        specifier: ^4.0.0-alpha.2
-        version: 4.0.0-alpha.2
+        specifier: ^4.0.0-alpha.3
+        version: 4.0.0-alpha.3
     publishDirectory: dist
 
   presets/firefly:
     dependencies:
       '@tsparticles/basic':
-        specifier: ^4.0.0-alpha.2
-        version: 4.0.0-alpha.2
+        specifier: ^4.0.0-alpha.3
+        version: 4.0.0-alpha.3
       '@tsparticles/engine':
-        specifier: ^4.0.0-alpha.2
-        version: 4.0.0-alpha.2
+        specifier: ^4.0.0-alpha.3
+        version: 4.0.0-alpha.3
       '@tsparticles/interaction-external-trail':
-        specifier: ^4.0.0-alpha.2
-        version: 4.0.0-alpha.2
+        specifier: ^4.0.0-alpha.3
+        version: 4.0.0-alpha.3
     publishDirectory: dist
 
   presets/fireworks:
     dependencies:
       '@tsparticles/basic':
-        specifier: ^4.0.0-alpha.2
-        version: 4.0.0-alpha.2
+        specifier: ^4.0.0-alpha.3
+        version: 4.0.0-alpha.3
       '@tsparticles/effect-trail':
-        specifier: ^4.0.0-alpha.2
-        version: 4.0.0-alpha.2
+        specifier: ^4.0.0-alpha.3
+        version: 4.0.0-alpha.3
       '@tsparticles/engine':
-        specifier: ^4.0.0-alpha.2
-        version: 4.0.0-alpha.2
+        specifier: ^4.0.0-alpha.3
+        version: 4.0.0-alpha.3
       '@tsparticles/plugin-emitters':
-        specifier: ^4.0.0-alpha.2
-        version: 4.0.0-alpha.2
+        specifier: ^4.0.0-alpha.3
+        version: 4.0.0-alpha.3
       '@tsparticles/plugin-emitters-shape-square':
-        specifier: ^4.0.0-alpha.2
-        version: 4.0.0-alpha.2
+        specifier: ^4.0.0-alpha.3
+        version: 4.0.0-alpha.3
       '@tsparticles/plugin-hex-color':
-        specifier: ^4.0.0-alpha.2
-        version: 4.0.0-alpha.2
+        specifier: ^4.0.0-alpha.3
+        version: 4.0.0-alpha.3
       '@tsparticles/plugin-hsl-color':
-        specifier: ^4.0.0-alpha.2
-        version: 4.0.0-alpha.2
+        specifier: ^4.0.0-alpha.3
+        version: 4.0.0-alpha.3
       '@tsparticles/plugin-rgb-color':
-        specifier: ^4.0.0-alpha.2
-        version: 4.0.0-alpha.2
+        specifier: ^4.0.0-alpha.3
+        version: 4.0.0-alpha.3
       '@tsparticles/plugin-sounds':
-        specifier: ^4.0.0-alpha.2
-        version: 4.0.0-alpha.2
+        specifier: ^4.0.0-alpha.3
+        version: 4.0.0-alpha.3
       '@tsparticles/shape-line':
-        specifier: ^4.0.0-alpha.2
-        version: 4.0.0-alpha.2
+        specifier: ^4.0.0-alpha.3
+        version: 4.0.0-alpha.3
       '@tsparticles/updater-destroy':
-        specifier: ^4.0.0-alpha.2
-        version: 4.0.0-alpha.2
+        specifier: ^4.0.0-alpha.3
+        version: 4.0.0-alpha.3
       '@tsparticles/updater-life':
-        specifier: ^4.0.0-alpha.2
-        version: 4.0.0-alpha.2
+        specifier: ^4.0.0-alpha.3
+        version: 4.0.0-alpha.3
       '@tsparticles/updater-rotate':
-        specifier: ^4.0.0-alpha.2
-        version: 4.0.0-alpha.2
+        specifier: ^4.0.0-alpha.3
+        version: 4.0.0-alpha.3
       '@tsparticles/updater-stroke-color':
-        specifier: ^4.0.0-alpha.2
-        version: 4.0.0-alpha.2
+        specifier: ^4.0.0-alpha.3
+        version: 4.0.0-alpha.3
     publishDirectory: dist
 
   presets/fountain:
     dependencies:
       '@tsparticles/basic':
-        specifier: ^4.0.0-alpha.2
-        version: 4.0.0-alpha.2
+        specifier: ^4.0.0-alpha.3
+        version: 4.0.0-alpha.3
       '@tsparticles/engine':
-        specifier: ^4.0.0-alpha.2
-        version: 4.0.0-alpha.2
+        specifier: ^4.0.0-alpha.3
+        version: 4.0.0-alpha.3
       '@tsparticles/plugin-emitters':
-        specifier: ^4.0.0-alpha.2
-        version: 4.0.0-alpha.2
+        specifier: ^4.0.0-alpha.3
+        version: 4.0.0-alpha.3
       '@tsparticles/plugin-trail':
-        specifier: ^4.0.0-alpha.2
-        version: 4.0.0-alpha.2
+        specifier: ^4.0.0-alpha.3
+        version: 4.0.0-alpha.3
       '@tsparticles/updater-destroy':
-        specifier: ^4.0.0-alpha.2
-        version: 4.0.0-alpha.2
+        specifier: ^4.0.0-alpha.3
+        version: 4.0.0-alpha.3
     publishDirectory: dist
 
   presets/hyperspace:
     dependencies:
       '@tsparticles/basic':
-        specifier: ^4.0.0-alpha.2
-        version: 4.0.0-alpha.2
+        specifier: ^4.0.0-alpha.3
+        version: 4.0.0-alpha.3
       '@tsparticles/engine':
-        specifier: ^4.0.0-alpha.2
-        version: 4.0.0-alpha.2
+        specifier: ^4.0.0-alpha.3
+        version: 4.0.0-alpha.3
       '@tsparticles/plugin-emitters':
-        specifier: ^4.0.0-alpha.2
-        version: 4.0.0-alpha.2
+        specifier: ^4.0.0-alpha.3
+        version: 4.0.0-alpha.3
       '@tsparticles/plugin-emitters-shape-square':
-        specifier: ^4.0.0-alpha.2
-        version: 4.0.0-alpha.2
+        specifier: ^4.0.0-alpha.3
+        version: 4.0.0-alpha.3
       '@tsparticles/plugin-trail':
-        specifier: ^4.0.0-alpha.2
-        version: 4.0.0-alpha.2
+        specifier: ^4.0.0-alpha.3
+        version: 4.0.0-alpha.3
       '@tsparticles/updater-life':
-        specifier: ^4.0.0-alpha.2
-        version: 4.0.0-alpha.2
+        specifier: ^4.0.0-alpha.3
+        version: 4.0.0-alpha.3
     publishDirectory: dist
 
   presets/links:
     dependencies:
       '@tsparticles/basic':
-        specifier: ^4.0.0-alpha.2
-        version: 4.0.0-alpha.2
+        specifier: ^4.0.0-alpha.3
+        version: 4.0.0-alpha.3
       '@tsparticles/engine':
-        specifier: ^4.0.0-alpha.2
-        version: 4.0.0-alpha.2
+        specifier: ^4.0.0-alpha.3
+        version: 4.0.0-alpha.3
       '@tsparticles/interaction-particles-links':
-        specifier: ^4.0.0-alpha.2
-        version: 4.0.0-alpha.2
+        specifier: ^4.0.0-alpha.3
+        version: 4.0.0-alpha.3
     publishDirectory: dist
 
   presets/seaAnemone:
     dependencies:
       '@tsparticles/basic':
-        specifier: ^4.0.0-alpha.2
-        version: 4.0.0-alpha.2
+        specifier: ^4.0.0-alpha.3
+        version: 4.0.0-alpha.3
       '@tsparticles/engine':
-        specifier: ^4.0.0-alpha.2
-        version: 4.0.0-alpha.2
+        specifier: ^4.0.0-alpha.3
+        version: 4.0.0-alpha.3
       '@tsparticles/path-curves':
-        specifier: ^4.0.0-alpha.2
-        version: 4.0.0-alpha.2
+        specifier: ^4.0.0-alpha.3
+        version: 4.0.0-alpha.3
       '@tsparticles/plugin-emitters':
-        specifier: ^4.0.0-alpha.2
-        version: 4.0.0-alpha.2
+        specifier: ^4.0.0-alpha.3
+        version: 4.0.0-alpha.3
       '@tsparticles/plugin-trail':
-        specifier: ^4.0.0-alpha.2
-        version: 4.0.0-alpha.2
+        specifier: ^4.0.0-alpha.3
+        version: 4.0.0-alpha.3
     publishDirectory: dist
 
   presets/snow:
     dependencies:
       '@tsparticles/basic':
-        specifier: ^4.0.0-alpha.2
-        version: 4.0.0-alpha.2
+        specifier: ^4.0.0-alpha.3
+        version: 4.0.0-alpha.3
       '@tsparticles/engine':
-        specifier: ^4.0.0-alpha.2
-        version: 4.0.0-alpha.2
+        specifier: ^4.0.0-alpha.3
+        version: 4.0.0-alpha.3
       '@tsparticles/updater-wobble':
-        specifier: ^4.0.0-alpha.2
-        version: 4.0.0-alpha.2
+        specifier: ^4.0.0-alpha.3
+        version: 4.0.0-alpha.3
     publishDirectory: dist
 
   presets/squares:
     dependencies:
       '@tsparticles/engine':
-        specifier: ^4.0.0-alpha.2
-        version: 4.0.0-alpha.2
+        specifier: ^4.0.0-alpha.3
+        version: 4.0.0-alpha.3
       '@tsparticles/plugin-emitters':
-        specifier: ^4.0.0-alpha.2
-        version: 4.0.0-alpha.2
+        specifier: ^4.0.0-alpha.3
+        version: 4.0.0-alpha.3
       '@tsparticles/plugin-hex-color':
-        specifier: ^4.0.0-alpha.2
-        version: 4.0.0-alpha.2
+        specifier: ^4.0.0-alpha.3
+        version: 4.0.0-alpha.3
       '@tsparticles/shape-square':
-        specifier: ^4.0.0-alpha.2
-        version: 4.0.0-alpha.2
+        specifier: ^4.0.0-alpha.3
+        version: 4.0.0-alpha.3
       '@tsparticles/updater-rotate':
-        specifier: ^4.0.0-alpha.2
-        version: 4.0.0-alpha.2
+        specifier: ^4.0.0-alpha.3
+        version: 4.0.0-alpha.3
       '@tsparticles/updater-size':
-        specifier: ^4.0.0-alpha.2
-        version: 4.0.0-alpha.2
+        specifier: ^4.0.0-alpha.3
+        version: 4.0.0-alpha.3
       '@tsparticles/updater-stroke-color':
-        specifier: ^4.0.0-alpha.2
-        version: 4.0.0-alpha.2
+        specifier: ^4.0.0-alpha.3
+        version: 4.0.0-alpha.3
     publishDirectory: dist
 
   presets/stars:
     dependencies:
       '@tsparticles/basic':
-        specifier: ^4.0.0-alpha.2
-        version: 4.0.0-alpha.2
+        specifier: ^4.0.0-alpha.3
+        version: 4.0.0-alpha.3
       '@tsparticles/engine':
-        specifier: ^4.0.0-alpha.2
-        version: 4.0.0-alpha.2
+        specifier: ^4.0.0-alpha.3
+        version: 4.0.0-alpha.3
     publishDirectory: dist
 
   presets/triangles:
     dependencies:
       '@tsparticles/basic':
-        specifier: ^4.0.0-alpha.2
-        version: 4.0.0-alpha.2
+        specifier: ^4.0.0-alpha.3
+        version: 4.0.0-alpha.3
       '@tsparticles/engine':
-        specifier: ^4.0.0-alpha.2
-        version: 4.0.0-alpha.2
+        specifier: ^4.0.0-alpha.3
+        version: 4.0.0-alpha.3
       '@tsparticles/interaction-particles-links':
-        specifier: ^4.0.0-alpha.2
-        version: 4.0.0-alpha.2
+        specifier: ^4.0.0-alpha.3
+        version: 4.0.0-alpha.3
     publishDirectory: dist
 
 packages:
@@ -2022,110 +2022,110 @@ packages:
     resolution: {integrity: sha512-w071DSzP94YfN6XiWhOxnLpYT3uqtxJBDYdh6Jdjzt+Ce6DNspJsPQgpC7rbts/B8tEkq0LHoYuIF/O5Jh5rPg==}
     engines: {node: '>=18'}
 
-  '@tsparticles/basic@4.0.0-alpha.2':
-    resolution: {integrity: sha512-mVa4JzOQ0V4aUctLdRJojqo13rooSMtjLoEEhHNeN/xsfa9Qv6zeP67DMcqs2IgjUfkCIKmoEQlgJmcnBNe6sQ==}
+  '@tsparticles/basic@4.0.0-alpha.3':
+    resolution: {integrity: sha512-8mc1gzhZkCW2IuX8hpjkVypskj5WCEAAf8FE5cMGLrjsMZsijQ5sovkgCM2NiO14Bo+nqOuE03cIsVLMG1K9KQ==}
 
   '@tsparticles/cli@3.0.14':
     resolution: {integrity: sha512-QaX3vuCVNj6rAJ/Zbu0i3gFx4rdpkt9FHmO7kPFChcOWI5wjR6Z/BlMA8xcWVl9ir+g37OYHfVnXkVhPXRnv4w==}
     hasBin: true
 
-  '@tsparticles/effect-trail@4.0.0-alpha.2':
-    resolution: {integrity: sha512-35Eu3Tiw9shn9aZVb/1qj5qF3F66UxnLhRA+F+2iCwVHx4z/2/H3UzqfCsbrDTqY75oau6xoSHqLx1goVF9N4g==}
+  '@tsparticles/effect-trail@4.0.0-alpha.3':
+    resolution: {integrity: sha512-gHS2J0fJdElyHuE+/QpWItxkgmRp0QMfGmmOEv6tkaiCR9ZgRCzZctEjTLBya16OBWepYX0rkjKHfH6u4Lg57g==}
 
-  '@tsparticles/engine@4.0.0-alpha.2':
-    resolution: {integrity: sha512-1Cu0IcJQmzJZYegQxW9snycCatRhJl3ICqA7vcC8rAQGVSEvuiQuJNvu560YJ0scINKDbW5EheIkESUPKASB7g==}
+  '@tsparticles/engine@4.0.0-alpha.3':
+    resolution: {integrity: sha512-unIJv9mHiIdKBmfXN+2vroZyXU+rsA76ADSsOe/PYTJ6ClInI84qeqylKpvYMXCYNLgcJ5P6f+oEC1EIbqRhmg==}
 
   '@tsparticles/eslint-config@3.0.9':
     resolution: {integrity: sha512-Mm6vqanJbV1pkHpl0DzDGHgPThYiUtdcVDOR2i9lY0cosNRX3tC1pV0WpoKXDK+gMaa3CseOWYRbaS6mVMO3sw==}
     peerDependencies:
       eslint: ^9.0.0
 
-  '@tsparticles/interaction-external-push@4.0.0-alpha.2':
-    resolution: {integrity: sha512-4XV5whsjJQMPZcOTkvsRsQnEs42x/HGHhIU5Ooth6VoHNoqGZizMUKMngE+ktdu0EujGROLd3VBx2m/uqEe1uQ==}
+  '@tsparticles/interaction-external-push@4.0.0-alpha.3':
+    resolution: {integrity: sha512-835W6M+k4tvb/E9KNP/b65J8KoCZc/QWHm32bcUYNnWntS76HfMBNEvdpayA65a99Aq+2aJbb3iTzxzaKNHDpA==}
 
-  '@tsparticles/interaction-external-trail@4.0.0-alpha.2':
-    resolution: {integrity: sha512-Vh7Ma4QKNucG6DS7rBuuwo7QSs5NMIyUO7OObikD4K1sFyZxo0BiaO2qraUw996H4rz71+LsS54gEA0vLtNPmA==}
+  '@tsparticles/interaction-external-trail@4.0.0-alpha.3':
+    resolution: {integrity: sha512-yrF92ZtMSLWaT3TNqMoHl4eRabmKYXH2iLyJKKLvmzd63HW//LhXG/WLAxFdrFLjzfk3+Auwq3vWGLvrSWKkxw==}
 
-  '@tsparticles/interaction-particles-links@4.0.0-alpha.2':
-    resolution: {integrity: sha512-sdyQl3O565rLJk+7zPS4u0W3ttkoKuoZDwb+Ej+/7Vy48k5mGShB0RB48VHSmXt/Ou+WUgmGLya5/5IhhQKk9A==}
+  '@tsparticles/interaction-particles-links@4.0.0-alpha.3':
+    resolution: {integrity: sha512-imB77vkQhII+/nk82aFOq6zSv/Rjx784R8++EDpDMqRWLrq/OxaHJDK+abTUP0JxqSs0x9cWc5dVV1kuRfOrGQ==}
 
-  '@tsparticles/move-base@4.0.0-alpha.2':
-    resolution: {integrity: sha512-StHmONGhjyP0W/f6JqriSUncwXEgOIWHMGNWVaLRmW8KO7A/iwkP4/QGu6/Qr7c7RBiAMhVnPn0Uw5bikxGzTg==}
+  '@tsparticles/move-base@4.0.0-alpha.3':
+    resolution: {integrity: sha512-9LrLqJSj4lfwN4DLT+d4StS0lW5CItzM6qqrmTup/7wQoh7lBKGaykKGIKWuXcoLzZJtWunDk3NYdtS0wu2Lww==}
 
-  '@tsparticles/path-curves@4.0.0-alpha.2':
-    resolution: {integrity: sha512-IB0c+V01KZcVjlGWPvCII3zqQK9VylAn3C3/gIx/XPepHtpmDEuKbs95ENS70xZHPbVF2IOKzwSDjYilO0dGWw==}
+  '@tsparticles/path-curves@4.0.0-alpha.3':
+    resolution: {integrity: sha512-EuDXmGLhYb1iW3Qydo6CcyC5LPTtiNPgZX5oR1/QMvPBzs8E00JIi0hfErQcPga2bsI9rJeK7fB921DmAWAmXw==}
 
-  '@tsparticles/plugin-emitters-shape-square@4.0.0-alpha.2':
-    resolution: {integrity: sha512-EpPIn9iHtXttFPPUMIQtNJhW8MR7GYQtPuPO68OKVdYzGgBOQAfEYnpgA2YXV6KlDgQYZ98cUkcVGRMHa4OLxA==}
+  '@tsparticles/plugin-emitters-shape-square@4.0.0-alpha.3':
+    resolution: {integrity: sha512-HAyk/UbrtDeW5caqH6dPp8JwewD39Dd7ssNugEsjf2ImfuOElrtmHT4p7rqzMqxo9hzbNx5B4KV3nCQWFiPxdw==}
 
-  '@tsparticles/plugin-emitters@4.0.0-alpha.2':
-    resolution: {integrity: sha512-Lvq0hSiUsU9DQihAaenjxK1+Bp42FDI0IHsxshrn0xx/9PB6mYOFNWi+71xHQ9Rt8kl04l0r1KYGWbptBBM8Sw==}
+  '@tsparticles/plugin-emitters@4.0.0-alpha.3':
+    resolution: {integrity: sha512-jz5VdYIlUKHxP1PvM64zTrVlxT4zpHCISbbb/uPJlFcIhchEhIs4mMZL3N9t8IYPf33u5AstcQEqqVWUkuastw==}
 
-  '@tsparticles/plugin-hex-color@4.0.0-alpha.2':
-    resolution: {integrity: sha512-beGONjmOGjSY+ySMymUe9oVVU6YGWHEik/irGgMmsdtdF+cDKE+7WJ0txXYLxnZtq84hZoLXYe4ddOnre94QLg==}
+  '@tsparticles/plugin-hex-color@4.0.0-alpha.3':
+    resolution: {integrity: sha512-rR5CBD0xLKpv5zF+3qv/CF1CCcHQQs7ac2rsTVTnUpFmo5H73TsTesaLDZxXrKn/hLTLZtv08QKxZOSdNwUpaA==}
 
-  '@tsparticles/plugin-hsl-color@4.0.0-alpha.2':
-    resolution: {integrity: sha512-/iSgJzZS41k3oyyH5qv2aRpUdZf2ttCF3mucHdXTGliLIouWxaGwHwFHAI4H/jgdzIWGFX5U/9lsuH0zWaCmzQ==}
+  '@tsparticles/plugin-hsl-color@4.0.0-alpha.3':
+    resolution: {integrity: sha512-BB+Za2s+usUj/18fWm1SjEdGYZmAgTcSmeJwU8E97eTdeODs4KbpqBNCo1cIqdqRT84DtTE7DtX5pB45AL0eYQ==}
 
-  '@tsparticles/plugin-motion@4.0.0-alpha.2':
-    resolution: {integrity: sha512-wo4WBBdIZUaKDvmV2Z0LnJIzoeM8Hb7ERe4UNvd/fbhJW8KHX3L98aN+B44GoBmbUEoe43jdJdjCp3istyUVQA==}
+  '@tsparticles/plugin-motion@4.0.0-alpha.3':
+    resolution: {integrity: sha512-/v4R8lJe6cLnMgwm0Hu9LPf4MSkbSHGQVPFLw29eHBdm4TJWTqKLRnYwqS0mm/RNw3jobyvJXJtizepvtB5MHw==}
 
-  '@tsparticles/plugin-rgb-color@4.0.0-alpha.2':
-    resolution: {integrity: sha512-h1W7iRkzzkylemr3yBml2FTqoZkJZGIS3j1k08MZzLiCSCXX3Qm0eRETN3EYSs2hklhqssf66gE93c+Bbjhbbw==}
+  '@tsparticles/plugin-rgb-color@4.0.0-alpha.3':
+    resolution: {integrity: sha512-fTO7q0uCruzlLDIeypOwuSYkdmnsomi8nVHFoBLZEFcp+obaNGPcHz4cuNy+/L2t/Y9GQaPU7oPn/yufbAC/gg==}
 
-  '@tsparticles/plugin-sounds@4.0.0-alpha.2':
-    resolution: {integrity: sha512-UPUpcR0f1ctLiaDGUMh4qXPY3Y2q45ggy8Xziacj/ZPrBAPFxeWhk1wFvOz/iZvixagv9+N/tN9T2aZeLLOctg==}
+  '@tsparticles/plugin-sounds@4.0.0-alpha.3':
+    resolution: {integrity: sha512-n7x/3+D62zRt6Wpeec0EAglGdbbbqpv37t04JQwZozAeoctHzfb+fV2wTiHrS54GdATlLkKCinqH5eRIGCC54g==}
 
-  '@tsparticles/plugin-trail@4.0.0-alpha.2':
-    resolution: {integrity: sha512-7EZHvp6wkWvJElPXXkyNyuAF3mgZyqYgsBOzGwChfkXZyLZwKLJHc9KgkqW/wFPOLmonl1a4ZoYT89WBLys0hQ==}
+  '@tsparticles/plugin-trail@4.0.0-alpha.3':
+    resolution: {integrity: sha512-5QHCSnIBcUBXuRk21X1+6ONBh31NboZPHj5XMHfjNGjmzxJF1rCyQAamW5Rce0+mndOv2kggj5GFyF43VvFPFQ==}
 
   '@tsparticles/prettier-config@3.0.7':
     resolution: {integrity: sha512-JtNv1fL0sHqRw5iBGf1UP1A1VppwYWy55uN+an73kPbz+Mqhe8wgI5fJCVQJ4qCucL14Kv1ZNJZmS2hTLxcuRA==}
 
-  '@tsparticles/shape-circle@4.0.0-alpha.2':
-    resolution: {integrity: sha512-8/440K6D7HwA1aFeLlu3JwPO55zk7/KrHXgzDpFB3v9pIDrZWIYevZ+juU8Wd/hD6H92DOJezKHFLpS9myl46g==}
+  '@tsparticles/shape-circle@4.0.0-alpha.3':
+    resolution: {integrity: sha512-Se5vOPcH04xieV50ERO7sJCnk5n4hrzRRCVTdIOG066I77NdY/WAedLzcnTm6YWMtuF3KCohAdLFsbYd/oFKoA==}
 
-  '@tsparticles/shape-line@4.0.0-alpha.2':
-    resolution: {integrity: sha512-dH3k6na2VQXTMnKapkuhL/1upllTd5NuJ9c7s4Cg+wEyhg6sqsSzTZaS/Tv+lK4sZvNlVuqmIcMe6LNbhAOrQQ==}
+  '@tsparticles/shape-line@4.0.0-alpha.3':
+    resolution: {integrity: sha512-KaIFFhl/OvdXUOj/y0zgsMl+hAEUTfBmNvPIrG+lVlpmpeU2ON3jml3c3OSEWxWcLrb0g+U+qv10aRokbigg3A==}
 
-  '@tsparticles/shape-square@4.0.0-alpha.2':
-    resolution: {integrity: sha512-+gnfdjWXNxeKu3Ve1RJKV9qy1Vg2yFiY11jtJqcIuB0jcYJ6QOTso5HY4Vwg/NCasj3TZxjYKPbBbczspLmz/w==}
+  '@tsparticles/shape-square@4.0.0-alpha.3':
+    resolution: {integrity: sha512-uy+LvOLpUTHn69Hf0VSdd5/N8Wg9p154gnS0lnFt6EDyJcb6nIyZq8T9hN9XSI+1XaHNloz9aKyPXdCr6qQ9dw==}
 
   '@tsparticles/tsconfig@3.0.9':
     resolution: {integrity: sha512-Ghn7tZXGONb1VtCkcpBo7xJW7VxSGZJmqWy3mIDte7t5WnErfQNZui/JRFOVE5Sq1vPv6/dR7n1WTP4o+TafyA==}
 
-  '@tsparticles/updater-color@4.0.0-alpha.2':
-    resolution: {integrity: sha512-qXzl9QHsaq/ypZfK+C9Rti16hm/1/3G5zGoRAtRf23cXjbZdNMp2+xDWfqhgkueKU7hfQa7o3uBS+3KRbRSvNw==}
+  '@tsparticles/updater-color@4.0.0-alpha.3':
+    resolution: {integrity: sha512-sB4TN8HXY8RTDQDU2VL1czEitQucAY2BpfBFt3BCw0X591xBDejqNDDcqgnpT1Bb/9PJMBeWKR8B6b2CzalmHw==}
 
-  '@tsparticles/updater-destroy@4.0.0-alpha.2':
-    resolution: {integrity: sha512-HKlKbc9dZ8xnKtt9GE+VFrQYstsHtvWclXagKFFPGvyEPPhaU/sFDK2X6workPknyiJepd2GwpWpKIKBxBKmHQ==}
+  '@tsparticles/updater-destroy@4.0.0-alpha.3':
+    resolution: {integrity: sha512-JOv5GVi83rHmBlq5ssU91lp1B+QlVDtqd77/m+gsF6spyxCYXYm+vKE+4psmbhcuA3lXR1q99W2ATF7tsA1/3A==}
 
-  '@tsparticles/updater-life@4.0.0-alpha.2':
-    resolution: {integrity: sha512-8lmNteBZ980LvF3WN/Y1TG85WZeo1uYeeS9ST7+MP5yKSvUQJ3IjK6Zpof5IEr5imwR/31Bq1sDfDqS2u2USNw==}
+  '@tsparticles/updater-life@4.0.0-alpha.3':
+    resolution: {integrity: sha512-LYHZ9SMjQ5/YJi4ITPXzZWMHK+ZJJ4Gc3bqY1t1ce37tCT/X+ifLuSI4TPhHJuP9p5wt2UtDIR2RpeO94fcZPQ==}
 
-  '@tsparticles/updater-opacity@4.0.0-alpha.2':
-    resolution: {integrity: sha512-nGKtEErOgtlP5IY/OGxmkosPovKd7lLEZ5b+CSC330B1o6EMBESqaaw2jYC0Vh/+K1VJsENNXACt2wVA/uQ94g==}
+  '@tsparticles/updater-opacity@4.0.0-alpha.3':
+    resolution: {integrity: sha512-j7tCVtqjJ2Pb3XXp9oT6Yzxc4r6hvk2x1IraSR+uwgOXjBM8shcz9r6wL+L5lF6do6dLyaH+EQuF1GFQnRBZsQ==}
 
-  '@tsparticles/updater-out-modes@4.0.0-alpha.2':
-    resolution: {integrity: sha512-WuAmZNv+L5xoYTUtIfC3wKzRjoo46s41ujagbGSJTGYdg9xOAXo4N+mOxfgJa+5ILzVxOM7597w1jQJSB5eiHA==}
+  '@tsparticles/updater-out-modes@4.0.0-alpha.3':
+    resolution: {integrity: sha512-NsdjFCzVe1DD4Dl62Sa4/MlesWRtDcavIz7XagNHEON7D/fVEkJt1URVu9z7MpKzVtbMnFbrth+FJrO7P0hF4Q==}
 
-  '@tsparticles/updater-roll@4.0.0-alpha.2':
-    resolution: {integrity: sha512-Hg82ZzQ8JLp/1V5LRbkiZBuXiPVOKdXKtGaCyBCBH1RYQ6lF/9tcIMrQ97IHqqDGGg3mHQITPAFe1CSAms/7mQ==}
+  '@tsparticles/updater-roll@4.0.0-alpha.3':
+    resolution: {integrity: sha512-nZpjFutHcgZpnXf2uHtuP/tXUjwyWvkyJ6w43faIG9/v6rhO0M2DdSvJUPo2/xxrkjkY3bBpJsi00AY3opoy3g==}
 
-  '@tsparticles/updater-rotate@4.0.0-alpha.2':
-    resolution: {integrity: sha512-MXAJ3tZL8D0Y9tD+V/2IqsbILf7C8F1Sq3SvjdhigdJDZHpEM5Li5ISAwhU97zv+Gx3eQ2B49dES6Ha/0WVYuQ==}
+  '@tsparticles/updater-rotate@4.0.0-alpha.3':
+    resolution: {integrity: sha512-mmCxKBrqpjBbXHFEEZ6z1HOtFILw9usmqrIILK7LbdTbiV0WdpBWo0BTJASxlXb3mChQ/FFBdWQeutBD2Wi84g==}
 
-  '@tsparticles/updater-size@4.0.0-alpha.2':
-    resolution: {integrity: sha512-RaeCxMZOMFGHWEhWKCnCDfaeHqt0RS36fmE6gx63RL48qUfC0EH68wCLFwiPqHIWUOfN6KHVJTm2WItMPe3dYg==}
+  '@tsparticles/updater-size@4.0.0-alpha.3':
+    resolution: {integrity: sha512-uQ8DwHcFydfqb8muNHVIcgQ8ZyVwl8/9s8ZQNYfA7UVyDXCo9QqZruHIhYqCQRPYCAa9UQhjQORGOhedrpoR4Q==}
 
-  '@tsparticles/updater-stroke-color@4.0.0-alpha.2':
-    resolution: {integrity: sha512-JZ6TiKoJFJm3ZH1MvQA5K0PTPzZKAG6dw1piw0O9BWwOlFuJnbrrmXGHHYXkzPhl4r2gC8wAb1EK0ULgssMv1w==}
+  '@tsparticles/updater-stroke-color@4.0.0-alpha.3':
+    resolution: {integrity: sha512-Gel1jf+pweWBUPKX3DVOe1s3NyRT9bDb8tQxK/CMTN1mK7TtiuxkrzOy8hBCZLV8k31TlhwijhcsPfstM3ZTBg==}
 
-  '@tsparticles/updater-tilt@4.0.0-alpha.2':
-    resolution: {integrity: sha512-SgB09Fwewjz3aMmGBUtUokR86XFzTSKmQ70CuVfGWO/nnt2agio3l0jj/sPuUeZWc3y5KVtossRLW7qR/R33Kg==}
+  '@tsparticles/updater-tilt@4.0.0-alpha.3':
+    resolution: {integrity: sha512-GTd6r7XGkUbIrcyW7g0YJApBDv7ku2ehmxpnZJigWXUQpD+l7Fv2plXYDuKfSoUAGsIKrAS5Imd6ZbWEzeaFiQ==}
 
-  '@tsparticles/updater-wobble@4.0.0-alpha.2':
-    resolution: {integrity: sha512-Nl5alfQdZVNuIbBoAvCPIdPSQS+awWg6uHRmVfHnQF5GjqDVBEfPY9Z5jSqJNcfUlTyDPGLCm08UNJB6MwpYXg==}
+  '@tsparticles/updater-wobble@4.0.0-alpha.3':
+    resolution: {integrity: sha512-ZQ93QFFpPyWDMBDFza+mtnn0fZGJAp3a0UycIsxcVpknr/CTpI+N/V/D+SDLxeiBzX/E1GbiDrlHe8QovzC5EQ==}
 
   '@tsparticles/webpack-plugin@3.0.9':
     resolution: {integrity: sha512-zQa1rpG42KiK1qSJt+cAEl8Gb9B7OYn6UOtNEeDY8C13vLrnyuK6mvde2gruLG6qJVMxF+ybLJnk1ipFQpAJjA==}
@@ -8107,18 +8107,18 @@ snapshots:
       '@ts-graphviz/ast': 2.0.7
       '@ts-graphviz/common': 2.1.5
 
-  '@tsparticles/basic@4.0.0-alpha.2':
+  '@tsparticles/basic@4.0.0-alpha.3':
     dependencies:
-      '@tsparticles/engine': 4.0.0-alpha.2
-      '@tsparticles/move-base': 4.0.0-alpha.2
-      '@tsparticles/plugin-hex-color': 4.0.0-alpha.2
-      '@tsparticles/plugin-hsl-color': 4.0.0-alpha.2
-      '@tsparticles/plugin-rgb-color': 4.0.0-alpha.2
-      '@tsparticles/shape-circle': 4.0.0-alpha.2
-      '@tsparticles/updater-color': 4.0.0-alpha.2
-      '@tsparticles/updater-opacity': 4.0.0-alpha.2
-      '@tsparticles/updater-out-modes': 4.0.0-alpha.2
-      '@tsparticles/updater-size': 4.0.0-alpha.2
+      '@tsparticles/engine': 4.0.0-alpha.3
+      '@tsparticles/move-base': 4.0.0-alpha.3
+      '@tsparticles/plugin-hex-color': 4.0.0-alpha.3
+      '@tsparticles/plugin-hsl-color': 4.0.0-alpha.3
+      '@tsparticles/plugin-rgb-color': 4.0.0-alpha.3
+      '@tsparticles/shape-circle': 4.0.0-alpha.3
+      '@tsparticles/updater-color': 4.0.0-alpha.3
+      '@tsparticles/updater-opacity': 4.0.0-alpha.3
+      '@tsparticles/updater-out-modes': 4.0.0-alpha.3
+      '@tsparticles/updater-size': 4.0.0-alpha.3
 
   '@tsparticles/cli@3.0.14(@types/eslint@8.56.7)(@typescript-eslint/parser@8.52.0(eslint@9.39.2(jiti@2.6.1))(typescript@5.9.3))(jiti@2.6.1)(webpack-cli@6.0.1)':
     dependencies:
@@ -8159,133 +8159,133 @@ snapshots:
       - webpack-cli
       - webpack-dev-server
 
-  '@tsparticles/effect-trail@4.0.0-alpha.2':
+  '@tsparticles/effect-trail@4.0.0-alpha.3':
     dependencies:
-      '@tsparticles/engine': 4.0.0-alpha.2
+      '@tsparticles/engine': 4.0.0-alpha.3
 
-  '@tsparticles/engine@4.0.0-alpha.2': {}
+  '@tsparticles/engine@4.0.0-alpha.3': {}
 
   '@tsparticles/eslint-config@3.0.9(eslint@9.39.2(jiti@2.6.1))':
     dependencies:
       eslint: 9.39.2(jiti@2.6.1)
 
-  '@tsparticles/interaction-external-push@4.0.0-alpha.2':
+  '@tsparticles/interaction-external-push@4.0.0-alpha.3':
     dependencies:
-      '@tsparticles/engine': 4.0.0-alpha.2
+      '@tsparticles/engine': 4.0.0-alpha.3
 
-  '@tsparticles/interaction-external-trail@4.0.0-alpha.2':
+  '@tsparticles/interaction-external-trail@4.0.0-alpha.3':
     dependencies:
-      '@tsparticles/engine': 4.0.0-alpha.2
+      '@tsparticles/engine': 4.0.0-alpha.3
 
-  '@tsparticles/interaction-particles-links@4.0.0-alpha.2':
+  '@tsparticles/interaction-particles-links@4.0.0-alpha.3':
     dependencies:
-      '@tsparticles/engine': 4.0.0-alpha.2
+      '@tsparticles/engine': 4.0.0-alpha.3
 
-  '@tsparticles/move-base@4.0.0-alpha.2':
+  '@tsparticles/move-base@4.0.0-alpha.3':
     dependencies:
-      '@tsparticles/engine': 4.0.0-alpha.2
+      '@tsparticles/engine': 4.0.0-alpha.3
 
-  '@tsparticles/path-curves@4.0.0-alpha.2':
+  '@tsparticles/path-curves@4.0.0-alpha.3':
     dependencies:
-      '@tsparticles/engine': 4.0.0-alpha.2
+      '@tsparticles/engine': 4.0.0-alpha.3
 
-  '@tsparticles/plugin-emitters-shape-square@4.0.0-alpha.2':
+  '@tsparticles/plugin-emitters-shape-square@4.0.0-alpha.3':
     dependencies:
-      '@tsparticles/engine': 4.0.0-alpha.2
-      '@tsparticles/plugin-emitters': 4.0.0-alpha.2
+      '@tsparticles/engine': 4.0.0-alpha.3
+      '@tsparticles/plugin-emitters': 4.0.0-alpha.3
 
-  '@tsparticles/plugin-emitters@4.0.0-alpha.2':
+  '@tsparticles/plugin-emitters@4.0.0-alpha.3':
     dependencies:
-      '@tsparticles/engine': 4.0.0-alpha.2
+      '@tsparticles/engine': 4.0.0-alpha.3
 
-  '@tsparticles/plugin-hex-color@4.0.0-alpha.2':
+  '@tsparticles/plugin-hex-color@4.0.0-alpha.3':
     dependencies:
-      '@tsparticles/engine': 4.0.0-alpha.2
+      '@tsparticles/engine': 4.0.0-alpha.3
 
-  '@tsparticles/plugin-hsl-color@4.0.0-alpha.2':
+  '@tsparticles/plugin-hsl-color@4.0.0-alpha.3':
     dependencies:
-      '@tsparticles/engine': 4.0.0-alpha.2
+      '@tsparticles/engine': 4.0.0-alpha.3
 
-  '@tsparticles/plugin-motion@4.0.0-alpha.2':
+  '@tsparticles/plugin-motion@4.0.0-alpha.3':
     dependencies:
-      '@tsparticles/engine': 4.0.0-alpha.2
+      '@tsparticles/engine': 4.0.0-alpha.3
 
-  '@tsparticles/plugin-rgb-color@4.0.0-alpha.2':
+  '@tsparticles/plugin-rgb-color@4.0.0-alpha.3':
     dependencies:
-      '@tsparticles/engine': 4.0.0-alpha.2
+      '@tsparticles/engine': 4.0.0-alpha.3
 
-  '@tsparticles/plugin-sounds@4.0.0-alpha.2':
+  '@tsparticles/plugin-sounds@4.0.0-alpha.3':
     dependencies:
-      '@tsparticles/engine': 4.0.0-alpha.2
+      '@tsparticles/engine': 4.0.0-alpha.3
 
-  '@tsparticles/plugin-trail@4.0.0-alpha.2':
+  '@tsparticles/plugin-trail@4.0.0-alpha.3':
     dependencies:
-      '@tsparticles/engine': 4.0.0-alpha.2
+      '@tsparticles/engine': 4.0.0-alpha.3
 
   '@tsparticles/prettier-config@3.0.7':
     dependencies:
       prettier: 3.7.4
       prettier-plugin-multiline-arrays: 4.1.3(prettier@3.7.4)
 
-  '@tsparticles/shape-circle@4.0.0-alpha.2':
+  '@tsparticles/shape-circle@4.0.0-alpha.3':
     dependencies:
-      '@tsparticles/engine': 4.0.0-alpha.2
+      '@tsparticles/engine': 4.0.0-alpha.3
 
-  '@tsparticles/shape-line@4.0.0-alpha.2':
+  '@tsparticles/shape-line@4.0.0-alpha.3':
     dependencies:
-      '@tsparticles/engine': 4.0.0-alpha.2
+      '@tsparticles/engine': 4.0.0-alpha.3
 
-  '@tsparticles/shape-square@4.0.0-alpha.2':
+  '@tsparticles/shape-square@4.0.0-alpha.3':
     dependencies:
-      '@tsparticles/engine': 4.0.0-alpha.2
+      '@tsparticles/engine': 4.0.0-alpha.3
 
   '@tsparticles/tsconfig@3.0.9':
     dependencies:
       typescript: 5.9.3
 
-  '@tsparticles/updater-color@4.0.0-alpha.2':
+  '@tsparticles/updater-color@4.0.0-alpha.3':
     dependencies:
-      '@tsparticles/engine': 4.0.0-alpha.2
+      '@tsparticles/engine': 4.0.0-alpha.3
 
-  '@tsparticles/updater-destroy@4.0.0-alpha.2':
+  '@tsparticles/updater-destroy@4.0.0-alpha.3':
     dependencies:
-      '@tsparticles/engine': 4.0.0-alpha.2
+      '@tsparticles/engine': 4.0.0-alpha.3
 
-  '@tsparticles/updater-life@4.0.0-alpha.2':
+  '@tsparticles/updater-life@4.0.0-alpha.3':
     dependencies:
-      '@tsparticles/engine': 4.0.0-alpha.2
+      '@tsparticles/engine': 4.0.0-alpha.3
 
-  '@tsparticles/updater-opacity@4.0.0-alpha.2':
+  '@tsparticles/updater-opacity@4.0.0-alpha.3':
     dependencies:
-      '@tsparticles/engine': 4.0.0-alpha.2
+      '@tsparticles/engine': 4.0.0-alpha.3
 
-  '@tsparticles/updater-out-modes@4.0.0-alpha.2':
+  '@tsparticles/updater-out-modes@4.0.0-alpha.3':
     dependencies:
-      '@tsparticles/engine': 4.0.0-alpha.2
+      '@tsparticles/engine': 4.0.0-alpha.3
 
-  '@tsparticles/updater-roll@4.0.0-alpha.2':
+  '@tsparticles/updater-roll@4.0.0-alpha.3':
     dependencies:
-      '@tsparticles/engine': 4.0.0-alpha.2
+      '@tsparticles/engine': 4.0.0-alpha.3
 
-  '@tsparticles/updater-rotate@4.0.0-alpha.2':
+  '@tsparticles/updater-rotate@4.0.0-alpha.3':
     dependencies:
-      '@tsparticles/engine': 4.0.0-alpha.2
+      '@tsparticles/engine': 4.0.0-alpha.3
 
-  '@tsparticles/updater-size@4.0.0-alpha.2':
+  '@tsparticles/updater-size@4.0.0-alpha.3':
     dependencies:
-      '@tsparticles/engine': 4.0.0-alpha.2
+      '@tsparticles/engine': 4.0.0-alpha.3
 
-  '@tsparticles/updater-stroke-color@4.0.0-alpha.2':
+  '@tsparticles/updater-stroke-color@4.0.0-alpha.3':
     dependencies:
-      '@tsparticles/engine': 4.0.0-alpha.2
+      '@tsparticles/engine': 4.0.0-alpha.3
 
-  '@tsparticles/updater-tilt@4.0.0-alpha.2':
+  '@tsparticles/updater-tilt@4.0.0-alpha.3':
     dependencies:
-      '@tsparticles/engine': 4.0.0-alpha.2
+      '@tsparticles/engine': 4.0.0-alpha.3
 
-  '@tsparticles/updater-wobble@4.0.0-alpha.2':
+  '@tsparticles/updater-wobble@4.0.0-alpha.3':
     dependencies:
-      '@tsparticles/engine': 4.0.0-alpha.2
+      '@tsparticles/engine': 4.0.0-alpha.3
 
   '@tsparticles/webpack-plugin@3.0.9(@typescript-eslint/parser@8.52.0(eslint@9.39.2(jiti@2.6.1))(typescript@5.9.3))(jiti@2.6.1)':
     dependencies:
