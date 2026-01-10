@@ -343,7 +343,7 @@ importers:
         version: 4.0.0-alpha.2
       '@tsparticles/effect-trail':
         specifier: ^4.0.0-alpha.2
-        version: 4.0.0-alpha.2
+        version: 4.0.0-alpha.3
       '@tsparticles/engine':
         specifier: ^4.0.0-alpha.2
         version: 4.0.0-alpha.2
@@ -2029,11 +2029,14 @@ packages:
     resolution: {integrity: sha512-QaX3vuCVNj6rAJ/Zbu0i3gFx4rdpkt9FHmO7kPFChcOWI5wjR6Z/BlMA8xcWVl9ir+g37OYHfVnXkVhPXRnv4w==}
     hasBin: true
 
-  '@tsparticles/effect-trail@4.0.0-alpha.2':
-    resolution: {integrity: sha512-35Eu3Tiw9shn9aZVb/1qj5qF3F66UxnLhRA+F+2iCwVHx4z/2/H3UzqfCsbrDTqY75oau6xoSHqLx1goVF9N4g==}
+  '@tsparticles/effect-trail@4.0.0-alpha.3':
+    resolution: {integrity: sha512-gHS2J0fJdElyHuE+/QpWItxkgmRp0QMfGmmOEv6tkaiCR9ZgRCzZctEjTLBya16OBWepYX0rkjKHfH6u4Lg57g==}
 
   '@tsparticles/engine@4.0.0-alpha.2':
     resolution: {integrity: sha512-1Cu0IcJQmzJZYegQxW9snycCatRhJl3ICqA7vcC8rAQGVSEvuiQuJNvu560YJ0scINKDbW5EheIkESUPKASB7g==}
+
+  '@tsparticles/engine@4.0.0-alpha.3':
+    resolution: {integrity: sha512-unIJv9mHiIdKBmfXN+2vroZyXU+rsA76ADSsOe/PYTJ6ClInI84qeqylKpvYMXCYNLgcJ5P6f+oEC1EIbqRhmg==}
 
   '@tsparticles/eslint-config@3.0.9':
     resolution: {integrity: sha512-Mm6vqanJbV1pkHpl0DzDGHgPThYiUtdcVDOR2i9lY0cosNRX3tC1pV0WpoKXDK+gMaa3CseOWYRbaS6mVMO3sw==}
@@ -8159,11 +8162,13 @@ snapshots:
       - webpack-cli
       - webpack-dev-server
 
-  '@tsparticles/effect-trail@4.0.0-alpha.2':
+  '@tsparticles/effect-trail@4.0.0-alpha.3':
     dependencies:
-      '@tsparticles/engine': 4.0.0-alpha.2
+      '@tsparticles/engine': 4.0.0-alpha.3
 
   '@tsparticles/engine@4.0.0-alpha.2': {}
+
+  '@tsparticles/engine@4.0.0-alpha.3': {}
 
   '@tsparticles/eslint-config@3.0.9(eslint@9.39.2(jiti@2.6.1))':
     dependencies:
