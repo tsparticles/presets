@@ -38,7 +38,6 @@ export const options: ISourceOptions = {
         move: {
             enable: true,
             speed: 3,
-            random: false,
             size: true,
         },
     },

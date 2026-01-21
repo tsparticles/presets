@@ -3,8 +3,8 @@ import type { Engine } from "@tsparticles/engine";
 /**
  * @param engine -
  */
-export function loadConfettiPreset(engine: Engine): void {
-    engine.register(async e => {
+export async function loadConfettiPreset(engine: Engine): Promise<void> {
+    await engine.register(async e => {
         const { loadBasic } = await import("@tsparticles/basic"),
             { loadEmittersPlugin } = await import("@tsparticles/plugin-emitters"),
             { loadMotionPlugin } = await import("@tsparticles/plugin-motion"),
@@ -16,15 +16,15 @@ export function loadConfettiPreset(engine: Engine): void {
             { loadRollUpdater } = await import("@tsparticles/updater-roll"),
             { options, presetName } = await import("./options.js");
 
-        loadBasic(e);
-        loadSquareShape(e);
-        loadEmittersPlugin(e);
-        loadMotionPlugin(e);
-        loadWobbleUpdater(e);
-        loadRollUpdater(e);
-        loadRotateUpdater(e);
-        loadTiltUpdater(e);
-        loadLifeUpdater(e);
+        await loadBasic(e);
+        await loadSquareShape(e);
+        await loadEmittersPlugin(e);
+        await loadMotionPlugin(e);
+        await loadWobbleUpdater(e);
+        await loadRollUpdater(e);
+        await loadRotateUpdater(e);
+        await loadTiltUpdater(e);
+        await loadLifeUpdater(e);
 
         e.addPreset(presetName, options, false);
     });

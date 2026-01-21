@@ -99,10 +99,10 @@
     "./package.json": "./package.json"
   },
   "dependencies": {
-    "@tsparticles/basic": "^4.0.0-alpha.3",
-    "@tsparticles/engine": "^4.0.0-alpha.3",
-    "@tsparticles/plugin-emitters": "^4.0.0-alpha.3",
-    "@tsparticles/plugin-emitters-shape-square": "^4.0.0-alpha.3"
+    "@tsparticles/basic": "^4.0.0-alpha.5",
+    "@tsparticles/engine": "^4.0.0-alpha.5",
+    "@tsparticles/plugin-emitters": "^4.0.0-alpha.5",
+    "@tsparticles/plugin-emitters-shape-square": "^4.0.0-alpha.5"
   },
   "publishConfig": {
     "access": "public"

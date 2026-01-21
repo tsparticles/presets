@@ -3,8 +3,8 @@ import type { Engine } from "@tsparticles/engine";
 /**
  * @param engine -
  */
-export function loadFireworksPreset(engine: Engine): void {
-    engine.register(async e => {
+export async function loadFireworksPreset(engine: Engine): Promise<void> {
+    await engine.register(async e => {
         const { loadBasic } = await import("@tsparticles/basic"),
             { loadEmittersPlugin } = await import("@tsparticles/plugin-emitters"),
             { loadTrailEffect } = await import("@tsparticles/effect-trail"),
@@ -20,19 +20,19 @@ export function loadFireworksPreset(engine: Engine): void {
             { loadStrokeColorUpdater } = await import("@tsparticles/updater-stroke-color"),
             { initOptions, presetName } = await import("./options.js");
 
-        loadBasic(e);
-        loadHexColorPlugin(e);
-        loadHslColorPlugin(e);
-        loadRgbColorPlugin(e);
-        loadEmittersPlugin(e);
-        loadTrailEffect(e);
-        loadEmittersShapeSquare(e);
-        loadSoundsPlugin(e);
-        loadLineShape(e);
-        loadRotateUpdater(e);
-        loadDestroyUpdater(e);
-        loadLifeUpdater(e);
-        loadStrokeColorUpdater(e);
+        await loadBasic(e);
+        await loadHexColorPlugin(e);
+        await loadHslColorPlugin(e);
+        await loadRgbColorPlugin(e);
+        await loadEmittersPlugin(e);
+        await loadTrailEffect(e);
+        await loadEmittersShapeSquare(e);
+        await loadSoundsPlugin(e);
+        await loadLineShape(e);
+        await loadRotateUpdater(e);
+        await loadDestroyUpdater(e);
+        await loadLifeUpdater(e);
+        await loadStrokeColorUpdater(e);
 
         e.addPreset(presetName, initOptions(), false);
     });
