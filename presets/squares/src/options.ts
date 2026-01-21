@@ -1,7 +1,5 @@
 import { DestroyType, type ISourceOptions, RotateDirection, StartValueType } from "@tsparticles/engine";
 
-export const presetName = "squares";
-
 export const options: ISourceOptions = {
     particles: {
         stroke: {

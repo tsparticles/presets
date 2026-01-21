@@ -18,8 +18,6 @@ import {
     setRangeValue,
 } from "@tsparticles/engine";
 
-export const presetName = "fireworks";
-
 /**
  * @returns the options for the fireworks preset
  */

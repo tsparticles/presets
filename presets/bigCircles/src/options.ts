@@ -1,7 +1,5 @@
 import { type ISourceOptions, MoveDirection, OutMode } from "@tsparticles/engine";
 
-export const presetNames = ["bigCircles", "big-circles"];
-
 export const options: ISourceOptions = {
     fpsLimit: 120,
     background: {

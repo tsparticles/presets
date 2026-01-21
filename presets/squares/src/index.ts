@@ -1,5 +1,7 @@
 import type { Engine } from "@tsparticles/engine";
 
+const presetName = "squares";
+
 /**
  * @param engine - the engine instance to load the preset into
  */
@@ -11,7 +13,7 @@ export async function loadSquaresPreset(engine: Engine): Promise<void> {
             { loadRotateUpdater } = await import("@tsparticles/updater-rotate"),
             { loadSizeUpdater } = await import("@tsparticles/updater-size"),
             { loadStrokeColorUpdater } = await import("@tsparticles/updater-stroke-color"),
-            { options, presetName } = await import("./options.js");
+            { options } = await import("./options.js");
 
         await loadHexColorPlugin(e);
         await loadEmittersPlugin(e);

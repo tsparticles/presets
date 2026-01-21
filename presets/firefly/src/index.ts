@@ -1,5 +1,7 @@
 import { type Engine } from "@tsparticles/engine";
 
+const presetName = "firefly";
+
 /**
  * @param engine -
  */
@@ -8,7 +10,7 @@ export async function loadFireflyPreset(engine: Engine): Promise<void> {
         const { loadBasic } = await import("@tsparticles/basic"),
             { loadLifeUpdater } = await import("@tsparticles/updater-life"),
             { loadExternalTrailInteraction } = await import("@tsparticles/interaction-external-trail"),
-            { options, presetName } = await import("./options.js");
+            { options } = await import("./options.js");
 
         await loadBasic(e);
         await loadLifeUpdater(e);

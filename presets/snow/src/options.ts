@@ -1,7 +1,5 @@
 import { MoveDirection } from "@tsparticles/engine";
 
-export const presetName = "snow";
-
 export const options = {
     background: {
         color: "#333",

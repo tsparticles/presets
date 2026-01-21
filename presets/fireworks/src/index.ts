@@ -1,5 +1,7 @@
 import type { Engine } from "@tsparticles/engine";
 
+const presetName = "fireworks";
+
 /**
  * @param engine -
  */
@@ -18,7 +20,7 @@ export async function loadFireworksPreset(engine: Engine): Promise<void> {
             { loadDestroyUpdater } = await import("@tsparticles/updater-destroy"),
             { loadLifeUpdater } = await import("@tsparticles/updater-life"),
             { loadStrokeColorUpdater } = await import("@tsparticles/updater-stroke-color"),
-            { initOptions, presetName } = await import("./options.js");
+            { initOptions } = await import("./options.js");
 
         await loadBasic(e);
         await loadHexColorPlugin(e);

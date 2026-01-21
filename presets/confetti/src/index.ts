@@ -1,5 +1,7 @@
 import type { Engine } from "@tsparticles/engine";
 
+const presetName = "confetti"
+
 /**
  * @param engine -
  */
@@ -14,7 +16,7 @@ export async function loadConfettiPreset(engine: Engine): Promise<void> {
             { loadWobbleUpdater } = await import("@tsparticles/updater-wobble"),
             { loadLifeUpdater } = await import("@tsparticles/updater-life"),
             { loadRollUpdater } = await import("@tsparticles/updater-roll"),
-            { options, presetName } = await import("./options.js");
+            { options } = await import("./options.js");
 
         await loadBasic(e);
         await loadSquareShape(e);

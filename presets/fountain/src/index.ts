@@ -1,5 +1,7 @@
 import type { Engine } from "@tsparticles/engine";
 
+const presetName = "fountain";
+
 /**
  * @param engine -
  */
@@ -9,7 +11,7 @@ export async function loadFountainPreset(engine: Engine): Promise<void> {
             { loadDestroyUpdater } = await import("@tsparticles/updater-destroy"),
             { loadEmittersPlugin } = await import("@tsparticles/plugin-emitters"),
             { loadTrailPlugin } = await import("@tsparticles/plugin-trail"),
-            { options, presetName } = await import("./options.js");
+            { options } = await import("./options.js");
 
         await loadBasic(e);
         await loadDestroyUpdater(e);

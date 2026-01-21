@@ -1,5 +1,7 @@
 import type { Engine } from "@tsparticles/engine";
 
+const presetName = "hyperspace";
+
 /**
  * @param engine -
  */
@@ -10,7 +12,7 @@ export async function loadHyperspacePreset(engine: Engine): Promise<void> {
             { loadEmittersShapeSquare } = await import("@tsparticles/plugin-emitters-shape-square"),
             { loadTrailPlugin } = await import("@tsparticles/plugin-trail"),
             { loadLifeUpdater } = await import("@tsparticles/updater-life"),
-            { options, presetName } = await import("./options.js");
+            { options } = await import("./options.js");
 
         await loadBasic(e);
         await loadEmittersPlugin(e);

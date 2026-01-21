@@ -1,7 +1,5 @@
 import { MoveDirection, OutMode } from "@tsparticles/engine";
 
-export const presetName = "hyperspace";
-
 export const options = {
     background: {
         color: "#000000",
