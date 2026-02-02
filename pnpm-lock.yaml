@@ -22,7 +22,7 @@ importers:
         version: 3.0.14(@types/eslint@8.56.7)(@typescript-eslint/parser@8.53.1(eslint@9.39.2(jiti@2.6.1))(typescript@5.9.3))(jiti@2.6.1)(webpack-cli@6.0.1)
       '@tsparticles/eslint-config':
         specifier: ^3.0.9
-        version: 3.0.9(eslint@9.39.2(jiti@2.6.1))
+        version: 3.1.1(eslint@9.39.2(jiti@2.6.1))
       '@tsparticles/prettier-config':
         specifier: ^3.0.7
         version: 3.0.7
@@ -2062,8 +2062,8 @@ packages:
   '@tsparticles/engine@4.0.0-alpha.14':
     resolution: {integrity: sha512-GsdZIw+KMXxTdPnvzgQVWt1zmAmpznRv8+0jdziVrWQHYTbZ9xaIPZTdARCvW5byqFIq8EbnK7We19DCgBsMVQ==}
 
-  '@tsparticles/eslint-config@3.0.9':
-    resolution: {integrity: sha512-Mm6vqanJbV1pkHpl0DzDGHgPThYiUtdcVDOR2i9lY0cosNRX3tC1pV0WpoKXDK+gMaa3CseOWYRbaS6mVMO3sw==}
+  '@tsparticles/eslint-config@3.1.1':
+    resolution: {integrity: sha512-1WIX4O/GFcKUff2Dq9KGyz6Hmm/5X2vY7gyHmiJaPaQBSZ60gr9R4Ap79bbQmvXtoPJ1J+cQyCcBqdHWXUhl5g==}
     peerDependencies:
       eslint: ^9.0.0
 
@@ -5834,10 +5834,12 @@ packages:
   tar@6.2.1:
     resolution: {integrity: sha512-DZ4yORTwrbTj/7MZYq2w+/ZFdI6OZ/f9SFHR+71gIVUZhOQPHzVCLpvRnPgyaMpfWxxk/4ONva3GQSyNIKRv6A==}
     engines: {node: '>=10'}
+    deprecated: Old versions of tar are not supported, and contain widely publicized security vulnerabilities, which have been fixed in the current version. Please update. Support for old versions may be purchased (at exhorbitant rates) by contacting i@izs.me
 
   tar@7.5.2:
     resolution: {integrity: sha512-7NyxrTE4Anh8km8iEy7o0QYPs+0JKBTj5ZaqHg6B39erLg0qYXN3BijtShwbsNSvQ+LN75+KV+C4QR/f6Gwnpg==}
     engines: {node: '>=18'}
+    deprecated: Old versions of tar are not supported, and contain widely publicized security vulnerabilities, which have been fixed in the current version. Please update. Support for old versions may be purchased (at exhorbitant rates) by contacting i@izs.me
 
   temp-dir@1.0.0:
     resolution: {integrity: sha512-xZFXEGbG7SNC3itwBzI3RYjq/cEhBkx2hJuKGIUOcEULmkQExXiHat2z/qkISYsuR+IKumhEfKKbV5qXmhICFQ==}
@@ -8197,7 +8199,7 @@ snapshots:
 
   '@tsparticles/cli@3.0.14(@types/eslint@8.56.7)(@typescript-eslint/parser@8.53.1(eslint@9.39.2(jiti@2.6.1))(typescript@5.9.3))(jiti@2.6.1)(webpack-cli@6.0.1)':
     dependencies:
-      '@tsparticles/eslint-config': 3.0.9(eslint@9.39.2(jiti@2.6.1))
+      '@tsparticles/eslint-config': 3.1.1(eslint@9.39.2(jiti@2.6.1))
       '@tsparticles/prettier-config': 3.0.7
       '@tsparticles/tsconfig': 3.0.9
       '@tsparticles/webpack-plugin': 3.0.9(@typescript-eslint/parser@8.53.1(eslint@9.39.2(jiti@2.6.1))(typescript@5.9.3))(jiti@2.6.1)
@@ -8240,7 +8242,7 @@ snapshots:
 
   '@tsparticles/engine@4.0.0-alpha.14': {}
 
-  '@tsparticles/eslint-config@3.0.9(eslint@9.39.2(jiti@2.6.1))':
+  '@tsparticles/eslint-config@3.1.1(eslint@9.39.2(jiti@2.6.1))':
     dependencies:
       eslint: 9.39.2(jiti@2.6.1)
 
@@ -8376,7 +8378,7 @@ snapshots:
       '@babel/core': 7.28.6
       '@babel/preset-env': 7.28.5(@babel/core@7.28.6)
       '@stylistic/eslint-plugin': 5.6.1(eslint@9.39.2(jiti@2.6.1))
-      '@tsparticles/eslint-config': 3.0.9(eslint@9.39.2(jiti@2.6.1))
+      '@tsparticles/eslint-config': 3.1.1(eslint@9.39.2(jiti@2.6.1))
       '@tsparticles/prettier-config': 3.0.7
       '@types/node': 25.0.9
       '@types/webpack-bundle-analyzer': 4.7.0(webpack-cli@6.0.1)
