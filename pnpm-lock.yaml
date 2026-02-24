@@ -22,7 +22,7 @@ importers:
         version: 3.1.3(@types/eslint@8.56.7)(@typescript-eslint/parser@8.56.0(eslint@9.39.2(jiti@2.6.1))(typescript@5.9.3))(jiti@2.6.1)(webpack-cli@6.0.1)
       '@tsparticles/depcruise-config':
         specifier: ^3.1.2
-        version: 3.1.2(dependency-cruiser@17.3.7)
+        version: 3.1.9(dependency-cruiser@17.3.7)
       '@tsparticles/eslint-config':
         specifier: ^3.1.1
         version: 3.1.1(eslint@9.39.2(jiti@2.6.1))
@@ -1794,8 +1794,8 @@ packages:
     resolution: {integrity: sha512-CpF2S+W6erko0XL1d7dOd4E49OalUQnR4mrFhpJqruExsoc0yUXRtwoaJbeMM910OKuiFcXDI3le3HT8RTH5wA==}
     hasBin: true
 
-  '@tsparticles/depcruise-config@3.1.2':
-    resolution: {integrity: sha512-ya9uzwVwZwg39pbBeo1uy/kTNRfSyuX0fpKLHUZXkO2kk5Hf8hkWfquPo7SMhVeXFm3wGWUYcG3y4YaOB6rGPA==}
+  '@tsparticles/depcruise-config@3.1.9':
+    resolution: {integrity: sha512-tl50XuL73slPKXJSX+ABq8mqbcUqHTD+HwitXNgvn5oPOWC1G6bO/MgiYq1GVvm0iQY43kgL07NjJou8O5c5hw==}
     peerDependencies:
       dependency-cruiser: ^17
 
@@ -3029,6 +3029,9 @@ packages:
   end-of-stream@1.4.4:
     resolution: {integrity: sha512-+uw1inIHVPQoaVuHzRyXd21icM+cnt4CzD5rW+NC1wjOUSTOs+Te7FOv7AhN7vS9x/oIyhLP5PR1H+phQAHu5Q==}
 
+  end-of-stream@1.4.5:
+    resolution: {integrity: sha512-ooEGc6HP26xXq/N+GCGOT0JKCLDGrq2bQUZrQ7gyrJiZANJ/8YDTxTpQBXGMn+WbIQXNVpyWymm7KYVICQnyOg==}
+
   enhanced-resolve@5.18.4:
     resolution: {integrity: sha512-LgQMM4WXU3QI+SYgEc2liRgznaD5ojbmY3sb8LxyguVkIg5FxdpTkvk72te2R38/TGKxH634oLxXRGY6d7AP+Q==}
     engines: {node: '>=10.13.0'}
@@ -3550,6 +3553,7 @@ packages:
 
   glob@10.5.0:
     resolution: {integrity: sha512-DfXN8DfhJ7NH3Oe7cFmu3NCu1wKbkReJ8TorzSAFbSKrlNaQSKfIzqYqVY8zlbs2NLBbWpRiU52GX2PbaBVNkg==}
+    deprecated: Old versions of glob are not supported, and contain widely publicized security vulnerabilities, which have been fixed in the current version. Please update. Support for old versions may be purchased (at exorbitant rates) by contacting i@izs.me
     hasBin: true
 
   glob@11.1.0:
@@ -3568,7 +3572,7 @@ packages:
 
   glob@7.2.3:
     resolution: {integrity: sha512-nFR0zLpU2YCaRxwoCJvL6UvCH2JFyFVIvwTLsIf21AuHlMskA1hhTdk+LlYJtOlYt9v6dvszD2BGRqBL+iQK9Q==}
-    deprecated: Glob versions prior to v9 are no longer supported
+    deprecated: Old versions of glob are not supported, and contain widely publicized security vulnerabilities, which have been fixed in the current version. Please update. Support for old versions may be purchased (at exorbitant rates) by contacting i@izs.me
 
   global-directory@4.0.1:
     resolution: {integrity: sha512-wHTUcDUoZ1H5/0iVqEudYW4/kAlN5cZ3j/bXn0Dpbizl9iaUVeWSHqiOjsgk6OW2bkLclbBjzewBz6weQ1zA2Q==}
@@ -5306,6 +5310,11 @@ packages:
     engines: {node: '>=10'}
     hasBin: true
 
+  semver@7.7.4:
+    resolution: {integrity: sha512-vFKC2IEtQnVhpT78h1Yp8wzwrf8CM+MzKMHGJZfBtzhZNycRFnXsHk6E5TxIkkMsgNS7mdX3AGB7x2QM2di4lA==}
+    engines: {node: '>=10'}
+    hasBin: true
+
   send@1.2.1:
     resolution: {integrity: sha512-1gnZf7DFcoIcajTjTwjwuDjzuz4PPcY2StKPlsGAQ1+YH20IRVrBaXSWmdjowTJ6u8Rc01PoYOGHXfP1mYcZNQ==}
     engines: {node: '>= 18'}
@@ -5607,6 +5616,7 @@ packages:
   tar@6.2.1:
     resolution: {integrity: sha512-DZ4yORTwrbTj/7MZYq2w+/ZFdI6OZ/f9SFHR+71gIVUZhOQPHzVCLpvRnPgyaMpfWxxk/4ONva3GQSyNIKRv6A==}
     engines: {node: '>=10'}
+    deprecated: Old versions of tar are not supported, and contain widely publicized security vulnerabilities, which have been fixed in the current version. Please update. Support for old versions may be purchased (at exorbitant rates) by contacting i@izs.me
 
   tar@7.5.7:
     resolution: {integrity: sha512-fov56fJiRuThVFXD6o6/Q354S7pnWMJIVlDBYijsTNx6jKSE4pvrDTs6lUnmGvNyfJwFQQwWy3owKz1ucIhveQ==}
@@ -7472,7 +7482,7 @@ snapshots:
   '@tsparticles/cli@3.1.3(@types/eslint@8.56.7)(@typescript-eslint/parser@8.56.0(eslint@9.39.2(jiti@2.6.1))(typescript@5.9.3))(jiti@2.6.1)(webpack-cli@6.0.1)':
     dependencies:
       '@swc/core': 1.15.11
-      '@tsparticles/depcruise-config': 3.1.2(dependency-cruiser@17.3.7)
+      '@tsparticles/depcruise-config': 3.1.9(dependency-cruiser@17.3.7)
       '@tsparticles/eslint-config': 3.1.1(eslint@9.39.2(jiti@2.6.1))
       '@tsparticles/prettier-config': 3.0.11
       '@tsparticles/tsconfig': 3.1.0
@@ -7511,7 +7521,7 @@ snapshots:
       - webpack-cli
       - webpack-dev-server
 
-  '@tsparticles/depcruise-config@3.1.2(dependency-cruiser@17.3.7)':
+  '@tsparticles/depcruise-config@3.1.9(dependency-cruiser@17.3.7)':
     dependencies:
       dependency-cruiser: 17.3.7
 
@@ -8902,6 +8912,11 @@ snapshots:
   end-of-stream@1.4.4:
     dependencies:
       once: 1.4.0
+
+  end-of-stream@1.4.5:
+    dependencies:
+      once: 1.4.0
+    optional: true
 
   enhanced-resolve@5.18.4:
     dependencies:
@@ -10648,7 +10663,7 @@ snapshots:
 
   node-abi@3.87.0:
     dependencies:
-      semver: 7.7.3
+      semver: 7.7.4
     optional: true
 
   node-addon-api@7.1.1:
@@ -11315,7 +11330,7 @@ snapshots:
 
   pump@3.0.3:
     dependencies:
-      end-of-stream: 1.4.4
+      end-of-stream: 1.4.5
       once: 1.4.0
     optional: true
 
@@ -11594,6 +11609,9 @@ snapshots:
   semver@7.7.2: {}
 
   semver@7.7.3: {}
+
+  semver@7.7.4:
+    optional: true
 
   send@1.2.1:
     dependencies:
