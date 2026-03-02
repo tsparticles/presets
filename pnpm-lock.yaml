@@ -320,7 +320,7 @@ importers:
     dependencies:
       '@tsparticles/basic':
         specifier: ^4.0.0-alpha.25
-        version: 4.0.0-alpha.25
+        version: 4.0.0-alpha.26
       '@tsparticles/engine':
         specifier: ^4.0.0-alpha.25
         version: 4.0.0-alpha.25
@@ -333,7 +333,7 @@ importers:
     dependencies:
       '@tsparticles/basic':
         specifier: ^4.0.0-alpha.25
-        version: 4.0.0-alpha.25
+        version: 4.0.0-alpha.26
       '@tsparticles/engine':
         specifier: ^4.0.0-alpha.25
         version: 4.0.0-alpha.25
@@ -343,7 +343,7 @@ importers:
     dependencies:
       '@tsparticles/basic':
         specifier: ^4.0.0-alpha.25
-        version: 4.0.0-alpha.25
+        version: 4.0.0-alpha.26
       '@tsparticles/engine':
         specifier: ^4.0.0-alpha.25
         version: 4.0.0-alpha.25
@@ -359,7 +359,7 @@ importers:
     dependencies:
       '@tsparticles/basic':
         specifier: ^4.0.0-alpha.25
-        version: 4.0.0-alpha.25
+        version: 4.0.0-alpha.26
       '@tsparticles/engine':
         specifier: ^4.0.0-alpha.25
         version: 4.0.0-alpha.25
@@ -396,7 +396,7 @@ importers:
     dependencies:
       '@tsparticles/basic':
         specifier: ^4.0.0-alpha.25
-        version: 4.0.0-alpha.25
+        version: 4.0.0-alpha.26
       '@tsparticles/engine':
         specifier: ^4.0.0-alpha.25
         version: 4.0.0-alpha.25
@@ -412,7 +412,7 @@ importers:
     dependencies:
       '@tsparticles/basic':
         specifier: ^4.0.0-alpha.25
-        version: 4.0.0-alpha.25
+        version: 4.0.0-alpha.26
       '@tsparticles/engine':
         specifier: ^4.0.0-alpha.25
         version: 4.0.0-alpha.25
@@ -431,7 +431,7 @@ importers:
     dependencies:
       '@tsparticles/basic':
         specifier: ^4.0.0-alpha.25
-        version: 4.0.0-alpha.25
+        version: 4.0.0-alpha.26
       '@tsparticles/effect-trail':
         specifier: ^4.0.0-alpha.25
         version: 4.0.0-alpha.25
@@ -480,7 +480,7 @@ importers:
     dependencies:
       '@tsparticles/basic':
         specifier: ^4.0.0-alpha.25
-        version: 4.0.0-alpha.25
+        version: 4.0.0-alpha.26
       '@tsparticles/engine':
         specifier: ^4.0.0-alpha.25
         version: 4.0.0-alpha.25
@@ -502,7 +502,7 @@ importers:
     dependencies:
       '@tsparticles/basic':
         specifier: ^4.0.0-alpha.25
-        version: 4.0.0-alpha.25
+        version: 4.0.0-alpha.26
       '@tsparticles/engine':
         specifier: ^4.0.0-alpha.25
         version: 4.0.0-alpha.25
@@ -527,7 +527,7 @@ importers:
     dependencies:
       '@tsparticles/basic':
         specifier: ^4.0.0-alpha.25
-        version: 4.0.0-alpha.25
+        version: 4.0.0-alpha.26
       '@tsparticles/engine':
         specifier: ^4.0.0-alpha.25
         version: 4.0.0-alpha.25
@@ -543,7 +543,7 @@ importers:
     dependencies:
       '@tsparticles/basic':
         specifier: ^4.0.0-alpha.25
-        version: 4.0.0-alpha.25
+        version: 4.0.0-alpha.26
       '@tsparticles/engine':
         specifier: ^4.0.0-alpha.25
         version: 4.0.0-alpha.25
@@ -565,7 +565,7 @@ importers:
     dependencies:
       '@tsparticles/basic':
         specifier: ^4.0.0-alpha.25
-        version: 4.0.0-alpha.25
+        version: 4.0.0-alpha.26
       '@tsparticles/engine':
         specifier: ^4.0.0-alpha.25
         version: 4.0.0-alpha.25
@@ -606,7 +606,7 @@ importers:
     dependencies:
       '@tsparticles/basic':
         specifier: ^4.0.0-alpha.25
-        version: 4.0.0-alpha.25
+        version: 4.0.0-alpha.26
       '@tsparticles/engine':
         specifier: ^4.0.0-alpha.25
         version: 4.0.0-alpha.25
@@ -616,7 +616,7 @@ importers:
     dependencies:
       '@tsparticles/basic':
         specifier: ^4.0.0-alpha.25
-        version: 4.0.0-alpha.25
+        version: 4.0.0-alpha.26
       '@tsparticles/engine':
         specifier: ^4.0.0-alpha.25
         version: 4.0.0-alpha.25
@@ -1784,8 +1784,8 @@ packages:
   '@tsconfig/node16@1.0.4':
     resolution: {integrity: sha512-vxhUy4J8lyeyinH7Azl1pdd43GJhZH/tP2weN8TntQblOY+A0XbT8DJk1/oCPuOOyg/Ja757rG0CgHcWC8OfMA==}
 
-  '@tsparticles/basic@4.0.0-alpha.25':
-    resolution: {integrity: sha512-eSi7GUEdomh7MaNAiC7V7plyYqf0Pi8Nx5D5n+fZ2EDrs3+GMnpHdxxhpshEITniuSJYSHO5DTVc3GFfGlOTug==}
+  '@tsparticles/basic@4.0.0-alpha.26':
+    resolution: {integrity: sha512-UwgUoZWO7niO8t7LggJkuAcLCHGbiwbpnHZpBFSMuHTaprCsUgD6p2MLapZBOZJVXeJWy0nwPgArRVEEUEK8CA==}
 
   '@tsparticles/canvas-utils@4.0.0-alpha.25':
     resolution: {integrity: sha512-D8o8bVDsxTBuP3Y3kKnNHV5hyMscxWMVsDaGSyYcNmn8GRxWX6M1KeBJDGhea8/fq4SbM+mphM3i5L6ssQcnGA==}
@@ -1805,6 +1805,9 @@ packages:
   '@tsparticles/engine@4.0.0-alpha.25':
     resolution: {integrity: sha512-Ls64BiQyNmrUk152rNKgk12h8vBVQrvL46tQpVhF0cPTvADGNKmbRhjir0crBm68UgEKu/WfpFMrdN6v7/2QgA==}
 
+  '@tsparticles/engine@4.0.0-alpha.26':
+    resolution: {integrity: sha512-0TODc8S6A9z7ufw65aQ8/iaBACgsljZDuJHCNNknRJqK/rmrPgqW3v/G222oumz91pDUeIKzGvNLc4SL4gTV5A==}
+
   '@tsparticles/eslint-config@3.1.9':
     resolution: {integrity: sha512-ZCqsALCJT26T9S5S1rM/wlY9iA46x8+wTwv1Df8+iDRtAKhl6Pq3msybvVBhCgW3JkgF6zTo0pyNexypNuk46g==}
     peerDependencies:
@@ -1819,9 +1822,6 @@ packages:
   '@tsparticles/interaction-particles-links@4.0.0-alpha.25':
     resolution: {integrity: sha512-pe+fDUuWn6dxZWDDBJbgYrD83Htb0vbKtC78JL5H1OSaiGhbjboniUrjHnE19y5HJgihBnG73H5ePzPK8eJdaQ==}
 
-  '@tsparticles/move-base@4.0.0-alpha.25':
-    resolution: {integrity: sha512-hXWbnIDS7j0yT0Wuyg03wZaDJbVA+B7NBIqJy7CyL88sPbSOxeNgO+BX6/tajCRcGze6lVl+XeZuLwhoUmwykg==}
-
   '@tsparticles/path-curves@4.0.0-alpha.25':
     resolution: {integrity: sha512-ew2f5FAjUC5jDGf2Qg5qkgY5gzun0VmRuZgCRVrHWURevA6VPteGKkP+1K41sHx60jg6ZqixV7aAGJngAIQpFQ==}
 
@@ -1834,8 +1834,14 @@ packages:
   '@tsparticles/plugin-hex-color@4.0.0-alpha.25':
     resolution: {integrity: sha512-6gPTUgguJU5VM8ZMIDw1BSu0u19peYKe9RpePmBzlqMhcpvBGIyO452Skv2E3oZTSdiYNW3I7QpS0mYpXPiUOg==}
 
+  '@tsparticles/plugin-hex-color@4.0.0-alpha.26':
+    resolution: {integrity: sha512-OtxT/4rXkqDZb9eyQ4SHsybQAdMVY6YvPXZHjcng4/OwlOYsmEGgcjrTxCwYXGUVUKA9YuAU8QL/zl7ZgUExRw==}
+
   '@tsparticles/plugin-hsl-color@4.0.0-alpha.25':
     resolution: {integrity: sha512-igI8xXk0RQAns8wSH2oXOrloMMZ7e37OWVtFFVMv7OFHOjd1QdS55UVyHcD3XIdr2M9b+SsiBjLfpW/dh2QxrQ==}
+
+  '@tsparticles/plugin-hsl-color@4.0.0-alpha.26':
+    resolution: {integrity: sha512-disVTI2Pm4Z+IW90H3aUZtLzquNke+BDSWApfFIFrwUaQYC4VtyTQ+EZJf0cNAfprCeSzye6QB5Bm0qw56D70g==}
 
   '@tsparticles/plugin-interactivity@4.0.0-alpha.25':
     resolution: {integrity: sha512-SNp1gi9mzJMGm+DmSuK0faDD8NwDWrCSn0RalkDtGuPComjgcL/cRg7DnOq4ROzHM8POiCGg1C/+/WShtMY2ug==}
@@ -1843,8 +1849,14 @@ packages:
   '@tsparticles/plugin-motion@4.0.0-alpha.25':
     resolution: {integrity: sha512-Z0lb+vkmcq8jli1yp38hZ7FjXopMOj5moAEaiVahYKAJIUbD1dSDoFQkYLC/X1ByEdLetYKq3SkNA09DpkihIg==}
 
+  '@tsparticles/plugin-move@4.0.0-alpha.26':
+    resolution: {integrity: sha512-QIeAd76+u8VPsi5XtVUJd0enZC/akTvtyhc1SMdiEEdRqI1hRYBd0ShLpCX9mQrg5XEElOcC37eSi9PUq6kN+g==}
+
   '@tsparticles/plugin-rgb-color@4.0.0-alpha.25':
     resolution: {integrity: sha512-Acnol/dp6sJPSZUaBN4REAqwJrwgILimxPkP/JBKPp7f/PJq0u9Hff2WaqU0ix6ljcNaJ0JTsmw9v3bV/Oa6BQ==}
+
+  '@tsparticles/plugin-rgb-color@4.0.0-alpha.26':
+    resolution: {integrity: sha512-g8x+hQLZYHvyiofGhJ8HCAj1koCRbBWiuU0oSFS0brkdYTttiuJNTa6zUMv8RjsTWiiHFzuY3piGNMeEy+zpgw==}
 
   '@tsparticles/plugin-sounds@4.0.0-alpha.25':
     resolution: {integrity: sha512-WJWyjDZ8iE4nk4v9sOwezDBX42UmLASUOIPJOS7nFDB6AIzm8u644MDlkXGIuh3Q9XpmikxVjMs19PG7FzvkGg==}
@@ -1855,8 +1867,8 @@ packages:
   '@tsparticles/prettier-config@3.1.9':
     resolution: {integrity: sha512-eXa7/GXc2aUz/0dYbof066FdXnGU7YZTU+dbDR1ctPpFnr5NCvu6+NrC6/ORvA9BzbqoNmD6PuOaVz0VQDesxw==}
 
-  '@tsparticles/shape-circle@4.0.0-alpha.25':
-    resolution: {integrity: sha512-oiiTAApJvYbc2UTLB9P7M+nV47Xx+6jFBje9y4lpJHj5PuxsBE9G3ekXl84Rs9c9DpIqNb9YBkYnLKXjhSuJxw==}
+  '@tsparticles/shape-circle@4.0.0-alpha.26':
+    resolution: {integrity: sha512-nhZQ6iLehmR+H8Ut4CJNyhu1EbVk/t/iQmGqqVR62Srr5xfYKS2LniwlU3Z7+0aMZeOKux1h7e2G7lNQWQzeXA==}
 
   '@tsparticles/shape-line@4.0.0-alpha.25':
     resolution: {integrity: sha512-1Hprl/0OGtRqIvfUXYilrUrpzYT7jDvaCIvz4fx09w19ydG4/rEv8ACwaHUz/jc9OCvh6cgPnOZAAZUQv+DLQQ==}
@@ -1867,8 +1879,8 @@ packages:
   '@tsparticles/tsconfig@3.1.9':
     resolution: {integrity: sha512-qO6dDAVN5yvfyIeCqjiwsnDvOBVbeEwtxV/N6rAxQBUDRPoIbwt856tYpij75A2MQohMyr5IOvJi18lVRJn8/Q==}
 
-  '@tsparticles/updater-color@4.0.0-alpha.25':
-    resolution: {integrity: sha512-vegEWeILwQVjZkp18gPGLJigWdqsRn6VVdVfVXQqFSvrBdke/MQAdHuaonlL9EqY9VYssL3FSCCNPj7tvT61EA==}
+  '@tsparticles/updater-color@4.0.0-alpha.26':
+    resolution: {integrity: sha512-u5M1b+PBAdOsMWaRlEwD8945/u6kHQ+lW7oXgufIsgdtsFp49jPeUIqGPt0a3CLYTvzSP0IwXSt/OeRE+zrPFA==}
 
   '@tsparticles/updater-destroy@4.0.0-alpha.25':
     resolution: {integrity: sha512-ptPxK9cTl677UcZhIAzZDkPORRZaxtBmheCggGBY6h7nCgwraIpZQzglkji8VAM/IW6eVjW1uOFGfuJaa7GVag==}
@@ -1876,11 +1888,11 @@ packages:
   '@tsparticles/updater-life@4.0.0-alpha.25':
     resolution: {integrity: sha512-IRuTlugc/GD0Bsv9M1Nq8XKrtyV6w1oQvIRHmi8NSDpyVR6CxWjaoLppOZFO4NNW6zNuxwDQ8TZcfaqcZAc5kg==}
 
-  '@tsparticles/updater-opacity@4.0.0-alpha.25':
-    resolution: {integrity: sha512-YOHqTPqrWSRCp5rFH7K3k6GMcPDV0Osc5z1gxNqrwt9krVxOSEExGz66WvdWKEu/zNQPz6EztlwTH8CK07t2TQ==}
+  '@tsparticles/updater-opacity@4.0.0-alpha.26':
+    resolution: {integrity: sha512-Z/6DuqmH4etJNp4IdQHN5dpE9vKPqvgk6/IbVtHZcEU7eIn0e3pCKeLrQ7TF0HtWpBW8Ed5WaUEIypVjLHPKXA==}
 
-  '@tsparticles/updater-out-modes@4.0.0-alpha.25':
-    resolution: {integrity: sha512-CvWW6dEwgRqSBdy6aw/AA+gVJ6YBBmN7hHDNDT0FPnDZcHoAlmWfwWIWObXeXgu6U06rQu+RHwMtrsOKLHjGng==}
+  '@tsparticles/updater-out-modes@4.0.0-alpha.26':
+    resolution: {integrity: sha512-yZUwJuQrbjRB9vbuW3jCI1PoaCDC568VqpLeii/gqMLNftIwMH2FEaWAgBFHl3mpFI8SFe+56F0eGj9zs5Z9XA==}
 
   '@tsparticles/updater-roll@4.0.0-alpha.25':
     resolution: {integrity: sha512-h3mQcJMHrMFhYAi3x5gB0DF4Dw875OJ08CwgKnB9wRtHk15huM7UGqPqpHqCWOAow4mg82mjiINFOOwxTtIbig==}
@@ -1890,6 +1902,9 @@ packages:
 
   '@tsparticles/updater-size@4.0.0-alpha.25':
     resolution: {integrity: sha512-UThbJLY48IKvUVjindSyhPoNu/ja0uqBf0bd4wE2Lg4LpEY3eerKrmFo4bqUJy5ifS+1T+WgWb0lhqc2m+m5MA==}
+
+  '@tsparticles/updater-size@4.0.0-alpha.26':
+    resolution: {integrity: sha512-FwBi/VtahE/Adxl7fyHt/bd6PBxLr3l4CepcoOcB88c5wG4vXE7geBxm+PuIfcljVfTawRAdiLOGpIqFX7HGCw==}
 
   '@tsparticles/updater-stroke-color@4.0.0-alpha.25':
     resolution: {integrity: sha512-s/QwDHcldYK3oe+SpaWwOMvUpbT1imfRcGf3x7t2EO7A+Zarf2l3acEPDgdD+xt+SogfL//3FtCznjS4fKnMCg==}
@@ -3012,6 +3027,9 @@ packages:
   end-of-stream@1.4.4:
     resolution: {integrity: sha512-+uw1inIHVPQoaVuHzRyXd21icM+cnt4CzD5rW+NC1wjOUSTOs+Te7FOv7AhN7vS9x/oIyhLP5PR1H+phQAHu5Q==}
 
+  end-of-stream@1.4.5:
+    resolution: {integrity: sha512-ooEGc6HP26xXq/N+GCGOT0JKCLDGrq2bQUZrQ7gyrJiZANJ/8YDTxTpQBXGMn+WbIQXNVpyWymm7KYVICQnyOg==}
+
   enhanced-resolve@5.19.0:
     resolution: {integrity: sha512-phv3E1Xl4tQOShqSte26C7Fl84EwUdZsyOuSSk9qtAGyyQs2s3jJzComh+Abf4g187lUUAvH+H26omrqia2aGg==}
     engines: {node: '>=10.13.0'}
@@ -3481,11 +3499,13 @@ packages:
   git-raw-commits@3.0.0:
     resolution: {integrity: sha512-b5OHmZ3vAgGrDn/X0kS+9qCfNKWe4K/jFnhwzVWWg0/k5eLa3060tZShrRg8Dja5kPc+YjS0Gc6y7cRr44Lpjw==}
     engines: {node: '>=14'}
+    deprecated: This package is no longer maintained. For the JavaScript API, please use @conventional-changelog/git-client instead.
     hasBin: true
 
   git-raw-commits@4.0.0:
     resolution: {integrity: sha512-ICsMM1Wk8xSGMowkOmPrzo2Fgmfo4bMHLNX6ytHjajRJUqvHOw/TFapQ+QG75c3X/tTDDhOSRPGC52dDbNM8FQ==}
     engines: {node: '>=16'}
+    deprecated: This package is no longer maintained. For the JavaScript API, please use @conventional-changelog/git-client instead.
     hasBin: true
 
   git-remote-origin-url@2.0.0:
@@ -3495,6 +3515,7 @@ packages:
   git-semver-tags@5.0.1:
     resolution: {integrity: sha512-hIvOeZwRbQ+7YEUmCkHqo8FOLQZCEn18yevLHADlFPZY02KJGsu5FZt9YW/lybfK2uhWFI7Qg/07LekJiTv7iA==}
     engines: {node: '>=14'}
+    deprecated: This package is no longer maintained. For the JavaScript API, please use @conventional-changelog/git-client instead.
     hasBin: true
 
   git-up@7.0.0:
@@ -3522,6 +3543,7 @@ packages:
 
   glob@10.5.0:
     resolution: {integrity: sha512-DfXN8DfhJ7NH3Oe7cFmu3NCu1wKbkReJ8TorzSAFbSKrlNaQSKfIzqYqVY8zlbs2NLBbWpRiU52GX2PbaBVNkg==}
+    deprecated: Old versions of glob are not supported, and contain widely publicized security vulnerabilities, which have been fixed in the current version. Please update. Support for old versions may be purchased (at exorbitant rates) by contacting i@izs.me
     hasBin: true
 
   glob@11.1.0:
@@ -3540,7 +3562,7 @@ packages:
 
   glob@7.2.3:
     resolution: {integrity: sha512-nFR0zLpU2YCaRxwoCJvL6UvCH2JFyFVIvwTLsIf21AuHlMskA1hhTdk+LlYJtOlYt9v6dvszD2BGRqBL+iQK9Q==}
-    deprecated: Glob versions prior to v9 are no longer supported
+    deprecated: Old versions of glob are not supported, and contain widely publicized security vulnerabilities, which have been fixed in the current version. Please update. Support for old versions may be purchased (at exorbitant rates) by contacting i@izs.me
 
   global-directory@4.0.1:
     resolution: {integrity: sha512-wHTUcDUoZ1H5/0iVqEudYW4/kAlN5cZ3j/bXn0Dpbizl9iaUVeWSHqiOjsgk6OW2bkLclbBjzewBz6weQ1zA2Q==}
@@ -5034,8 +5056,8 @@ packages:
   pug@3.0.3:
     resolution: {integrity: sha512-uBi6kmc9f3SZ3PXxqcHiUZLmIXgfgWooKWXcwSGwQd2Zi5Rb0bT14+8CJjJgI8AB+nndLaNgHGrcc6bPIB665g==}
 
-  pump@3.0.3:
-    resolution: {integrity: sha512-todwxLMY7/heScKmntwQG8CXVkWUOdYxIvY2s0VWAAMh/nd8SoYiRaKjlr7+iCs984f2P8zvrfWcDDYVb73NfA==}
+  pump@3.0.4:
+    resolution: {integrity: sha512-VS7sjc6KR7e1ukRFhQSY5LM2uBWAUPiOPa/A3mkKmiMwSmRFUITt0xuj+/lesgnCv+dPIEYlkzrcyXgquIHMcA==}
 
   punycode.js@2.3.1:
     resolution: {integrity: sha512-uxFIHU0YlHYhDQtV4R9J6a52SLx28BCjT+4ieh7IGbgwVJWO+km431c4yRlREUAsAmt/uMjQUyQHNEPf0M39CA==}
@@ -5581,6 +5603,7 @@ packages:
   tar@6.2.1:
     resolution: {integrity: sha512-DZ4yORTwrbTj/7MZYq2w+/ZFdI6OZ/f9SFHR+71gIVUZhOQPHzVCLpvRnPgyaMpfWxxk/4ONva3GQSyNIKRv6A==}
     engines: {node: '>=10'}
+    deprecated: Old versions of tar are not supported, and contain widely publicized security vulnerabilities, which have been fixed in the current version. Please update. Support for old versions may be purchased (at exorbitant rates) by contacting i@izs.me
 
   tar@7.5.7:
     resolution: {integrity: sha512-fov56fJiRuThVFXD6o6/Q354S7pnWMJIVlDBYijsTNx6jKSE4pvrDTs6lUnmGvNyfJwFQQwWy3owKz1ucIhveQ==}
@@ -7429,18 +7452,18 @@ snapshots:
 
   '@tsconfig/node16@1.0.4': {}
 
-  '@tsparticles/basic@4.0.0-alpha.25':
+  '@tsparticles/basic@4.0.0-alpha.26':
     dependencies:
-      '@tsparticles/engine': 4.0.0-alpha.25
-      '@tsparticles/move-base': 4.0.0-alpha.25
-      '@tsparticles/plugin-hex-color': 4.0.0-alpha.25
-      '@tsparticles/plugin-hsl-color': 4.0.0-alpha.25
-      '@tsparticles/plugin-rgb-color': 4.0.0-alpha.25
-      '@tsparticles/shape-circle': 4.0.0-alpha.25
-      '@tsparticles/updater-color': 4.0.0-alpha.25
-      '@tsparticles/updater-opacity': 4.0.0-alpha.25
-      '@tsparticles/updater-out-modes': 4.0.0-alpha.25
-      '@tsparticles/updater-size': 4.0.0-alpha.25
+      '@tsparticles/engine': 4.0.0-alpha.26
+      '@tsparticles/plugin-hex-color': 4.0.0-alpha.26
+      '@tsparticles/plugin-hsl-color': 4.0.0-alpha.26
+      '@tsparticles/plugin-move': 4.0.0-alpha.26
+      '@tsparticles/plugin-rgb-color': 4.0.0-alpha.26
+      '@tsparticles/shape-circle': 4.0.0-alpha.26
+      '@tsparticles/updater-color': 4.0.0-alpha.26
+      '@tsparticles/updater-opacity': 4.0.0-alpha.26
+      '@tsparticles/updater-out-modes': 4.0.0-alpha.26
+      '@tsparticles/updater-size': 4.0.0-alpha.26
 
   '@tsparticles/canvas-utils@4.0.0-alpha.25':
     dependencies:
@@ -7498,6 +7521,8 @@ snapshots:
 
   '@tsparticles/engine@4.0.0-alpha.25': {}
 
+  '@tsparticles/engine@4.0.0-alpha.26': {}
+
   '@tsparticles/eslint-config@3.1.9(eslint@9.39.3(jiti@2.6.1))':
     dependencies:
       eslint: 9.39.3(jiti@2.6.1)
@@ -7518,10 +7543,6 @@ snapshots:
       '@tsparticles/engine': 4.0.0-alpha.25
       '@tsparticles/plugin-interactivity': 4.0.0-alpha.25
 
-  '@tsparticles/move-base@4.0.0-alpha.25':
-    dependencies:
-      '@tsparticles/engine': 4.0.0-alpha.25
-
   '@tsparticles/path-curves@4.0.0-alpha.25':
     dependencies:
       '@tsparticles/engine': 4.0.0-alpha.25
@@ -7540,9 +7561,17 @@ snapshots:
     dependencies:
       '@tsparticles/engine': 4.0.0-alpha.25
 
+  '@tsparticles/plugin-hex-color@4.0.0-alpha.26':
+    dependencies:
+      '@tsparticles/engine': 4.0.0-alpha.26
+
   '@tsparticles/plugin-hsl-color@4.0.0-alpha.25':
     dependencies:
       '@tsparticles/engine': 4.0.0-alpha.25
+
+  '@tsparticles/plugin-hsl-color@4.0.0-alpha.26':
+    dependencies:
+      '@tsparticles/engine': 4.0.0-alpha.26
 
   '@tsparticles/plugin-interactivity@4.0.0-alpha.25':
     dependencies:
@@ -7552,9 +7581,17 @@ snapshots:
     dependencies:
       '@tsparticles/engine': 4.0.0-alpha.25
 
+  '@tsparticles/plugin-move@4.0.0-alpha.26':
+    dependencies:
+      '@tsparticles/engine': 4.0.0-alpha.26
+
   '@tsparticles/plugin-rgb-color@4.0.0-alpha.25':
     dependencies:
       '@tsparticles/engine': 4.0.0-alpha.25
+
+  '@tsparticles/plugin-rgb-color@4.0.0-alpha.26':
+    dependencies:
+      '@tsparticles/engine': 4.0.0-alpha.26
 
   '@tsparticles/plugin-sounds@4.0.0-alpha.25':
     dependencies:
@@ -7569,9 +7606,9 @@ snapshots:
       prettier: 3.8.1
       prettier-plugin-multiline-arrays: 4.1.4(prettier@3.8.1)
 
-  '@tsparticles/shape-circle@4.0.0-alpha.25':
+  '@tsparticles/shape-circle@4.0.0-alpha.26':
     dependencies:
-      '@tsparticles/engine': 4.0.0-alpha.25
+      '@tsparticles/engine': 4.0.0-alpha.26
 
   '@tsparticles/shape-line@4.0.0-alpha.25':
     dependencies:
@@ -7585,9 +7622,9 @@ snapshots:
     dependencies:
       typescript: 5.9.3
 
-  '@tsparticles/updater-color@4.0.0-alpha.25':
+  '@tsparticles/updater-color@4.0.0-alpha.26':
     dependencies:
-      '@tsparticles/engine': 4.0.0-alpha.25
+      '@tsparticles/engine': 4.0.0-alpha.26
 
   '@tsparticles/updater-destroy@4.0.0-alpha.25':
     dependencies:
@@ -7597,13 +7634,13 @@ snapshots:
     dependencies:
       '@tsparticles/engine': 4.0.0-alpha.25
 
-  '@tsparticles/updater-opacity@4.0.0-alpha.25':
+  '@tsparticles/updater-opacity@4.0.0-alpha.26':
     dependencies:
-      '@tsparticles/engine': 4.0.0-alpha.25
+      '@tsparticles/engine': 4.0.0-alpha.26
 
-  '@tsparticles/updater-out-modes@4.0.0-alpha.25':
+  '@tsparticles/updater-out-modes@4.0.0-alpha.26':
     dependencies:
-      '@tsparticles/engine': 4.0.0-alpha.25
+      '@tsparticles/engine': 4.0.0-alpha.26
 
   '@tsparticles/updater-roll@4.0.0-alpha.25':
     dependencies:
@@ -7616,6 +7653,10 @@ snapshots:
   '@tsparticles/updater-size@4.0.0-alpha.25':
     dependencies:
       '@tsparticles/engine': 4.0.0-alpha.25
+
+  '@tsparticles/updater-size@4.0.0-alpha.26':
+    dependencies:
+      '@tsparticles/engine': 4.0.0-alpha.26
 
   '@tsparticles/updater-stroke-color@4.0.0-alpha.25':
     dependencies:
@@ -8872,6 +8913,11 @@ snapshots:
   end-of-stream@1.4.4:
     dependencies:
       once: 1.4.0
+
+  end-of-stream@1.4.5:
+    dependencies:
+      once: 1.4.0
+    optional: true
 
   enhanced-resolve@5.19.0:
     dependencies:
@@ -11127,7 +11173,7 @@ snapshots:
       mkdirp-classic: 0.5.3
       napi-build-utils: 2.0.0
       node-abi: 3.87.0
-      pump: 3.0.3
+      pump: 3.0.4
       rc: 1.2.8
       simple-get: 4.0.1
       tar-fs: 2.1.4
@@ -11270,9 +11316,9 @@ snapshots:
       pug-runtime: 3.0.1
       pug-strip-comments: 2.0.0
 
-  pump@3.0.3:
+  pump@3.0.4:
     dependencies:
-      end-of-stream: 1.4.4
+      end-of-stream: 1.4.5
       once: 1.4.0
     optional: true
 
@@ -11894,7 +11940,7 @@ snapshots:
     dependencies:
       chownr: 1.1.4
       mkdirp-classic: 0.5.3
-      pump: 3.0.3
+      pump: 3.0.4
       tar-stream: 2.2.0
     optional: true
 
