@@ -402,7 +402,7 @@ importers:
         version: 4.0.0-alpha.25
       '@tsparticles/interaction-external-push':
         specifier: ^4.0.0-alpha.25
-        version: 4.0.0-alpha.25
+        version: 4.0.0-alpha.26
       '@tsparticles/plugin-interactivity':
         specifier: ^4.0.0-alpha.25
         version: 4.0.0-alpha.25
@@ -1805,13 +1805,16 @@ packages:
   '@tsparticles/engine@4.0.0-alpha.25':
     resolution: {integrity: sha512-Ls64BiQyNmrUk152rNKgk12h8vBVQrvL46tQpVhF0cPTvADGNKmbRhjir0crBm68UgEKu/WfpFMrdN6v7/2QgA==}
 
+  '@tsparticles/engine@4.0.0-alpha.26':
+    resolution: {integrity: sha512-0TODc8S6A9z7ufw65aQ8/iaBACgsljZDuJHCNNknRJqK/rmrPgqW3v/G222oumz91pDUeIKzGvNLc4SL4gTV5A==}
+
   '@tsparticles/eslint-config@3.1.9':
     resolution: {integrity: sha512-ZCqsALCJT26T9S5S1rM/wlY9iA46x8+wTwv1Df8+iDRtAKhl6Pq3msybvVBhCgW3JkgF6zTo0pyNexypNuk46g==}
     peerDependencies:
       eslint: ^9.39.3
 
-  '@tsparticles/interaction-external-push@4.0.0-alpha.25':
-    resolution: {integrity: sha512-qXWEwtoICU34S58Ho4ri81hc7OWDYC0BP94UHjpahDxWiTaUl7G2PnA6I39SqXJRQ3V1yl9Gm5irRIffr3Plcw==}
+  '@tsparticles/interaction-external-push@4.0.0-alpha.26':
+    resolution: {integrity: sha512-ovZ/0i68296t8Q6P6eISBst/Jdzpu2EGZMsicQVZIB5VpOZf2LczdhhrfUbNN1CpRkCRpyDij4iwbTeyJWhmDQ==}
 
   '@tsparticles/interaction-external-trail@4.0.0-alpha.25':
     resolution: {integrity: sha512-/INUmIvacf5MwcHvSeU/KU92oFE3xpyO+P0T0TEHDWTBDq4CAAyHYt1/jh1dZhIGZUwg5WUOhTPZ/8FGpTU6yQ==}
@@ -1839,6 +1842,9 @@ packages:
 
   '@tsparticles/plugin-interactivity@4.0.0-alpha.25':
     resolution: {integrity: sha512-SNp1gi9mzJMGm+DmSuK0faDD8NwDWrCSn0RalkDtGuPComjgcL/cRg7DnOq4ROzHM8POiCGg1C/+/WShtMY2ug==}
+
+  '@tsparticles/plugin-interactivity@4.0.0-alpha.26':
+    resolution: {integrity: sha512-cTVyQZdxOeNSTzkv+DThAJzG1sL2/ZHPumYB6mPlUxnjv5kZUSWt03v2BffbCyY80pKMRqpMFePGoC+EVFwAsg==}
 
   '@tsparticles/plugin-motion@4.0.0-alpha.25':
     resolution: {integrity: sha512-Z0lb+vkmcq8jli1yp38hZ7FjXopMOj5moAEaiVahYKAJIUbD1dSDoFQkYLC/X1ByEdLetYKq3SkNA09DpkihIg==}
@@ -3012,6 +3018,9 @@ packages:
   end-of-stream@1.4.4:
     resolution: {integrity: sha512-+uw1inIHVPQoaVuHzRyXd21icM+cnt4CzD5rW+NC1wjOUSTOs+Te7FOv7AhN7vS9x/oIyhLP5PR1H+phQAHu5Q==}
 
+  end-of-stream@1.4.5:
+    resolution: {integrity: sha512-ooEGc6HP26xXq/N+GCGOT0JKCLDGrq2bQUZrQ7gyrJiZANJ/8YDTxTpQBXGMn+WbIQXNVpyWymm7KYVICQnyOg==}
+
   enhanced-resolve@5.19.0:
     resolution: {integrity: sha512-phv3E1Xl4tQOShqSte26C7Fl84EwUdZsyOuSSk9qtAGyyQs2s3jJzComh+Abf4g187lUUAvH+H26omrqia2aGg==}
     engines: {node: '>=10.13.0'}
@@ -3481,11 +3490,13 @@ packages:
   git-raw-commits@3.0.0:
     resolution: {integrity: sha512-b5OHmZ3vAgGrDn/X0kS+9qCfNKWe4K/jFnhwzVWWg0/k5eLa3060tZShrRg8Dja5kPc+YjS0Gc6y7cRr44Lpjw==}
     engines: {node: '>=14'}
+    deprecated: This package is no longer maintained. For the JavaScript API, please use @conventional-changelog/git-client instead.
     hasBin: true
 
   git-raw-commits@4.0.0:
     resolution: {integrity: sha512-ICsMM1Wk8xSGMowkOmPrzo2Fgmfo4bMHLNX6ytHjajRJUqvHOw/TFapQ+QG75c3X/tTDDhOSRPGC52dDbNM8FQ==}
     engines: {node: '>=16'}
+    deprecated: This package is no longer maintained. For the JavaScript API, please use @conventional-changelog/git-client instead.
     hasBin: true
 
   git-remote-origin-url@2.0.0:
@@ -3495,6 +3506,7 @@ packages:
   git-semver-tags@5.0.1:
     resolution: {integrity: sha512-hIvOeZwRbQ+7YEUmCkHqo8FOLQZCEn18yevLHADlFPZY02KJGsu5FZt9YW/lybfK2uhWFI7Qg/07LekJiTv7iA==}
     engines: {node: '>=14'}
+    deprecated: This package is no longer maintained. For the JavaScript API, please use @conventional-changelog/git-client instead.
     hasBin: true
 
   git-up@7.0.0:
@@ -3522,6 +3534,7 @@ packages:
 
   glob@10.5.0:
     resolution: {integrity: sha512-DfXN8DfhJ7NH3Oe7cFmu3NCu1wKbkReJ8TorzSAFbSKrlNaQSKfIzqYqVY8zlbs2NLBbWpRiU52GX2PbaBVNkg==}
+    deprecated: Old versions of glob are not supported, and contain widely publicized security vulnerabilities, which have been fixed in the current version. Please update. Support for old versions may be purchased (at exorbitant rates) by contacting i@izs.me
     hasBin: true
 
   glob@11.1.0:
@@ -3540,7 +3553,7 @@ packages:
 
   glob@7.2.3:
     resolution: {integrity: sha512-nFR0zLpU2YCaRxwoCJvL6UvCH2JFyFVIvwTLsIf21AuHlMskA1hhTdk+LlYJtOlYt9v6dvszD2BGRqBL+iQK9Q==}
-    deprecated: Glob versions prior to v9 are no longer supported
+    deprecated: Old versions of glob are not supported, and contain widely publicized security vulnerabilities, which have been fixed in the current version. Please update. Support for old versions may be purchased (at exorbitant rates) by contacting i@izs.me
 
   global-directory@4.0.1:
     resolution: {integrity: sha512-wHTUcDUoZ1H5/0iVqEudYW4/kAlN5cZ3j/bXn0Dpbizl9iaUVeWSHqiOjsgk6OW2bkLclbBjzewBz6weQ1zA2Q==}
@@ -5034,8 +5047,8 @@ packages:
   pug@3.0.3:
     resolution: {integrity: sha512-uBi6kmc9f3SZ3PXxqcHiUZLmIXgfgWooKWXcwSGwQd2Zi5Rb0bT14+8CJjJgI8AB+nndLaNgHGrcc6bPIB665g==}
 
-  pump@3.0.3:
-    resolution: {integrity: sha512-todwxLMY7/heScKmntwQG8CXVkWUOdYxIvY2s0VWAAMh/nd8SoYiRaKjlr7+iCs984f2P8zvrfWcDDYVb73NfA==}
+  pump@3.0.4:
+    resolution: {integrity: sha512-VS7sjc6KR7e1ukRFhQSY5LM2uBWAUPiOPa/A3mkKmiMwSmRFUITt0xuj+/lesgnCv+dPIEYlkzrcyXgquIHMcA==}
 
   punycode.js@2.3.1:
     resolution: {integrity: sha512-uxFIHU0YlHYhDQtV4R9J6a52SLx28BCjT+4ieh7IGbgwVJWO+km431c4yRlREUAsAmt/uMjQUyQHNEPf0M39CA==}
@@ -5581,6 +5594,7 @@ packages:
   tar@6.2.1:
     resolution: {integrity: sha512-DZ4yORTwrbTj/7MZYq2w+/ZFdI6OZ/f9SFHR+71gIVUZhOQPHzVCLpvRnPgyaMpfWxxk/4ONva3GQSyNIKRv6A==}
     engines: {node: '>=10'}
+    deprecated: Old versions of tar are not supported, and contain widely publicized security vulnerabilities, which have been fixed in the current version. Please update. Support for old versions may be purchased (at exorbitant rates) by contacting i@izs.me
 
   tar@7.5.7:
     resolution: {integrity: sha512-fov56fJiRuThVFXD6o6/Q354S7pnWMJIVlDBYijsTNx6jKSE4pvrDTs6lUnmGvNyfJwFQQwWy3owKz1ucIhveQ==}
@@ -7498,14 +7512,16 @@ snapshots:
 
   '@tsparticles/engine@4.0.0-alpha.25': {}
 
+  '@tsparticles/engine@4.0.0-alpha.26': {}
+
   '@tsparticles/eslint-config@3.1.9(eslint@9.39.3(jiti@2.6.1))':
     dependencies:
       eslint: 9.39.3(jiti@2.6.1)
 
-  '@tsparticles/interaction-external-push@4.0.0-alpha.25':
+  '@tsparticles/interaction-external-push@4.0.0-alpha.26':
     dependencies:
-      '@tsparticles/engine': 4.0.0-alpha.25
-      '@tsparticles/plugin-interactivity': 4.0.0-alpha.25
+      '@tsparticles/engine': 4.0.0-alpha.26
+      '@tsparticles/plugin-interactivity': 4.0.0-alpha.26
 
   '@tsparticles/interaction-external-trail@4.0.0-alpha.25':
     dependencies:
@@ -7547,6 +7563,10 @@ snapshots:
   '@tsparticles/plugin-interactivity@4.0.0-alpha.25':
     dependencies:
       '@tsparticles/engine': 4.0.0-alpha.25
+
+  '@tsparticles/plugin-interactivity@4.0.0-alpha.26':
+    dependencies:
+      '@tsparticles/engine': 4.0.0-alpha.26
 
   '@tsparticles/plugin-motion@4.0.0-alpha.25':
     dependencies:
@@ -8872,6 +8892,11 @@ snapshots:
   end-of-stream@1.4.4:
     dependencies:
       once: 1.4.0
+
+  end-of-stream@1.4.5:
+    dependencies:
+      once: 1.4.0
+    optional: true
 
   enhanced-resolve@5.19.0:
     dependencies:
@@ -11127,7 +11152,7 @@ snapshots:
       mkdirp-classic: 0.5.3
       napi-build-utils: 2.0.0
       node-abi: 3.87.0
-      pump: 3.0.3
+      pump: 3.0.4
       rc: 1.2.8
       simple-get: 4.0.1
       tar-fs: 2.1.4
@@ -11270,9 +11295,9 @@ snapshots:
       pug-runtime: 3.0.1
       pug-strip-comments: 2.0.0
 
-  pump@3.0.3:
+  pump@3.0.4:
     dependencies:
-      end-of-stream: 1.4.4
+      end-of-stream: 1.4.5
       once: 1.4.0
     optional: true
 
@@ -11894,7 +11919,7 @@ snapshots:
     dependencies:
       chownr: 1.1.4
       mkdirp-classic: 0.5.3
-      pump: 3.0.3
+      pump: 3.0.4
       tar-stream: 2.2.0
     optional: true
 
