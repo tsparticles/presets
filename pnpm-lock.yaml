@@ -172,7 +172,7 @@ importers:
     dependencies:
       '@tsparticles/basic':
         specifier: ^4.0.0-alpha.27
-        version: 4.0.0-alpha.27
+        version: 4.0.0-beta.0
       '@tsparticles/palette-acid-pair':
         specifier: workspace:^
         version: link:../../palettes/acidPair/dist
@@ -1113,7 +1113,7 @@ importers:
     dependencies:
       '@tsparticles/basic':
         specifier: ^4.0.0-alpha.27
-        version: 4.0.0-alpha.27
+        version: 4.0.0-beta.0
       '@tsparticles/engine':
         specifier: ^4.0.0-alpha.27
         version: 4.0.0-alpha.27
@@ -1126,7 +1126,7 @@ importers:
     dependencies:
       '@tsparticles/basic':
         specifier: ^4.0.0-alpha.27
-        version: 4.0.0-alpha.27
+        version: 4.0.0-beta.0
       '@tsparticles/engine':
         specifier: ^4.0.0-alpha.27
         version: 4.0.0-alpha.27
@@ -1136,7 +1136,7 @@ importers:
     dependencies:
       '@tsparticles/basic':
         specifier: ^4.0.0-alpha.27
-        version: 4.0.0-alpha.27
+        version: 4.0.0-beta.0
       '@tsparticles/engine':
         specifier: ^4.0.0-alpha.27
         version: 4.0.0-alpha.27
@@ -1152,7 +1152,7 @@ importers:
     dependencies:
       '@tsparticles/basic':
         specifier: ^4.0.0-alpha.27
-        version: 4.0.0-alpha.27
+        version: 4.0.0-beta.0
       '@tsparticles/engine':
         specifier: ^4.0.0-alpha.27
         version: 4.0.0-alpha.27
@@ -1189,7 +1189,7 @@ importers:
     dependencies:
       '@tsparticles/basic':
         specifier: ^4.0.0-alpha.27
-        version: 4.0.0-alpha.27
+        version: 4.0.0-beta.0
       '@tsparticles/engine':
         specifier: ^4.0.0-alpha.27
         version: 4.0.0-alpha.27
@@ -1205,7 +1205,7 @@ importers:
     dependencies:
       '@tsparticles/basic':
         specifier: ^4.0.0-alpha.27
-        version: 4.0.0-alpha.27
+        version: 4.0.0-beta.0
       '@tsparticles/engine':
         specifier: ^4.0.0-alpha.27
         version: 4.0.0-alpha.27
@@ -1224,7 +1224,7 @@ importers:
     dependencies:
       '@tsparticles/basic':
         specifier: ^4.0.0-alpha.27
-        version: 4.0.0-alpha.27
+        version: 4.0.0-beta.0
       '@tsparticles/effect-trail':
         specifier: ^4.0.0-alpha.27
         version: 4.0.0-alpha.27
@@ -1273,7 +1273,7 @@ importers:
     dependencies:
       '@tsparticles/basic':
         specifier: ^4.0.0-alpha.27
-        version: 4.0.0-alpha.27
+        version: 4.0.0-beta.0
       '@tsparticles/engine':
         specifier: ^4.0.0-alpha.27
         version: 4.0.0-alpha.27
@@ -1295,7 +1295,7 @@ importers:
     dependencies:
       '@tsparticles/basic':
         specifier: ^4.0.0-alpha.27
-        version: 4.0.0-alpha.27
+        version: 4.0.0-beta.0
       '@tsparticles/engine':
         specifier: ^4.0.0-alpha.27
         version: 4.0.0-alpha.27
@@ -1320,7 +1320,7 @@ importers:
     dependencies:
       '@tsparticles/basic':
         specifier: ^4.0.0-alpha.27
-        version: 4.0.0-alpha.27
+        version: 4.0.0-beta.0
       '@tsparticles/engine':
         specifier: ^4.0.0-alpha.27
         version: 4.0.0-alpha.27
@@ -1336,7 +1336,7 @@ importers:
     dependencies:
       '@tsparticles/basic':
         specifier: ^4.0.0-alpha.27
-        version: 4.0.0-alpha.27
+        version: 4.0.0-beta.0
       '@tsparticles/engine':
         specifier: ^4.0.0-alpha.27
         version: 4.0.0-alpha.27
@@ -1358,7 +1358,7 @@ importers:
     dependencies:
       '@tsparticles/basic':
         specifier: ^4.0.0-alpha.27
-        version: 4.0.0-alpha.27
+        version: 4.0.0-beta.0
       '@tsparticles/engine':
         specifier: ^4.0.0-alpha.27
         version: 4.0.0-alpha.27
@@ -1399,7 +1399,7 @@ importers:
     dependencies:
       '@tsparticles/basic':
         specifier: ^4.0.0-alpha.27
-        version: 4.0.0-alpha.27
+        version: 4.0.0-beta.0
       '@tsparticles/engine':
         specifier: ^4.0.0-alpha.27
         version: 4.0.0-alpha.27
@@ -1409,7 +1409,7 @@ importers:
     dependencies:
       '@tsparticles/basic':
         specifier: ^4.0.0-alpha.27
-        version: 4.0.0-alpha.27
+        version: 4.0.0-beta.0
       '@tsparticles/engine':
         specifier: ^4.0.0-alpha.27
         version: 4.0.0-alpha.27
@@ -2547,8 +2547,8 @@ packages:
   '@tsconfig/node16@1.0.4':
     resolution: {integrity: sha512-vxhUy4J8lyeyinH7Azl1pdd43GJhZH/tP2weN8TntQblOY+A0XbT8DJk1/oCPuOOyg/Ja757rG0CgHcWC8OfMA==}
 
-  '@tsparticles/basic@4.0.0-alpha.27':
-    resolution: {integrity: sha512-EpN6YFxjbNs2xHhlOGQf8d5S07yngLCPlJMPTpLEyRjdGNi2yY4/1t17aaqp7MkkTMNro2v5KksIPCJkoOSS8Q==}
+  '@tsparticles/basic@4.0.0-beta.0':
+    resolution: {integrity: sha512-fPcmVBx1r8E/UufOwijDfv7sD1LoRRVqgfDidXRfbam2cmyjHFSWJ71PofAzerCW6t3spCSHDSljpOcJc09bUA==}
 
   '@tsparticles/canvas-utils@4.0.0-alpha.27':
     resolution: {integrity: sha512-qPjlayPeWuBROo0eW1kdYBL6k3ZcpzcxUHjonhBTCcT5HJJFCddV6hGXLH/EMMjZ6bEYEsAAJDAGUfMzXEFJoA==}
@@ -2567,6 +2567,9 @@ packages:
 
   '@tsparticles/engine@4.0.0-alpha.27':
     resolution: {integrity: sha512-E/W2wNcyZMJdpd6KV87dd+nCyRFi35Cjsj5UsUgQbiEA+lOcWYu8EgOFRBSlY0TUPd65PxYE32QbpsEk141PCg==}
+
+  '@tsparticles/engine@4.0.0-beta.0':
+    resolution: {integrity: sha512-fInBvxngNiRCPQiW0xl/BVF+x7azPcJ3ei8NHcdeVe7kCrwnBfKDDCTdSW+xAQT/vnafGhO20hEjKQSajmpSGQ==}
 
   '@tsparticles/eslint-config@3.3.3':
     resolution: {integrity: sha512-H/rr6TlS415Vu7VurwW6esMAberv92Zy3tMT7yNlObvtP/RSV1kAqHh6Cy0jdg9NjGwLu5UTCxuQs1mZauz9og==}
@@ -2594,8 +2597,14 @@ packages:
   '@tsparticles/plugin-hex-color@4.0.0-alpha.27':
     resolution: {integrity: sha512-s2ORu1TfeCSPu8wEnMTamDt3QJLj4jzs6JOS6LGICm5EKDaImzpZQd5KCbfYGgdsUmc30nNZENJbLjHme03RMw==}
 
+  '@tsparticles/plugin-hex-color@4.0.0-beta.0':
+    resolution: {integrity: sha512-rLeDF5mMTOqRe65BV+YKSAjb0M+5kqBI2DrGjz6HRQtuKkib3ST7nYTyXwm9gjpm2kPD0PzJ6SihAXSBMhdK/A==}
+
   '@tsparticles/plugin-hsl-color@4.0.0-alpha.27':
     resolution: {integrity: sha512-vIKM4DFxFOFTs1W4k9sENc05YgwcKWncnmV96QkXYyjvD45qLYhlVFNvj4iQdAK5pYljqtC4X//SkBMfrjQfmQ==}
+
+  '@tsparticles/plugin-hsl-color@4.0.0-beta.0':
+    resolution: {integrity: sha512-exB2QdkH0UYaD2UE018VkHb2ojsUBTTMlIsH6k3IPdNoi+42Vagkm7EyLxCPPbHNou7EUrC3wO+bnUmrdQEAug==}
 
   '@tsparticles/plugin-interactivity@4.0.0-alpha.27':
     resolution: {integrity: sha512-rsvpAZ0pUycOQ2XrhSHQ+bzMWS9bSgL6JQwR/AXgHbHXw2j5X770NIjPQuYdvDYV1liFQd0JM9PjMpc6uyuAjQ==}
@@ -2606,8 +2615,14 @@ packages:
   '@tsparticles/plugin-move@4.0.0-alpha.27':
     resolution: {integrity: sha512-uR2HmG+mPLQOkXIkC/tk40G286Jaty8R6EmFqunUS9mVa4kqjjveBjQvuufJ/CncuBOmzEtjhYRnWIT6irfyqA==}
 
+  '@tsparticles/plugin-move@4.0.0-beta.0':
+    resolution: {integrity: sha512-F5Bup0HFkMmnAPdO5Om0g3uGsLSY0/UEKO9k0VPm4bweKvavWYu1LEpp/duwrq4VBATCKxXWOk3JWctZKbeTXg==}
+
   '@tsparticles/plugin-rgb-color@4.0.0-alpha.27':
     resolution: {integrity: sha512-gYoefbWeH9lfYGiMIdassPinY4y/FbXU3s1n+BVHOyHDKxsAo8xd62yqCvoL0c5/QGUcLdDCmS0K4sIa7tVV7Q==}
+
+  '@tsparticles/plugin-rgb-color@4.0.0-beta.0':
+    resolution: {integrity: sha512-ES20xl8WKwWwC6w0Dcy/0NOgAtWj7FLcCR+9MYXMmXrGG/bLdmR6U1HAgatEQs7qTlQLOLZfEt75SvM0RmuhXA==}
 
   '@tsparticles/plugin-sounds@4.0.0-alpha.27':
     resolution: {integrity: sha512-KXUJIhzFD8RoaKD6K1sNikwGlukpgiiI1hGQLT0/a5HjRW+VEQ90JPm92AEyEMycC3hgnbp4pTQpc7GbA52wvA==}
@@ -2620,8 +2635,8 @@ packages:
     peerDependencies:
       prettier: ^3
 
-  '@tsparticles/shape-circle@4.0.0-alpha.27':
-    resolution: {integrity: sha512-tIoFi5Iz6AaxWb/I+EoAYl8R3I+sZf8+IsoDDjKg4v4hrl74aUzkiHNZzA8GbSVjZpuQ2T4dk1CbzNRBOG+j4g==}
+  '@tsparticles/shape-circle@4.0.0-beta.0':
+    resolution: {integrity: sha512-nvWm8MXUNopOzKD8QZ7PCckMzjA8Thqy7EZZX7TbdiQWK/yt/9Zf7kToCrUt5JiDVSCROnYW3O5IAB/4cpSpVA==}
 
   '@tsparticles/shape-line@4.0.0-alpha.27':
     resolution: {integrity: sha512-AsuKLedppyiwIbpTWrp8ZyEBmjYc2uGYerIgfHWitnDJYo04hO7BSr/O0FaZ1GQTSfHJeUF44WdWo6j9T9iQhg==}
@@ -2637,17 +2652,17 @@ packages:
   '@tsparticles/updater-destroy@4.0.0-alpha.27':
     resolution: {integrity: sha512-qEmbFRmH3LD5OAr2EIOx1BICUaAe9ljfXgF4OqVDcpksKP+FcPJycgNAf9mQoVSGoVkP/myZh8kf8ubSio1/hQ==}
 
-  '@tsparticles/updater-fill-color@4.0.0-alpha.27':
-    resolution: {integrity: sha512-udZzu/cFhSLVq/crC2RmAACnJmw4J0JL6EpSHD7UAmhdy5orFb+chPzoKbBA5tZu/qSw439HLo+Li4stY5oRVA==}
+  '@tsparticles/updater-fill-color@4.0.0-beta.0':
+    resolution: {integrity: sha512-RjxxNeHnOveIAj2QBZoS+lupRBC3f0+UXXwn/BgGydBol5mBkh+2x15Dob56ni3QFoJr0UzAsvSW+AYngaZCSQ==}
 
   '@tsparticles/updater-life@4.0.0-alpha.27':
     resolution: {integrity: sha512-F7XS2JpL4X/jBdYIi1SZcEvvsKqfedwgVxgRZYJrplKftvz08ADenTLNEhUH4egl3nGCu4IaX+wKznQpfHJWOA==}
 
-  '@tsparticles/updater-opacity@4.0.0-alpha.27':
-    resolution: {integrity: sha512-/Q5cns2mSNIEWnLevx6EnGdXkp2qyxl8JyMC5qw9Lxrd4rKsKqtD31/FesRyf+QSOKUQ8H9t9zQqjMyPvi6qQQ==}
+  '@tsparticles/updater-opacity@4.0.0-beta.0':
+    resolution: {integrity: sha512-0NMEZ2APHcdzcYlQqXOp7Ik+SXZZGcfW8AVQf57aOYU2DA6mg+W9rfWSDdlUesRWg0x2S9pl8H6LJ+2Vx7nyLg==}
 
-  '@tsparticles/updater-out-modes@4.0.0-alpha.27':
-    resolution: {integrity: sha512-dGxThy+7NPDPquHtkN8evxKKy8wmxnkDyneaheT5NO1OBXSeTI1sUUNIRbXIrGnNratak+Ztp7be1rhmCz2+RA==}
+  '@tsparticles/updater-out-modes@4.0.0-beta.0':
+    resolution: {integrity: sha512-77JDKwAksHRsESZHT69vmfoReqqi1J7s4mKlEGoiB2RfDWyrhk6uqrMuIjyHb6szekwa7UVAJ6MEuIgR9NcRPQ==}
 
   '@tsparticles/updater-roll@4.0.0-alpha.27':
     resolution: {integrity: sha512-gyKjpsaO0tEWoMa2HtRl9WQbO6/zogLUFoZy4Cz4T2yUcrNvBVREbRZh94r0x8UDoiTIMjxo6oF/FjqwuY+qvQ==}
@@ -2657,6 +2672,9 @@ packages:
 
   '@tsparticles/updater-size@4.0.0-alpha.27':
     resolution: {integrity: sha512-jM8qyNjFMqfJwuQu7raJKamJwIeJHNuP7DjEsMK2HRo9QOrwxGA+CewiuEBmZaHrP2YVXJaYR2t1b/bcDCKPEQ==}
+
+  '@tsparticles/updater-size@4.0.0-beta.0':
+    resolution: {integrity: sha512-2WGZxbiKrpo5jlb0fgllrTz3yMEadi9DQJtpv6DO+uswx/b2ZACK0W/hxlYOEpuwF4PBwvImpqPJjNwBaEgOdg==}
 
   '@tsparticles/updater-stroke-color@4.0.0-alpha.27':
     resolution: {integrity: sha512-wAgAPn8DFbF/a2MZZAMjSTo5Y1O/I1vP8P6KJnaE1it0fyJmJv9ViY0FjqDECYYl33u9c37LVh06qt10Kzq/VQ==}
@@ -3722,6 +3740,9 @@ packages:
   end-of-stream@1.4.4:
     resolution: {integrity: sha512-+uw1inIHVPQoaVuHzRyXd21icM+cnt4CzD5rW+NC1wjOUSTOs+Te7FOv7AhN7vS9x/oIyhLP5PR1H+phQAHu5Q==}
 
+  end-of-stream@1.4.5:
+    resolution: {integrity: sha512-ooEGc6HP26xXq/N+GCGOT0JKCLDGrq2bQUZrQ7gyrJiZANJ/8YDTxTpQBXGMn+WbIQXNVpyWymm7KYVICQnyOg==}
+
   enhanced-resolve@5.20.0:
     resolution: {integrity: sha512-/ce7+jQ1PQ6rVXwe+jKEg5hW5ciicHwIQUagZkp6IufBoY3YDgdTTY1azVs0qoRgVmvsNB+rbjLJxDAeHHtwsQ==}
     engines: {node: '>=10.13.0'}
@@ -4173,6 +4194,7 @@ packages:
 
   glob@10.5.0:
     resolution: {integrity: sha512-DfXN8DfhJ7NH3Oe7cFmu3NCu1wKbkReJ8TorzSAFbSKrlNaQSKfIzqYqVY8zlbs2NLBbWpRiU52GX2PbaBVNkg==}
+    deprecated: Old versions of glob are not supported, and contain widely publicized security vulnerabilities, which have been fixed in the current version. Please update. Support for old versions may be purchased (at exorbitant rates) by contacting i@izs.me
     hasBin: true
 
   glob@11.1.0:
@@ -4187,7 +4209,7 @@ packages:
 
   glob@7.2.3:
     resolution: {integrity: sha512-nFR0zLpU2YCaRxwoCJvL6UvCH2JFyFVIvwTLsIf21AuHlMskA1hhTdk+LlYJtOlYt9v6dvszD2BGRqBL+iQK9Q==}
-    deprecated: Glob versions prior to v9 are no longer supported
+    deprecated: Old versions of glob are not supported, and contain widely publicized security vulnerabilities, which have been fixed in the current version. Please update. Support for old versions may be purchased (at exorbitant rates) by contacting i@izs.me
 
   global-directory@4.0.1:
     resolution: {integrity: sha512-wHTUcDUoZ1H5/0iVqEudYW4/kAlN5cZ3j/bXn0Dpbizl9iaUVeWSHqiOjsgk6OW2bkLclbBjzewBz6weQ1zA2Q==}
@@ -5109,8 +5131,8 @@ packages:
   neo-async@2.6.2:
     resolution: {integrity: sha512-Yd3UES5mWCSqR+qNT93S3UoYUkqAZ9lLg8a7g9rimsWmYGK8cVToA4/sF3RrshdyV3sAGMXVUmpMYOw+dLpOuw==}
 
-  node-abi@3.87.0:
-    resolution: {integrity: sha512-+CGM1L1CgmtheLcBuleyYOn7NWPVu0s0EJH2C4puxgEZb9h8QpR9G2dBfZJOAUhi7VQxuBPMd0hiISWcTyiYyQ==}
+  node-abi@3.89.0:
+    resolution: {integrity: sha512-6u9UwL0HlAl21+agMN3YAMXcKByMqwGx+pq+P76vii5f7hTPtKDp08/H9py6DY+cfDw7kQNTGEj/rly3IgbNQA==}
     engines: {node: '>=10'}
 
   node-addon-api@7.1.1:
@@ -5598,8 +5620,8 @@ packages:
   pug@3.0.3:
     resolution: {integrity: sha512-uBi6kmc9f3SZ3PXxqcHiUZLmIXgfgWooKWXcwSGwQd2Zi5Rb0bT14+8CJjJgI8AB+nndLaNgHGrcc6bPIB665g==}
 
-  pump@3.0.3:
-    resolution: {integrity: sha512-todwxLMY7/heScKmntwQG8CXVkWUOdYxIvY2s0VWAAMh/nd8SoYiRaKjlr7+iCs984f2P8zvrfWcDDYVb73NfA==}
+  pump@3.0.4:
+    resolution: {integrity: sha512-VS7sjc6KR7e1ukRFhQSY5LM2uBWAUPiOPa/A3mkKmiMwSmRFUITt0xuj+/lesgnCv+dPIEYlkzrcyXgquIHMcA==}
 
   punycode.js@2.3.1:
     resolution: {integrity: sha512-uxFIHU0YlHYhDQtV4R9J6a52SLx28BCjT+4ieh7IGbgwVJWO+km431c4yRlREUAsAmt/uMjQUyQHNEPf0M39CA==}
@@ -6087,6 +6109,7 @@ packages:
   tar@6.2.1:
     resolution: {integrity: sha512-DZ4yORTwrbTj/7MZYq2w+/ZFdI6OZ/f9SFHR+71gIVUZhOQPHzVCLpvRnPgyaMpfWxxk/4ONva3GQSyNIKRv6A==}
     engines: {node: '>=10'}
+    deprecated: Old versions of tar are not supported, and contain widely publicized security vulnerabilities, which have been fixed in the current version. Please update. Support for old versions may be purchased (at exorbitant rates) by contacting i@izs.me
 
   tar@7.5.11:
     resolution: {integrity: sha512-ChjMH33/KetonMTAtpYdgUFr0tbz69Fp2v7zWxQfYZX4g5ZN2nOBXm1R2xyA+lMIKrLKIoKAwFj93jE/avX9cQ==}
@@ -7798,18 +7821,18 @@ snapshots:
 
   '@tsconfig/node16@1.0.4': {}
 
-  '@tsparticles/basic@4.0.0-alpha.27':
+  '@tsparticles/basic@4.0.0-beta.0':
     dependencies:
-      '@tsparticles/engine': 4.0.0-alpha.27
-      '@tsparticles/plugin-hex-color': 4.0.0-alpha.27
-      '@tsparticles/plugin-hsl-color': 4.0.0-alpha.27
-      '@tsparticles/plugin-move': 4.0.0-alpha.27
-      '@tsparticles/plugin-rgb-color': 4.0.0-alpha.27
-      '@tsparticles/shape-circle': 4.0.0-alpha.27
-      '@tsparticles/updater-fill-color': 4.0.0-alpha.27
-      '@tsparticles/updater-opacity': 4.0.0-alpha.27
-      '@tsparticles/updater-out-modes': 4.0.0-alpha.27
-      '@tsparticles/updater-size': 4.0.0-alpha.27
+      '@tsparticles/engine': 4.0.0-beta.0
+      '@tsparticles/plugin-hex-color': 4.0.0-beta.0
+      '@tsparticles/plugin-hsl-color': 4.0.0-beta.0
+      '@tsparticles/plugin-move': 4.0.0-beta.0
+      '@tsparticles/plugin-rgb-color': 4.0.0-beta.0
+      '@tsparticles/shape-circle': 4.0.0-beta.0
+      '@tsparticles/updater-fill-color': 4.0.0-beta.0
+      '@tsparticles/updater-opacity': 4.0.0-beta.0
+      '@tsparticles/updater-out-modes': 4.0.0-beta.0
+      '@tsparticles/updater-size': 4.0.0-beta.0
 
   '@tsparticles/canvas-utils@4.0.0-alpha.27':
     dependencies:
@@ -7862,6 +7885,8 @@ snapshots:
       '@tsparticles/engine': 4.0.0-alpha.27
 
   '@tsparticles/engine@4.0.0-alpha.27': {}
+
+  '@tsparticles/engine@4.0.0-beta.0': {}
 
   '@tsparticles/eslint-config@3.3.3(@types/eslint@8.56.7)(eslint@10.0.3(jiti@2.6.1))':
     dependencies:
@@ -7917,9 +7942,17 @@ snapshots:
     dependencies:
       '@tsparticles/engine': 4.0.0-alpha.27
 
+  '@tsparticles/plugin-hex-color@4.0.0-beta.0':
+    dependencies:
+      '@tsparticles/engine': 4.0.0-beta.0
+
   '@tsparticles/plugin-hsl-color@4.0.0-alpha.27':
     dependencies:
       '@tsparticles/engine': 4.0.0-alpha.27
+
+  '@tsparticles/plugin-hsl-color@4.0.0-beta.0':
+    dependencies:
+      '@tsparticles/engine': 4.0.0-beta.0
 
   '@tsparticles/plugin-interactivity@4.0.0-alpha.27':
     dependencies:
@@ -7933,9 +7966,17 @@ snapshots:
     dependencies:
       '@tsparticles/engine': 4.0.0-alpha.27
 
+  '@tsparticles/plugin-move@4.0.0-beta.0':
+    dependencies:
+      '@tsparticles/engine': 4.0.0-beta.0
+
   '@tsparticles/plugin-rgb-color@4.0.0-alpha.27':
     dependencies:
       '@tsparticles/engine': 4.0.0-alpha.27
+
+  '@tsparticles/plugin-rgb-color@4.0.0-beta.0':
+    dependencies:
+      '@tsparticles/engine': 4.0.0-beta.0
 
   '@tsparticles/plugin-sounds@4.0.0-alpha.27':
     dependencies:
@@ -7950,9 +7991,9 @@ snapshots:
       prettier: 3.8.1
       prettier-plugin-multiline-arrays: 4.1.4(prettier@3.8.1)
 
-  '@tsparticles/shape-circle@4.0.0-alpha.27':
+  '@tsparticles/shape-circle@4.0.0-beta.0':
     dependencies:
-      '@tsparticles/engine': 4.0.0-alpha.27
+      '@tsparticles/engine': 4.0.0-beta.0
 
   '@tsparticles/shape-line@4.0.0-alpha.27':
     dependencies:
@@ -7970,21 +8011,21 @@ snapshots:
     dependencies:
       '@tsparticles/engine': 4.0.0-alpha.27
 
-  '@tsparticles/updater-fill-color@4.0.0-alpha.27':
+  '@tsparticles/updater-fill-color@4.0.0-beta.0':
     dependencies:
-      '@tsparticles/engine': 4.0.0-alpha.27
+      '@tsparticles/engine': 4.0.0-beta.0
 
   '@tsparticles/updater-life@4.0.0-alpha.27':
     dependencies:
       '@tsparticles/engine': 4.0.0-alpha.27
 
-  '@tsparticles/updater-opacity@4.0.0-alpha.27':
+  '@tsparticles/updater-opacity@4.0.0-beta.0':
     dependencies:
-      '@tsparticles/engine': 4.0.0-alpha.27
+      '@tsparticles/engine': 4.0.0-beta.0
 
-  '@tsparticles/updater-out-modes@4.0.0-alpha.27':
+  '@tsparticles/updater-out-modes@4.0.0-beta.0':
     dependencies:
-      '@tsparticles/engine': 4.0.0-alpha.27
+      '@tsparticles/engine': 4.0.0-beta.0
 
   '@tsparticles/updater-roll@4.0.0-alpha.27':
     dependencies:
@@ -7997,6 +8038,10 @@ snapshots:
   '@tsparticles/updater-size@4.0.0-alpha.27':
     dependencies:
       '@tsparticles/engine': 4.0.0-alpha.27
+
+  '@tsparticles/updater-size@4.0.0-beta.0':
+    dependencies:
+      '@tsparticles/engine': 4.0.0-beta.0
 
   '@tsparticles/updater-stroke-color@4.0.0-alpha.27':
     dependencies:
@@ -9154,6 +9199,11 @@ snapshots:
   end-of-stream@1.4.4:
     dependencies:
       once: 1.4.0
+
+  end-of-stream@1.4.5:
+    dependencies:
+      once: 1.4.0
+    optional: true
 
   enhanced-resolve@5.20.0:
     dependencies:
@@ -10665,7 +10715,7 @@ snapshots:
 
   neo-async@2.6.2: {}
 
-  node-abi@3.87.0:
+  node-abi@3.89.0:
     dependencies:
       semver: 7.7.4
     optional: true
@@ -11144,8 +11194,8 @@ snapshots:
       minimist: 1.2.8
       mkdirp-classic: 0.5.3
       napi-build-utils: 2.0.0
-      node-abi: 3.87.0
-      pump: 3.0.3
+      node-abi: 3.89.0
+      pump: 3.0.4
       rc: 1.2.8
       simple-get: 4.0.1
       tar-fs: 2.1.4
@@ -11288,9 +11338,9 @@ snapshots:
       pug-runtime: 3.0.1
       pug-strip-comments: 2.0.0
 
-  pump@3.0.3:
+  pump@3.0.4:
     dependencies:
-      end-of-stream: 1.4.4
+      end-of-stream: 1.4.5
       once: 1.4.0
     optional: true
 
@@ -11810,7 +11860,7 @@ snapshots:
     dependencies:
       chownr: 1.1.4
       mkdirp-classic: 0.5.3
-      pump: 3.0.3
+      pump: 3.0.4
       tar-stream: 2.2.0
     optional: true
 
