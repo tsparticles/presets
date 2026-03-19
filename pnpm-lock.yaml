@@ -1227,7 +1227,7 @@ importers:
         version: 4.0.0-alpha.27
       '@tsparticles/effect-trail':
         specifier: ^4.0.0-alpha.27
-        version: 4.0.0-alpha.27
+        version: 4.0.0-beta.0
       '@tsparticles/engine':
         specifier: ^4.0.0-alpha.27
         version: 4.0.0-alpha.27
@@ -2562,11 +2562,14 @@ packages:
     peerDependencies:
       dependency-cruiser: ^17
 
-  '@tsparticles/effect-trail@4.0.0-alpha.27':
-    resolution: {integrity: sha512-VrscqKWrKASKCuybSfdpW3Hm+COmmgx9ev3g3DHXzLCuln//1X4yEqJ9bVK+A3UKQ0Rqs30T/Jx75SlO2eHpJQ==}
+  '@tsparticles/effect-trail@4.0.0-beta.0':
+    resolution: {integrity: sha512-7R75kquxfsOQ+YXlmDXYxE2679nD6adWEg0kqSIA14EjizBfSpRnv61NuE5YolQ3FDJL7SOtNJ+u+ceNHBdIKA==}
 
   '@tsparticles/engine@4.0.0-alpha.27':
     resolution: {integrity: sha512-E/W2wNcyZMJdpd6KV87dd+nCyRFi35Cjsj5UsUgQbiEA+lOcWYu8EgOFRBSlY0TUPd65PxYE32QbpsEk141PCg==}
+
+  '@tsparticles/engine@4.0.0-beta.0':
+    resolution: {integrity: sha512-fInBvxngNiRCPQiW0xl/BVF+x7azPcJ3ei8NHcdeVe7kCrwnBfKDDCTdSW+xAQT/vnafGhO20hEjKQSajmpSGQ==}
 
   '@tsparticles/eslint-config@3.3.3':
     resolution: {integrity: sha512-H/rr6TlS415Vu7VurwW6esMAberv92Zy3tMT7yNlObvtP/RSV1kAqHh6Cy0jdg9NjGwLu5UTCxuQs1mZauz9og==}
@@ -3722,6 +3725,9 @@ packages:
   end-of-stream@1.4.4:
     resolution: {integrity: sha512-+uw1inIHVPQoaVuHzRyXd21icM+cnt4CzD5rW+NC1wjOUSTOs+Te7FOv7AhN7vS9x/oIyhLP5PR1H+phQAHu5Q==}
 
+  end-of-stream@1.4.5:
+    resolution: {integrity: sha512-ooEGc6HP26xXq/N+GCGOT0JKCLDGrq2bQUZrQ7gyrJiZANJ/8YDTxTpQBXGMn+WbIQXNVpyWymm7KYVICQnyOg==}
+
   enhanced-resolve@5.20.0:
     resolution: {integrity: sha512-/ce7+jQ1PQ6rVXwe+jKEg5hW5ciicHwIQUagZkp6IufBoY3YDgdTTY1azVs0qoRgVmvsNB+rbjLJxDAeHHtwsQ==}
     engines: {node: '>=10.13.0'}
@@ -4173,6 +4179,7 @@ packages:
 
   glob@10.5.0:
     resolution: {integrity: sha512-DfXN8DfhJ7NH3Oe7cFmu3NCu1wKbkReJ8TorzSAFbSKrlNaQSKfIzqYqVY8zlbs2NLBbWpRiU52GX2PbaBVNkg==}
+    deprecated: Old versions of glob are not supported, and contain widely publicized security vulnerabilities, which have been fixed in the current version. Please update. Support for old versions may be purchased (at exorbitant rates) by contacting i@izs.me
     hasBin: true
 
   glob@11.1.0:
@@ -4187,7 +4194,7 @@ packages:
 
   glob@7.2.3:
     resolution: {integrity: sha512-nFR0zLpU2YCaRxwoCJvL6UvCH2JFyFVIvwTLsIf21AuHlMskA1hhTdk+LlYJtOlYt9v6dvszD2BGRqBL+iQK9Q==}
-    deprecated: Glob versions prior to v9 are no longer supported
+    deprecated: Old versions of glob are not supported, and contain widely publicized security vulnerabilities, which have been fixed in the current version. Please update. Support for old versions may be purchased (at exorbitant rates) by contacting i@izs.me
 
   global-directory@4.0.1:
     resolution: {integrity: sha512-wHTUcDUoZ1H5/0iVqEudYW4/kAlN5cZ3j/bXn0Dpbizl9iaUVeWSHqiOjsgk6OW2bkLclbBjzewBz6weQ1zA2Q==}
@@ -5109,8 +5116,8 @@ packages:
   neo-async@2.6.2:
     resolution: {integrity: sha512-Yd3UES5mWCSqR+qNT93S3UoYUkqAZ9lLg8a7g9rimsWmYGK8cVToA4/sF3RrshdyV3sAGMXVUmpMYOw+dLpOuw==}
 
-  node-abi@3.87.0:
-    resolution: {integrity: sha512-+CGM1L1CgmtheLcBuleyYOn7NWPVu0s0EJH2C4puxgEZb9h8QpR9G2dBfZJOAUhi7VQxuBPMd0hiISWcTyiYyQ==}
+  node-abi@3.89.0:
+    resolution: {integrity: sha512-6u9UwL0HlAl21+agMN3YAMXcKByMqwGx+pq+P76vii5f7hTPtKDp08/H9py6DY+cfDw7kQNTGEj/rly3IgbNQA==}
     engines: {node: '>=10'}
 
   node-addon-api@7.1.1:
@@ -5598,8 +5605,8 @@ packages:
   pug@3.0.3:
     resolution: {integrity: sha512-uBi6kmc9f3SZ3PXxqcHiUZLmIXgfgWooKWXcwSGwQd2Zi5Rb0bT14+8CJjJgI8AB+nndLaNgHGrcc6bPIB665g==}
 
-  pump@3.0.3:
-    resolution: {integrity: sha512-todwxLMY7/heScKmntwQG8CXVkWUOdYxIvY2s0VWAAMh/nd8SoYiRaKjlr7+iCs984f2P8zvrfWcDDYVb73NfA==}
+  pump@3.0.4:
+    resolution: {integrity: sha512-VS7sjc6KR7e1ukRFhQSY5LM2uBWAUPiOPa/A3mkKmiMwSmRFUITt0xuj+/lesgnCv+dPIEYlkzrcyXgquIHMcA==}
 
   punycode.js@2.3.1:
     resolution: {integrity: sha512-uxFIHU0YlHYhDQtV4R9J6a52SLx28BCjT+4ieh7IGbgwVJWO+km431c4yRlREUAsAmt/uMjQUyQHNEPf0M39CA==}
@@ -6087,6 +6094,7 @@ packages:
   tar@6.2.1:
     resolution: {integrity: sha512-DZ4yORTwrbTj/7MZYq2w+/ZFdI6OZ/f9SFHR+71gIVUZhOQPHzVCLpvRnPgyaMpfWxxk/4ONva3GQSyNIKRv6A==}
     engines: {node: '>=10'}
+    deprecated: Old versions of tar are not supported, and contain widely publicized security vulnerabilities, which have been fixed in the current version. Please update. Support for old versions may be purchased (at exorbitant rates) by contacting i@izs.me
 
   tar@7.5.11:
     resolution: {integrity: sha512-ChjMH33/KetonMTAtpYdgUFr0tbz69Fp2v7zWxQfYZX4g5ZN2nOBXm1R2xyA+lMIKrLKIoKAwFj93jE/avX9cQ==}
@@ -7857,11 +7865,13 @@ snapshots:
     dependencies:
       dependency-cruiser: 17.3.9
 
-  '@tsparticles/effect-trail@4.0.0-alpha.27':
+  '@tsparticles/effect-trail@4.0.0-beta.0':
     dependencies:
-      '@tsparticles/engine': 4.0.0-alpha.27
+      '@tsparticles/engine': 4.0.0-beta.0
 
   '@tsparticles/engine@4.0.0-alpha.27': {}
+
+  '@tsparticles/engine@4.0.0-beta.0': {}
 
   '@tsparticles/eslint-config@3.3.3(@types/eslint@8.56.7)(eslint@10.0.3(jiti@2.6.1))':
     dependencies:
@@ -9154,6 +9164,11 @@ snapshots:
   end-of-stream@1.4.4:
     dependencies:
       once: 1.4.0
+
+  end-of-stream@1.4.5:
+    dependencies:
+      once: 1.4.0
+    optional: true
 
   enhanced-resolve@5.20.0:
     dependencies:
@@ -10665,7 +10680,7 @@ snapshots:
 
   neo-async@2.6.2: {}
 
-  node-abi@3.87.0:
+  node-abi@3.89.0:
     dependencies:
       semver: 7.7.4
     optional: true
@@ -11144,8 +11159,8 @@ snapshots:
       minimist: 1.2.8
       mkdirp-classic: 0.5.3
       napi-build-utils: 2.0.0
-      node-abi: 3.87.0
-      pump: 3.0.3
+      node-abi: 3.89.0
+      pump: 3.0.4
       rc: 1.2.8
       simple-get: 4.0.1
       tar-fs: 2.1.4
@@ -11288,9 +11303,9 @@ snapshots:
       pug-runtime: 3.0.1
       pug-strip-comments: 2.0.0
 
-  pump@3.0.3:
+  pump@3.0.4:
     dependencies:
-      end-of-stream: 1.4.4
+      end-of-stream: 1.4.5
       once: 1.4.0
     optional: true
 
@@ -11810,7 +11825,7 @@ snapshots:
     dependencies:
       chownr: 1.1.4
       mkdirp-classic: 0.5.3
-      pump: 3.0.3
+      pump: 3.0.4
       tar-stream: 2.2.0
     optional: true
 
