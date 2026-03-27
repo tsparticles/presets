@@ -28,7 +28,7 @@ importers:
         version: 3.3.3(@types/eslint@8.56.7)(eslint@10.0.3(jiti@2.6.1))
       '@tsparticles/prettier-config':
         specifier: ^3.3.3
-        version: 3.3.3(prettier@3.8.1)
+        version: 3.3.5(prettier@3.8.1)
       '@tsparticles/tsconfig':
         specifier: ^3.3.3
         version: 3.3.3(typescript@5.9.3)
@@ -1446,12 +1446,24 @@ packages:
     resolution: {integrity: sha512-1VhWop1ir8nMOUel0MbMQoS8VpQln1G1J9nUqe1n6aFsqDoJVZ3uQZRfHqdvOxxK2/jAuTAgf39SCchgz8HM7g==}
     engines: {node: '>=22'}
 
+  '@augment-vir/assert@31.68.2':
+    resolution: {integrity: sha512-gqolB849vvD15IDh+Uct+Ju2o5ok7OQFhcg26cVOcpk9wO8e/Vr+guaBTYninMz/MUvIRIILm648ILjDCT/BjQ==}
+    engines: {node: '>=22'}
+
   '@augment-vir/common@31.62.0':
     resolution: {integrity: sha512-l8KNDGMO6h+f7g40NRNgCYhZrfYYJZa9RnfG0+uWyUUb61nTwJDcNt4cnpiBbyVFsb3GXDYBHHZTrl6dG1ij/Q==}
     engines: {node: '>=22'}
 
+  '@augment-vir/common@31.68.2':
+    resolution: {integrity: sha512-iwBi1VcQ4e/unIFEs0FGnyroZl2IAQnUkesj9YqM5wlg1Mcgt5WF1byR7z5ySiO/qEzdlJKQI8gLhBzbTyKqEg==}
+    engines: {node: '>=22'}
+
   '@augment-vir/core@31.62.0':
     resolution: {integrity: sha512-Gn04jj4dv3RaPXWa+uCLENuBHc1BLCA2SvfB+9QoxEdAuppEuqEX1VZIEaN/ceAgaZMDSEHHwQ8/cA6F4ZvLow==}
+    engines: {node: '>=22'}
+
+  '@augment-vir/core@31.68.2':
+    resolution: {integrity: sha512-bDg5ThmAVGM7mI1gfIoHbmpKHM0rWxWau0x0CJ2CkrZu+KnSRO+u3WaxeC4X3CGYjT9MV+QoGaDrpmSte7XouA==}
     engines: {node: '>=22'}
 
   '@babel/code-frame@7.27.1':
@@ -1610,6 +1622,10 @@ packages:
 
   '@date-vir/duration@8.1.0':
     resolution: {integrity: sha512-PwvII5Lo3dzZKpTIYHvPnrKQg6UlOY6V/z/ahPiSGt1HeAMlC96PPfuPZ9ZmzcrKQuAZgO9NzX67sXWRI3T62Q==}
+    engines: {node: '>=22'}
+
+  '@date-vir/duration@8.2.1':
+    resolution: {integrity: sha512-hvwpCSbOCfCEFtKJBSlaXvJxQZN8kaTBHvY0Cvx8xvVnQFr3UgMzkglHk44oETQQLyoOY0slygXtR2or+9+AqQ==}
     engines: {node: '>=22'}
 
   '@discoveryjs/json-ext@0.5.7':
@@ -2615,8 +2631,8 @@ packages:
   '@tsparticles/plugin-trail@4.0.0-alpha.27':
     resolution: {integrity: sha512-zvOjthKiEE9R/DNMvJYCUe8yCOn2ZRjKq8qPEsfpVobD3C45aF12IeAWD4l9nWS2xefpsTrBkzeWK3ceJsPrYA==}
 
-  '@tsparticles/prettier-config@3.3.3':
-    resolution: {integrity: sha512-YlPaJL/HPkiNZzjRhADjhECFaQ0C3YrIOf/uAqFbaNp3/He9V+mg5pC4wzVRIJLHVLQH6rBNFImRxfva44sTJw==}
+  '@tsparticles/prettier-config@3.3.5':
+    resolution: {integrity: sha512-YS5Cn8PrsDwXAoJHVC+NLJozKx3el7zfxC0HgIpVe/f8kSlmgatH+p4KJKury2xUCpvhQF2R9cjzbZlTF8PrCQ==}
     peerDependencies:
       prettier: ^3
 
@@ -3659,6 +3675,10 @@ packages:
     resolution: {integrity: sha512-qejHi7bcSD4hQAZE0tNAawRK1ZtafHDmMTMkrrIGgSLl7hTnQHmKCeB45xAcbfTqK2zowkM3j3bHt/4b/ARbYQ==}
     engines: {node: '>=0.3.1'}
 
+  diff@8.0.4:
+    resolution: {integrity: sha512-DPi0FmjiSU5EvQV0++GFDOJ9ASQUVFh5kD+OzOnYdi7n3Wpm9hWWGfB/O2blfHcMVTL5WkQXSnRiK9makhrcnw==}
+    engines: {node: '>=0.3.1'}
+
   dir-glob@3.0.1:
     resolution: {integrity: sha512-WkrWp9GR4KXfKGYzOLmTuGVi1UWFfws377n9cc55/tb6DuqyF6pcQ5AbiHEshaDpY9v6oaSr2XCDidGmMwdzIA==}
     engines: {node: '>=8'}
@@ -3721,6 +3741,9 @@ packages:
 
   end-of-stream@1.4.4:
     resolution: {integrity: sha512-+uw1inIHVPQoaVuHzRyXd21icM+cnt4CzD5rW+NC1wjOUSTOs+Te7FOv7AhN7vS9x/oIyhLP5PR1H+phQAHu5Q==}
+
+  end-of-stream@1.4.5:
+    resolution: {integrity: sha512-ooEGc6HP26xXq/N+GCGOT0JKCLDGrq2bQUZrQ7gyrJiZANJ/8YDTxTpQBXGMn+WbIQXNVpyWymm7KYVICQnyOg==}
 
   enhanced-resolve@5.20.0:
     resolution: {integrity: sha512-/ce7+jQ1PQ6rVXwe+jKEg5hW5ciicHwIQUagZkp6IufBoY3YDgdTTY1azVs0qoRgVmvsNB+rbjLJxDAeHHtwsQ==}
@@ -4173,6 +4196,7 @@ packages:
 
   glob@10.5.0:
     resolution: {integrity: sha512-DfXN8DfhJ7NH3Oe7cFmu3NCu1wKbkReJ8TorzSAFbSKrlNaQSKfIzqYqVY8zlbs2NLBbWpRiU52GX2PbaBVNkg==}
+    deprecated: Old versions of glob are not supported, and contain widely publicized security vulnerabilities, which have been fixed in the current version. Please update. Support for old versions may be purchased (at exorbitant rates) by contacting i@izs.me
     hasBin: true
 
   glob@11.1.0:
@@ -4187,7 +4211,7 @@ packages:
 
   glob@7.2.3:
     resolution: {integrity: sha512-nFR0zLpU2YCaRxwoCJvL6UvCH2JFyFVIvwTLsIf21AuHlMskA1hhTdk+LlYJtOlYt9v6dvszD2BGRqBL+iQK9Q==}
-    deprecated: Glob versions prior to v9 are no longer supported
+    deprecated: Old versions of glob are not supported, and contain widely publicized security vulnerabilities, which have been fixed in the current version. Please update. Support for old versions may be purchased (at exorbitant rates) by contacting i@izs.me
 
   global-directory@4.0.1:
     resolution: {integrity: sha512-wHTUcDUoZ1H5/0iVqEudYW4/kAlN5cZ3j/bXn0Dpbizl9iaUVeWSHqiOjsgk6OW2bkLclbBjzewBz6weQ1zA2Q==}
@@ -5109,8 +5133,8 @@ packages:
   neo-async@2.6.2:
     resolution: {integrity: sha512-Yd3UES5mWCSqR+qNT93S3UoYUkqAZ9lLg8a7g9rimsWmYGK8cVToA4/sF3RrshdyV3sAGMXVUmpMYOw+dLpOuw==}
 
-  node-abi@3.87.0:
-    resolution: {integrity: sha512-+CGM1L1CgmtheLcBuleyYOn7NWPVu0s0EJH2C4puxgEZb9h8QpR9G2dBfZJOAUhi7VQxuBPMd0hiISWcTyiYyQ==}
+  node-abi@3.89.0:
+    resolution: {integrity: sha512-6u9UwL0HlAl21+agMN3YAMXcKByMqwGx+pq+P76vii5f7hTPtKDp08/H9py6DY+cfDw7kQNTGEj/rly3IgbNQA==}
     engines: {node: '>=10'}
 
   node-addon-api@7.1.1:
@@ -5497,6 +5521,12 @@ packages:
     peerDependencies:
       prettier: '>=3.0.0 <4.0.0'
 
+  prettier-plugin-multiline-arrays@4.1.5:
+    resolution: {integrity: sha512-eDrP12o6egIqvPg8eCAt94L/jxzMwU6vrOOBooe3FdUPh2h4cfu90ixH1keAkqPyArM2wPsNTBCZo+tY948UdA==}
+    engines: {node: '>=20'}
+    peerDependencies:
+      prettier: '>=3.0.0 <4.0.0'
+
   prettier@3.8.1:
     resolution: {integrity: sha512-UOnG6LftzbdaHZcKoPFtOcCKztrQ57WkHDeRD9t/PTQtmT0NHSeWWepj6pS0z/N7+08BHFDQVUrfmfMRcZwbMg==}
     engines: {node: '>=14'}
@@ -5598,8 +5628,8 @@ packages:
   pug@3.0.3:
     resolution: {integrity: sha512-uBi6kmc9f3SZ3PXxqcHiUZLmIXgfgWooKWXcwSGwQd2Zi5Rb0bT14+8CJjJgI8AB+nndLaNgHGrcc6bPIB665g==}
 
-  pump@3.0.3:
-    resolution: {integrity: sha512-todwxLMY7/heScKmntwQG8CXVkWUOdYxIvY2s0VWAAMh/nd8SoYiRaKjlr7+iCs984f2P8zvrfWcDDYVb73NfA==}
+  pump@3.0.4:
+    resolution: {integrity: sha512-VS7sjc6KR7e1ukRFhQSY5LM2uBWAUPiOPa/A3mkKmiMwSmRFUITt0xuj+/lesgnCv+dPIEYlkzrcyXgquIHMcA==}
 
   punycode.js@2.3.1:
     resolution: {integrity: sha512-uxFIHU0YlHYhDQtV4R9J6a52SLx28BCjT+4ieh7IGbgwVJWO+km431c4yRlREUAsAmt/uMjQUyQHNEPf0M39CA==}
@@ -6087,6 +6117,7 @@ packages:
   tar@6.2.1:
     resolution: {integrity: sha512-DZ4yORTwrbTj/7MZYq2w+/ZFdI6OZ/f9SFHR+71gIVUZhOQPHzVCLpvRnPgyaMpfWxxk/4ONva3GQSyNIKRv6A==}
     engines: {node: '>=10'}
+    deprecated: Old versions of tar are not supported, and contain widely publicized security vulnerabilities, which have been fixed in the current version. Please update. Support for old versions may be purchased (at exorbitant rates) by contacting i@izs.me
 
   tar@7.5.11:
     resolution: {integrity: sha512-ChjMH33/KetonMTAtpYdgUFr0tbz69Fp2v7zWxQfYZX4g5ZN2nOBXm1R2xyA+lMIKrLKIoKAwFj93jE/avX9cQ==}
@@ -6271,12 +6302,20 @@ packages:
     resolution: {integrity: sha512-JnTrzGu+zPV3aXIUhnyWJj4z/wigMsdYajGLIYakqyOW1nPllzXEJee0QQbHj+CTIQtXGlAjuK0UY+2xTyjVAw==}
     engines: {node: '>=20'}
 
+  type-fest@5.5.0:
+    resolution: {integrity: sha512-PlBfpQwiUvGViBNX84Yxwjsdhd1TUlXr6zjX7eoirtCPIr08NAmxwa+fcYBTeRQxHo9YC9wwF3m9i700sHma8g==}
+    engines: {node: '>=20'}
+
   type-is@2.0.1:
     resolution: {integrity: sha512-OZs6gsjF4vMp32qrCbiVSkrFmXtG/AZhY3t0iAMrMBiAZyV9oALtXO8hsrHbMXF9x6L3grlFuwW2oAz7cav+Gw==}
     engines: {node: '>= 0.6'}
 
   typed-event-target@4.1.0:
     resolution: {integrity: sha512-fDFhZb7ofywLsVv8mYePD6ONfCpVHyM1t2dboEJx/XMsnflljnu3GQ5qH09hS1USuypGMR7wRbdWQPydgJ8nGQ==}
+    engines: {node: '>=22'}
+
+  typed-event-target@4.3.0:
+    resolution: {integrity: sha512-21TH+1pkLuMNjwsDDXY5272CWmxgwszWd7kOoTsxgc87kcSkH9wiandsyVQbOXC2e85H8k+xKL3OEfKxt/pwxg==}
     engines: {node: '>=22'}
 
   typedarray@0.0.6:
@@ -6761,6 +6800,14 @@ snapshots:
       expect-type: 1.3.0
       type-fest: 5.4.4
 
+  '@augment-vir/assert@31.68.2':
+    dependencies:
+      '@augment-vir/core': 31.68.2
+      '@date-vir/duration': 8.2.1
+      deep-eql: 5.0.2
+      expect-type: 1.3.0
+      type-fest: 5.5.0
+
   '@augment-vir/common@31.62.0':
     dependencies:
       '@augment-vir/assert': 31.62.0
@@ -6772,6 +6819,17 @@ snapshots:
       type-fest: 5.4.4
       typed-event-target: 4.1.0
 
+  '@augment-vir/common@31.68.2':
+    dependencies:
+      '@augment-vir/assert': 31.68.2
+      '@augment-vir/core': 31.68.2
+      '@date-vir/duration': 8.2.1
+      ansi-styles: 6.2.3
+      deepcopy-esm: 2.1.1
+      json5: 2.2.3
+      type-fest: 5.5.0
+      typed-event-target: 4.3.0
+
   '@augment-vir/core@31.62.0':
     dependencies:
       '@date-vir/duration': 8.1.0
@@ -6779,6 +6837,14 @@ snapshots:
       diff: 8.0.3
       json5: 2.2.3
       type-fest: 5.4.4
+
+  '@augment-vir/core@31.68.2':
+    dependencies:
+      '@date-vir/duration': 8.2.1
+      browser-or-node: 3.0.0
+      diff: 8.0.4
+      json5: 2.2.3
+      type-fest: 5.5.0
 
   '@babel/code-frame@7.27.1':
     dependencies:
@@ -6967,6 +7033,13 @@ snapshots:
       '@types/luxon': 3.7.1
       luxon: 3.7.2
       type-fest: 5.4.4
+
+  '@date-vir/duration@8.2.1':
+    dependencies:
+      '@augment-vir/assert': 31.68.2
+      '@types/luxon': 3.7.1
+      luxon: 3.7.2
+      type-fest: 5.5.0
 
   '@discoveryjs/json-ext@0.5.7': {}
 
@@ -7820,7 +7893,7 @@ snapshots:
       '@swc/core': 1.15.18
       '@tsparticles/depcruise-config': 3.3.3(dependency-cruiser@17.3.9)
       '@tsparticles/eslint-config': 3.3.3(@types/eslint@8.56.7)(eslint@10.0.3(jiti@2.6.1))
-      '@tsparticles/prettier-config': 3.3.3(prettier@3.8.1)
+      '@tsparticles/prettier-config': 3.3.5(prettier@3.8.1)
       '@tsparticles/tsconfig': 3.3.3(typescript@5.9.3)
       '@tsparticles/webpack-plugin': 3.3.3(@types/eslint@8.56.7)(esbuild@0.27.2)(jiti@2.6.1)
       commander: 14.0.3
@@ -7867,7 +7940,7 @@ snapshots:
     dependencies:
       '@eslint/js': 10.0.1(eslint@10.0.3(jiti@2.6.1))
       '@stylistic/eslint-plugin': 5.10.0(eslint@10.0.3(jiti@2.6.1))
-      '@tsparticles/prettier-config': 3.3.3(prettier@3.8.1)
+      '@tsparticles/prettier-config': 3.3.5(prettier@3.8.1)
       eslint: 10.0.3(jiti@2.6.1)
       eslint-config-prettier: 10.1.8(eslint@10.0.3(jiti@2.6.1))
       eslint-plugin-jsdoc: 62.8.0(eslint@10.0.3(jiti@2.6.1))
@@ -7945,10 +8018,10 @@ snapshots:
     dependencies:
       '@tsparticles/engine': 4.0.0-alpha.27
 
-  '@tsparticles/prettier-config@3.3.3(prettier@3.8.1)':
+  '@tsparticles/prettier-config@3.3.5(prettier@3.8.1)':
     dependencies:
       prettier: 3.8.1
-      prettier-plugin-multiline-arrays: 4.1.4(prettier@3.8.1)
+      prettier-plugin-multiline-arrays: 4.1.5(prettier@3.8.1)
 
   '@tsparticles/shape-circle@4.0.0-alpha.27':
     dependencies:
@@ -8015,7 +8088,7 @@ snapshots:
       '@stylistic/eslint-plugin': 5.10.0(eslint@10.0.3(jiti@2.6.1))
       '@swc/core': 1.15.18
       '@tsparticles/eslint-config': 3.3.3(@types/eslint@8.56.7)(eslint@10.0.3(jiti@2.6.1))
-      '@tsparticles/prettier-config': 3.3.3(prettier@3.8.1)
+      '@tsparticles/prettier-config': 3.3.5(prettier@3.8.1)
       browserslist: 4.28.1
       eslint: 10.0.3(jiti@2.6.1)
       eslint-config-prettier: 10.1.8(eslint@10.0.3(jiti@2.6.1))
@@ -9102,6 +9175,8 @@ snapshots:
 
   diff@8.0.3: {}
 
+  diff@8.0.4: {}
+
   dir-glob@3.0.1:
     dependencies:
       path-type: 4.0.0
@@ -9154,6 +9229,11 @@ snapshots:
   end-of-stream@1.4.4:
     dependencies:
       once: 1.4.0
+
+  end-of-stream@1.4.5:
+    dependencies:
+      once: 1.4.0
+    optional: true
 
   enhanced-resolve@5.20.0:
     dependencies:
@@ -10665,7 +10745,7 @@ snapshots:
 
   neo-async@2.6.2: {}
 
-  node-abi@3.87.0:
+  node-abi@3.89.0:
     dependencies:
       semver: 7.7.4
     optional: true
@@ -11144,8 +11224,8 @@ snapshots:
       minimist: 1.2.8
       mkdirp-classic: 0.5.3
       napi-build-utils: 2.0.0
-      node-abi: 3.87.0
-      pump: 3.0.3
+      node-abi: 3.89.0
+      pump: 3.0.4
       rc: 1.2.8
       simple-get: 4.0.1
       tar-fs: 2.1.4
@@ -11162,6 +11242,13 @@ snapshots:
     dependencies:
       '@augment-vir/assert': 31.62.0
       '@augment-vir/common': 31.62.0
+      prettier: 3.8.1
+      proxy-vir: 2.0.2
+
+  prettier-plugin-multiline-arrays@4.1.5(prettier@3.8.1):
+    dependencies:
+      '@augment-vir/assert': 31.68.2
+      '@augment-vir/common': 31.68.2
       prettier: 3.8.1
       proxy-vir: 2.0.2
 
@@ -11288,9 +11375,9 @@ snapshots:
       pug-runtime: 3.0.1
       pug-strip-comments: 2.0.0
 
-  pump@3.0.3:
+  pump@3.0.4:
     dependencies:
-      end-of-stream: 1.4.4
+      end-of-stream: 1.4.5
       once: 1.4.0
     optional: true
 
@@ -11810,7 +11897,7 @@ snapshots:
     dependencies:
       chownr: 1.1.4
       mkdirp-classic: 0.5.3
-      pump: 3.0.3
+      pump: 3.0.4
       tar-stream: 2.2.0
     optional: true
 
@@ -12030,6 +12117,10 @@ snapshots:
     dependencies:
       tagged-tag: 1.0.0
 
+  type-fest@5.5.0:
+    dependencies:
+      tagged-tag: 1.0.0
+
   type-is@2.0.1:
     dependencies:
       content-type: 1.0.5
@@ -12041,6 +12132,12 @@ snapshots:
       '@augment-vir/assert': 31.62.0
       '@augment-vir/common': 31.62.0
       '@augment-vir/core': 31.62.0
+
+  typed-event-target@4.3.0:
+    dependencies:
+      '@augment-vir/assert': 31.68.2
+      '@augment-vir/common': 31.68.2
+      '@augment-vir/core': 31.68.2
 
   typedarray@0.0.6: {}
 
