@@ -31,7 +31,7 @@ importers:
         version: 3.3.5(prettier@3.8.1)
       '@tsparticles/tsconfig':
         specifier: ^3.3.5
-        version: 3.3.5(typescript@5.9.3)
+        version: 3.4.4(typescript@5.9.3)
       '@tsparticles/webpack-plugin':
         specifier: ^3.3.5
         version: 3.3.5(@types/eslint@8.56.7)(esbuild@0.27.2)(jiti@2.6.1)
@@ -2812,10 +2812,10 @@ packages:
   '@tsparticles/shape-square@4.0.0-beta.1':
     resolution: {integrity: sha512-dLnNcevna0aMdbbGDTG97BkFCvSrjLA9pFqjauGQFjar9HbLupq+V5WlsjDoTjoYjJILTmbvF8l/h5QYseO9Hg==}
 
-  '@tsparticles/tsconfig@3.3.5':
-    resolution: {integrity: sha512-DJ/5FBwyj4MubMDNuRfMyeesAlshtzyMex04NFFyLtTixIVr4h4ZewBwC92YKEyyWvoE2cp7HDB4jkThtxSg+g==}
+  '@tsparticles/tsconfig@3.4.4':
+    resolution: {integrity: sha512-mjVflXVP2Da9Xv44EGOub4/KuPZmu14/ltlU12/38om0hEkQ9SgkKWayO9Zq4aZBv3vVfOguQUqEXc5TnYARpQ==}
     peerDependencies:
-      typescript: ^5
+      typescript: ^6
 
   '@tsparticles/updater-destroy@4.0.0-beta.1':
     resolution: {integrity: sha512-EeHPd6J6AUOGiUaEUkPuJnI26LX78B5t124KXpaL6CgmgzviI9lE15B+JatY38/C4VnQ+v6RlQNU8eh6+LWE4A==}
@@ -7950,7 +7950,7 @@ snapshots:
       '@tsparticles/depcruise-config': 3.3.5(dependency-cruiser@17.3.9)
       '@tsparticles/eslint-config': 3.3.5(@types/eslint@8.56.7)(eslint@10.1.0(jiti@2.6.1))
       '@tsparticles/prettier-config': 3.3.5(prettier@3.8.1)
-      '@tsparticles/tsconfig': 3.3.5(typescript@5.9.3)
+      '@tsparticles/tsconfig': 3.4.4(typescript@5.9.3)
       '@tsparticles/webpack-plugin': 3.3.5(@types/eslint@8.56.7)(esbuild@0.27.2)(jiti@2.6.1)
       commander: 14.0.3
       dependency-cruiser: 17.3.9
@@ -8096,7 +8096,7 @@ snapshots:
     dependencies:
       '@tsparticles/engine': 4.0.0-beta.1
 
-  '@tsparticles/tsconfig@3.3.5(typescript@5.9.3)':
+  '@tsparticles/tsconfig@3.4.4(typescript@5.9.3)':
     dependencies:
       typescript: 5.9.3
 
