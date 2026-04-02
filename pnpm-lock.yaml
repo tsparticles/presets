@@ -28,7 +28,7 @@ importers:
         version: 3.3.5(@types/eslint@8.56.7)(eslint@10.1.0(jiti@2.6.1))
       '@tsparticles/prettier-config':
         specifier: ^3.3.5
-        version: 3.3.5(prettier@3.8.1)
+        version: 3.4.4(prettier@3.8.1)
       '@tsparticles/tsconfig':
         specifier: ^3.3.5
         version: 3.3.5(typescript@5.9.3)
@@ -2798,8 +2798,8 @@ packages:
   '@tsparticles/plugin-trail@4.0.0-beta.1':
     resolution: {integrity: sha512-jiK70L6CmT7ttwhFw0UMpYMPPVokG4RwDVQVC4gOsOopTlw4hx1XhOxnFPS4i9nUJjxnKKiOlN0tdCpwMceW8w==}
 
-  '@tsparticles/prettier-config@3.3.5':
-    resolution: {integrity: sha512-YS5Cn8PrsDwXAoJHVC+NLJozKx3el7zfxC0HgIpVe/f8kSlmgatH+p4KJKury2xUCpvhQF2R9cjzbZlTF8PrCQ==}
+  '@tsparticles/prettier-config@3.4.4':
+    resolution: {integrity: sha512-np0oLkGnGm2Q2ibMIUgtctcYnqfOVzJCXSsMl25wBlqcqrnG1ZTOQPTN1iVhHJcnTLPNUNdIHhWMBaIbcG9nDA==}
     peerDependencies:
       prettier: ^3
 
@@ -7949,7 +7949,7 @@ snapshots:
       '@swc/core': 1.15.21
       '@tsparticles/depcruise-config': 3.3.5(dependency-cruiser@17.3.9)
       '@tsparticles/eslint-config': 3.3.5(@types/eslint@8.56.7)(eslint@10.1.0(jiti@2.6.1))
-      '@tsparticles/prettier-config': 3.3.5(prettier@3.8.1)
+      '@tsparticles/prettier-config': 3.4.4(prettier@3.8.1)
       '@tsparticles/tsconfig': 3.3.5(typescript@5.9.3)
       '@tsparticles/webpack-plugin': 3.3.5(@types/eslint@8.56.7)(esbuild@0.27.2)(jiti@2.6.1)
       commander: 14.0.3
@@ -7996,7 +7996,7 @@ snapshots:
     dependencies:
       '@eslint/js': 10.0.1(eslint@10.1.0(jiti@2.6.1))
       '@stylistic/eslint-plugin': 5.10.0(eslint@10.1.0(jiti@2.6.1))
-      '@tsparticles/prettier-config': 3.3.5(prettier@3.8.1)
+      '@tsparticles/prettier-config': 3.4.4(prettier@3.8.1)
       eslint: 10.1.0(jiti@2.6.1)
       eslint-config-prettier: 10.1.8(eslint@10.1.0(jiti@2.6.1))
       eslint-plugin-jsdoc: 62.8.1(eslint@10.1.0(jiti@2.6.1))
@@ -8079,7 +8079,7 @@ snapshots:
     dependencies:
       '@tsparticles/engine': 4.0.0-beta.1
 
-  '@tsparticles/prettier-config@3.3.5(prettier@3.8.1)':
+  '@tsparticles/prettier-config@3.4.4(prettier@3.8.1)':
     dependencies:
       prettier: 3.8.1
       prettier-plugin-multiline-arrays: 4.1.5(prettier@3.8.1)
@@ -8149,7 +8149,7 @@ snapshots:
       '@stylistic/eslint-plugin': 5.10.0(eslint@10.1.0(jiti@2.6.1))
       '@swc/core': 1.15.21
       '@tsparticles/eslint-config': 3.3.5(@types/eslint@8.56.7)(eslint@10.1.0(jiti@2.6.1))
-      '@tsparticles/prettier-config': 3.3.5(prettier@3.8.1)
+      '@tsparticles/prettier-config': 3.4.4(prettier@3.8.1)
       browserslist: 4.28.2
       eslint: 10.1.0(jiti@2.6.1)
       eslint-config-prettier: 10.1.8(eslint@10.1.0(jiti@2.6.1))
