@@ -578,7 +578,7 @@ importers:
         version: 4.0.0-beta.8
       '@tsparticles/interaction-external-trail':
         specifier: ^4.0.0-beta.8
-        version: 4.0.0-beta.8(@tsparticles/engine@4.0.0-beta.8)(@tsparticles/plugin-interactivity@4.0.0-beta.8(@tsparticles/engine@4.0.0-beta.8))
+        version: 4.0.0-beta.9(@tsparticles/engine@4.0.0-beta.8)(@tsparticles/plugin-interactivity@4.0.0-beta.8(@tsparticles/engine@4.0.0-beta.8))
       '@tsparticles/plugin-interactivity':
         specifier: ^4.0.0-beta.8
         version: 4.0.0-beta.8(@tsparticles/engine@4.0.0-beta.8)
@@ -1960,11 +1960,11 @@ packages:
       '@tsparticles/engine': 4.0.0-beta.8
       '@tsparticles/plugin-interactivity': 4.0.0-beta.8
 
-  '@tsparticles/interaction-external-trail@4.0.0-beta.8':
-    resolution: {integrity: sha512-XE8L4t2y8dkXWZQSc8kSpW5IeHSLeYCmyXdzRDF/8uiip05cJ5BkRUhQ1aX5uDNuK/wopM9x9IijRgcXP7nvhw==}
+  '@tsparticles/interaction-external-trail@4.0.0-beta.9':
+    resolution: {integrity: sha512-68WLFO7k5/WsfTuBZsucgXCHbnvujt1BaQdVf17HdHQebpdbLOU3j2/DjevgykLswoQn0AOExo8J6ZL/FrKUdg==}
     peerDependencies:
-      '@tsparticles/engine': 4.0.0-beta.8
-      '@tsparticles/plugin-interactivity': 4.0.0-beta.8
+      '@tsparticles/engine': 4.0.0-beta.9
+      '@tsparticles/plugin-interactivity': 4.0.0-beta.9
 
   '@tsparticles/interaction-particles-links@4.0.0-beta.8':
     resolution: {integrity: sha512-kB5kvhllpcjq2mNzmaJXknrwiegUFP0f+Tyl8HZgDnKCxVihyX72p5aOOTSdFNzr6NBEZ91X2LlXK+7zw9sn4A==}
@@ -7390,7 +7390,7 @@ snapshots:
       '@tsparticles/engine': 4.0.0-beta.8
       '@tsparticles/plugin-interactivity': 4.0.0-beta.8(@tsparticles/engine@4.0.0-beta.8)
 
-  '@tsparticles/interaction-external-trail@4.0.0-beta.8(@tsparticles/engine@4.0.0-beta.8)(@tsparticles/plugin-interactivity@4.0.0-beta.8(@tsparticles/engine@4.0.0-beta.8))':
+  '@tsparticles/interaction-external-trail@4.0.0-beta.9(@tsparticles/engine@4.0.0-beta.8)(@tsparticles/plugin-interactivity@4.0.0-beta.8(@tsparticles/engine@4.0.0-beta.8))':
     dependencies:
       '@tsparticles/engine': 4.0.0-beta.8
       '@tsparticles/plugin-interactivity': 4.0.0-beta.8(@tsparticles/engine@4.0.0-beta.8)
