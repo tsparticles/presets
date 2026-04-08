@@ -420,7 +420,7 @@ importers:
         version: 4.0.0-beta.8
       '@tsparticles/interaction-external-cannon':
         specifier: ^4.0.0-beta.8
-        version: 4.0.0-beta.8(@tsparticles/engine@4.0.0-beta.8)(@tsparticles/plugin-interactivity@4.0.0-beta.8(@tsparticles/engine@4.0.0-beta.8))
+        version: 4.0.0-beta.9(@tsparticles/engine@4.0.0-beta.8)(@tsparticles/plugin-interactivity@4.0.0-beta.8(@tsparticles/engine@4.0.0-beta.8))
       '@tsparticles/palette-confetti':
         specifier: ^4.0.0-alpha.5
         version: 4.0.0-alpha.5
@@ -1948,11 +1948,11 @@ packages:
     peerDependencies:
       eslint: ^10
 
-  '@tsparticles/interaction-external-cannon@4.0.0-beta.8':
-    resolution: {integrity: sha512-TF1Vi2Wgzx+xYGKH38/UZMklxOMm5rv9LCtxQh4dQKUo2Zd/QWUmVCwfLMYHxFA7KtzvVHlY08N2p4HG5XMfew==}
+  '@tsparticles/interaction-external-cannon@4.0.0-beta.9':
+    resolution: {integrity: sha512-m4F6g0hjWM78DYL5rdx8j9ssgDzjXrefpj0mJVCy/yINtMdNQ4ELqfpod1SV/YrEpSYPRUyJ0OMwzTzNV/3V0g==}
     peerDependencies:
-      '@tsparticles/engine': 4.0.0-beta.8
-      '@tsparticles/plugin-interactivity': 4.0.0-beta.8
+      '@tsparticles/engine': 4.0.0-beta.9
+      '@tsparticles/plugin-interactivity': 4.0.0-beta.9
 
   '@tsparticles/interaction-external-push@4.0.0-beta.8':
     resolution: {integrity: sha512-p4kSbet2lxT1HrkEfMsNxfjXOmnokDWkVgBPTybNamv2+PMXjczlS3lDcCSbEpXWUuDO4YBn30YWdfg8fL5i6g==}
@@ -7380,7 +7380,7 @@ snapshots:
       - '@types/eslint'
       - supports-color
 
-  '@tsparticles/interaction-external-cannon@4.0.0-beta.8(@tsparticles/engine@4.0.0-beta.8)(@tsparticles/plugin-interactivity@4.0.0-beta.8(@tsparticles/engine@4.0.0-beta.8))':
+  '@tsparticles/interaction-external-cannon@4.0.0-beta.9(@tsparticles/engine@4.0.0-beta.8)(@tsparticles/plugin-interactivity@4.0.0-beta.8(@tsparticles/engine@4.0.0-beta.8))':
     dependencies:
       '@tsparticles/engine': 4.0.0-beta.8
       '@tsparticles/plugin-interactivity': 4.0.0-beta.8(@tsparticles/engine@4.0.0-beta.8)
