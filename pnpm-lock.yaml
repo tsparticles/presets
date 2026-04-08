@@ -163,7 +163,7 @@ importers:
     dependencies:
       '@tsparticles/basic':
         specifier: ^4.0.0-beta.8
-        version: 4.0.0-beta.8
+        version: 4.0.0-beta.9
       '@tsparticles/preset-ambient':
         specifier: workspace:^
         version: link:../../presets/ambient/dist
@@ -341,7 +341,7 @@ importers:
     dependencies:
       '@tsparticles/basic':
         specifier: ^4.0.0-beta.8
-        version: 4.0.0-beta.8
+        version: 4.0.0-beta.9
       '@tsparticles/engine':
         specifier: ^4.0.0-beta.8
         version: 4.0.0-beta.8
@@ -354,7 +354,7 @@ importers:
     dependencies:
       '@tsparticles/basic':
         specifier: ^4.0.0-beta.8
-        version: 4.0.0-beta.8
+        version: 4.0.0-beta.9
       '@tsparticles/engine':
         specifier: ^4.0.0-beta.8
         version: 4.0.0-beta.8
@@ -364,7 +364,7 @@ importers:
     dependencies:
       '@tsparticles/basic':
         specifier: ^4.0.0-beta.8
-        version: 4.0.0-beta.8
+        version: 4.0.0-beta.9
       '@tsparticles/engine':
         specifier: ^4.0.0-beta.8
         version: 4.0.0-beta.8
@@ -377,7 +377,7 @@ importers:
     dependencies:
       '@tsparticles/basic':
         specifier: ^4.0.0-beta.8
-        version: 4.0.0-beta.8
+        version: 4.0.0-beta.9
       '@tsparticles/engine':
         specifier: ^4.0.0-beta.8
         version: 4.0.0-beta.8
@@ -414,7 +414,7 @@ importers:
     dependencies:
       '@tsparticles/basic':
         specifier: ^4.0.0-beta.8
-        version: 4.0.0-beta.8
+        version: 4.0.0-beta.9
       '@tsparticles/engine':
         specifier: ^4.0.0-beta.8
         version: 4.0.0-beta.8
@@ -454,7 +454,7 @@ importers:
     dependencies:
       '@tsparticles/basic':
         specifier: ^4.0.0-beta.8
-        version: 4.0.0-beta.8
+        version: 4.0.0-beta.9
       '@tsparticles/engine':
         specifier: ^4.0.0-beta.8
         version: 4.0.0-beta.8
@@ -488,7 +488,7 @@ importers:
     dependencies:
       '@tsparticles/basic':
         specifier: ^4.0.0-beta.8
-        version: 4.0.0-beta.8
+        version: 4.0.0-beta.9
       '@tsparticles/engine':
         specifier: ^4.0.0-beta.8
         version: 4.0.0-beta.8
@@ -519,7 +519,7 @@ importers:
     dependencies:
       '@tsparticles/basic':
         specifier: ^4.0.0-beta.8
-        version: 4.0.0-beta.8
+        version: 4.0.0-beta.9
       '@tsparticles/engine':
         specifier: ^4.0.0-beta.8
         version: 4.0.0-beta.8
@@ -556,7 +556,7 @@ importers:
     dependencies:
       '@tsparticles/basic':
         specifier: ^4.0.0-beta.8
-        version: 4.0.0-beta.8
+        version: 4.0.0-beta.9
       '@tsparticles/engine':
         specifier: ^4.0.0-beta.8
         version: 4.0.0-beta.8
@@ -572,7 +572,7 @@ importers:
     dependencies:
       '@tsparticles/basic':
         specifier: ^4.0.0-beta.8
-        version: 4.0.0-beta.8
+        version: 4.0.0-beta.9
       '@tsparticles/engine':
         specifier: ^4.0.0-beta.8
         version: 4.0.0-beta.8
@@ -591,7 +591,7 @@ importers:
     dependencies:
       '@tsparticles/basic':
         specifier: ^4.0.0-beta.8
-        version: 4.0.0-beta.8
+        version: 4.0.0-beta.9
       '@tsparticles/effect-trail':
         specifier: ^4.0.0-beta.8
         version: 4.0.0-beta.8(@tsparticles/engine@4.0.0-beta.8)
@@ -628,7 +628,7 @@ importers:
     dependencies:
       '@tsparticles/basic':
         specifier: ^4.0.0-beta.8
-        version: 4.0.0-beta.8
+        version: 4.0.0-beta.9
       '@tsparticles/engine':
         specifier: ^4.0.0-beta.8
         version: 4.0.0-beta.8
@@ -647,7 +647,7 @@ importers:
     dependencies:
       '@tsparticles/basic':
         specifier: ^4.0.0-beta.8
-        version: 4.0.0-beta.8
+        version: 4.0.0-beta.9
       '@tsparticles/engine':
         specifier: ^4.0.0-beta.8
         version: 4.0.0-beta.8
@@ -669,7 +669,7 @@ importers:
     dependencies:
       '@tsparticles/basic':
         specifier: ^4.0.0-beta.8
-        version: 4.0.0-beta.8
+        version: 4.0.0-beta.9
       '@tsparticles/engine':
         specifier: ^4.0.0-beta.8
         version: 4.0.0-beta.8
@@ -685,7 +685,7 @@ importers:
     dependencies:
       '@tsparticles/basic':
         specifier: ^4.0.0-beta.8
-        version: 4.0.0-beta.8
+        version: 4.0.0-beta.9
       '@tsparticles/engine':
         specifier: ^4.0.0-beta.8
         version: 4.0.0-beta.8
@@ -707,7 +707,7 @@ importers:
     dependencies:
       '@tsparticles/basic':
         specifier: ^4.0.0-beta.8
-        version: 4.0.0-beta.8
+        version: 4.0.0-beta.9
       '@tsparticles/engine':
         specifier: ^4.0.0-beta.8
         version: 4.0.0-beta.8
@@ -745,7 +745,7 @@ importers:
     dependencies:
       '@tsparticles/basic':
         specifier: ^4.0.0-beta.8
-        version: 4.0.0-beta.8
+        version: 4.0.0-beta.9
       '@tsparticles/engine':
         specifier: ^4.0.0-beta.8
         version: 4.0.0-beta.8
@@ -755,7 +755,7 @@ importers:
     dependencies:
       '@tsparticles/basic':
         specifier: ^4.0.0-beta.8
-        version: 4.0.0-beta.8
+        version: 4.0.0-beta.9
       '@tsparticles/engine':
         specifier: ^4.0.0-beta.8
         version: 4.0.0-beta.8
@@ -1918,8 +1918,8 @@ packages:
   '@tsconfig/node16@1.0.4':
     resolution: {integrity: sha512-vxhUy4J8lyeyinH7Azl1pdd43GJhZH/tP2weN8TntQblOY+A0XbT8DJk1/oCPuOOyg/Ja757rG0CgHcWC8OfMA==}
 
-  '@tsparticles/basic@4.0.0-beta.8':
-    resolution: {integrity: sha512-Ntg+JyelQclHqUcpBIMMADXDX3IbY+XxIQ6m/s8ICfdwKwee4WUYFx1Lwa3emooso3hnxVob8rdCo1D5O9lYpQ==}
+  '@tsparticles/basic@4.0.0-beta.9':
+    resolution: {integrity: sha512-0aYvovd32NTfL0AKECK1he3dpPNxkhqLB/wJOJOzl9JhJudNWa4nDqz+CrkoEalcNFQvaSEhwDCxUa+6DYI2tA==}
 
   '@tsparticles/canvas-utils@4.0.0-beta.8':
     resolution: {integrity: sha512-VZmflJKvgUo+Rm2WFS8gudlW4v5YzxrZXCN/l5a7mqCOPJ5RS4KaZAc22gnXmLmI3X1cDf4ROBRi9gJ2l+BUhQ==}
@@ -1942,6 +1942,9 @@ packages:
 
   '@tsparticles/engine@4.0.0-beta.8':
     resolution: {integrity: sha512-sdUFjLvISgNIlHnhdBlf3QmcgJwVLnPZd8inRl1BiMVFuxER/clCon1Ou5Op9SMeDzdTtCs+kiu6wS+A9rWEAQ==}
+
+  '@tsparticles/engine@4.0.0-beta.9':
+    resolution: {integrity: sha512-USNv1RDUE2I6fu3ViwonDMkQ+nY14zxGAlsMECz7Wl/oIYdToqHTLd8U8r5ZvKuYLzArOm0VKE1/kAYCpGT/TQ==}
 
   '@tsparticles/eslint-config@3.4.6':
     resolution: {integrity: sha512-ac1Wa1OsDaapzP2bHhUpQOPn7N+R1Zp+bwl6jPof8pEY938r5LyCngZCaTs6dio9WgrwrzaKUPR1dozUo/xFKw==}
@@ -2002,10 +2005,15 @@ packages:
     peerDependencies:
       '@tsparticles/engine': 4.0.0-beta.8
 
-  '@tsparticles/plugin-hsl-color@4.0.0-beta.8':
-    resolution: {integrity: sha512-XQVmfI/2OX1nfBWCLs5FgoJgJ+SCit2GC6Fi0QbefKmLLbn3qKF1LR4EyFxamFTZNG5MDi1/wKtHNEUSKqALuQ==}
+  '@tsparticles/plugin-hex-color@4.0.0-beta.9':
+    resolution: {integrity: sha512-PrkmKMiGV9Tu2zz+9cfLGpPwOhz+B8s4MQVdbVQPyrO6TPn9U1e++iShuT69WaVyQnKVbrPytdu4+J1DkuObZw==}
     peerDependencies:
-      '@tsparticles/engine': 4.0.0-beta.8
+      '@tsparticles/engine': 4.0.0-beta.9
+
+  '@tsparticles/plugin-hsl-color@4.0.0-beta.9':
+    resolution: {integrity: sha512-eaGxfUhqzk7kv6OOh/NXbjD892oOL3rBB67l2m/d2E8siDd9ymwQVjzAnILV2YovfvGcaImhM2NkWcyEzrxHhw==}
+    peerDependencies:
+      '@tsparticles/engine': 4.0.0-beta.9
 
   '@tsparticles/plugin-interactivity@4.0.0-beta.8':
     resolution: {integrity: sha512-dJ+tKyySBfP65VpPa8igaPcYm2+ViPGLj+RntbmGb6gA1AeEqRHgFHR1ohIA4a0Pq/TgE6alsJodmhHuzcWJ7g==}
@@ -2022,10 +2030,15 @@ packages:
     peerDependencies:
       '@tsparticles/engine': 4.0.0-beta.8
 
-  '@tsparticles/plugin-rgb-color@4.0.0-beta.8':
-    resolution: {integrity: sha512-2Fz21WxkLQeup5q/cabb1I4b7jwBPU882ahnuriQGdeBKTsxEj22sNRSM9gzPncIbprStgXdNdHV82jH6OV1qg==}
+  '@tsparticles/plugin-move@4.0.0-beta.9':
+    resolution: {integrity: sha512-CHGwJIo5XmJFviL4ciPfkEQ7l7XZMHyfN4m5GESn9o86FG/PiB2J6zuMFPlJ8TUFQ5MubFI0sAeHOzaC4Ms7Ow==}
     peerDependencies:
-      '@tsparticles/engine': 4.0.0-beta.8
+      '@tsparticles/engine': 4.0.0-beta.9
+
+  '@tsparticles/plugin-rgb-color@4.0.0-beta.9':
+    resolution: {integrity: sha512-3U/MnbaJ0oIYILGP4/+ZbvXbLJzkEInSV9wECFApG6Ws0GOm6Fo4YMguF/jFN+ZYcWz9bg2bMohr0ZrhmsLLtw==}
+    peerDependencies:
+      '@tsparticles/engine': 4.0.0-beta.9
 
   '@tsparticles/plugin-sounds@4.0.0-beta.8':
     resolution: {integrity: sha512-CffgGO/97+K26AGyey/4Rk87Bo9U2WrM379bxKsYMkjvWUcJjX/OBdB2g9a24Hx9Z3FBERW0NXH5OL6s4mWjwQ==}
@@ -2042,10 +2055,10 @@ packages:
     peerDependencies:
       prettier: ^3
 
-  '@tsparticles/shape-circle@4.0.0-beta.8':
-    resolution: {integrity: sha512-IQdA1P3cpr+KmV5v3k7Dja1/d5pxLD9TcdFLYyzKLCv4QBSgH6/WEXq3TqJwbCniAqKyM/wEfjewVMu3KsXOJw==}
+  '@tsparticles/shape-circle@4.0.0-beta.9':
+    resolution: {integrity: sha512-x6ilkYPoKxjVE0Z56TmyCK4KIow2gsci10sivuzTWtn1a2xcl/aCxbR9JrZHVcNhqyuWNyyaOHaVL6scmWIWBA==}
     peerDependencies:
-      '@tsparticles/engine': 4.0.0-beta.8
+      '@tsparticles/engine': 4.0.0-beta.9
 
   '@tsparticles/shape-line@4.0.0-beta.8':
     resolution: {integrity: sha512-o5KRcXv3OzNULfu/12viiPp3jsZpVeb+34wG92zdtLOBNk2VX0e5AqhJMt3ja/nU82xAs04Kvu/FMuNfigNMSQ==}
@@ -2067,25 +2080,25 @@ packages:
     peerDependencies:
       '@tsparticles/engine': 4.0.0-beta.8
 
-  '@tsparticles/updater-fill-color@4.0.0-beta.8':
-    resolution: {integrity: sha512-gmZX418psbGwtlP6NWEuYJIFyDLre7n9a6a1atJqhaeFGS324HAGa5AoxKgSQDtM2rGqarIwXLwJWC7FnuWDHQ==}
+  '@tsparticles/updater-fill-color@4.0.0-beta.9':
+    resolution: {integrity: sha512-ywtHB3Pvy4/pbFCvbS4wISuSjtRSjAgyUGiErrq7GFGY3hSUdxXUYanlcPn5THlOznR5Z3xQmvOZYDiI7CYxwg==}
     peerDependencies:
-      '@tsparticles/engine': 4.0.0-beta.8
+      '@tsparticles/engine': 4.0.0-beta.9
 
   '@tsparticles/updater-life@4.0.0-beta.8':
     resolution: {integrity: sha512-4k/K4hCOCKeQvYEOuT+pBVx22rnt8sqlsyy+K+upyvR1ijADTpkKikUc+48eZQBxs+WDEyCZkbfDMOQu7DYXEw==}
     peerDependencies:
       '@tsparticles/engine': 4.0.0-beta.8
 
-  '@tsparticles/updater-opacity@4.0.0-beta.8':
-    resolution: {integrity: sha512-msbQQc2EoG6Sg7XT7ZiQd0+tZrMwhqak3kWQWLE3sPE6MYpZhXbB1SWCXQxHYPlukVqfXUaHUy8gIrBWas8r3Q==}
+  '@tsparticles/updater-opacity@4.0.0-beta.9':
+    resolution: {integrity: sha512-H9iZuq+6Tb7AZ2ChbYvAlb0mgU0uDhq9Ff5JtfCqFfaXVIu6lf6EsEdGw+I5IF4Rz1ZnNR1tyLDQZ6q5bfBzMA==}
     peerDependencies:
-      '@tsparticles/engine': 4.0.0-beta.8
+      '@tsparticles/engine': 4.0.0-beta.9
 
-  '@tsparticles/updater-out-modes@4.0.0-beta.8':
-    resolution: {integrity: sha512-S83sdW6fo0xMYhP0GKFDCIZcrA3F3utyqF8cP6AwHMf+D5yzfV9LgCJzhJa1O2a9VmUjKqeuiPTPkH2KXkBqAA==}
+  '@tsparticles/updater-out-modes@4.0.0-beta.9':
+    resolution: {integrity: sha512-de0PaMCQyVDRNPSfgHN+NieSDxblrZukUANNTxjex8SkVwyySTdJ3xo8GP/qtl4wjft3HCgcDm+C3oqAKoFY6A==}
     peerDependencies:
-      '@tsparticles/engine': 4.0.0-beta.8
+      '@tsparticles/engine': 4.0.0-beta.9
 
   '@tsparticles/updater-roll@4.0.0-beta.8':
     resolution: {integrity: sha512-+3QYpO7vjkqMXGfWxQCsoCu8PjX7zX+5lEZHUQNrulYLcZL38/mYkVbosT9ZymWoA9RMy9Fzf9782DzWDkv5cg==}
@@ -2101,6 +2114,11 @@ packages:
     resolution: {integrity: sha512-B4oC/TqVoCupWLR4j2BAeyafGi8f9jbLspTJ070yMw/l7Nic6Ha7aWUV6596xrw9gzRN+iEMTp/skcGxZ4kP8g==}
     peerDependencies:
       '@tsparticles/engine': 4.0.0-beta.8
+
+  '@tsparticles/updater-size@4.0.0-beta.9':
+    resolution: {integrity: sha512-V3BGaxtIvx2nUYGJWRpHxYmHNmnuqAwNzCCBTQUALxMK+IKD0OOL8D2FcchtS6O+FZEC22w3pEaGgZeYi0a6dg==}
+    peerDependencies:
+      '@tsparticles/engine': 4.0.0-beta.9
 
   '@tsparticles/updater-stroke-color@4.0.0-beta.8':
     resolution: {integrity: sha512-OeoZazJr57sBik81U3wFSnxGL+0JMpCgHGKf0LFHaAiXv50NdzlZuB83EKV7L911oWKa7Y1yugKBuZiopBHFDw==}
@@ -7296,18 +7314,18 @@ snapshots:
 
   '@tsconfig/node16@1.0.4': {}
 
-  '@tsparticles/basic@4.0.0-beta.8':
+  '@tsparticles/basic@4.0.0-beta.9':
     dependencies:
-      '@tsparticles/engine': 4.0.0-beta.8
-      '@tsparticles/plugin-hex-color': 4.0.0-beta.8(@tsparticles/engine@4.0.0-beta.8)
-      '@tsparticles/plugin-hsl-color': 4.0.0-beta.8(@tsparticles/engine@4.0.0-beta.8)
-      '@tsparticles/plugin-move': 4.0.0-beta.8(@tsparticles/engine@4.0.0-beta.8)
-      '@tsparticles/plugin-rgb-color': 4.0.0-beta.8(@tsparticles/engine@4.0.0-beta.8)
-      '@tsparticles/shape-circle': 4.0.0-beta.8(@tsparticles/engine@4.0.0-beta.8)
-      '@tsparticles/updater-fill-color': 4.0.0-beta.8(@tsparticles/engine@4.0.0-beta.8)
-      '@tsparticles/updater-opacity': 4.0.0-beta.8(@tsparticles/engine@4.0.0-beta.8)
-      '@tsparticles/updater-out-modes': 4.0.0-beta.8(@tsparticles/engine@4.0.0-beta.8)
-      '@tsparticles/updater-size': 4.0.0-beta.8(@tsparticles/engine@4.0.0-beta.8)
+      '@tsparticles/engine': 4.0.0-beta.9
+      '@tsparticles/plugin-hex-color': 4.0.0-beta.9(@tsparticles/engine@4.0.0-beta.9)
+      '@tsparticles/plugin-hsl-color': 4.0.0-beta.9(@tsparticles/engine@4.0.0-beta.9)
+      '@tsparticles/plugin-move': 4.0.0-beta.9(@tsparticles/engine@4.0.0-beta.9)
+      '@tsparticles/plugin-rgb-color': 4.0.0-beta.9(@tsparticles/engine@4.0.0-beta.9)
+      '@tsparticles/shape-circle': 4.0.0-beta.9(@tsparticles/engine@4.0.0-beta.9)
+      '@tsparticles/updater-fill-color': 4.0.0-beta.9(@tsparticles/engine@4.0.0-beta.9)
+      '@tsparticles/updater-opacity': 4.0.0-beta.9(@tsparticles/engine@4.0.0-beta.9)
+      '@tsparticles/updater-out-modes': 4.0.0-beta.9(@tsparticles/engine@4.0.0-beta.9)
+      '@tsparticles/updater-size': 4.0.0-beta.9(@tsparticles/engine@4.0.0-beta.9)
 
   '@tsparticles/canvas-utils@4.0.0-beta.8(@tsparticles/engine@4.0.0-beta.8)':
     dependencies:
@@ -7360,6 +7378,8 @@ snapshots:
       '@tsparticles/engine': 4.0.0-beta.8
 
   '@tsparticles/engine@4.0.0-beta.8': {}
+
+  '@tsparticles/engine@4.0.0-beta.9': {}
 
   '@tsparticles/eslint-config@3.4.6(@types/eslint@8.56.7)(eslint@10.2.0(jiti@2.6.1))':
     dependencies:
@@ -7425,9 +7445,13 @@ snapshots:
     dependencies:
       '@tsparticles/engine': 4.0.0-beta.8
 
-  '@tsparticles/plugin-hsl-color@4.0.0-beta.8(@tsparticles/engine@4.0.0-beta.8)':
+  '@tsparticles/plugin-hex-color@4.0.0-beta.9(@tsparticles/engine@4.0.0-beta.9)':
     dependencies:
-      '@tsparticles/engine': 4.0.0-beta.8
+      '@tsparticles/engine': 4.0.0-beta.9
+
+  '@tsparticles/plugin-hsl-color@4.0.0-beta.9(@tsparticles/engine@4.0.0-beta.9)':
+    dependencies:
+      '@tsparticles/engine': 4.0.0-beta.9
 
   '@tsparticles/plugin-interactivity@4.0.0-beta.8(@tsparticles/engine@4.0.0-beta.8)':
     dependencies:
@@ -7441,9 +7465,13 @@ snapshots:
     dependencies:
       '@tsparticles/engine': 4.0.0-beta.8
 
-  '@tsparticles/plugin-rgb-color@4.0.0-beta.8(@tsparticles/engine@4.0.0-beta.8)':
+  '@tsparticles/plugin-move@4.0.0-beta.9(@tsparticles/engine@4.0.0-beta.9)':
     dependencies:
-      '@tsparticles/engine': 4.0.0-beta.8
+      '@tsparticles/engine': 4.0.0-beta.9
+
+  '@tsparticles/plugin-rgb-color@4.0.0-beta.9(@tsparticles/engine@4.0.0-beta.9)':
+    dependencies:
+      '@tsparticles/engine': 4.0.0-beta.9
 
   '@tsparticles/plugin-sounds@4.0.0-beta.8(@tsparticles/engine@4.0.0-beta.8)':
     dependencies:
@@ -7458,9 +7486,9 @@ snapshots:
       prettier: 3.8.1
       prettier-plugin-multiline-arrays: 4.1.5(prettier@3.8.1)
 
-  '@tsparticles/shape-circle@4.0.0-beta.8(@tsparticles/engine@4.0.0-beta.8)':
+  '@tsparticles/shape-circle@4.0.0-beta.9(@tsparticles/engine@4.0.0-beta.9)':
     dependencies:
-      '@tsparticles/engine': 4.0.0-beta.8
+      '@tsparticles/engine': 4.0.0-beta.9
 
   '@tsparticles/shape-line@4.0.0-beta.8(@tsparticles/engine@4.0.0-beta.8)':
     dependencies:
@@ -7478,21 +7506,21 @@ snapshots:
     dependencies:
       '@tsparticles/engine': 4.0.0-beta.8
 
-  '@tsparticles/updater-fill-color@4.0.0-beta.8(@tsparticles/engine@4.0.0-beta.8)':
+  '@tsparticles/updater-fill-color@4.0.0-beta.9(@tsparticles/engine@4.0.0-beta.9)':
     dependencies:
-      '@tsparticles/engine': 4.0.0-beta.8
+      '@tsparticles/engine': 4.0.0-beta.9
 
   '@tsparticles/updater-life@4.0.0-beta.8(@tsparticles/engine@4.0.0-beta.8)':
     dependencies:
       '@tsparticles/engine': 4.0.0-beta.8
 
-  '@tsparticles/updater-opacity@4.0.0-beta.8(@tsparticles/engine@4.0.0-beta.8)':
+  '@tsparticles/updater-opacity@4.0.0-beta.9(@tsparticles/engine@4.0.0-beta.9)':
     dependencies:
-      '@tsparticles/engine': 4.0.0-beta.8
+      '@tsparticles/engine': 4.0.0-beta.9
 
-  '@tsparticles/updater-out-modes@4.0.0-beta.8(@tsparticles/engine@4.0.0-beta.8)':
+  '@tsparticles/updater-out-modes@4.0.0-beta.9(@tsparticles/engine@4.0.0-beta.9)':
     dependencies:
-      '@tsparticles/engine': 4.0.0-beta.8
+      '@tsparticles/engine': 4.0.0-beta.9
 
   '@tsparticles/updater-roll@4.0.0-beta.8(@tsparticles/engine@4.0.0-beta.8)':
     dependencies:
@@ -7505,6 +7533,10 @@ snapshots:
   '@tsparticles/updater-size@4.0.0-beta.8(@tsparticles/engine@4.0.0-beta.8)':
     dependencies:
       '@tsparticles/engine': 4.0.0-beta.8
+
+  '@tsparticles/updater-size@4.0.0-beta.9(@tsparticles/engine@4.0.0-beta.9)':
+    dependencies:
+      '@tsparticles/engine': 4.0.0-beta.9
 
   '@tsparticles/updater-stroke-color@4.0.0-beta.8(@tsparticles/engine@4.0.0-beta.8)':
     dependencies:
