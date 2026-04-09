@@ -377,7 +377,7 @@ importers:
         version: 4.0.0-beta.11
       '@tsparticles/palette-confetti':
         specifier: ^4.0.0-alpha.5
-        version: 4.0.0-alpha.5
+        version: 4.0.0-beta.0
       '@tsparticles/plugin-emitters':
         specifier: ^4.0.0-beta.11
         version: 4.0.0-beta.11(@tsparticles/engine@4.0.0-beta.11)(@tsparticles/plugin-interactivity@4.0.0-beta.11(@tsparticles/engine@4.0.0-beta.11))
@@ -417,7 +417,7 @@ importers:
         version: 4.0.0-beta.11(@tsparticles/engine@4.0.0-beta.11)(@tsparticles/plugin-interactivity@4.0.0-beta.11(@tsparticles/engine@4.0.0-beta.11))
       '@tsparticles/palette-confetti':
         specifier: ^4.0.0-alpha.5
-        version: 4.0.0-alpha.5
+        version: 4.0.0-beta.0
       '@tsparticles/plugin-interactivity':
         specifier: ^4.0.0-beta.11
         version: 4.0.0-beta.11(@tsparticles/engine@4.0.0-beta.11)
@@ -454,7 +454,7 @@ importers:
         version: 4.0.0-beta.11
       '@tsparticles/palette-confetti':
         specifier: ^4.0.0-alpha.5
-        version: 4.0.0-alpha.5
+        version: 4.0.0-beta.0
       '@tsparticles/plugin-emitters':
         specifier: ^4.0.0-beta.11
         version: 4.0.0-beta.11(@tsparticles/engine@4.0.0-beta.11)(@tsparticles/plugin-interactivity@4.0.0-beta.11(@tsparticles/engine@4.0.0-beta.11))
@@ -488,7 +488,7 @@ importers:
         version: 4.0.0-beta.11
       '@tsparticles/palette-confetti':
         specifier: ^4.0.0-alpha.5
-        version: 4.0.0-alpha.5
+        version: 4.0.0-beta.0
       '@tsparticles/plugin-motion':
         specifier: ^4.0.0-beta.11
         version: 4.0.0-beta.11(@tsparticles/engine@4.0.0-beta.11)
@@ -519,7 +519,7 @@ importers:
         version: 4.0.0-beta.11
       '@tsparticles/palette-confetti':
         specifier: ^4.0.0-alpha.5
-        version: 4.0.0-alpha.5
+        version: 4.0.0-beta.0
       '@tsparticles/plugin-emitters':
         specifier: ^4.0.0-beta.11
         version: 4.0.0-beta.11(@tsparticles/engine@4.0.0-beta.11)(@tsparticles/plugin-interactivity@4.0.0-beta.11(@tsparticles/engine@4.0.0-beta.11))
@@ -1964,8 +1964,8 @@ packages:
       '@tsparticles/engine': 4.0.0-beta.11
       '@tsparticles/plugin-interactivity': 4.0.0-beta.11
 
-  '@tsparticles/palette-confetti@4.0.0-alpha.5':
-    resolution: {integrity: sha512-aQb2uuHMFg3Uj88qAW+VC0jxZQWAVYV3L5wuHgNvu2r6Npx5j7C68mP7tPbe8OZLj0o57oB88iE7ISHq7c3SSA==}
+  '@tsparticles/palette-confetti@4.0.0-beta.0':
+    resolution: {integrity: sha512-2zl9dG9/DLPsdYv/rtmlSenX0+JH3jln//q1YKjdlOAq+7NkHbHNaHacl0qCZ4B+GhMwQePY5sLd97JiiSNlBg==}
 
   '@tsparticles/path-curves@4.0.0-beta.11':
     resolution: {integrity: sha512-KJ+zbNFIiRiGMVczRRyrp3mEpsO9G+iqKJhqBtla+lgLvhelTqGk7T/UNzdqqjRJmh73zTYcvHsX/MgIcC+yrg==}
@@ -2628,6 +2628,7 @@ packages:
   basic-ftp@5.2.0:
     resolution: {integrity: sha512-VoMINM2rqJwJgfdHq6RiUudKt2BV+FY5ZFezP/ypmwayk68+NzzAQy4XXLlqsGD4MCzq3DrmNFD/uUmBJuGoXw==}
     engines: {node: '>=10.0.0'}
+    deprecated: Security vulnerability fixed in 5.2.1, please upgrade
 
   before-after-hook@2.2.3:
     resolution: {integrity: sha512-NzUnlZexiaH/46WDhANlyR2bXRopNg4F/zuSA3OpZnllCUgRaOF2znDioDWrmbNVsuZk6l9pMquQB38cfBZwkQ==}
@@ -4311,6 +4312,10 @@ packages:
 
   lru-cache@11.3.2:
     resolution: {integrity: sha512-wgWa6FWQ3QRRJbIjbsldRJZxdxYngT/dO0I5Ynmlnin8qy7tC6xYzbcJjtN4wHLXtkbVwHzk0C+OejVw1XM+DQ==}
+    engines: {node: 20 || >=22}
+
+  lru-cache@11.3.3:
+    resolution: {integrity: sha512-JvNw9Y81y33E+BEYPr0U7omo+U9AySnsMsEiXgwT6yqd31VQWTLNQqmT4ou5eqPFUrTfIDFta2wKhB1hyohtAQ==}
     engines: {node: 20 || >=22}
 
   lru-cache@6.0.0:
@@ -7387,7 +7392,7 @@ snapshots:
       '@tsparticles/engine': 4.0.0-beta.11
       '@tsparticles/plugin-interactivity': 4.0.0-beta.11(@tsparticles/engine@4.0.0-beta.11)
 
-  '@tsparticles/palette-confetti@4.0.0-alpha.5':
+  '@tsparticles/palette-confetti@4.0.0-beta.0':
     dependencies:
       '@tsparticles/engine': 4.0.0-beta.11
 
@@ -9619,7 +9624,7 @@ snapshots:
       decimal.js: 10.6.0
       html-encoding-sniffer: 6.0.0
       is-potential-custom-element-name: 1.0.1
-      lru-cache: 11.3.2
+      lru-cache: 11.3.3
       parse5: 8.0.0
       saxes: 6.0.0
       symbol-tree: 3.2.4
@@ -9927,6 +9932,9 @@ snapshots:
   lru-cache@10.4.3: {}
 
   lru-cache@11.3.2: {}
+
+  lru-cache@11.3.3:
+    optional: true
 
   lru-cache@6.0.0:
     dependencies:
