@@ -80,7 +80,7 @@ jobs:
       - name: Create Release (raw)
         if: env.IS_STABLE == 'true'
         id: release
-        uses: softprops/action-gh-release@v2
+        uses: softprops/action-gh-release@v3
         with:
           files: release-artifacts/*.zip
           generate_release_notes: true
@@ -93,7 +93,7 @@ jobs:
 
       - name: Update Release Notes
         if: env.IS_STABLE == 'true'
-        uses: softprops/action-gh-release@v2
+        uses: softprops/action-gh-release@v3
         with:
           files: release-artifacts/*.zip
           body_path: RELEASE_NOTES.md
